@@ -38,7 +38,7 @@ When you open a signer request, you'll need to provide some important publisher 
     - Application version
     - Description
     - Change type ("add" or "remove")  
-    - Publisher details (for example: “O=<publisher name>,L=<location>,S=State,C=Country”)
+    - Publisher details (for example: "O=&lt;publisher name&gt;,L=&lt;location&gt;,S=&lt;state&gt;,C=&lt;country&gt;")
 
 > [!NOTE]
 > To remove trust for an app, follow the same steps, but set the **Change type** to *remove*.
@@ -69,4 +69,4 @@ You can pause or roll back the deployment at any time during the rollout. To pau
     - Application name
     - Application version
     - Description
-    - Publisher details (for example: “O=<publisher name>, L=<location>, S=State, C=Country”)
+    - Publisher details (for example: "O=&lt;publisher name&gt;,L=&lt;location&gt;,S=&lt;state&gt;,C=&lt;country&gt;")
