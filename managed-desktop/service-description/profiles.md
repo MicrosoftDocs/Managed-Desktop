@@ -18,7 +18,7 @@ audience: Admin
 
 You can think of device profiles as being part of a hierarchy of device configuration options.
 
-:::image type="content" source="../../media/mmd-profile-options-heirarchy.png" alt-text="Device configurations shown as a pyramid. Description follows.":::
+:::image type="content" source="../media/mmd-profile-options-heirarchy.png" alt-text="Device configurations shown as a pyramid. Description follows.":::
 
 | Device configuration options | Description
 | ----- | ----- |

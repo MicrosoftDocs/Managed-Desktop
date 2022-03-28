@@ -49,7 +49,7 @@ The downloadable tool checks these device and network-related items:
 
 | Check | Description |
 | ----- | ----- |
-| Hardware | Devices must meet specific hardware requirements to work with Microsoft Managed Desktop. For more information, see [Device requirements](../service-description/device-list.md). <br><br> If your device fails any of the checks, it's not compatible with Microsoft Managed Desktop. |
+| Hardware | Devices must meet specific hardware requirements to work with Microsoft Managed Desktop. For more information, see [Device requirements](../service-description/device-requirements.md). <br><br> If your device fails any of the checks, it's not compatible with Microsoft Managed Desktop. |
 | Network endpoints | Devices much be able to reach several [key endpoints](network.md) to work with Microsoft Managed Desktop. <br><br> If the tool reports a **Not ready** result, see the detailed report to find out which endpoints weren't reachable. Then, adjust your firewall or other network settings to ensure those endpoints can be reached. |
 
 ### Other settings

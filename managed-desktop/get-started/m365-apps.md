@@ -17,7 +17,7 @@ ms.localizationpriority: medium
 
 ## Initial deployment
 
-Microsoft Managed Desktop ensures that Microsoft 365 Apps for enterprise (64-bit) are installed as a part of the image on all [program devices](../service-description/device-list.md). All of the following applications should be present on the device when it's delivered:
+Microsoft Managed Desktop ensures that Microsoft 365 Apps for enterprise (64-bit) are installed as a part of the image on all [program devices](../service-description/device-requirements.md). All of the following applications should be present on the device when it's delivered:
 
 - Word
 - Excel

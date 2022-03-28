@@ -25,7 +25,7 @@ To be updated by Windows Update as soon as possible, a device must:
 
 Although it's possible that a device that doesn't meet these requirements will be updated. Devices that meet them have the highest likelihood of being updated.
 
-:::image type="content" source="../../media/mmd-device-status.png" alt-text="Report showing donut graph of device activity status in upper left, view filters in upper right with a button to generate the report, and table of details along the bottom":::
+:::image type="content" source="../media/mmd-device-status.png" alt-text="Report showing donut graph of device activity status in upper left, view filters in upper right with a button to generate the report, and table of details along the bottom":::
 
 ## Device status labels
 

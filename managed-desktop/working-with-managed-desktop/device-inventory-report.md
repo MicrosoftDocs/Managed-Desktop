@@ -40,4 +40,4 @@ In the **Devices** view, you can select the **Export all** tab to download a com
 - Primary Disk Type
 - Total Physical Memory
 
-![Devices view showing list of devices and related details. Check boxes near the top select filters for activity, registration status. Above that is a search box. Tabs at the top for registering new devices, refreshing the view, exporting errors, and exporting the data.](../../media/mmd-devices-view.png)
+![Devices view showing list of devices and related details. Check boxes near the top select filters for activity, registration status. Above that is a search box. Tabs at the top for registering new devices, refreshing the view, exporting errors, and exporting the data.](../media/mmd-devices-view.png)
