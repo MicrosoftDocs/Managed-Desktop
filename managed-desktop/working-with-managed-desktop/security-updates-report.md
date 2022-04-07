@@ -19,7 +19,7 @@ At the beginning of each security update release cycle, Microsoft Managed Deskto
 
 While we focus on the Active population, you can also pivot this report to show your **Active + Synced** and **Out of sync** device populations. You can view the deployment progress for previous releases by changing the available filters, but device level details are only available for the current release. Device information in the table following the graph is also exportable for offline analysis.
 
-:::image type="content" source="../media/mmd-security-updates.png" alt-text="Report showing update installation progress over time in upper left, filters in the upper right with a button to generate the report, and table of report details along the bottom":::
+:::image type="content" source="../../media/mmd-security-updates.png" alt-text="Report showing update installation progress over time in upper left, filters in the upper right with a button to generate the report, and table of report details along the bottom":::
 
 Typically, Microsoft releases security updates every second Tuesday of the month. However, they can be released at other times when needed. Each release adds important updates for known security vulnerabilities
 

@@ -37,7 +37,7 @@ If you've already decided that Microsoft Managed Desktop is for you, the article
 | Service | Description |
 | ----- | ----- |
 | [Supported regions and languages](regions-languages.md) | Explains which regions and languages are supported with the service. |
-| [Program devices](device-requirements.md) | To guarantee the best experience for your users, only certain devices are supported by Microsoft Managed Desktop. [Program devices](device-requirements.md) specifies the exact device models and configurations you can use with the service. You provide them or work with a partner. |
+| [Program devices](device-list.md) | To guarantee the best experience for your users, only certain devices are supported by Microsoft Managed Desktop. [Program devices](device-list.md) specifies the exact device models and configurations you can use with the service. You provide them or work with a partner. |
 | [Device services](device-services.md) | Specifies the device-related services that Microsoft will provide to subscribers.
 | [Device configuration](device-policies.md) | Clarifies the default and security-related Mobile Device Management policies that the service will apply to enrolled devices. |
 | [Security](security.md) | Specifies the data collected from enrolled devices, the features and policies related to device security, identity and access management, network security, and information security. |

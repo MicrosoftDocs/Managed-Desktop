@@ -31,7 +31,7 @@ Microsoft Managed Desktop continues to support Windows 10 in parallel until it r
 
 More than 95% of Microsoft Managed Desktop devices are eligible for Windows 11. You might want to try the upgrade on test devices prior to production deployment. For more about Windows 11 system requirements, see [Windows 11 requirements](/windows/whats-new/windows-11-requirements).
 
-For Microsoft Managed Desktop devices, you can [add devices to the Windows 11 test device group](/microsoft-365/managed-desktop/working-with-managed-desktop/test-win11-mmd#add-devices-to-the-windows-11-test-group). This group receives the Windows 11 general availability build along with a Microsoft Managed Desktop baseline configuration. Once added to the device group, allow one to two days for a device to pick up the new settings and be offered Windows 11.
+For Microsoft Managed Desktop devices, you can [add devices to the Windows 11 test device group](/microsoft-365/managed-desktop/working-with-managed-desktop/test-win11-mmd?view=o365-worldwide#add-devices-to-the-windows-11-test-group). This group receives the Windows 11 general availability build along with a Microsoft Managed Desktop baseline configuration. Once added to the device group, allow one to two days for a device to pick up the new settings and be offered Windows 11.
 
 For devices that aren't managed by Microsoft Managed Desktop, you can read [Endpoint Manager guidance](https://techcommunity.microsoft.com/t5/microsoft-endpoint-manager-blog/endpoint-manager-simplifies-upgrades-to-windows-11/ba-p/2771886) to learn about deploying Windows 11. If you have devices running Windows 11 and later and enroll them in Microsoft Managed Desktop, they won't revert back to Windows 10.
 
@@ -61,7 +61,7 @@ The following are some proactive measures:
 
 ### Reactive measures
 
-If you encounter app compatibility issues in test or production environments, you can receive no-cost support by opening a [support request](/microsoft-365/managed-desktop/working-with-managed-desktop/test-win11-mmd#report-issues).
+If you encounter app compatibility issues in test or production environments, you can receive no-cost support by opening a [support request](/microsoft-365/managed-desktop/working-with-managed-desktop/test-win11-mmd?view=o365-worldwide#report-issues).
 
 For Windows 11, support includes any functionality with the following apps that run on the latest operating system builds:
 
