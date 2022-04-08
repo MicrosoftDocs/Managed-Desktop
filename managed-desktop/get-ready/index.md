@@ -22,7 +22,7 @@ These articles describe the steps you'll need to take in your organization to pr
 
 Once you've run the readiness assessment tools, you can complete the other steps in any order or in parallel. Depending on your environment, some of the steps might not be relevant to you.
 
-![Suggested sequence of steps to get ready for enrollment, listed in this article.](../../media/mmd-getready-sequence.png)
+![Suggested sequence of steps to get ready for enrollment, listed in this article.](../media/mmd-getready-sequence.png)
 
 1. Review [prerequisites for Microsoft Managed Desktop](prerequisites.md).
 1. Run [readiness assessment tools](readiness-assessment-tool.md).

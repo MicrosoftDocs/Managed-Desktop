@@ -28,7 +28,7 @@ An exception is any addition or change to the Microsoft Managed Desktop base con
 | Digital experience monitoring | Software used to track data on a user's device to report to IT. |
 | Hardware or software drivers | Device drivers, restricted by the [application requirements](mmd-app-requirements.md). |
 | Policies | Windows 10 or Microsoft 365 Apps for enterprise settings on a managed device. |
-| Devices | Devices that aren't on the Microsoft Managed Desktop [device list](device-list.md). |
+| Devices | Devices that aren't on the Microsoft Managed Desktop [device list](device-requirements.md). |
 | Other | Anything not covered by the other areas. |
 
 ## Request an exception

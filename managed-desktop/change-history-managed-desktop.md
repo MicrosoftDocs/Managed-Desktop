@@ -69,7 +69,7 @@ New or changed article | Description
 [Device status report](working-with-managed-desktop/device-status-report.md) | Updated article
 [Windows security updates report](working-with-managed-desktop/security-updates-report.md) | Updated article
 [Privacy and personal data](service-description/privacy-personal-data.md) | Updated article
-[Microsoft Managed Desktop product lifecycle](service-description/device-lifecycle.md) | Updated article
+[Microsoft Managed Desktop product lifecycle](service-description/device-requirements.md) | Updated article
 [Prepare certificates and network profiles for Microsoft Managed Desktop](get-ready/certs-wifi-lan.md) | Updated article
 [Fix issues found by the readiness assessment tool](get-ready/readiness-assessment-fix.md) | Updated article
 
@@ -129,8 +129,8 @@ New or changed article | Description
 [Apps in Microsoft Managed Desktop](get-ready/apps.md) | Updated article
 [Validate new devices](get-started/validate-device.md) | New article
 [Set up Microsoft Managed Desktop devices](get-started/prepare-devices.md) | Updated article
-[Microsoft Managed Desktop product lifecycle](service-description/device-lifecycle.md) | Updated article
-[Microsoft Managed Desktop devices](service-description/device-list.md) |Updated article
+[Microsoft Managed Desktop product lifecycle](service-description/device-requirements.md) | Updated article
+[Microsoft Managed Desktop devices](service-description/device-requirements.md) |Updated article
 
 ## March 2021
 
@@ -266,7 +266,7 @@ New or changed article | Description
 --- | ---
 [Getting help for users](working-with-managed-desktop/end-user-support.md) | Updated article
 [Steps for Partners to register devices](get-started/partner-registration.md) | Updated article
-[Microsoft Managed Desktop devices](service-description/device-list.md) | Updated article
+[Microsoft Managed Desktop devices](service-description/device-requirements.md) | Updated article
 [Register new devices yourself](get-started/manual-registration.md) | Updated article
 
 ## April 2020
@@ -307,8 +307,8 @@ New or changed article | Description
 New or changed article | Description
 --- | ---
 [Admin support for Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Updated article
-[Microsoft Managed Desktop devices](service-description/device-list.md) | Updated article
-[Microsoft Managed Desktop archived devices](service-description/archived-device-list.md) | Updated article
+[Microsoft Managed Desktop devices](service-description/device-requirements.md) | Updated article
+[Microsoft Managed Desktop archived devices](service-description/archived-device-requirements.md) | Updated article
 
 ## November 2019
 
@@ -317,7 +317,7 @@ New or changed article | Description
 Work with insights | New article
 Usage insights | New article
 Reliability insights | New article
-[Microsoft Managed Desktop devices](service-description/device-list.md) | Updated article
+[Microsoft Managed Desktop devices](service-description/device-requirements.md) | Updated article
 [Microsoft Managed Desktop main page](./index.yml) | Updated article
 [What is Microsoft Managed Desktop?](./intro/index.md) | Updated article
 [Get your users ready to use devices](get-started/get-started-devices.md) | Updated article
@@ -341,7 +341,7 @@ New or changed article | Description
 --- | ---
 [Microsoft Managed Desktop technologies](intro/technologies.md) | Updated article
 [Getting help for users](working-with-managed-desktop/end-user-support.md) | Updated article
-[Microsoft Managed Desktop devices](service-description/device-list.md) | Updated article
+[Microsoft Managed Desktop devices](service-description/device-requirements.md) | Updated article
 [Deploy and track configurable settings - Microsoft Managed Desktop](working-with-managed-desktop/config-setting-deploy.md) | Updated article
 [Admin support for Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Updated article
 [Prerequisites for Microsoft Managed Desktop](get-ready/prerequisites.md) | Updated article
@@ -375,15 +375,15 @@ New or changed article | Description
 [Apps in Microsoft Managed Desktop](get-ready/apps.md) | Updated article
 [Working with Microsoft Consulting Services](get-ready/apps-mcs.md) | New article
 [Microsoft Managed Desktop roles and responsibilities](intro/roles-and-responsibilities.md) | Updated article
-[Microsoft Managed Desktop product lifecycle](service-description/device-lifecycle.md) | New article
+[Microsoft Managed Desktop product lifecycle](service-description/device-requirements.md) | New article
 
 ## May 201
 
 New or changed article | Description
 --- | ---
 [Microsoft Managed Desktop supported regions and languages](service-description/regions-languages.md) | Updated article
-[Microsoft Managed Desktop devices](service-description/device-list.md) | Updated article
-[Microsoft Managed Desktop archived devices](service-description/archived-device-list.md) | New article
+[Microsoft Managed Desktop devices](service-description/device-requirements.md) | Updated article
+[Microsoft Managed Desktop archived devices](service-description/archived-device-requirements.md) | New article
 [Prepare mapped drives for Microsoft Managed Desktop](get-ready/mapped-drives.md) | New article
 [Prepare certificates and network profiles for Microsoft Managed Desktop](get-ready/certs-wifi-lan.md) | New article
 [Order Microsoft Managed Desktop devices](get-started/devices.md) | Updated article
@@ -411,7 +411,7 @@ New or changed article | Description
 
 New or changed article | Description
 --- | ---
-[Program devices](service-description/device-list.md) | Updated with support for certain Dell and HP devices.
+[Program devices](service-description/device-requirements.md) | Updated with support for certain Dell and HP devices.
 [Configurable settings overview](working-with-managed-desktop/config-setting-overview.md) | New article
 [Configurable settings reference](working-with-managed-desktop/config-setting-ref.md) | New article
 [Track and deploy configurable settings](working-with-managed-desktop/config-setting-deploy.md) | New article
