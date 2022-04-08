@@ -308,7 +308,7 @@ New or changed article | Description
 --- | ---
 [Admin support for Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) | Updated article
 [Microsoft Managed Desktop devices](service-description/device-requirements.md) | Updated article
-[Microsoft Managed Desktop archived devices](service-description/archived-device-requirements.md) | Updated article
+[Microsoft Managed Desktop archived devices](service-description/device-requirements.md) | Updated article
 
 ## November 2019
 
@@ -383,7 +383,7 @@ New or changed article | Description
 --- | ---
 [Microsoft Managed Desktop supported regions and languages](service-description/regions-languages.md) | Updated article
 [Microsoft Managed Desktop devices](service-description/device-requirements.md) | Updated article
-[Microsoft Managed Desktop archived devices](service-description/archived-device-requirements.md) | New article
+[Microsoft Managed Desktop archived devices](service-description/device-requirements.md) | New article
 [Prepare mapped drives for Microsoft Managed Desktop](get-ready/mapped-drives.md) | New article
 [Prepare certificates and network profiles for Microsoft Managed Desktop](get-ready/certs-wifi-lan.md) | New article
 [Order Microsoft Managed Desktop devices](get-started/devices.md) | Updated article
