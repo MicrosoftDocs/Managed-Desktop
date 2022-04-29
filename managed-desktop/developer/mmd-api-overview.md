@@ -23,11 +23,8 @@ The API enables you to view and manage devices, support tickets, and elevation r
 Using the API, you can:
 
 - Get a list of devices managed within your tenant and detailed information about each device.
-
 - Get a list of users with their managed devices.
-
 - Create and manage support tickets.
-
 - Create and manage elevation requests.
 
 ### Before you begin
@@ -35,13 +32,9 @@ Using the API, you can:
 In general, you’ll need to take the following steps to use the APIs:
 
 - Create and register [an AAD application](https://docs.microsoft.com/en-us/graph/auth-register-app-v2)
-
 - Configure permissions for Microsoft Managed Desktop on your app
-
 - Get administrator consent or user credential
-
 - Get an access token
-
 - Use the token to access Microsoft Managed Desktop API
 
 For more information, see Get access to API with [application context](#get-access-to-api-with-application-context) or [user context](#get-access-to-api-with-user-context).
@@ -55,13 +48,9 @@ The API access requires OAuth2.0 authentication. For more information, see [OAu
 In general, you’ll need to take the following steps to configure a service and get an access token:
 
 - Create and register [an AAD application](https://docs.microsoft.com/en-us/graph/auth-register-app-v2)
-
 - Configure permissions for Microsoft Managed Desktop on your app
-
 - Get administrator consent
-
 - Get an access token using this application
-
 - Use the token to access Microsoft Managed Desktop API
 
 ### Create an app
@@ -71,9 +60,7 @@ To authenticate with the Microsoft identity platform endpoint, you must first re
 For a service that will call Microsoft Managed Desktop API under its own identity, you need to register your app for the Web platform and copy the following values:
 
 - The application ID assigned by the Azure app registration portal.
-
 - A client (application) secret, either a password or a public/private key pair (certificate).
-
 - A redirect URL for your service to receive token responses.
 
 For steps on how to configure an app using the Azure app registration portal, see [Register your app](https://docs.microsoft.com/en-us/graph/auth-register-app-v2).
@@ -83,7 +70,6 @@ With the OAuth 2.0 client credentials grant flow, your app authenticates directl
 ### Configure permissions
 
 1. To configure application permissions for your app in the [Azure app registrations portal](https://go.microsoft.com/fwlink/?linkid=2083908), under **your** application's API permissions page, choose **Add a permission \> APIs my organization uses \>** type **Modern Workplace Customer APIs \>** select **Modern Workplace Customer APIs**
-
 2. Select **Application permissions \> MmdSupport.ReadWrite**, and then select **Add permissions**.
 
 ![Request API permissions page](../media/api/request-api-perms.png)
@@ -214,17 +200,17 @@ If the user consents to the permissions your app requested, the response will co
 
 If the user consents to the permissions your app requested, the response will contain the authorization code in the code parameter.
 
-| HTTP                                                      |
-|-----------------------------------------------------------|
-| https://login.microsoftonline.com/{tenantId}/oauth2/token |
+```http
+https://login.microsoftonline.com/{tenantId}/oauth2/token
+```
 
-| Parameter     | Condition | Description                                                                       |
-|---------------|-----------|-----------------------------------------------------------------------------------|
+| Parameter     | Condition | Description  |
+|---------------|-----------|-------------|
 | tenantId      | Required  | The tenant’s Azure Active Directory Id.                                           |
 | client_id     | Required  | The application ID assigned when you registered your app.                         |
 | Scope         | Required  | Must be https://mwaas-services-customerapi-prod.azurewebsites.net/.default        |
 | client_secret | Required  | The client secret that you generated for your app in the app registration portal. |
-| grant_type    | Required  | Must be authorization_code.                                                       |
+| grant_type    | Required  | Must be authorization_code.  |
 | Code          | Required  | The authorization code acquired as part of authorization request.                 |
 
 #### Token response
@@ -239,8 +225,8 @@ A successful response looks like this:
 }
 ```
 
-| Parameter    | Description                                                                  |
-|--------------|------------------------------------------------------------------------------|
+| Parameter    | Description   |
+|--------------|----|
 | access_token | The requested access token. Your app can use this token in calls to the API. |
 | token_type   | Must be bearer.                                                              |
 | expires_in   | How long the access token is valid (in seconds).                             |
@@ -269,21 +255,17 @@ The scenario outlined in this tutorial assumes that you already have the followi
 ### Create an Azure AD app
 
 1. Register and configure an application in Azure Active Directory with [application context](#get-access-to-api-with-application-context) or [user context](#get-access-to-api-with-user-context).
-
 2. In **Redirect URI**, enter your ServiceNow instance URL in this format: `https://\<Instance-Name\>.service-now.com/oauth_redirect.do`.
-
 3. Note the following values:
-
     1. The client (application) ID assigned by the Azure app registration portal.
     2. The client (application) secret.
-
 4. Add necessary API permissions:
 
-| Permission       | Type      |
-|------------------|-----------|
-| offline_access   | Delegated |
-| openid           | Delegated |
-| MWaaSDevice.Read | Delegated |
+    | Permission       | Type      |
+    |------------------|-----------|
+    | offline_access   | Delegated |
+    | openid           | Delegated |
+    | MWaaSDevice.Read | Delegated |
 
 ### Register Azure AD as OAuth provider
 
@@ -300,8 +282,8 @@ The scenario outlined in this tutorial assumes that you already have the followi
     | Client Secret | Enter the client (application) secret. |
     | Default Grant type | Select:  Client Credentials for application context. Authorization Code for user context.  |
     | Authorization URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize`. Replace {tenantId} with your Azure AD directory ID. |
-    | Token URL | Enter https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token. Replace {tenantId} with your Azure AD directory ID. |
-    | Redirect URL | Enter https://.service-now.com/oauth_redirect.do |
+    | Token URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token`. Replace {tenantId} with your Azure AD directory ID. |
+    | Redirect URL | Enter `https://.service-now.com/oauth_redirect.do` |
 
 6. In the **OAuth Entity Scopes** related list, create these entries:
 
@@ -333,6 +315,25 @@ Create Credential records to custom app registration you created.
 
 6. Click **Submit**.
 7. Optional: If you require both the **Authorization Code** and **Client Credentials** grant types to perform certain actions, create a child alias.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
