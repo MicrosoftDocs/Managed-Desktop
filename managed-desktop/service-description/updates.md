@@ -66,7 +66,7 @@ Update deployment settings listed below:
 
 | Update type | Test | First | Fast | Broad |
 | ------ | ------ | ------ | ------ | ------ |
-| Quality updates for operating system | Zero days | Zero days | Zero days | Seven days |
+| Quality updates for operating system | Zero days | One day | Six days | Nine days |
 | Feature updates for operating system | Zero days | 30 days | 60 days | 90 days |
 | Drivers/firmware | Follows the schedule for quality updates. | Follows the schedule for quality updates. | Follows the schedule for quality updates. | Follows the schedule for quality updates. |
 | Anti-virus definition | Updated with each scan. | Updated with each scan. | Updated with each scan. | Updated with each scan. |
