@@ -1,6 +1,6 @@
 ---
 title: Universal image
-description:  Universal image requirements when ordering new devices or reusing existing devices
+description:  This article describes the universal image and multi-model driver support for Microsoft Managed Desktop
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: tiaraquan
