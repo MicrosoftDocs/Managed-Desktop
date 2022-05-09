@@ -23,6 +23,7 @@ This article lists new and updated articles in the [Microsoft Managed Desktop do
 
 New or changed article | Description
 --- | ---
+| [Universal image](service-description/universal-image.md) | Added Universal image section to Device images, and multi-model driver support information. |
 | [Updates](service-description/updates.md) | Updated the Deployment setting section |
 
 ## April 2022

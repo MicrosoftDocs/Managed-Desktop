@@ -26,6 +26,9 @@
               href: service-description/device-requirements.md
             - name: Device images
               href: service-description/device-images.md
+              items:
+                  - name: Universal image
+                    href: service-description/universal-image.md
             - name: Device names
               href: service-description/device-names.md
             - name: Device services
