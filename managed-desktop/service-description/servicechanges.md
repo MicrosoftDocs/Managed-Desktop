@@ -14,13 +14,17 @@ audience: Admin
 
 # Service changes and communication
 
-Sometimes, Microsoft might need to change details about the way Microsoft Managed Desktop works. Similarly, you might need to make changes that would affect the service as well. We handle such changes differently depending on how significant they are. This article defines the changes we consider as major changes, and explains how we handle them versus other changes.
+Sometimes, Microsoft might need to change details about the way Microsoft Managed Desktop works. Similarly, you might need to make changes that would affect the service as well. We handle such changes differently depending on how significant they are. This article defines:
+
+- What changes are considered as major changes.
+- How we handle them versus other changes.
+- The types of communication channels we use to share information about these changes.
 
 ## Changes made by Microsoft
 
 We'll give you notice at least 30 days ahead of time for any major change that requires action. We'll let you know by using the Microsoft Managed Desktop Admin portal messaging system.
 
-**Major changes** are those that might affect any of these areas:
+Major changes are those that might affect any of these areas:
 
 - Changes affecting daily productivity.
 - Changes to customized features and applications.
@@ -30,7 +34,7 @@ We'll give you notice at least 30 days ahead of time for any major change that r
 - Changes to where your data is stored.
 - Adding a new component service or application to the scope of the service.
 - Removal of a component service or application from the scope of the service.
-- Adding new feature to the service.
+- Adding new features to the service.
 
 > [!NOTE]
 > We might have to make changes to mitigate incidents or security issues that would be excluded from the 30-day notification policy.
@@ -39,34 +43,67 @@ We'll routinely make other changes to the service to improve user experience, se
 
 - Installation of Windows and Office updates.
 - Updates to the security baseline applied to devices.
-- Supported devices. To see recommended devices, filter for Microsoft Managed Desktop on the [Shop Windows Pro business devices](https://www.microsoft.com/windows/business/devices) site.
+- Supported devices. To see recommended devices, filter for Microsoft Managed Desktop on the [Shop Windows Pro business devices site](https://www.microsoft.com/windows/business/devices).
 
-We'll communicate these changes by using established channels. If you have any questions about any changes, contact the Microsoft Managed Desktop [Operations team](../working-with-managed-desktop/admin-support.md). Changes to the service are also documented as needed in the [change history](../change-history-managed-desktop.md).
+We'll communicate these changes by using the established [communication channels](#communication-channels). If you have any questions about any changes, contact the [Microsoft Managed Desktop Operations team](../working-with-managed-desktop/admin-support.md). Changes to the service are also documented as needed in the [change history](../change-history-managed-desktop.md).
 
 Microsoft Managed Desktop changes and communications are governed by two Microsoft policies:
 
-- [Modern Lifecycle Policy](https://support.microsoft.com/help/30881/modern-lifecycle-policy)
-- [Microsoft 365 Change Communication Policy](/office365/admin/manage/message-center)
+- [Modern Lifecycle Policy](/lifecycle/policies/modern)
+- [Microsoft 365 Change Communication Policy](/microsoft-365/admin/manage/message-center?view=o365-worldwide)
 
 ## Changes you make
 
 Some changes that you might make in your environment could affect Microsoft Managed Desktop.
 
-For these major changes, we ask that you give us at least 30 days notice by submitting a support request in the Microsoft Managed Desktop Admin portal. For instructions, see [Admin support for Microsoft Managed Desktop](../working-with-managed-desktop/admin-support.md). This allows us adequate time to plan and prepare for the change to avoid disruptions.
+For these major changes, we ask that you give us at least 30 days' notice by submitting a support request in the Microsoft Managed Desktop admin center. For instructions, see [Admin support](../working-with-managed-desktop/admin-support.md) for Microsoft Managed Desktop. This allows us adequate time to plan and prepare for the change to avoid disruptions.
 
-**Major changes** are those that might affect any of these areas:
+Major changes are those that might affect any of the following areas:
 
 - Identity systems and groups.
-- Networking and network controls such as firewalls, proxy or caching, and VPN systems.
+- Networking and network controls such as firewalls, proxy or caching, and VPN (virtual private networks) systems.
 - Controls for accessing cloud services configurations.
 - User or device certificates used for identity or securing of network services.
 - Management systems that interact with the service.
 - Security systems or agents that interact with the service.
 - Configuration of any of the Microsoft 365 cloud services associated with, or used by, the service.
 
-These changes aren't likely to be disruptive, so you don't need to let us know about them ahead of time:
+The following changes aren't likely to be disruptive, so you don't need to let us know about them ahead of time:
 
 - Orphaned object cleanup.
 - Adding or removing users from the service.
 - Configuration of system that doesn't have a material impact on the delivery of the Microsoft Managed Desktop.
 - Application version updates, except for VPN or proxy applications.
+
+## Communication channels
+
+Microsoft Managed Desktop will send general communications about the service for a variety of reasons, for example, service changes, new features, or feature deprecation.
+
+Depending on the type of communications, we’ll either use the standard channels like the Message center and the Service health dashboard which is used by most products and services across Microsoft, or we may send a direct message to the Microsoft Managed Desktop admin contacts that you have registered in the portal. For your convenience, we combine all these communications into a single blade in Microsoft Endpoint Manager (**Tenant administration** > Microsoft Managed Desktop | **Messages**).
+
+### Message center
+
+This is the primary channel for official service announcements and feature changes. You can read these messages from Microsoft Managed Desktop alongside other services in the Microsoft 365 admin center, the admin mobile app, or receive a weekly digest in email. For more information, see this article on the [Message center](/microsoft-365/admin/manage/message-center?view=o365-worldwide). For admins that have access to Message center, any Microsoft Managed Desktop posts are also displayed in the Messages page in Microsoft Endpoint Manager.
+
+### Service health dashboard
+
+You can view the health of your Microsoft services, including Microsoft Managed Desktop on the Service health page in the Microsoft 365 admin center.
+
+If you’re experiencing problems with a cloud service, you can check the service health to determine whether this is a known incident with a resolution in progress before you engage support or spend time troubleshooting. For more information, see [how to check M365 service health](/microsoft-365/enterprise/view-service-health). For admins that have access to the Service health dashboard, Microsoft Managed Desktop posts are also displayed in Microsoft Endpoint Manager > Service health dashboard > Messages page.
+
+### Direct messages
+
+For scenarios that fall outside the scope of the primary channels listed above, we may send direct messages to our customers. An example scenario is if our team needs to send a communication to a trial customer that doesn’t have access to the Message center. These messages are sent only to the admin contacts you’ve registered with our team, and the messages will only appear in Microsoft Endpoint Manager. To view these messages, navigate to **Tenant administration** on the Microsoft Managed Desktop | Messages page.
+
+> [!NOTE]
+> The Message center and Service health dashboard have different role requirements and permissions than the rest of Microsoft Managed Desktop. Most users who have been assigned any admin role in Microsoft 365, can view Message center posts. For admin roles that don’t have access to the Message center, see this [list](/microsoft-365/admin/manage/message-center?preserve-view=true&view=o365-worldwide#admin-roles-that-dont-have-access-to-the-message-center). You can also assign the Message center reader role to users who should be able to read and share Message center posts without having any other admin privileges.
+
+### Managing email notifications
+
+Communications may come over multiple channels. We recommend that, at a minimum, any administrators responsible for tracking changes with the service ensure they receive email notifications for all three of the channels.  
+
+**To set up notification preferences for each communication channel:**
+
+1. In Microsoft Endpoint Manager, add yourself as an admin contact for Microsoft Managed Desktop.
+1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), navigate to **Health > Message center**, and [setup your preferences](/microsoft-365/admin/manage/message-center?preserve-view=true&view=o365-worldwide#preferences) for notifications about new messages.
+1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), navigate to **Health > Service health**. Then, select **Customize** to turn on/off the **Send me email notifications about service health** option.
