@@ -384,7 +384,7 @@ New or changed article | Description
 [Microsoft Managed Desktop roles and responsibilities](intro/roles-and-responsibilities.md) | Updated article
 [Microsoft Managed Desktop product lifecycle](service-description/device-requirements.md) | New article
 
-## May 201
+## May 2019
 
 New or changed article | Description
 --- | ---
