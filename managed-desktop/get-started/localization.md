@@ -52,7 +52,7 @@ For new devices, your manufacturer must provide device images that include the l
 
 If you're reusing existing devices, you might need to work with your Microsoft account representative to obtain appropriate images. For more information, see [Device images](../service-description/device-images.md).
 
-The [universal image](../service-description/device-images.md#universal-image) provided by Microsoft Managed Desktop includes these languages and for Windows 10:
+The universal image provided by Microsoft Managed Desktop includes these languages and for Windows 10:
 
 - Arabic
 - Bulgarian
