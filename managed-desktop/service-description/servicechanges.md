@@ -50,7 +50,7 @@ We'll communicate these changes by using the established [communication channels
 Microsoft Managed Desktop changes and communications are governed by two Microsoft policies:
 
 - [Modern Lifecycle Policy](/lifecycle/policies/modern)
-- [Microsoft 365 Change Communication Policy](/microsoft-365/admin/manage/message-center?view=o365-worldwide)
+- [Microsoft 365 Change Communication Policy](/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true)
 
 ## Changes you make
 
@@ -83,7 +83,7 @@ Depending on the type of communications, we’ll either use the standard channel
 
 ### Message center
 
-This is the primary channel for official service announcements and feature changes. You can read these messages from Microsoft Managed Desktop alongside other services in the Microsoft 365 admin center, the admin mobile app, or receive a weekly digest in email. For more information, see this article on the [Message center](/microsoft-365/admin/manage/message-center?view=o365-worldwide). For admins that have access to Message center, any Microsoft Managed Desktop posts are also displayed in the Messages page in Microsoft Endpoint Manager.
+This is the primary channel for official service announcements and feature changes. You can read these messages from Microsoft Managed Desktop alongside other services in the Microsoft 365 admin center, the admin mobile app, or receive a weekly digest in email. For more information, see this article on the [Message center](/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true). For admins that have access to Message center, any Microsoft Managed Desktop posts are also displayed in the Messages page in Microsoft Endpoint Manager.
 
 ### Service health dashboard
 
