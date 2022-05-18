@@ -49,7 +49,7 @@ The following are the images we support as part of the download script:
 ## Multi-model driver support
 
 > [!NOTE]
-> This feature is in public preview. Please submit a request for information ticket in the [admin center](../working-with-managed-desktop/admin-support.md).
+> This feature is in public preview. To get the public preview universal image with this feature, please submit a request for information ticket in the [admin center](../working-with-managed-desktop/admin-support.md).
 
 This feature allows customers to stage different model drivers in separate folders. Model-specific drivers are injected at the time of image deployment. The feature depends on:
 
@@ -68,7 +68,7 @@ The following are the prerequisites are needed to deploy multi-model driver supp
 
 #### System SKU
 
-The System SKU is a variable stored in the System Management BIOS (SMBIOS) in the EUFI layer of manufactured devices. You can view a device's System SKU by referencing the system information file (also referred to as `msinfo`). To view the contents of the system information file, run the `msinfo.exe` on the device you're planning to deploy to. For more information about `Msinf32.exe`, see [Description of the Microsoft System Information (Ms32info.exe) tool](https://support.microsoft.com/topic/description-of-microsoft-system-information-msinfo32-exe-tool-10d335d8-5834-90b4-8452-42c58e61f9fc).
+The System SKU is a variable stored in the System Management BIOS (SMBIOS) in the EUFI layer of manufactured devices. You can view a device's System SKU by referencing the system information file (also referred to as `msinfo`). To view the contents of the system information file, run the `msinfo32.exe` on the device you're planning to deploy to. For more information about `msinfo32.exe`, see [Description of the Microsoft System Information (Ms32info.exe) tool](https://support.microsoft.com/topic/description-of-microsoft-system-information-msinfo32-exe-tool-10d335d8-5834-90b4-8452-42c58e61f9fc).
 
 The `msinfo32` file provides the following information, including the System SKU:
 
