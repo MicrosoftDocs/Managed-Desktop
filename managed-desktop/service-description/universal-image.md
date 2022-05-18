@@ -20,6 +20,8 @@ Microsoft Managed Desktop has created an image containing Windows Pro and Micros
 
 However, it's best to use images appropriate to Microsoft Managed Desktop provided by the manufacturer whenever possible, even if that means an older Windows version must be updated once the user signs in. Using the Microsoft Managed Desktop Universal image should be the final option.
 
+About the universal image:
+
 - We update the image with the latest Windows monthly quality updates every 30-60 days, and Microsoft 365 Apps for Enterprise updates at least twice a year.
 - The image contains a recovery provisioning package to ensure Microsoft 365 Apps for Enterprise is restored following Windows recovery scenarios.
 - You can deploy the image with USB drives.  
@@ -30,7 +32,7 @@ However, it's best to use images appropriate to Microsoft Managed Desktop provid
 > [!NOTE]
 > It's your responsibility to add all necessary drivers, perform all testing, and ensure there are no issues with the final deployed image. We provide the universal image "as-is" but will provide technical guidance and answer questions. Contact MMDImage@microsoft.com.
 
-Submit requests for the universal image by creating a change request in the [admin center](../working-with-managed-desktop/admin-support.md).
+Submit requests for the universal image by creating a change request in the [admin center](../working-with-managed-desktop/admin-support.md). You'll receive instructions on how to download the universal image.
 
 ## Language support
 
@@ -49,22 +51,26 @@ The following are the images we support as part of the download script:
 > [!NOTE]
 > This feature is in public preview. Please submit a request for information ticket in the [admin center](../working-with-managed-desktop/admin-support.md).
 
-This feature allows customers to stage different model drivers in separate folder. Therefore, model-specific drivers are injected at the time of image deployment. The feature depends on:
+This feature allows customers to stage different model drivers in separate folders. Model-specific drivers are injected at the time of image deployment. The feature depends on:
 
-- The `Sku_Folder.json` mapping file which contains the system SKU (displayed by SMBIOS System SKU).
-- The corresponding driver folder (provided by you) where drivers (also provided by you) can be found for that model.
+- The `Sku_Folder.json` mapping file which contains the system SKU (displayed by SMBIOS System SKU) and driver folder names.
+- The corresponding driver folder (created by you) where drivers (also provided by you) can be found for that model.
 
 The feature supports driver injection to Windows, WinRE, and WinPE.
 
 ### Prerequisites
 
-The following are the prerequisites are needed to deploy multi-model driver support. The prerequisites include system SKU, workstation, and model-specific drivers.
+The following are the prerequisites are needed to deploy multi-model driver support. The prerequisites include:
+
+- System SKU
+- A workstation to author content on the USB
+- Model-specific drivers
 
 #### System SKU
 
-Ths is the system SKU of the device that you want to inject drivers to.
+The System SKU is a variable stored in the System Management BIOS (SMBIOS) in the EUFI layer of manufactured devices. You can view a device's System SKU by referencing the system information file (also referred to as `msinfo`). To view the contents of the system information file, run the `msinfo.exe` on the device you're planning to deploy to. For more information about `Msinf32.exe`, see [Description of the Microsoft System Information (Ms32info.exe) tool](https://support.microsoft.com/topic/description-of-microsoft-system-information-msinfo32-exe-tool-10d335d8-5834-90b4-8452-42c58e61f9fc).
 
-Open `msinfo32` file on the exact model you are planning to deploy to and reference the system SKU (indicated in **bold** below). The `msinfo32` file provides the following information:
+The `msinfo32` file provides the following information, including the System SKU:
 
 | Item | Value |
 | ----- | ----- |
@@ -122,16 +128,16 @@ There are two partitions on the USB as created by the Microsoft Managed Desktop 
 - WinPE (E:)
 - Images (F:)
 
-The JSON file (`SKU_Folder.json`) is located on the WinPE partition in the `<USB WinPE Partition>:\Scripts` folder. For example, the USB WinPE partition is in the "`E:\Scripts`" volume.
+The JSON file (`SKU_Folder.json`) is located on the WinPE partition in the `<USB WinPE Partition>:\Scripts` folder. For example, `E:\Scripts` where "`E:`" is the USB WinPE partitiion.
 
 #### Step 2: Edit the JSON file
 
-1. Locate the JSON file in the WinPE\Scripts folder, and add entries to map the driver folders to the correct device model (System SKU).
+1. Locate the JSON file in the WinPE\Scripts folder and add entries to map the driver folders to the correct device model (System SKU).
 1. Insert an entry for `"SystemSKU": “name of System SKU”`. The name should exactly match the System SKU found in the prerequisite section.  
-1. Insert an entry for the `“Folder”: “name of folder containing drivers”`. The name should exactly match the driver folder name you created on the USB key with the drivers. The path for drivers is based on `<USB Images partition>:\Images\Drivers`. You don't need a full path, just the name of the folder within that location.
+1. Insert an entry for the `“Folder”: “name of folder containing drivers”`. The name should exactly match the driver folder name you created on the USB key with the drivers. For more information, see [Create driver folders](#step-3-create-driver-folders). The path for drivers is based on `<USB Images partition>:\Images\Drivers`. You don't need a full path, just the name of the folder within that location.
 1. You don't need to include `_OS`, `_WinPE`, `_WinRE` in the folder name in the JSON file. We'll automatically look for your folder name to contain those extensions.
 
-The following is an example of a JSON file filled out for several HP and Surface devices. The HP device is the same model, but for two different regions
+The following is an example of a JSON file filled out for several HP and Surface devices. The HP device is the same model, but for two different regions.
 
 In this example, we know the drivers are the same for the HP device (even though it's in two different regions). Therefore, we have one driver folder to be applied for two regions (America and UK – HP has SKU MODELS where region is after the #). Similar logic, using multiple SystemSku entries mapping to the same Folder name, can be used any time you want a folder to be applied to multiple models.
 
@@ -156,7 +162,7 @@ In this example, we know the drivers are the same for the HP device (even though
 ]
 ```
 
-In each example above, the SystemSKU is exactly what is listed for ‘System SKU’ in the `msinfo32` file.
+In each example above, the SystemSKU is exactly what is listed for ‘System SKU’ in the `msinfo32` file of each device model.
 
 #### Step 3: Create driver folders
 
@@ -229,5 +235,5 @@ Start up your device from the USB key. Example instructions of starting a Surfac
 | How much hard drive space do I need when downloading the universal image? | In general, please ensure that your device has 30 GB of open space when downloading the universal image. |
 | How can I identify the Microsoft Managed Desktop image version in devices already deployed? | All the universal images released after March-2021 onwards set the following registry keys to identify the image, build version, UI version, and region.<br><ul><li>`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Managed365/Original Image Build Version`</li><li>`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Managed365/UI Version`</li><li>`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Managed365/Region`</li></ul><p>Images released before March-2021 should have a file ‘`VersionTracking`’ with version details. That file can be found in the directory: `Windows\System32\ImageVersionTracking`.</p> |
 | Can I run the PowerShell installation script using “Run as different user” that has admin rights? | No. The scripts need local administrator rights. It's recommended to run the PowerShell installation script as a local administrator account on the device. |
-| Will 32GB USB drives be sufficient for the universal image? | It's recommended to use a 64GB USB for the universal image, especially, for our larger images that contain many languages such as the regional the universal image for EMEA. |
-| Why am I getting a “Can’t validate argument” message when running the PowerShell installation script? | This error usually occurs because the account running the script has insufficient permissions. We highly recommend you use a local administrator account. Don't run this script as “Run as a different user”. |
+| Will 32GB USB drives be sufficient for the universal image? | It's recommended to use a 64GB USB for the universal image, especially, for our larger images that contain many languages such as the regional universal image for EMEA. |
+| Why am I getting a “Can’t validate argument” message when running the PowerShell installation script? | This error usually occurs because the account running the script has insufficient permissions. We highly recommend you use a local administrator account. Do **not** run this script as “Run as a different user”. |
