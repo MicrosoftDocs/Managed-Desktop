@@ -23,6 +23,7 @@ This article lists new and updated articles in the [Microsoft Managed Desktop do
 
 | New or changed article | Description |
 | ----- | ----- |
+| [Service changes and communication](service-description/servicechanges.md) | Added communication channel information |
 | [Universal image](service-description/universal-image.md) | Added Universal image section to Device images, and multi-model driver support information. |
 | [Updates](service-description/updates.md) | Updated the Deployment setting section |
 
@@ -442,7 +443,7 @@ This article lists new and updated articles in the [Microsoft Managed Desktop do
 
 | New or changed article | Description |
 | ----- | ----- |
-| [Support for Microsoft Managed Desktop](service-description/support.md)<br />and [User support for Microsoft Managed Desktop](working-with-managed-desktop/end-user-support.md) | Updated to include Australia. |
+| [Support for Microsoft Managed Desktop](service-description/support.md) and [User support for Microsoft Managed Desktop](working-with-managed-desktop/end-user-support.md) | Updated to include Australia. |
 
 ## October 30, 2018
 
