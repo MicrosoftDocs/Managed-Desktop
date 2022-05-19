@@ -68,7 +68,7 @@ You can reuse existing devices as long as they meet both:
 
 Follow the steps relevant to your manufacturer.
 
-You can reimage devices either with an image from the manufacturer, or by using the Microsoft Managed Desktop "universal image." To get an appropriate manufacturer image, order at least one [new device](#new-devices) of the model you're reusing. Then, you can obtain the image from that device and apply it to other devices of the exact same model.
+You can reimage devices either with an image from the manufacturer, or by using the [Microsoft Managed Desktop "universal image."](/service-description/universal-image.md) To get an appropriate manufacturer image, order at least one [new device](#new-devices) of the model you're reusing. Then, you can obtain the image from that device and apply it to other devices of the exact same model.
 
 > [!NOTE]
 > It's your the responsibility to create, test, and deploy images. We also recommend using appropriate images provided by the manufacturer whenever possible instead of custom images; this includes the "universal image."
