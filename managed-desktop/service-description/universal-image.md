@@ -49,7 +49,7 @@ The following are the images we support as part of the download script:
 ## Multi-model driver support
 
 > [!NOTE]
-> This feature is in public preview. To get the public preview universal image with this feature, please submit a request for information ticket in the [admin center](../working-with-managed-desktop/admin-support.md).
+> This feature is available in the universal image by default as of May 31, 2022. Any universal images downloaded prior to May 31, 2022 doesn't include multi-model driver support.
 
 This feature allows customers to stage different model drivers in separate folders. Model-specific drivers are injected at the time of image deployment. The feature depends on:
 
