@@ -67,7 +67,7 @@ Depending on the severity, we'll either:
 
 ### Delivery optimization
 
-Delivery Optimization is a peer-to-peer distribution technology available in Windows 10. It allows devices to share content, such as updates, that the devices downloaded from Microsoft over the internet. Us Delivery Optimization can help reduce network bandwidth, because a device can get portions of the update from another device on its local network instead downloading the update completely from Microsoft.
+Delivery Optimization is a peer-to-peer distribution technology available in Windows 10. It allows devices to share content, such as updates, that the devices downloaded from Microsoft over the internet. Delivery Optimization can help reduce network bandwidth, because a device can get portions of the update from another device on its local network instead downloading the update completely from Microsoft.
 
 [Delivery Optimization](/deployoffice/delivery-optimization) is enabled by default on devices running the Windows 10 Enterprise or Windows 10 Education editions.
 
