@@ -26,7 +26,7 @@ ms.collection: M365-modern-desktop
 
 ## Updates to Microsoft Edge
 
-Microsoft Managed Desktop deploys the [Stable channel](/deployedge/microsoft-edge-channels#stable-channel) of Microsoft Edge, which is automatically updated every eight weeks. Updates on the Extended Stable channel are rolled out [progressively](/deployedge/microsoft-edge-update-progressive-rollout) by the Microsoft Edge product group to ensure the best experience for customers.
+Microsoft Managed Desktop deploys the [Stable Channel](/deployedge/microsoft-edge-channels#stable-channel) of Microsoft Edge, which is automatically updated every eight weeks. Updates on the Stable Channel are rolled out [progressively](/deployedge/microsoft-edge-update-progressive-rollout) by the Microsoft Edge product group to ensure the best experience for customers.
 
 The [Beta Channel](/deployedge/microsoft-edge-channels#beta-channel) is deployed to devices in the Test group for representative validation within the organization. This channel is fully supported and automatically updated with new features approximately every four weeks.
 
