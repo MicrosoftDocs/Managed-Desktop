@@ -23,6 +23,7 @@ This article lists new and updated articles in the [Microsoft Managed Desktop do
 
 | New or changed article | Description |
 | ----- | ----- |
+| [Universal image](service-description/universal-image.md) | Updated FAQ section |
 | [Microsoft Edge](get-started/edge-browser-app.md) | Microsoft Edge now uses the Stable Channel to deploy updates |
 
 ## May 2022
