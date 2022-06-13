@@ -1,6 +1,6 @@
 ---
 title: Set up user support features
-description:  How to turn on elevation and escalation features for user support
+description:  How to set up elevation and escalation features for user support
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: tiaraquan
