@@ -30,6 +30,6 @@ Once you've finished enrollment, follow the steps below to configure the service
 1. [Deploy apps](deploy-apps.md).
 1. [Prepare devices](prepare-devices.md).
 1. Set up [first-run experience with Autopilot and the Enrollment Status Page](esp-first-run.md).
-1. [Enable user support features](enable-support.md).
+1. [Turn on user support features](enable-support.md).
 1. [Get your users ready to use devices](get-started-devices.md).
 1. [Get started with app control](get-started-app-control.md).
