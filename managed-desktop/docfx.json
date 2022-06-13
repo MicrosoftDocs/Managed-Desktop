@@ -41,7 +41,19 @@
     "globalMetadata": {
       "breadcrumb_path": "/managed-desktop/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "contributors_to_exclude": [
+        "rjagiewich",
+        "traya1",
+        "rmca14",
+        "claydetels19",
+        "jborsecnik",
+        "tiburd",
+        "garycentric",
+        "AngelaMotherofDragons",
+        "v-dihans",
+        "dstrome"
+      ]
     },
     "fileMetadata": {},
     "template": [],
