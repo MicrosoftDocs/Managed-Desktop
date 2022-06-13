@@ -1,6 +1,6 @@
 ---
-title: Enable user support features
-description:  How to enable elevation and escalation features for user support
+title: Set up user support features
+description:  How to set up elevation and escalation features for user support
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: tiaraquan
@@ -11,12 +11,14 @@ ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ---
 
-# Enable user support features
+# Set up user support features
 
-Whether you're providing your own user support or working with a partner to provide support, follow the steps below to enable the support provider to request elevated device access, or escalate issues to Microsoft Managed Desktop, if needed.
+Whether you're providing your own user support or working with a partner to provide support, use the following steps to allow the support provider to request elevated device access, or escalate issues to Microsoft Managed Desktop, if needed.
 
-1. If they don't already have one, users need an account in same the Azure Active Directory (AAD) domain as the Microsoft Managed Desktop devices.
+1. If they don't already have one, set up an account in the same Azure Active Directory (AAD) domain as the Microsoft Managed Desktop devices.
 1. Add the user accounts to the **Modern Workplace Roles-Support Partner** security group in the Azure Active Directory (AAD).
+
+To submit an elevation or escalation request, see [Get user support](../working-with-managed-desktop/end-user-support.md).
 
 <!--when available, add link to downloadable articles at DLC-->
 
