@@ -11,9 +11,12 @@ manager: dougeby
 ms.topic: article
 ---
 
-# Getting help for users
+# Get user support
 
-If you've reached the point in the [workflow](../service-description/user-support.md) where you need to request elevated device access or escalation to Microsoft, follow these steps:
+> [!IMPORTANT]
+> Ensure you've [set up user support](../get-started/enable-support.md) before you submit an elevation or escalation request.
+
+If you've reached the point in the [workflow](../service-description/user-support.md) where you need to request elevated device access or escalation to Microsoft, use the following steps:
 
 >[!NOTE]
 >These support options are not available for devices in the Test group.
