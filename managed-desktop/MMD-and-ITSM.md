@@ -30,7 +30,6 @@ This table relates key ITIL phases and processes to Microsoft Managed Desktop fe
 |Availability management     |  Microsoft Managed Desktop balances responsibility with your organization to ensure availability of service.<br><br>Admins and users have routes to respective support if there are service or availability issues. | - [Microsoft Managed Desktop operations and monitoring](service-description/operations-and-monitoring.md)<br><br>- [Admin support for Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md)<br>- [Get user support](working-with-managed-desktop/end-user-support.md)  |
 
 
-
 ## Service transition
 
 
