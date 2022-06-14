@@ -18,12 +18,9 @@ Microsoft Managed Desktop enables your organization to comply with many key aspe
 
 For more comprehensive about ITIL and its phases and process, see their [documentation](https://www.axelos.com/best-practice-solutions/itil).
 
-
 ## Service design
 
 This table relates key ITIL phases and processes to Microsoft Managed Desktop features, with links to our documentation for details:
-
-
 
 |ITIL process |Description  |Documentation |
 |---------|---------|---------|
