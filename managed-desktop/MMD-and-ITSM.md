@@ -18,12 +18,9 @@ Microsoft Managed Desktop enables your organization to comply with many key aspe
 
 For more comprehensive about ITIL and its phases and process, see their [documentation](https://www.axelos.com/best-practice-solutions/itil).
 
-
 ## Service design
 
 This table relates key ITIL phases and processes to Microsoft Managed Desktop features, with links to our documentation for details:
-
-
 
 |ITIL process |Description  |Documentation |
 |---------|---------|---------|
@@ -31,7 +28,6 @@ This table relates key ITIL phases and processes to Microsoft Managed Desktop fe
 |Service catalog management     | Service description detailing components of the service is kept true to state of the service, available to all current and interested customers.<br><br>Pre-requisites detailed to understand what is needed to operate the service.  | - [Microsoft Managed Desktop service description](service-description/index.md)<br><br>- [Get ready for enrollment in Microsoft Managed Desktop](get-ready/index.md)  |
 |Information security management     | Security information, including information security for the service.<br><br> Security-related policies and other information on how devices are configured.   | - [Security in Microsoft Managed Desktop](service-description/security.md)<br><br>- [Device configuration](service-description/device-policies.md)  |
 |Availability management     |  Microsoft Managed Desktop balances responsibility with your organization to ensure availability of service.<br><br>Admins and users have routes to respective support if there are service or availability issues. | - [Microsoft Managed Desktop operations and monitoring](service-description/operations-and-monitoring.md)<br><br>- [Admin support for Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md)<br>- [Get user support](working-with-managed-desktop/end-user-support.md)  |
-
 
 
 ## Service transition
