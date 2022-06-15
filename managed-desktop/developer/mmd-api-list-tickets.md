@@ -34,7 +34,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 | Permission type | Permissions |
 | --- | --- |
-| Delegated | `MWaaSDevice.Read` |
+| Delegated | Not Applicable |
 | Application | `MmdSupport.ReadWrite` |
 
 ## HTTP request
