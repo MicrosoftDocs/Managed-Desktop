@@ -32,7 +32,7 @@ One of the following permissions is required to call this API.
 
 | Permission type | Permissions |
 | --- | --- |
-| Delegated | `MWaaSDevice.Read` |
+| Delegated | Not Applicable |
 | Application | `MmdSupport.ReadWrite` |
 
 ## HTTP request
