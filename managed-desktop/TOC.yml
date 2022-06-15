@@ -194,5 +194,68 @@
               href: working-with-managed-desktop/config-setting-deploy.md
         - name: Preview and test Windows 11 with Microsoft Managed Desktop
           href: working-with-managed-desktop/test-win11-mmd.md
+    - name: Developer
+      href:
+      items:
+        - name: Microsoft Managed Desktop API overview
+          href: developer/mmd-api-overview.md
+        - name: Getting started
+          href:
+          items:
+            - name: Get access to API with application context
+              href: developer/mmd-api-access-app-context.md
+            - name: Get access to API with user context
+              href: developer/mmd-api-access-user-context.md
+            - name: Configure ServiceNow for Microsoft Managed Desktop API
+              href: developer/mmd-api-configure-servicenow.md
+        - name: API schema
+          href:
+          items:
+            - name: Devices
+              href:
+              items:
+                - name: Device methods and properties
+                  href: developer/mmd-api-devices.md
+                - name: List devices
+                  href: developer/mmd-api-list-devices.md
+                - name: Get device by device name
+                  href: developer/mmd-api-get-device.md
+            - name: Users
+              href:
+              items:
+                - name: User methods and properties
+                  href: developer/mmd-api-users.md
+                - name: List users
+                  href: developer/mmd-api-list-users.md
+                - name: Get user by userUpn
+                  href: developer/mmd-api-get-user.md
+            - name: Tickets
+              href:
+              items:
+                - name: Ticket methods and properties
+                  href: developer/mmd-api-tickets.md
+                - name: Create ticket
+                  href: developer/mmd-api-create-ticket.md
+                - name: List tickets
+                  href: developer/mmd-api-list-tickets.md
+                - name: Get ticket by ID
+                  href: developer/mmd-api-get-ticket-id.md
+                - name: Get ticket notes
+                  href: developer/mmd-api-get-ticket-notes.md
+                - name: Add notes to ticket
+                  href: developer/mmd-api-add-notes.md
+            - name: Elevation requests
+              href:
+              items:
+                - name: Elevation request methods and properties
+                  href: developer/mmd-api-elevation-requests.md
+                - name: Create elevation request
+                  href: developer/mmd-api-create-elevation-request.md
+                - name: Close elevation request
+                  href: developer/mmd-api-close-elevation-request.md
+                - name: List elevation request
+                  href: developer/mmd-api-list-elevation-requests.md
+                - name: Get elevation request details
+                  href: developer/mmd-api-get-elevation-request-details.md
     - name: Change history
       href: change-history-managed-desktop.md
