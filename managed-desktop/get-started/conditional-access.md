@@ -17,10 +17,9 @@ After you've completed enrollment in Microsoft Managed Desktop, some management 
 
 1. Review the Microsoft Intune and Azure Active Directory settings described in the next section.
 2. If any of the items apply to your environment, make the adjustments as described.
-3. If you want to double-check that all settings are correct, you can rerun the [readiness assessment tool](https://aka.ms/mmdart) to ensure nothing conflicts with Microsoft Managed Desktop.
 
 > [!NOTE]
-> As your operations continue in following months, if you make changes after enrollment to policies in Microsoft Intune, Azure Active Directory, or Microsoft 365 that affect Microsoft Managed Desktop, it's possible that Microsoft Managed Desktop could stop operating properly. To avoid problems with the service, check the specific settings described in [Fix issues found by the readiness assessment tool](../get-ready/readiness-assessment-fix.md) before you change the policies listed there. You can also rerun the readiness assessment tool at any time.
+> As your operations continue in following months, if you make changes after enrollment to policies in Microsoft Intune, Azure Active Directory, or Microsoft 365 that affect Microsoft Managed Desktop, it's possible that Microsoft Managed Desktop could stop operating properly. To avoid problems with the service, check the specific settings described in [Fix issues found by the readiness assessment tool](../get-ready/readiness-assessment-fix.md) before you change the policies listed there.
 
 ## Microsoft Intune settings
 
