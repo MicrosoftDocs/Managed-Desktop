@@ -83,7 +83,7 @@ If you're registering devices yourself, you must import new devices into the Win
 **To manually register devices from the Microsoft Managed Desktop devices blade**
 
 1. Collect the [hardware hash](../get-started/manual-registration.md#obtain-the-hardware-hash) for new devices.
-2. Go to the [Microsoft Endpoint Manager portal](https://endpoint.microsoft.com) and elect **Devices** in the left navigation pane. 
+2. Go to the [Microsoft Endpoint Manager portal](https://endpoint.microsoft.com) and select **Devices** in the left navigation pane. 
 3. In the **Microsoft Managed Desktop** section, select **Devices**. 
 4. In the **Microsoft Managed Desktop Devices** workspace, select **+ Register devices**. A fly-in menu opens to register new devices.
 5. In the **File upload** box, provide the path to the CSV file you created previously.
