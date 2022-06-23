@@ -116,6 +116,4 @@ A successful JSON response looks like this:
 #### Use the token to access Microsoft Managed Desktop API
 
 1. Choose the API you want to use.
-    1. Step a text
-    2. Step b text
 2. Set the authorization header in the http request you send to "**Bearer {token}**" (Bearer is the authorization scheme).
