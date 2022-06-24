@@ -40,7 +40,7 @@ The following are the images we support as part of the download script:
 
 | Image type | Region | Language support |
 | ----- | ------ | ----- |
-| Regional universal image | EMEA | Supports regions and languages in Europe and the Middle East: <ul><li>Arabic</li><li>Bulgarian   </li><li>Croatian</li><li>Czech</li><li>Danish</li><li>Dutch</li><li>English (US, GB, AU, IN)</li><li>Estonian</li><li>Finnish</li><li>French (France)</li><li>German</li><li>Greek</li><li>Hebrew</li><li>Hungarian</li><li>Italian</li> <li>Latvian</li><li>Lithuanian</li><li>Norwegian (Bokmål)</li><li>Polish</li><li>Portuguese (Brazil)</li><li>Romanian</li><li>Russian</li><li>Serbian (Latin)</li><li>Slovak</li><li>Slovenian</li><li>Spanish (Spain)</li><li>Swedish</li><li>Turkish</li><li>Ukranian</li></ul> |
+| Regional universal image | EMEA | Supports regions and languages in Europe and the Middle East: <ul><li>Arabic</li><li>Bulgarian   </li><li>Croatian</li><li>Czech</li><li>Danish</li><li>Dutch</li><li>English (US, GB, AU, IN)</li><li>Estonian</li><li>Finnish</li><li>French (France)</li><li>German</li><li>Greek</li><li>Hebrew</li><li>Hungarian</li><li>Italian</li> <li>Latvian</li><li>Lithuanian</li><li>Norwegian (Bokmål)</li><li>Polish</li><li>Portuguese (Brazil)</li><li>Romanian</li><li>Russian</li><li>Serbian (Latin)</li><li>Slovak</li><li>Slovenian</li><li>Spanish (Spain)</li><li>Swedish</li><li>Turkish</li><li>Ukrainian</li></ul> |
 | Regional universal image | APAC | Supports regions and languages for Asia Pacific area: <ul><li>English (US, GB)</li><li>Japanese</li><li>Chinese (PRC)</li><li>Chinese (Taiwan)</li><li>Korean</li><li>Thai</li><li>Vietnamese (LiP)</li><li>Indonesian</li></ul> |
 | Regional universal image | NA | Supports regions and languages for North America: <ul><li>English (US, GB)</li><li>Spanish (Mexico)</li><li>French (Canada)</li></ul> |
 | Standard universal image | — | Supports English (US, GB) |
@@ -128,7 +128,7 @@ There are two partitions on the USB as created by the Microsoft Managed Desktop 
 - WinPE (E:)
 - Images (F:)
 
-The JSON file (`SKU_Folder.json`) is located on the WinPE partition in the `<USB WinPE Partition>:\Scripts` folder. For example, `E:\Scripts` where "`E:`" is the USB WinPE partitiion.
+The JSON file (`SKU_Folder.json`) is located on the WinPE partition in the `<USB WinPE Partition>:\Scripts` folder. For example, `E:\Scripts` where "`E:`" is the USB WinPE partition.
 
 #### Step 2: Edit the JSON file
 
@@ -190,11 +190,11 @@ If you want to create driver folders applicable to ALL models, we support the fo
 > [!NOTE]
 > If you place drivers in these folders, we'll load those drivers in addition to any SKU model-specific driver folders that are applicable.
 
-Below is an example of SKU-specific driver folders for HP and SurfacePro7, and generic driver folders in `F:\Images\Drivers`.
+The following is an example of SKU-specific driver folders for HP and SurfacePro7, and generic driver folders in `F:\Images\Drivers`.
 
 | SKU specific driver folder | Folder names |
 | ----- | ----- |
-| HP | HP-specifc driver folders include: <ul><li>HP_Driver_OS</li><li>HP_Driver_WinPE</li><li>HP_Driver_WinRe</li></ul> |
+| HP | HP-specific driver folders include: <ul><li>HP_Driver_OS</li><li>HP_Driver_WinPE</li><li>HP_Driver_WinRe</li></ul> |
 | SurfacePro7 | SurfacePro7-specific driver folders include: <ul><li>SurfacePro7_OS</li><li>SurfacePro7_WinPE</li><li>SurfacePro7_WinRe</li></ul> |
 | Generic driver folders | Generic driver folders include: <ul><li>OS</li><li>WinPE</li><li>WinRe</li></ul> |
 
@@ -222,13 +222,13 @@ Based on this example, this is the behavior of the driver injection on a Surface
 
 #### Step 4: Deploy the image
 
-Start up your device from the USB key. Example instructions of starting a Surface device device from a USB key can be found [here](/surface/boot-surface-from-a-usb-device-fe7a7323-8d1d-823d-be17-9aec89c4f9f5#WindowsVersion=Windows_11).
+Start up your device from the USB key. Example instructions of starting a Surface device from a USB key can be found [here](https://support.microsoft.com/surface/boot-surface-from-a-usb-device-fe7a7323-8d1d-823d-be17-9aec89c4f9f5#WindowsVersion=Windows_11).
 
 ## FAQ
 
 | Question | Answer |
 | ----- | ----- |
-| Where can I get the universal image? | Please submit a request via the [admin center](../working-with-managed-desktop/admin-support.md) to the Microsoft Managed Desktop team. |
+| Where can I get the universal image? | Please [submit a request via the admin center](../working-with-managed-desktop/admin-support.md) to the Microsoft Managed Desktop team. |
 | Can I run the download script on a Microsoft Managed Desktop device? | No. We utilize a service to download and install the universal image from the cloud onto a USB key. This service requires local administrative rights. Devices managed by Microsoft Managed Desktop do not have sufficient permissions (even when elevating) to enable the required service. Please use another system with local admin rights.
 | My drivers for WinPE are not working, what could be wrong? | Some drivers injected in WinPE may require a restart. In which case, they must be inserted by injecting them into the `boot.wim` file offline using Deployment Image Servicing and Management (DISM) commands. For more information, see [Add and Remove Drivers to an Offline Windows Image](/windows-hardware/manufacture/desktop/add-and-remove-drivers-to-an-offline-windows-image?view=windows-11&preserve-view=true). |
 | What is the size of WinPE partition? | The default WinPE partition created on the USB is 4GB in size. Adding WinPE drivers should be limited to only those drivers needed in WinPE to reduce the risk of exceeding the 4GB size limitation. |
