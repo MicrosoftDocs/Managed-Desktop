@@ -80,7 +80,7 @@ If you're registering devices yourself, you must import new devices into the Win
 | Power user | Microsoft365Managed_PowerUser | Not supported |
 | Standard  | Microsoft365Managed_Standard | Microsoft365Managed_Standard-Shared |
 
-**To manually register devices from the Microsoft Managed Desktop devices blade**
+**To manually register devices from the Microsoft Managed Desktop devices blade:**
 
 1. Collect the [hardware hash](../get-started/manual-registration.md#obtain-the-hardware-hash) for new devices.
 2. Go to the [Microsoft Endpoint Manager portal](https://endpoint.microsoft.com) and select **Devices** in the left navigation pane. 
