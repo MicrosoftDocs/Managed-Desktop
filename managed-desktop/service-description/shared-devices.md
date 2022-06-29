@@ -133,7 +133,6 @@ Some apps probably don't need to be present on all devices, so you might prefer 
 Microsoft Managed Desktop disables Company Portal by default for devices in shared device mode. If you want the Company Portal enabled, you can file a [change request](../working-with-managed-desktop/admin-support.md). However, you should be aware of some limitations in this feature:
 
 - To make an app available to users in Company Portal, [assign a user group](/mem/intune/apps/apps-deploy) to that app in Intune and then add each user to that user group.
-- Devices can't have a [primary user](#primary-user).
 - To uninstall an app that a user installed through Company Portal, you must uninstall the app from all users on that device.
 
 > [!CAUTION]
