@@ -30,7 +30,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## HTTP request
 
 ```http
-POST https://mmdls.microsoft.com/support/odata/v1 /tenants/{tenantId}/elevationRequests
+POST https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationRequests
 ```
 
 ## Request headers
@@ -62,7 +62,7 @@ If successful, this method returns a 201 Created response code and a list of d
 Here is an example of the HTTP request.
 
 ```http
-POST https://mmdls.microsoft.com/support/odata/v1 /tenants/{tenantId}/elevationRequests
+POST https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationRequests
 ```
 
 Here is an example of the JSON request.
