@@ -88,7 +88,7 @@ If you're registering devices yourself, you must import new devices into the Win
 4. In the **Microsoft Managed Desktop Devices** workspace, select **+ Register devices**. A fly-in menu opens to register new devices.
 5. In the **File upload** box, provide the path to the CSV file you created previously.
 6. Select a **[device profile](../service-description/profiles.md)** from the dropdown menu and turn on the **Shared device** toggle.
-7. Select **Register devices**. The system will add the devices to your list of devices. If successful, the device will show as **Ready for user** meaning it's ready and waiting for a user to start using. For more information on see [Manual registration](../managed-desktop/get-started/manual-registration).
+7. Select **Register devices**. The system will add the devices to your list of devices. If successful, the device will show as **Ready for user** meaning it's ready and waiting for a user to start using. For more information on see [Manual registration](../get-started/manual-registration).
 8. The **Shared Device** column will be marked with **Yes**.
 
 If you have a partner that enrolls devices, follow the steps in [Partner registration](../get-started/partner-registration.md), but append **-Shared** to the group tag, as shown in the preceding table.
