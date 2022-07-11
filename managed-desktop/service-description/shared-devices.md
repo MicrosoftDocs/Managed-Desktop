@@ -72,7 +72,7 @@ If you're registering devices yourself, you must import new devices into the Win
 3. In the **By platform** section, select **Windows**. Then, select **Windows Enrollment**.
 4. In the **Windows Autopilot Deployment Program** section, select **Devices**.
 5. [Import](../get-started/manual-registration.md#register-devices-by-using-the-admin-portal) the .CSV file containing all hardware hashes collected in step #1.
-6. After you've uploaded the Windows Autopilot devices, you must edit the imported devices' group tag attribute so Microsoft Managed Desktop can register them using the Windows Autopilot self-deploying mode profile. See below for the group tag attributes. You must append **-Shared** to the group tag, as shown in the table below:
+6. After you've uploaded the Windows Autopilot devices, you must edit the imported devices' group tag attribute so Microsoft Managed Desktop can register them using the Windows Autopilot self-deploying mode profile. See below for the group tag attributes. You must append **-Shared** to the group tag, as shown in the following table:
 
 | Device profile | Autopilot group tag (standard mode) | Group tag (shared device mode) |
 | ----- | ----- | ----- |
@@ -80,10 +80,21 @@ If you're registering devices yourself, you must import new devices into the Win
 | Power user | Microsoft365Managed_PowerUser | Not supported |
 | Standard  | Microsoft365Managed_Standard | Microsoft365Managed_Standard-Shared |
 
+**To manually register devices from the Microsoft Managed Desktop devices blade:**
+
+1. Collect the [hardware hash](../get-started/manual-registration.md#obtain-the-hardware-hash) for new devices.
+2. Go to the [Microsoft Endpoint Manager portal](https://endpoint.microsoft.com) and select **Devices** in the left navigation pane. 
+3. In the **Microsoft Managed Desktop** section, select **Devices**. 
+4. In the **Microsoft Managed Desktop Devices** workspace, select **+ Register devices**. A fly-in menu opens to register new devices.
+5. In the **File upload** box, provide the path to the CSV file you created previously.
+6. Select a **[device profile](../service-description/profiles.md)** from the dropdown menu and turn on the **Shared device** toggle.
+7. Select **Register devices**. The system will add the devices to your list of devices. If successful, the device will show as **Ready for user** meaning it's ready and waiting for a user to start using. For more information on see [Manual registration](../managed-desktop/get-started/manual-registration).
+8. The **Shared Device** column will be marked with **Yes**.
+
+If you have a partner that enrolls devices, follow the steps in [Partner registration](../get-started/partner-registration.md), but append **-Shared** to the group tag, as shown in the preceding table.
+
 > [!WARNING]
 > Don't try to edit the group tab attribute by appending **-Shared** to devices previously imported to Windows Autopilot. Devices already imported into Windows Autopilot, using one of the Microsoft Managed Desktop group tags starting with *Microsoft365Managed_*, but without **-Shared** initially appended, are already part of a different Azure Active Directory group. This Azure Active Directory group doesn't have the Windows Autopilot self-deploying mode profile assigned to it. If you must re-purpose an existing device to be a shared device, you must delete and re-register the device into Windows Autopilot again.
-
-If you're having a partner enroll devices, follow the steps in [Partner registration](../get-started/partner-registration.md), but append **-Shared** to the group tag, as shown in the table above.
 
 ## Consequences of shared device mode
 
