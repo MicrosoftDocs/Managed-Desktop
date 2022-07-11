@@ -15,7 +15,7 @@ ms.topic: article
 
 Microsoft Managed Desktop allows you to register devices in "shared device mode," similar to the shared device mode offered by [Microsoft Intune](/mem/intune/configuration/shared-user-device-settings).
 
-Devices in this mode are optimized for situations where users aren't tied down to a single desk and are frequently changing devices. For example, frontline workers such as bank tellers or nursing staff. You can apply any of the Microsoft Managed Desktop [profiles](profiles.md) to devices in this mode. Devices registered in this mode have some important differences:
+Devices in this mode are optimized for situations where users aren't tied down to a single desk and are frequently changing devices. For example, frontline workers such as bank tellers or nursing staff. You can apply the Microsoft Managed Desktop [profiles](profiles.md) to devices in this mode. Devices registered in this mode have some important differences:
 
 - [Device storage](#device-storage) is optimized for shared users.
 - [Inactive accounts](#deletion-of-inactive-accounts) are deleted.
@@ -72,7 +72,7 @@ If you're registering devices yourself, you must import new devices into the Win
 3. In the **By platform** section, select **Windows**. Then, select **Windows Enrollment**.
 4. In the **Windows Autopilot Deployment Program** section, select **Devices**.
 5. [Import](../get-started/manual-registration.md#register-devices-by-using-the-admin-portal) the .CSV file containing all hardware hashes collected in step #1.
-6. After you've uploaded the Windows Autopilot devices, you must edit the imported devices' group tag attribute so Microsoft Managed Desktop can register them using the Windows Autopilot self-deploying mode profile. See below for the group tag attributes. You must append **-Shared** to the group tag, as shown in the table below:
+6. After you've uploaded the Windows Autopilot devices, you must edit the imported devices' group tag attribute so Microsoft Managed Desktop can register them using the Windows Autopilot self-deploying mode profile. See below for the group tag attributes. You must append **-Shared** to the group tag, as shown in the following table:
 
 | Device profile | Autopilot group tag (standard mode) | Group tag (shared device mode) |
 | ----- | ----- | ----- |
@@ -80,10 +80,21 @@ If you're registering devices yourself, you must import new devices into the Win
 | Power user | Microsoft365Managed_PowerUser | Not supported |
 | Standard  | Microsoft365Managed_Standard | Microsoft365Managed_Standard-Shared |
 
+**To manually register devices from the Microsoft Managed Desktop devices blade:**
+
+1. Collect the [hardware hash](../get-started/manual-registration.md#obtain-the-hardware-hash) for new devices.
+2. Go to the [Microsoft Endpoint Manager portal](https://endpoint.microsoft.com) and select **Devices** in the left navigation pane. 
+3. In the **Microsoft Managed Desktop** section, select **Devices**. 
+4. In the **Microsoft Managed Desktop Devices** workspace, select **+ Register devices**. A fly-in menu opens to register new devices.
+5. In the **File upload** box, provide the path to the CSV file you created previously.
+6. Select a **[device profile](../service-description/profiles.md)** from the dropdown menu and turn on the **Shared device** toggle.
+7. Select **Register devices**. The system will add the devices to your list of devices. If successful, the device will show as **Ready for user** meaning it's ready and waiting for a user to start using. For more information on see [Manual registration](../get-started/manual-registration.md).
+8. The **Shared Device** column will be marked with **Yes**.
+
+If you have a partner that enrolls devices, follow the steps in [Partner registration](../get-started/partner-registration.md), but append **-Shared** to the group tag, as shown in the preceding table.
+
 > [!WARNING]
 > Don't try to edit the group tab attribute by appending **-Shared** to devices previously imported to Windows Autopilot. Devices already imported into Windows Autopilot, using one of the Microsoft Managed Desktop group tags starting with *Microsoft365Managed_*, but without **-Shared** initially appended, are already part of a different Azure Active Directory group. This Azure Active Directory group doesn't have the Windows Autopilot self-deploying mode profile assigned to it. If you must re-purpose an existing device to be a shared device, you must delete and re-register the device into Windows Autopilot again.
-
-If you're having a partner enroll devices, follow the steps in [Partner registration](../get-started/partner-registration.md), but append **-Shared** to the group tag, as shown in the table above.
 
 ## Consequences of shared device mode
 
@@ -126,23 +137,13 @@ Windows Hello uses smart card emulation to securely [cache user PINs](/windows/s
 
 When Universal print installs a printer for a single user on a shared device that printer becomes available to all users of that device. There's no way to isolate printers between users on shared devices.
 
-## Limitations of shared device mode in the public preview release
-
-### Primary user
-
-Each Microsoft Intune device has a primary user, which is assigned when a device is set up by Autopilot. But when devices are shared, Intune requires that the primary user is removed.
-
-> [!IMPORTANT]
-> While shared device mode is in public preview, be sure to remove the primary user by following these steps: sign in to the Microsoft Endpoint Manager admin center, select **Devices**>**All devices**, select a device, then select **Properties**>**Remove primary user**, and delete the user listed there.
-
 ### Deploying apps with Company Portal
 
 Some apps probably don't need to be present on all devices, so you might prefer that users only install those apps when they need them from [Company Portal](/mem/intune/user-help/install-apps-cpapp-windows).
 
-Microsoft Managed Desktop disables Company Portal by default for devices in shared device mode. If you want the Company Portal enabled, you can file a [change request](../working-with-managed-desktop/admin-support.md). However, you should be aware of some limitations in this feature in this public preview:
+Microsoft Managed Desktop disables Company Portal by default for devices in shared device mode. If you want the Company Portal enabled, you can file a [change request](../working-with-managed-desktop/admin-support.md). However, you should be aware of some limitations in this feature:
 
 - To make an app available to users in Company Portal, [assign a user group](/mem/intune/apps/apps-deploy) to that app in Intune and then add each user to that user group.
-- Devices can't have a [primary user](#primary-user).
 - To uninstall an app that a user installed through Company Portal, you must uninstall the app from all users on that device.
 
 > [!CAUTION]
@@ -150,7 +151,7 @@ Microsoft Managed Desktop disables Company Portal by default for devices in shar
 
 ### Redeployment of Microsoft 365 Apps for Enterprise
 
-During public preview, if Microsoft 365 Apps must be redeployed, users must contact their local support staff to request an agent elevate and reinstall Microsoft 365 Apps for enterprise on that device.
+If Microsoft 365 Apps must be redeployed, users must contact their local support staff to request an agent elevate and reinstall Microsoft 365 Apps for enterprise on that device.
 
 ### Microsoft Teams
 
