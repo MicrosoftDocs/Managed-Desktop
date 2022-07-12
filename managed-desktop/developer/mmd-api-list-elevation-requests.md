@@ -38,7 +38,7 @@ One of the following permissions is required to call this API.
 ## HTTP request
 
 ```http
-GET https://mmdls.microsoft.com/support/odata/v1/tickets
+GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationRequests
 ```
 
 ## Request headers
@@ -63,7 +63,7 @@ If successful, this method returns a 200 OK response code and a list of ticket
 Here is an HTTP example to list the first two elevation requests.
 
 ```http
-GET https://mmdls.microsoft.com/support/odata/v1/tickets?$skip=0&$top=2
+GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationRequests?$skip=0&$top=2
 ```
 
 ### List elevation response
@@ -135,7 +135,7 @@ Here is an example of the JSON response.
 Here is an HTTP example to list all elevation requests for a specific device.
 
 ```http
-GET https://mmdls.microsoft.com/support/odata /v1/tenants/{tenantId}/elevationRequests?$filter=deviceName eq ' MMD-03690457680'
+GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationRequests?$filter=deviceName eq 'MMD-03690457680'
 ```
 
 ### List elevation requests for a device response
@@ -207,7 +207,7 @@ Here is an example of the JSON response.
 Here is an HTTP example to list all elevation requests with category of ‘Office’.
 
 ```http
-GET https://mmd-support-preprod-nam.trafficmanager.net/odata/v1/tenants/{tenantId}/elevationRequests?$filter=contains(category,'Office')
+GET https://mmdls.microsoft.com/odata/v1/tenants/{tenantId}/elevationRequests?$filter=contains(category,'Office')
 ```
 
 ### List elevation requests filtered by category response
