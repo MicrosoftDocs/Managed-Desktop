@@ -207,7 +207,7 @@ Here is an example of the JSON response.
 Here is an HTTP example to list all elevation requests with category of ‘Office’.
 
 ```http
-GET https://mmd-support-preprod-nam.trafficmanager.net/odata/v1/tenants/{tenantId}/elevationRequests?$filter=contains(category,'Office')
+GET https://mmdls.microsoft.com/odata/v1/tenants/{tenantId}/elevationRequests?$filter=contains(category,'Office')
 ```
 
 ### List elevation requests filtered by category response

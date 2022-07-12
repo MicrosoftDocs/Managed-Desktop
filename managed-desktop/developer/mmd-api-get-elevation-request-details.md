@@ -64,7 +64,7 @@ Here is an example of the JSON response.
 
 ```json
 { 
-    "@odata.context": "https://mmd-support-preprod-nam.trafficmanager.net/odata/v1/$metadata#Microsoft.ManagedDesktop.DeviceElevationDetail", 
+    "@odata.context": "https://mmd-support-prod-nam.trafficmanager.net/odata/v1/$metadata#Microsoft.ManagedDesktop.DeviceElevationDetail", 
     "tenantId": "Tenant Id", 
     "deviceName": "MMD-03690457680", 
     "openedElevationRequestId": "Elevation Request Id", 
