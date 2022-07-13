@@ -65,7 +65,7 @@ The scenario outlined in this article assumes that you already have the followin
     | Name | OAuth Scope |
     | --- | --- |
     | Enter a unique name for the record, such as `mmd_offlineaccess` | Enter `offline_access` |
-    | Enter a unique name for the record, such as `mmd_openid` | Enter `openid`.|
+    | Enter a unique name for the record, such as `mmd_openid` | Enter `openid`|
     | Enter a unique name for the record, such as `mmd_api_user` (For user context) | Enter `https://mwaas-services-customerapi-ppe.azurewebsites.net/MmdSupport.ReadWrite` |
     | Enter a unique name for the record, such as `mmd_api_app` (For application context) | Enter `https://mwaas-services-customerapi-ppe.azurewebsites.net/.Default` |
 7. In the **OAuth Entity Profiles** related list, open the default profile record.
@@ -110,7 +110,14 @@ The scenario outlined in this article assumes that you already have the followin
 1. Select the **New** button and select **Action**.
 1. Fill in the **Action Properties** (example GET MMD device details) and select **Submit**.
 1. Define action inputs by selecting **+ Create Input** and enter the following values:
+
+| Label | Name | Type | Mandatory |
+| ----- | ----- | ----- | ----- |
+| Tenant id | tenant_id | String | Turn on |
+| Device name | device_name | String | Turn on |
+
 ![Action input screen](../media/api/action-input.png)
+
 1. Add an action step after Inputs and select **REST** (Perform a REST web service request).
 1. Under **Connection Details**:
     1. **Connection**: Use Connection Alias
