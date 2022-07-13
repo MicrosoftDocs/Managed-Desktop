@@ -22,14 +22,14 @@ The scenario outlined in this article assumes that you already have the followin
 
 - A ServiceNow instance with Integration Hub subscription.
 - A user account with the admin role in ServiceNow.
-- Your organization’s ServiceNow instance URL typically looks like `https://\<your-organization-domain\>.service-now.com`.
+- Your organization’s ServiceNow instance URL typically looks like `https://<your-organization-domain>.service-now.com`.
 
 ### Create an Azure AD app
 
 **To create an Azure AD app:**
 
 1. Register and configure an application in Azure Active Directory with [application context](mmd-api-access-app-context.md) or [user context](mmd-api-access-user-context.md).
-2. In **Redirect URI**, enter your ServiceNow instance URL in this format: `https://\<Instance-Name\>.service-now.com/oauth_redirect.do`.
+2. In **Redirect URI**, enter your ServiceNow instance URL in this format: `https://<Instance-Name>.service-now.com/oauth_redirect.do`.
 3. Note the following values:
     1. The client (application) ID assigned by the Azure app registration portal.
     2. The client (application) secret.
@@ -63,8 +63,8 @@ The scenario outlined in this article assumes that you already have the followin
     | --- | --- |
     | Enter a unique name for the record, such as `mmd_offlineaccess` | Enter `offline_access` |
     | Enter a unique name for the record, such as `mmd_openid` | Enter openid.|
-    | Enter a unique name for the record, such as `mmd_api_user` (For user context) | Enter `https://mwaas-services-customerapi-ppe.azurewebsites.net/MmdSupport.ReadWrite` |
-    | Enter a unique name for the record, such as `mmd_api_app` (For application context) | Enter `https://mwaas-services-customerapi-ppe.azurewebsites.net/.Default` |
+    | Enter a unique name for the record, such as `mmd_api_user` (For user context) | Enter `https://mwaas-services-customerapi-prod.azurewebsites.net/MmdSupport.ReadWrite` |
+    | Enter a unique name for the record, such as `mmd_api_app` (For application context) | Enter `https://mwaas-services-customerapi-prod.azurewebsites.net/.Default` |
 7. In the **OAuth Entity Profiles** related list, open the default profile record.
 8. Add the entity scopes created based on grant type.
 
@@ -120,7 +120,7 @@ The scenario outlined in this article assumes that you already have the followin
 1. Under Connection Details:
 1. **Connection**: Use Connection Alias
 1. **Connection Alias**: Select the connection alias you’ve previously set up. For example, select MMD API Connection.
-1. Confirm **Base URL** auto-populates with `https://mmdlsppe.microsoft.com/support/odata/v1/`.
+1. Confirm **Base URL** auto-populates with `https://mmdls.microsoft.com/support/odata/v1/`.
 1. Under Request Details:
 1. **Build Request**: Manually
 1. **Resource Path**: `tenants/{tenant_Id data pill}/*devices/{device_name data pill}`*Note: drag and drop the data pills of the input variables you created in the previous step.
