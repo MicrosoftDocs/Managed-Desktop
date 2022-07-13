@@ -53,19 +53,19 @@ The scenario outlined in this article assumes that you already have the followin
 
     | Field | Value |
     | --- | --- |
-    | Name | Enter any name to uniquely identify the record. For example, enter MMD API OAuth. |
+    | Name | Enter any name to uniquely identify the record. For example, enter `MMD API OAuth`. |
     | Client Id | Enter the client (application) ID assigned by the Azure app registration portal. |
     | Client Secret | Enter the client (application) secret. |
     | Default Grant type | Select: <ul><li>Client Credentials for application context.</li><li>Authorization Code for user context.</li></ul>  |
-    | Authorization URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize`. Replace {tenantId} with your Azure AD directory ID. |
-    | Token URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token`. Replace {tenantId} with your Azure AD directory ID. |
+    | Authorization URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize`. Replace `{tenantId}` with your Azure AD directory ID. |
+    | Token URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token`. Replace `{tenantId}` with your Azure AD directory ID. |
     | Redirect URL | Enter `https://.service-now.com/oauth_redirect.do` |
 1. In the **OAuth Entity Scopes** related list, create these entries:
 
     | Name | OAuth Scope |
     | --- | --- |
     | Enter a unique name for the record, such as `mmd_offlineaccess` | Enter `offline_access` |
-    | Enter a unique name for the record, such as `mmd_openid` | Enter openid.|
+    | Enter a unique name for the record, such as `mmd_openid` | Enter `openid`.|
     | Enter a unique name for the record, such as `mmd_api_user` (For user context) | Enter `https://mwaas-services-customerapi-ppe.azurewebsites.net/MmdSupport.ReadWrite` |
     | Enter a unique name for the record, such as `mmd_api_app` (For application context) | Enter `https://mwaas-services-customerapi-ppe.azurewebsites.net/.Default` |
 1. In the **OAuth Entity Profiles** related list, open the default profile record.
@@ -83,7 +83,7 @@ The scenario outlined in this article assumes that you already have the followin
 
     | Field  | Value |
     | --- | --- |
-    | Name | Enter any name to uniquely identify the record. For example, enter MMD API Credentials. |
+    | Name | Enter any name to uniquely identify the record. For example, enter `MMD API Credentials`. |
     | Active  | Checked |
     | OAuth Entity Profile | Select the OAuth profile you created when you registered the custom Azure AD application as an OAuth provider. For example, select `MMD API OAuth default_profile`. |
 1. Select **Submit**.
@@ -99,8 +99,8 @@ The scenario outlined in this article assumes that you already have the followin
 
     | Field | Value |
     | --- | --- |
-    | Name | Enter any name to uniquely identify the record. For example, enter MMD API Connection. |
-    | Credential | Select the Credential record you created for Azure AD. For example, select MMD API Credentials. |
+    | Name | Enter any name to uniquely identify the record. For example, enter `MMD API Connection`. |
+    | Credential | Select the Credential record you created for Azure AD. For example, select **MMD API Credentials**. |
     | Connection URL | Enter `https://mmdls.microsoft.com/support/odata/v1/` |
 1. Select **Submit**.
 
@@ -132,7 +132,7 @@ The scenario outlined in this article assumes that you already have the followin
 1. **HTTP Method**: GET
 1. **Headers**:
     1. Name: Authorization
-    2. Value: Bearer `{Credential Value data pill}`|
+    2. Value: Bearer `{Credential Value data pill}`
 ![Request details screen](../media/api/request-details.png)
 1. Select **Save** to save a draft of your action.
 1. Select **Test** to test and validate your new action:
@@ -141,4 +141,4 @@ The scenario outlined in this article assumes that you already have the followin
 1. Select **Run Test**.
 1. After Flow Designer is done processing test action, select **Your test has finished running. View the action execution details**, to validate the response.
 1. In the **Execution Details** tab that opens, navigate to **ACTION \>** Expand **Steps \> Step Output Data**.
-1. Confirm the 200 **Status code** and the JSON in **Response Body** if action was successful.
+1. Confirm the **200 Status code** and the JSON in **Response Body** if action was successful.
