@@ -116,9 +116,7 @@ The scenario outlined in this article assumes that you already have the followin
 | Tenant id | tenant_id | String | Turn on |
 | Device name | device_name | String | Turn on |
 
-![Action input screen](../media/api/action-input.png)
-
-1. Add an action step after Inputs and select **REST** (Perform a REST web service request).
+5. Add an action step after Inputs and select **REST** (Perform a REST web service request).
 1. Under **Connection Details**:
     1. **Connection**: Use Connection Alias
     2. **Connection Alias**: Select the connection alias you’ve previously set up. For example, select MMD API Connection.
@@ -126,10 +124,10 @@ The scenario outlined in this article assumes that you already have the followin
 1. Under **Request Details**:
     1. **Build Request**: Manually
     2. **Resource Path**: `tenants/{tenant_Id data pill}/*devices/{device_name data pill}`**Note**: drag and drop the data pills of the input variables you created in the previous step.
-    3. **HTTP Method**: GET
-    4. **Headers**:
-        1. Name: Authorization
-        2. Value: Bearer `{Credential Value data pill}`
+1. **HTTP Method**: GET
+1. **Headers**:
+    1. Name: Authorization
+    2. Value: Bearer `{Credential Value data pill}`
 ![Request details screen](../media/api/request-details.png)
 1. Select **Save** to save a draft of your action.
 1. Select **Test** to test and validate your new action:
