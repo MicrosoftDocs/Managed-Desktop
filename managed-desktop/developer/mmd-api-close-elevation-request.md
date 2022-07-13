@@ -30,7 +30,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## HTTP request
 
 ```http
-PATCH https://mmdls.microsoft.com/support/odata/v1 /tenants/{tenantId}/elevationRequests/{elevationRequestId}
+PATCH https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationRequests/{elevationRequestId}
 ```
 
 ## Request headers
