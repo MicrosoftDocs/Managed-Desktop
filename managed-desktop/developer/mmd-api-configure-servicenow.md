@@ -60,7 +60,7 @@ The scenario outlined in this article assumes that you already have the followin
     | Authorization URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize`. Replace `{tenantId}` with your Azure AD directory ID. |
     | Token URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token`. Replace `{tenantId}` with your Azure AD directory ID. |
     | Redirect URL | Enter `https://.service-now.com/oauth_redirect.do` |
-1. In the **OAuth Entity Scopes** related list, create these entries:
+6. In the **OAuth Entity Scopes** related list, create these entries:
 
     | Name | OAuth Scope |
     | --- | --- |
@@ -68,8 +68,8 @@ The scenario outlined in this article assumes that you already have the followin
     | Enter a unique name for the record, such as `mmd_openid` | Enter `openid`.|
     | Enter a unique name for the record, such as `mmd_api_user` (For user context) | Enter `https://mwaas-services-customerapi-ppe.azurewebsites.net/MmdSupport.ReadWrite` |
     | Enter a unique name for the record, such as `mmd_api_app` (For application context) | Enter `https://mwaas-services-customerapi-ppe.azurewebsites.net/.Default` |
-1. In the **OAuth Entity Profiles** related list, open the default profile record.
-1. Add the entity scopes created based on grant type.
+7. In the **OAuth Entity Profiles** related list, open the default profile record.
+8. Add the entity scopes created based on grant type.
 
 ### Create credential records
 
@@ -85,9 +85,9 @@ The scenario outlined in this article assumes that you already have the followin
     | --- | --- |
     | Name | Enter any name to uniquely identify the record. For example, enter `MMD API Credentials`. |
     | Active  | Checked |
-    | OAuth Entity Profile | Select the OAuth profile you created when you registered the custom Azure AD application as an OAuth provider. For example, select `MMD API OAuth default_profile`. |
-1. Select **Submit**.
-1. Optional: If you require both the **Authorization Code** and **Client Credentials** grant types to perform certain actions, create a child alias.
+    | OAuth Entity Profile | Select the OAuth profile you created when you registered the custom Azure AD application as an OAuth provider. For example, select **MMD API OAuth default_profile**. |
+6. Select **Submit**.
+7. Optional: If you require both the **Authorization Code** and **Client Credentials** grant types to perform certain actions, create a child alias.
 
 ### Create connection records
 
@@ -102,7 +102,7 @@ The scenario outlined in this article assumes that you already have the followin
     | Name | Enter any name to uniquely identify the record. For example, enter `MMD API Connection`. |
     | Credential | Select the Credential record you created for Azure AD. For example, select **MMD API Credentials**. |
     | Connection URL | Enter `https://mmdls.microsoft.com/support/odata/v1/` |
-1. Select **Submit**.
+4. Select **Submit**.
 
 #### Example: Create an action using Microsoft Managed Desktop API
 
@@ -111,28 +111,28 @@ The scenario outlined in this article assumes that you already have the followin
 1. Fill in the **Action Properties** (example GET MMD device details) and select **Submit**.
 1. Define action inputs by selecting **+ Create Input**:
     1. Tenant Id
-        2. Label:Tenant Id
-        1. Name: `tenant_id`
-        1. Type: String
-        1. Mandatory: Yes
-    1. Device Name
+        1. Label: Tenant Id
+        2. Name: `tenant_id`
+        3. Type: String
+        4. Mandatory: Yes
+    2. Device Name
         1. Label: Device name
-        1. Name: `device_name`
-        1. Type: String
-        1. Mandatory: Yes
+        2. Name: `device_name`
+        3. Type: String
+        4. Mandatory: Yes
 ![Action input screen](../media/api/action-input.png)
 1. Add an action step after Inputs and select **REST** (Perform a REST web service request).
 1. Under Connection Details:
-1. **Connection**: Use Connection Alias
-1. **Connection Alias**: Select the connection alias you’ve previously set up. For example, select MMD API Connection.
+    1. **Connection**: Use Connection Alias
+    2. **Connection Alias**: Select the connection alias you’ve previously set up. For example, select MMD API Connection.
 1. Confirm **Base URL** auto-populates with `https://mmdlsppe.microsoft.com/support/odata/v1/`.
 1. Under Request Details:
-1. **Build Request**: Manually
-1. **Resource Path**: `tenants/{tenant_Id data pill}/*devices/{device_name data pill}`**Note**: drag and drop the data pills of the input variables you created in the previous step.
-1. **HTTP Method**: GET
-1. **Headers**:
-    1. Name: Authorization
-    2. Value: Bearer `{Credential Value data pill}`
+    1. **Build Request**: Manually
+    2. **Resource Path**: `tenants/{tenant_Id data pill}/*devices/{device_name data pill}`**Note**: drag and drop the data pills of the input variables you created in the previous step.
+    3. **HTTP Method**: GET
+    4. **Headers**:
+        1. Name: Authorization
+        2. Value: Bearer `{Credential Value data pill}`
 ![Request details screen](../media/api/request-details.png)
 1. Select **Save** to save a draft of your action.
 1. Select **Test** to test and validate your new action:
@@ -140,5 +140,5 @@ The scenario outlined in this article assumes that you already have the followin
 1. Enter a valid Microsoft Managed Desktop device name.
 1. Select **Run Test**.
 1. After Flow Designer is done processing test action, select **Your test has finished running. View the action execution details**, to validate the response.
-1. In the **Execution Details** tab that opens, navigate to **ACTION \>** Expand **Steps \> Step Output Data**.
+1. In the **Execution Details** tab that opens, navigate to **ACTION \>**Expand Steps**\>Step Output Data**.
 1. Confirm the **200 Status code** and the JSON in **Response Body** if action was successful.
