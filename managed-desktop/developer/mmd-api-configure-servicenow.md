@@ -34,6 +34,7 @@ The scenario outlined in this article assumes that you already have the followin
     1. The client (application) ID assigned by the Azure app registration portal.
     2. The client (application) secret.
 4. Add necessary API permissions:
+
     | Permission | Type |
     | --- | --- |
     | offline_access | Delegated |
@@ -49,6 +50,7 @@ The scenario outlined in this article assumes that you already have the followin
 3. Select **New**.
 4. The system displays the message **What kind of OAuth application?** Select **Connect to a third party OAuth Provider**.
 5. Enter the following values:
+
     | Field | Value |
     | --- | --- |
     | Name | Enter any name to uniquely identify the record. For example, enter MMD API OAuth. |
@@ -58,15 +60,16 @@ The scenario outlined in this article assumes that you already have the followin
     | Authorization URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize`. Replace {tenantId} with your Azure AD directory ID. |
     | Token URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token`. Replace {tenantId} with your Azure AD directory ID. |
     | Redirect URL | Enter `https://.service-now.com/oauth_redirect.do` |
-6. In the **OAuth Entity Scopes** related list, create these entries:
+1. In the **OAuth Entity Scopes** related list, create these entries:
+
     | Name | OAuth Scope |
     | --- | --- |
     | Enter a unique name for the record, such as `mmd_offlineaccess` | Enter `offline_access` |
     | Enter a unique name for the record, such as `mmd_openid` | Enter openid.|
     | Enter a unique name for the record, such as `mmd_api_user` (For user context) | Enter `https://mwaas-services-customerapi-ppe.azurewebsites.net/MmdSupport.ReadWrite` |
     | Enter a unique name for the record, such as `mmd_api_app` (For application context) | Enter `https://mwaas-services-customerapi-ppe.azurewebsites.net/.Default` |
-7. In the **OAuth Entity Profiles** related list, open the default profile record.
-8. Add the entity scopes created based on grant type.
+1. In the **OAuth Entity Profiles** related list, open the default profile record.
+1. Add the entity scopes created based on grant type.
 
 ### Create credential records
 
@@ -77,13 +80,14 @@ The scenario outlined in this article assumes that you already have the followin
 3. Select **New**.
 4. The system displays the message **What type of Credentials would you like to create?** Select **OAuth 2.0 Credentials**.
 5. Enter the following values:
+
     | Field  | Value |
     | --- | --- |
     | Name | Enter any name to uniquely identify the record. For example, enter MMD API Credentials. |
     | Active  | Checked |
     | OAuth Entity Profile | Select the OAuth profile you created when you registered the custom Azure AD application as an OAuth provider. For example, select `MMD API OAuth default_profile`. |
-6. Select **Submit**.
-7. Optional: If you require both the **Authorization Code** and **Client Credentials** grant types to perform certain actions, create a child alias.
+1. Select **Submit**.
+1. Optional: If you require both the **Authorization Code** and **Client Credentials** grant types to perform certain actions, create a child alias.
 
 ### Create connection records
 
@@ -92,12 +96,13 @@ The scenario outlined in this article assumes that you already have the followin
 1. Navigate to **All** \> **Connections & Credentials** \> **Connection**.
 2. Select the **New** button in the Connections related list.
 3. Enter these values:
+
     | Field | Value |
     | --- | --- |
     | Name | Enter any name to uniquely identify the record. For example, enter MMD API Connection. |
     | Credential | Select the Credential record you created for Azure AD. For example, select MMD API Credentials. |
     | Connection URL | Enter `https://mmdls.microsoft.com/support/odata/v1/` |
-4. Select **Submit**.
+1. Select **Submit**.
 
 #### Example: Create an action using Microsoft Managed Desktop API
 
@@ -123,12 +128,12 @@ The scenario outlined in this article assumes that you already have the followin
 1. Confirm **Base URL** auto-populates with `https://mmdlsppe.microsoft.com/support/odata/v1/`.
 1. Under Request Details:
 1. **Build Request**: Manually
-1. **Resource Path**: `tenants/{tenant_Id data pill}/*devices/{device_name data pill}`*Note: drag and drop the data pills of the input variables you created in the previous step.
+1. **Resource Path**: `tenants/{tenant_Id data pill}/*devices/{device_name data pill}`**Note**: drag and drop the data pills of the input variables you created in the previous step.
 1. **HTTP Method**: GET
 1. **Headers**:
     1. Name: Authorization
     2. Value: Bearer `{Credential Value data pill}`|
-1. ![Request details screen](../media/api/request-details.png)
+![Request details screen](../media/api/request-details.png)
 1. Select **Save** to save a draft of your action.
 1. Select **Test** to test and validate your new action:
 1. Enter your Azure AD directory ID.
