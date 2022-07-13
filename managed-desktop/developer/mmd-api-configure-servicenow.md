@@ -111,10 +111,10 @@ The scenario outlined in this article assumes that you already have the followin
 1. Fill in the **Action Properties** (example GET MMD device details) and select **Submit**.
 1. Define action inputs by selecting **+ Create Input** and enter the following values:
 
-| Label | Name | Type | Mandatory |
-| ----- | ----- | ----- | ----- |
-| Tenant id | tenant_id | String | Turn on |
-| Device name | device_name | String | Turn on |
+    | Label | Name | Type | Mandatory |
+    | ----- | ----- | ----- | ----- |
+    | Tenant id | tenant_id | String | Turn on |
+    | Device name | device_name | String | Turn on |
 
 5. Add an action step after Inputs and select **REST** (Perform a REST web service request).
 1. Under **Connection Details**:
