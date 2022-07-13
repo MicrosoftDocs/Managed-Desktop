@@ -109,24 +109,14 @@ The scenario outlined in this article assumes that you already have the followin
 1. Navigate to **Process Automation** \> **Flow Designer**.
 1. Select the **New** button and select **Action**.
 1. Fill in the **Action Properties** (example GET MMD device details) and select **Submit**.
-1. Define action inputs by selecting **+ Create Input**:
-    1. Tenant Id
-        1. Label: Tenant Id
-        2. Name: `tenant_id`
-        3. Type: String
-        4. Mandatory: Yes
-    2. Device Name
-        1. Label: Device name
-        2. Name: `device_name`
-        3. Type: String
-        4. Mandatory: Yes
+1. Define action inputs by selecting **+ Create Input** and enter the following values:
 ![Action input screen](../media/api/action-input.png)
 1. Add an action step after Inputs and select **REST** (Perform a REST web service request).
-1. Under Connection Details:
+1. Under **Connection Details**:
     1. **Connection**: Use Connection Alias
     2. **Connection Alias**: Select the connection alias you’ve previously set up. For example, select MMD API Connection.
 1. Confirm **Base URL** auto-populates with `https://mmdlsppe.microsoft.com/support/odata/v1/`.
-1. Under Request Details:
+1. Under **Request Details**:
     1. **Build Request**: Manually
     2. **Resource Path**: `tenants/{tenant_Id data pill}/*devices/{device_name data pill}`**Note**: drag and drop the data pills of the input variables you created in the previous step.
     3. **HTTP Method**: GET
