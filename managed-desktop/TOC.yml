@@ -129,7 +129,7 @@
                     items:
                       - name: Partner registration
                         href: get-started/partner-registration.md
-                      - name: Window Autopilot registration from Microsoft Endpoint working-with-managed-desktop/remove-devices.md
+                      - name: Window Autopilot registration from Microsoft Endpoint Manager
                         href: get-started/windows-autopilot-registration.md
                   - name: Manual registration
                     href:
