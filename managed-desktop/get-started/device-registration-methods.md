@@ -57,7 +57,7 @@ Any device registration that occurs outside the Microsoft Managed Desktop’s de
 
 - [Partner center](partner-registration.md#register-devices-using-the-partner-center)
 - [OEM API](partner-registration.md#register-devices-by-using-the-oem-api)
-- Registration in the Windows Autopilot devices blade
+- [Registration in the Windows Autopilot devices blade](windows-autopilot-registration.md)
 
 ## Manual registration
 
@@ -81,12 +81,11 @@ See the following high-level overview workflow diagram. The diagram covers the a
 1. Partner, OEM, or IT admin gather hardware hashes for devices that need to be registered.
 2. Partner, OEM, or IT admin builds up the .CSV file containing the following:
     1. All hardware hashes for devices that need to be registered.
-    2. Microsoft Managed Desktop-specific Intune group tags.
-        1. The Intune group tags specific to Microsoft Managed Desktop are:
-            1. **Microsoft365Managed_Standard**
-            2. **Microsoft365Managed_SensitiveData**
-            3. **Microsoft365Managed_PowerUser**
-            4. You can also append **-Shared** to both the **Standard** and **SensitiveData** group tags. Power User isn't supported. (Example: **Microsoft365Managed_Standard-Shared**, **Microsoft365Managed_SensitiveData-Shared**)
+    2. Microsoft Managed Desktop-specific Intune group tags. The Intune group tags specific to Microsoft Managed Desktop are:
+        1. **Microsoft365Managed_Standard**
+        2. **Microsoft365Managed_SensitiveData**
+        3. **Microsoft365Managed_PowerUser**
+        4. You can also append **-Shared** to both the **Standard** and **SensitiveData** group tags. Power User isn't supported. (Example: **Microsoft365Managed_Standard-Shared**, **Microsoft365Managed_SensitiveData-Shared**)
     3. The Microsoft Managed Desktop-specific device configuration profiles such as Standard, Sensitive, Power user or Shared device.
 3. Partner, OEM, or IT admin uploads the .CSV file into either via Partner center, using OEM APIs or through the Windows Autopilot devices blade in the Microsoft Endpoint Manager portal.
 4. Microsoft Managed Desktop has a function that checks for assigned devices in all three Microsoft Managed Desktop Windows Autopilot profiles every hour.
@@ -110,10 +109,10 @@ See the following high-level overview workflow diagram. The diagram covers the a
         2. **Modern Workplace Devices – Shared Device Mode** (this is in case the device was registered by Partner, OEM or, IT admin with **-Shared** appended one of the Intune group tags used by Microsoft Managed Desktop.
 8. Microsoft Managed Desktop assigns the device configuration profiles to devices. For more information, see [Device profiles](../service-description/profiles.md). The device configuration profiles are defined as:
     1. **Standard**
-    2. **Sensitive data**
-    3. **Power User**
+    1. **Sensitive data**
+    1. **Power User**
 9. Microsoft Managed Desktop validates whether devices are part of the assigned devices in one of the Windows Autopilot Deployment profiles described in step #4.
-    1. If a device is part of one of the Windows Autopilot Deployment profiles created by Microsoft Managed Desktop in your tenant, Microsoft Managed Desktop flags the device as Ready for User in its devices blade for IT admin. Partners and OEM don’t have access to the Microsoft Managed Devices blade.
+    1. If a device is part of one of the Windows Autopilot Deployment profiles created by Microsoft Managed Desktop in your tenant, Microsoft Managed Desktop flags the device as **Ready for User** in the Devices blade for the IT admin. Partners and OEM don’t have access to the Microsoft Managed Devices blade.
 10. Partners, OEM, or IT admin ship the device to the end-user.
 11. The end-user receives the device and turns the device on and runs through the Windows Out-Of-Box-Experience.
 12. Once the device runs through the steps, the end-user logs in with their corporate credentials.
@@ -173,21 +172,21 @@ The following is the high-level overview workflow diagram that covers the manual
     3. **Power User**
 17. Microsoft Managed Desktop validates whether devices are part of the assigned devices in one of the Windows Autopilot Deployment profiles.
     1. Microsoft Managed Desktop checks for assigned devices in all three Microsoft Managed Desktop Windows Autopilot profiles every hour.
-    1. The three Windows Autopilot Deployment profiles supported in Microsoft Managed Desktop are:
+    2. The three Windows Autopilot Deployment profiles supported in Microsoft Managed Desktop are:
         1. **Modern Workplace Autopilot Profile**
         2. **Modern Workplace Autopilot Profile Power User**
         3. **Modern Workplace Autopilot Profile Shared**
-18. If there are newly added devices, these devices are added into the Microsoft Managed Desktop shipped device record database.
-19. If a device is part of one of the Windows Autopilot Deployment profiles created by Microsoft Managed Desktop in your tenant, flags the device as Ready for User in its devices blade for IT admin. Partners and OEM don’ have access to the Microsoft Managed Devices blade.
-20. IT admin ships the device to the end-user.
-21. The end-user receives the device and turns the device on to run through the Windows Out-Of-Box-Experience.
-22. Once the device runs through the steps, the end-user logs in with its corporate credentials.
-23. The Microsoft Endpoint Manager-Intune device record is created.
-24. Microsoft Endpoint Manager-Intune starts delivering apps, device configuration profiles and other settings Microsoft Managed Desktop applies to your devices.
+    3. If there are newly added devices, these devices are added into the Microsoft Managed Desktop shipped device record database.
+18. If a device is part of one of the Windows Autopilot Deployment profiles created by Microsoft Managed Desktop in your tenant, flags the device as **Ready for User** in the Devices blade for the IT admin. Partners and OEM don’ have access to the Microsoft Managed Devices blade.
+19. IT admin ships the device to the end-user.
+20. The end-user receives the device and turns the device on to run through the Windows Out-Of-Box-Experience.
+21. Once the device runs through the steps, the end-user logs in with its corporate credentials.
+22. The Microsoft Endpoint Manager-Intune device record is created.
+23. Microsoft Endpoint Manager-Intune starts delivering apps, device configuration profiles and other settings Microsoft Managed Desktop applies to your devices.
     1. The number of apps assigned is listed in the Windows Autopilot Enrollment Status Page. The end-user can start using their devices because Microsoft Endpoint Manager-Intune installs apps and applies settings in the background. This is the end of the workflow for the end-user.
-25. Microsoft Managed Desktop flags the devices with the Active status in its device blade.
-26. IT admin confirms that the devices now show up as Active in Microsoft Managed Desktop’s device blade.
-27. This is the end of the manual device registration process.
+24. Microsoft Managed Desktop flags the devices with the **Active** status in its device blade.
+25. IT admin confirms that the devices now show up as **Active** in Microsoft Managed Desktop’s device blade.
+26. This is the end of the manual device registration process.
 
 ## Steps to get started with Microsoft Managed Desktop
 
