@@ -63,8 +63,6 @@
           href: service-description/servicechanges.md
         - name: Exceptions to the service plan
           href: service-description/customizing.md
-        - name: Shared devices
-          href: service-description/shared-devices.md
     - name: Get ready for enrollment in Microsoft Managed Desktop
       href: get-ready/index.md
       items: 
@@ -115,7 +113,7 @@
           href: get-started/localization.md
         - name: Validate new devices
           href: get-started/validate-device.md
-        - name: Prepare devices
+        - name: Register devices
           href: 
           items: 
             - name: Get started
@@ -123,15 +121,25 @@
             - name: Device registration
               href:
               items:
-              - name: Device registration methods
+              - name: Device registration
                 href: get-started/device-registration-methods.md
                 items: 
+                  - name: Auto-registration
+                    href:
+                    items:
+                      - name: Partner registration
+                        href: get-started/partner-registration.md
+                      - name: Window Autopilot registration from Microsoft Endpoint working-with-managed-desktop/remove-devices.md
+                        href: get-started/windows-autopilot-registration.md
                   - name: Manual registration
-                    href: get-started/manual-registration.md
-                  - name: Partner registration
-                    href: get-started/partner-registration.md
-                  - name: Manual registration for existing devices
-                    href: get-started/manual-registration-existing-devices.md
+                    href:
+                    items:
+                      - name: Manual registration for new devices
+                        href: get-started/manual-registration.md
+                      - name: Manual registration for existing devices
+                        href: get-started/manual-registration-existing-devices.md
+                  - name: Shared devices
+                    href: service-description/shared-devices.md
                   - name: Virtual device registration
                     href: get-started/virtual-device-registration.md
         - name: Turn on user support features
