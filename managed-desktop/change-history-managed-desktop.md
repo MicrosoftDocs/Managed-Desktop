@@ -23,7 +23,8 @@ This article lists new and updated articles in the [Microsoft Managed Desktop do
 
 | New or changed article | Description |
 | ----- | ----- |
-| [Shared devices](service-description/shared-devices.md#steps-to-register-devices-to-use-the-windows-autopilot-self-deploying-mode-profile) | Added instructions on how to manually register devices from the Microsoft Managed Desktop devices blade |
+| [Device registration](get-started/device-registration-methods.md) | Added detailed auto-registration and manual registration diagrams and process information. |
+| [Windows Autopilot registration in Microsoft Endpoint Manager](get-started/windows-autopilot-registration.md) | Added instructions on how to manually register devices from the Microsoft Managed Desktop devices blade |
 | [Virtual device registration](get-started/virtual-device-registration.md) | Added new section |
 
 ## June 2022
