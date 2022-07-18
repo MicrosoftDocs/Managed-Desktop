@@ -30,7 +30,7 @@ Whether you choose to use auto or manual registration, the overall device regist
         1. When using auto-registration, a partner uploads devices into the Windows Autopilot service on your behalf via either Partner Center or OEM APIs.
         2. You can also upload a .CSV file in the Windows Autopilot devices blade yourself, which is also considered an auto-registration method for Microsoft Managed Desktop as it’s outside its devices blade.
     2. Manual registration:
-        1. When using manual registration, register devices into the Windows Autopilot service.
+        1. When using manual registration, register devices into the Microsoft Managed Desktop Devices blade.
 2. Assign devices into Microsoft Managed Desktop’s Windows Autopilot deployment profiles using the OrderID/Intune group tag.
 3. Register devices to Microsoft Managed Desktop’s deployment group distribution.
 4. Assign devices to the Microsoft Managed Desktop’s deployment groups.
@@ -61,7 +61,7 @@ Any device registration that occurs outside the Microsoft Managed Desktop’s de
 
 ## Manual registration
 
-Any device registration that occurs from within the Microsoft Managed Desktop’s device blade is considered a manual registration method. This process is very similar to the Windows Autopilot’s manual registration process where you utilize a .CSV file containing the devices you want to register with the Microsoft Managed Desktop service.
+Any device registration that originated from the Microsoft Managed Desktop's Devices blade is considered to be a manual registration method. This process is very similar to the Windows Autopilot’s manual registration process where you utilize a .CSV file containing the devices you want to register with the Microsoft Managed Desktop service.
 
 The manual registration methods are:  
 
@@ -74,19 +74,25 @@ The manual registration methods are:
 
 See the following high-level overview workflow diagram. The diagram covers the auto-registration process in Microsoft Managed Desktop:
 
-:::image type="content" source="../media/device-registration/auto-registration-high-level-workflow-diagram.png" alt-text="High level auto-registration workflow diagram":::
+:::image type="content" source="../media/device-registration/auto-registration-high-level-workflow-diagram.png" alt-text="Detailed auto-registration workflow diagram":::
 
 #### Auto-registration workflow diagram steps
 
 1. Partner, OEM, or IT admin gather hardware hashes for devices that need to be registered.
-2. Partner, OEM, or IT admin builds up the .CSV file containing the following:
+2. Partner, OEM, or IT admin builds the .CSV file containing the following information:
     1. All hardware hashes for devices that need to be registered.
-    2. Microsoft Managed Desktop-specific Intune group tags. The Intune group tags specific to Microsoft Managed Desktop are:
+    2. A Microsoft Managed Desktop-specific Intune group tag per device. The group tags are:
         1. **Microsoft365Managed_Standard**
         2. **Microsoft365Managed_SensitiveData**
         3. **Microsoft365Managed_PowerUser**
-        4. You can also append **-Shared** to both the **Standard** and **SensitiveData** group tags. Power User isn't supported. (Example: **Microsoft365Managed_Standard-Shared**, **Microsoft365Managed_SensitiveData-Shared**)
-    3. The Microsoft Managed Desktop-specific device configuration profiles such as Standard, Sensitive, Power user or Shared device.
+    3. The breakdown of the Intune group tag string in Microsoft Managed Desktop:
+        1. The "**Microsoft365Managed**" section of the group tag string means the devices must be managed by the Microsoft Managed Desktop service.
+        2. The "**_Standard/SensitiveData/PowerUser**" section of the group tag string means the device must registered into Microsoft Managed Desktop using one of its default device configuration profiles (either Standard, SensitiveData, or Power User).
+            1. Each registered device must be assigned to one of the Microsoft Managed Desktop's default device configuration profiles. **Adding multiple device configuration profiles as par of the Intune group tag string isn't supported**.
+    4. Optional. You can also append **-Shared** to the end of the Intune group tag string when you want to register a [Kiosk/Shard device](../service-description/shared-devices.md) with Microsoft Managed Desktop. For example, **Microsoft365Managed_Standard-Shared**, or **Microsoft365Managed_SensitiveData-Shared**). **The Power User device configuration profile isn't supported**.
+        1. Two things happen when "**-Shared**" is appended to the end of the Intune group tag string:
+            1. Microsoft Managed Desktop adds these devices into an Azure AD group that has the Windows Autopilot deployment profile with Shared/Kiosk assigned. Microsoft Managed Desktop applies the Windows Autopilot self-deploying mode settings when these devices go through the Windows Out-of-the-Box-Experience.
+            2. Microsoft Managed Desktop adds these devices into the Azure AD group that receives the Shared device mode configuration profile with the Kiosk/Shared device mode settings in Microsoft Endpoint Manager-Intune once users go through the Windows Out-of-the-Box-Experience.
 3. Partner, OEM, or IT admin uploads the .CSV file into either via Partner center, using OEM APIs or through the Windows Autopilot devices blade in the Microsoft Endpoint Manager portal.
 4. Microsoft Managed Desktop has a function that checks for assigned devices in all three Microsoft Managed Desktop Windows Autopilot profiles every hour.
     1. The three Windows Autopilot Deployment profiles supported in Microsoft Managed Desktop are:
@@ -100,11 +106,10 @@ See the following high-level overview workflow diagram. The diagram covers the a
 6. Microsoft Managed Desktop runs its device deployment group assignment calculation algorithm to determine which deployment group to assign the devices to. For more information, see [Device deployment groups](../service-description/deployment-groups.md).
 7. Microsoft Managed Desktop assigns the deployment group to devices and assigns other Azure AD groups to devices.
     1. Microsoft Managed Desktop deployment groups are made of four Azure AD groups that devices get assigned to during the device registration process:
-        1. **Modern Workplace Devices-Test**
         2. **Modern Workplace Devices-First**
         3. **Modern Workplace Devices-Fast**
         4. **Modern Workplace Devices-Broad**
-    2. Other Azure AD groups that are assigned to devices in this step are:
+    1. Other Azure AD groups that are assigned to devices in this step are:
         1. **Modern Workplace Devices-All**
         2. **Modern Workplace Devices – Shared Device Mode** (this is in case the device was registered by Partner, OEM or, IT admin with **-Shared** appended one of the Intune group tags used by Microsoft Managed Desktop.
 8. Microsoft Managed Desktop assigns the device configuration profiles to devices. For more information, see [Device profiles](../service-description/profiles.md). The device configuration profiles are defined as:
@@ -127,13 +132,13 @@ See the following high-level overview workflow diagram. The diagram covers the a
 
 The following is the high-level overview workflow diagram that covers the manual device registration process in Microsoft Managed Desktop:
 
-:::image type="content" source="../media/device-registration/manual-registration-high-level-workflow-diagram.png" alt-text="High-level manual registration workflow diagram":::
+:::image type="content" source="../media/device-registration/manual-registration-high-level-workflow-diagram.png" alt-text="Detailed manual registration workflow diagram":::
 
 #### Manual registration workflow diagram steps
 
-1. IT admin gathers hardware hashes for devices that need to be registered.
-2. IT admin builds up the .CSV file containing the hardware hashes for devices that need to be registered.
-3. IT admins log into the Microsoft Endpoint Manager portal.
+1. IT admin builds the .CSV file containing the following information.
+    1. All hardware hashes for devices that need to be registered.
+2. IT admins log into the **Microsoft Endpoint Manager portal**.
     1. In the left pane, select **Devices**.
     2. Navigate to **Microsoft Managed Desktop** section, then select **Devices**.
     3. In the **Devices** blade, select **Register Devices** to upload the .CSV file containing hardware hashes for devices to be registered.
@@ -141,52 +146,54 @@ The following is the high-level overview workflow diagram that covers the manual
         1. **Standard**
         1. **Sensitive**
         1. **Power user**
-    5. Optional. If registering shared devices into the service, use the toggle to switch to [Shared device](../service-description/shared-devices.md) mode. Then, select **Register Devices**.
-4. Microsoft Managed Desktop API does four things:
+    5. Optional. You can use the toggle to switch to **[Shared device mode](../service-description/shared-devices.md)**. Then, select **Register devices** when you want to register a Kiosk/Shard device with Microsoft Managed Desktop. **The Power User device configuration profile isn't supported**.
+        1. Two things happen when you turn on **Shared device mode**:
+            1. Microsoft Managed Desktop adds these devices into an Azure AD group that has the Windows Autopilot deployment profile with Shared/Kiosk assigned. Microsoft Managed Desktop applies the Windows Autopilot self-deploying mode settings when these devices go through the Windows Out-of-the-Box-Experience.
+            1. Microsoft Managed Desktop adds these devices into the Azure AD group that receives the Shared device mode configuration profile with the Kiosk/Shared device mode settings in Microsoft Endpoint Manager-Intune once users go through the Windows Out-of-the-Box-Experience.
+3. Microsoft Managed Desktop API does four things:
     1. Reads all hardware hashes from the .CSV file.
     2. Creates an Intune group tag based on the IT admin’s Microsoft Managed Desktop’s device configuration profile’s selection.
     3. Sends a device registration request to the Microsoft Managed Desktop function app responsible for performing all the steps to register devices in the service.
     4. Flags devices with **Registration pending** status in the Devices blade.
-5. **Microsoft Managed Desktop’s function app responsible for the device registration process**. The app makes an Intune graph API call to register devices with the Windows Autopilot service.
-6. The **Windows Autopilot service** creates device records in its database based on the .CSV list imported by IT admin in Microsoft Managed Desktop’s device blade.
-7. The **Intune service** makes an Azure AD graph API call to create Azure AD device records for devices being registered in Microsoft Managed Desktop.
-8. The **Azure AD service** creates the necessary Azure AD device records.
-9. The **Azure AD service** links its device record to the Windows Autopilot device records using its OrderID with the Intune group tag mapping.
-10. The **Azure AD service** returns its respective device ID records to Intune.
-11. The **Azure AD service** also assigns devices to Windows Autopilot deployment profile based on the initial selection made by the IT admin when uploading devices into the Microsoft Managed Desktop’s device blade.
-12. The **Intune service** saves the Azure AD device ID records associated with its Windows Autopilot device records in its database.
-13. The **Intune service** sends out both Windows Autopilot and Azure AD device records back to the **Microsoft Managed Desktop service**.
-14. Microsoft Managed Desktop runs its device deployment group calculation algorithm to determine which deployment group to assign to devices to. For more information, see [Device deployment groups](../service-description/deployment-groups.md).
-15. Assigns Microsoft Managed Desktop groups to devices and assigns other groups Azure AD groups to devices.
+4. **Microsoft Managed Desktop’s function app responsible for the device registration process**. The app makes an Intune graph API call to register devices with the Windows Autopilot service.
+5. The **Windows Autopilot service** creates device records in its database based on the .CSV list imported by IT admin in Microsoft Managed Desktop’s device blade.
+6. The **Intune service** makes an Azure AD graph API call to create Azure AD device records for devices being registered in Microsoft Managed Desktop.
+7. The **Azure AD service** creates the necessary Azure AD device records.
+8. The **Azure AD service** links its device record to the Windows Autopilot device records using its OrderID with the Intune group tag mapping.
+9. The **Azure AD service** returns its respective device ID records to Intune.
+10. The **Azure AD service** also assigns devices to Windows Autopilot deployment profile based on the initial selection made by the IT admin when uploading devices into the Microsoft Managed Desktop’s device blade.
+11. The **Intune service** saves the Azure AD device ID records associated with its Windows Autopilot device records in its database.
+12. The **Intune service** sends out both Windows Autopilot and Azure AD device records back to the **Microsoft Managed Desktop service**.
+13. Microsoft Managed Desktop runs its device deployment group calculation algorithm to determine which deployment group to assign to devices to. For more information, see [Device deployment groups](../service-description/deployment-groups.md).
+14. Assigns Microsoft Managed Desktop groups to devices and assigns other groups Azure AD groups to devices.
     1. Microsoft Managed Desktop deployment groups are made of four Azure AD groups which devices get assigned to during the device registration process:
-        1. **Modern Workplace Devices-Test**
         2. **Modern Workplace Devices-First**
         3. **Modern Workplace Devices-Fast**
         4. **Modern Workplace Devices-Broad**
     2. Other Azure AD groups that are assigned to devices in this step are:
         1. **Modern Workplace Devices-All**
         2. **Modern Workplace Devices – Shared Device Mode** (this is in case the device was registered by Partner, OEM or, IT admin with **-Shared** appended one of the Intune group tags used by Microsoft Managed Desktop).
-16. Microsoft Managed desktop assigns device configuration profiles to devices. For more information, see [Device profiles](../service-description/profiles.md) for more details. The device configuration profiles are defined:
+15. Microsoft Managed desktop assigns device configuration profiles to devices. For more information, see [Device profiles](../service-description/profiles.md) for more details. The device configuration profiles are defined:
     1. **Standard**
     2. **Sensitive data**
     3. **Power User**
-17. Microsoft Managed Desktop validates whether devices are part of the assigned devices in one of the Windows Autopilot Deployment profiles.
+16. Microsoft Managed Desktop validates whether devices are part of the assigned devices in one of the Windows Autopilot Deployment profiles.
     1. Microsoft Managed Desktop checks for assigned devices in all three Microsoft Managed Desktop Windows Autopilot profiles every hour.
     2. The three Windows Autopilot Deployment profiles supported in Microsoft Managed Desktop are:
         1. **Modern Workplace Autopilot Profile**
         2. **Modern Workplace Autopilot Profile Power User**
         3. **Modern Workplace Autopilot Profile Shared**
     3. If there are newly added devices, these devices are added into the Microsoft Managed Desktop shipped device record database.
-18. If a device is part of one of the Windows Autopilot Deployment profiles created by Microsoft Managed Desktop in your tenant, flags the device as **Ready for User** in the Devices blade for the IT admin. Partners and OEM don’ have access to the Microsoft Managed Devices blade.
-19. IT admin ships the device to the end-user.
-20. The end-user receives the device and turns the device on to run through the Windows Out-Of-Box-Experience.
-21. Once the device runs through the steps, the end-user logs in with its corporate credentials.
-22. The Microsoft Endpoint Manager-Intune device record is created.
-23. Microsoft Endpoint Manager-Intune starts delivering apps, device configuration profiles and other settings Microsoft Managed Desktop applies to your devices.
+17. If a device is part of one of the Windows Autopilot Deployment profiles created by Microsoft Managed Desktop in your tenant, flags the device as **Ready for User** in the Devices blade for the IT admin. Partners and OEM don’ have access to the Microsoft Managed Devices blade.
+18. IT admin ships the device to the end-user.
+19. The end-user receives the device and turns the device on to run through the Windows Out-Of-Box-Experience.
+20. Once the device runs through the steps, the end-user logs in with its corporate credentials.
+21. The Microsoft Endpoint Manager-Intune device record is created.
+22. Microsoft Endpoint Manager-Intune starts delivering apps, device configuration profiles and other settings Microsoft Managed Desktop applies to your devices.
     1. The number of apps assigned is listed in the Windows Autopilot Enrollment Status Page. The end-user can start using their devices because Microsoft Endpoint Manager-Intune installs apps and applies settings in the background. This is the end of the workflow for the end-user.
-24. Microsoft Managed Desktop flags the devices with the **Active** status in its device blade.
-25. IT admin confirms that the devices now show up as **Active** in Microsoft Managed Desktop’s device blade.
-26. This is the end of the manual device registration process.
+23. Microsoft Managed Desktop flags the devices with the **Active** status in its device blade.
+24. IT admin confirms that the devices now show up as **Active** in Microsoft Managed Desktop’s device blade.
+25. This is the end of the manual device registration process.
 
 ## Steps to get started with Microsoft Managed Desktop
 
