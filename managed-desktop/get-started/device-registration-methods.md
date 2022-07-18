@@ -18,8 +18,8 @@ Microsoft Managed Desktop must register either existing or new devices into its 
 
 When you register your devices, the Microsoft Managed Desktop service will fully manage updates for those devices. Today Microsoft Managed Desktop supports two device registration methods:
 
-- Auto-registration
-- Manual registration from the Microsoft Managed Desktop devices blade
+- [Auto-registration](#auto-registration)
+- [Manual registration from the Microsoft Managed Desktop devices blade](#manual-registration)
 
 Whether you choose to use auto or manual registration, the overall device registration process is:
 
@@ -106,9 +106,9 @@ See the following high-level overview workflow diagram. The diagram covers the a
 6. Microsoft Managed Desktop runs its device deployment group assignment calculation algorithm to determine which deployment group to assign the devices to. For more information, see [Device deployment groups](../service-description/deployment-groups.md).
 7. Microsoft Managed Desktop assigns the deployment group to devices and assigns other Azure AD groups to devices.
     1. Microsoft Managed Desktop deployment groups are made of four Azure AD groups that devices get assigned to during the device registration process:
-        2. **Modern Workplace Devices-First**
-        3. **Modern Workplace Devices-Fast**
-        4. **Modern Workplace Devices-Broad**
+        1. **Modern Workplace Devices-First**
+        2. **Modern Workplace Devices-Fast**
+        3. **Modern Workplace Devices-Broad**
     1. Other Azure AD groups that are assigned to devices in this step are:
         1. **Modern Workplace Devices-All**
         2. **Modern Workplace Devices – Shared Device Mode** (this is in case the device was registered by Partner, OEM or, IT admin with **-Shared** appended one of the Intune group tags used by Microsoft Managed Desktop.
@@ -167,9 +167,9 @@ The following is the high-level overview workflow diagram that covers the manual
 13. Microsoft Managed Desktop runs its device deployment group calculation algorithm to determine which deployment group to assign to devices to. For more information, see [Device deployment groups](../service-description/deployment-groups.md).
 14. Assigns Microsoft Managed Desktop groups to devices and assigns other groups Azure AD groups to devices.
     1. Microsoft Managed Desktop deployment groups are made of four Azure AD groups which devices get assigned to during the device registration process:
-        2. **Modern Workplace Devices-First**
-        3. **Modern Workplace Devices-Fast**
-        4. **Modern Workplace Devices-Broad**
+        1. **Modern Workplace Devices-First**
+        2. **Modern Workplace Devices-Fast**
+        3. **Modern Workplace Devices-Broad**
     2. Other Azure AD groups that are assigned to devices in this step are:
         1. **Modern Workplace Devices-All**
         2. **Modern Workplace Devices – Shared Device Mode** (this is in case the device was registered by Partner, OEM or, IT admin with **-Shared** appended one of the Intune group tags used by Microsoft Managed Desktop).
@@ -184,7 +184,7 @@ The following is the high-level overview workflow diagram that covers the manual
         2. **Modern Workplace Autopilot Profile Power User**
         3. **Modern Workplace Autopilot Profile Shared**
     3. If there are newly added devices, these devices are added into the Microsoft Managed Desktop shipped device record database.
-17. If a device is part of one of the Windows Autopilot Deployment profiles created by Microsoft Managed Desktop in your tenant, flags the device as **Ready for User** in the Devices blade for the IT admin. Partners and OEM don’ have access to the Microsoft Managed Devices blade.
+17. If a device is part of one of the Windows Autopilot Deployment profiles created by Microsoft Managed Desktop in your tenant, flags the device as **Ready for User** in the Devices blade for the IT admin. Partners and OEM don’t have access to the Microsoft Managed Devices blade.
 18. IT admin ships the device to the end-user.
 19. The end-user receives the device and turns the device on to run through the Windows Out-Of-Box-Experience.
 20. Once the device runs through the steps, the end-user logs in with its corporate credentials.

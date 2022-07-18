@@ -116,14 +116,11 @@
         - name: Register devices
           href: 
           items: 
-            - name: Get started
+            - name: Prepare devices
               href: get-started/prepare-devices.md
             - name: Device registration
-              href:
+              href: get-started/device-registration-methods.md
               items:
-              - name: Device registration
-                href: get-started/device-registration-methods.md
-                items: 
                   - name: Auto-registration
                     href:
                     items:
