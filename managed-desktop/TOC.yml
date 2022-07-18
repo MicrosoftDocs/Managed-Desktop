@@ -118,7 +118,7 @@
           items: 
             - name: Prepare devices
               href: get-started/prepare-devices.md
-            - name: Device registration
+            - name: Device registration overview
               href: get-started/device-registration-methods.md
               items:
                   - name: Auto-registration

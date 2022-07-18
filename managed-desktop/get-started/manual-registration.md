@@ -1,5 +1,5 @@
 ---
-title: Manual registration
+title: Manual registration for new devices
 description: Register devices to be managed by Microsoft Managed Desktop
 ms.service: m365-md
 author: tiaraquan
@@ -13,7 +13,7 @@ ms.topic: article
 audience: Admin
 ---
 
-# Manual registration
+# Manual registration for new devices
 
 Microsoft Managed Desktop can work with brand-new devices, or you can reuse devices you might already have. If you reuse devices, you must reimage them. You're able to register devices with Microsoft Managed Desktop in the Microsoft Endpoint Manager portal.
 

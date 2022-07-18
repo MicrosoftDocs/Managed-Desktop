@@ -23,7 +23,7 @@ When you register your devices, the Microsoft Managed Desktop service will fully
 
 Whether you choose to use auto or manual registration, the overall device registration process is:
 
-:::image type="content" source="../media/device-registration/device-registration-overview.png" alt-text="Overview of the device registration process":::
+:::image type="content" source="../media/device-registration/device-registration-overview.png" alt-text="Overview of the device registration process" lightbox="../media/device-registration/device-registration-overview.png":::
 
 1. Register devices by:
     1. Auto-registration:
@@ -74,7 +74,7 @@ The manual registration methods are:
 
 See the following high-level overview workflow diagram. The diagram covers the auto-registration process in Microsoft Managed Desktop:
 
-:::image type="content" source="../media/device-registration/auto-registration-high-level-workflow-diagram.png" alt-text="Detailed auto-registration workflow diagram":::
+:::image type="content" source="../media/device-registration/auto-registration-high-level-workflow-diagram.png" alt-text="Detailed auto-registration workflow diagram" lightbox="../media/device-registration/auto-registration-high-level-workflow-diagram.png":::
 
 #### Auto-registration workflow diagram steps
 
@@ -132,7 +132,7 @@ See the following high-level overview workflow diagram. The diagram covers the a
 
 The following is the high-level overview workflow diagram that covers the manual device registration process in Microsoft Managed Desktop:
 
-:::image type="content" source="../media/device-registration/manual-registration-high-level-workflow-diagram.png" alt-text="Detailed manual registration workflow diagram":::
+:::image type="content" source="../media/device-registration/manual-registration-high-level-workflow-diagram.png" alt-text="Detailed manual registration workflow diagram" lightbox="../media/device-registration/manual-registration-high-level-workflow-diagram.png":::
 
 #### Manual registration workflow diagram steps
 
