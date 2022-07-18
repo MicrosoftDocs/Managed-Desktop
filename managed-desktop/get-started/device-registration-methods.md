@@ -111,7 +111,7 @@ See the following high-level overview workflow diagram. The diagram covers the a
         3. **Modern Workplace Devices-Broad**
     1. Other Azure AD groups that are assigned to devices in this step are:
         1. **Modern Workplace Devices-All**
-        2. **Modern Workplace Devices – Shared Device Mode** (this is in case the device was registered by Partner, OEM or, IT admin with **-Shared** appended one of the Intune group tags used by Microsoft Managed Desktop.
+        2. **Modern Workplace Devices - Shared Device Mode** (this is in case the device was registered by Partner, OEM or, IT admin with **-Shared** appended one of the Intune group tags used by Microsoft Managed Desktop.
 8. Microsoft Managed Desktop assigns the device configuration profiles to devices. For more information, see [Device profiles](../service-description/profiles.md). The device configuration profiles are defined as:
     1. **Standard**
     1. **Sensitive data**
@@ -172,7 +172,7 @@ The following is the high-level overview workflow diagram that covers the manual
         3. **Modern Workplace Devices-Broad**
     2. Other Azure AD groups that are assigned to devices in this step are:
         1. **Modern Workplace Devices-All**
-        2. **Modern Workplace Devices – Shared Device Mode** (this is in case the device was registered by Partner, OEM or, IT admin with **-Shared** appended one of the Intune group tags used by Microsoft Managed Desktop).
+        2. **Modern Workplace Devices - Shared Device Mode** (this is in case the device was registered by Partner, OEM or, IT admin with **-Shared** appended one of the Intune group tags used by Microsoft Managed Desktop).
 15. Microsoft Managed desktop assigns device configuration profiles to devices. For more information, see [Device profiles](../service-description/profiles.md) for more details. The device configuration profiles are defined:
     1. **Standard**
     2. **Sensitive data**
