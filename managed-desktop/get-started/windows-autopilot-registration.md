@@ -58,7 +58,7 @@ See the following table for the group tag attributes. If you're planning on depl
 | Power user | Microsoft365Managed_PowerUser | Not supported |
 | Standard  | Microsoft365Managed_Standard | Microsoft365Managed_Standard-Shared |
 
-If you have a partner that enrolls devices, follow the steps in [Partner registration](../get-started/partner-registration.md), as shown in the preceding table.
+If you have a partner that enrolls devices, follow the steps in [Partner registration](../get-started/partner-registration.md).
 
 > [!WARNING]
 > When registering Shared or Kiosk devices, don't try to edit the group tab attribute by appending **-Shared** to devices previously imported to Windows Autopilot. Devices already imported into Windows Autopilot, using one of the Microsoft Managed Desktop group tags starting with **Microsoft365Managed_**, but without **-Shared** initially appended, are already part of a different Azure Active Directory group. This Azure Active Directory group doesn't have the Windows Autopilot self-deploying mode profile assigned to it. If you must re-purpose an existing device to be a shared device, you must delete and reregister the device into Windows Autopilot again.
