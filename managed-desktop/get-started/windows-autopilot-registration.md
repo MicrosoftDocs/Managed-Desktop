@@ -12,7 +12,7 @@ ms.topic: article
 msreviewer: andredm7
 ---
 
-# Manual Windows Autopilot device registration outside Microsoft Managed Desktop's devices blade
+# Manual Windows Autopilot device registration outside the Microsoft Managed Desktop Devices blade
 
 You can also register devices with Microsoft Managed Desktop by manually registering devices with the Windows Autopilot service either in the Microsoft Endpoint Manager portal (Windows Autopilot devices blade) or using the [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) PowerShell script on the PowerShell Gallery website.
 
@@ -47,7 +47,7 @@ When registering devices yourself, you must import new devices into the Windows 
 3. Select **Devices** from the left navigation menu.
 4. In the **By platform** section, select **Windows**. Then, select **Windows Enrollment**.
 5. In the **Windows Autopilot Deployment Program** section, select **Devices**.
-6. [Import](../get-started/manual-registration.md#register-devices-by-using-the-admin-portal) the .CSV file containing all hardware hashes collected in step #1.
+6. [Import](../get-started/manual-registration.md#manually-register-devices-in-the-microsoft-managed-desktop-devices-blade) the .CSV file containing all hardware hashes collected in step #1.
 7. If not adding the group tag column in the .CSV file, after you've uploaded the Windows Autopilot devices, you must edit the imported devices' group tag attribute so Microsoft Managed Desktop can register them in its service. 
 
 See below for the group tag attributes. If you're planning on deploying Shared or Kiosk mode devices, you must append **[-Shared](../service-description/shared-devices.md)** to the group tag, as shown in the following table:
@@ -71,42 +71,32 @@ You can also register devices with Microsoft Managed Desktop when you register d
 
 The following parameters can be used:
 
-- **Name**
-	- The names of the computers.  These can be provided via the pipeline (property name Name or one of the available aliases, DNSHostName, ComputerName, and Computer).
-- **OutputFile**
-	- The name of the CSV file to be created with the details for the computers.  If not specified, the details will be returned to the PowerShell pipeline.
-- **Append**
-	- Switch to specify that new computer details should be appended to the specified output file, instead of overwriting the existing file.
-- **Credential**
-	- Credentials that should be used when connecting to a remote computer (not supported when gathering details from the local computer).
-- **Partner**
-	- Switch to specify that the created CSV file should use the schema for Partner Center (using serial number, make, and model).
-- **GroupTag**
-	- An optional tag value that should be included in a CSV file that is intended to be uploaded via Intune (not supported by Partner Center or Microsoft Store for Business).
-- **AssignedUser**
-	- An optional value specifying the UPN of the user to be assigned to the device.  This can only be specified for Intune (not supported by Partner Center or Microsoft Store for Business).
-- **Online**
-	- Add computers to Windows Autopilot via the Intune Graph API
-- **AssignedComputerName**
-	- An optional value specifying the computer name to be assigned to the device.  This can only be specified with the -Online switch and only works with AAD join scenarios.
-- **AddToGroup**
-	- Specifies the name of the Azure AD group that the new device should be added to.
-- **Assign**
-	- Wait for the Autopilot profile assignment.  (This can take a while for dynamic groups.)
-- **Reboot**
-	- Reboot the device after the Autopilot profile has been assigned (necessary to download the profile and apply the computer name, if specified).
+| Parameter | Description |
+| ----- | ----- |
+| Name | The names of the computers. These can be provided via the pipeline such as the property name or one of the available aliases, DNSHostName, ComputerName, and Computer). |
+| OutputFile |The name of the .CSV file to be created with the details for the computers. If not specified, the details will be returned to the PowerShell pipeline. |
+| Append | Switch to specify that new computer details should be appended to the specified output file, instead of overwriting the existing file. |
+| Credential | Credentials that should be used when connecting to a remote computer (not supported when gathering details from the local computer). |
+| Partner | Switch to specify that the created .CSV file should use the schema for the Partner Center (using serial number, make, and model). |
+| GroupTag | An optional tag value that should be included in the .CSV file that is intended to be uploaded via Intune (not supported by the Partner Center or Microsoft Store for Business). |
+| AssignedUser | An optional value specifying the UPN of the user to be assigned to the device. This can only be specified for Intune (not supported by the Partner Center or Microsoft Store for Business). |
+| Online | Add computers to Windows Autopilot via the Intune Graph API. |
+| AssignedComputerName | An optional value that specifies the computer name to be assigned to the device. This can only be specified with the **-Online** switch and only works with Azure AD join scenarios. |
+| AddToGroup | Specifies the name of the Azure AD group that the new device should be added to. |
+| Assign | Wait for the Autopilot profile assignment. This can take a while for dynamic groups. |
+| Reboot | Restart the device after the Autopilot profile has been assigned. If specified, it's necessary to download the profile and apply the computer name. |
 
 ### Using Get-WindowsAutopilotInfo.ps1:
 
 1. Open a Windows PowerShell prompt with administrative rights.
-2. You must install the PowerShell script, run the following command: **Install-script -name Get-WindowsAutoPilotInfo**, then accept all changes.
-3. Once script is installed, you must set the PowerShell script execution policy, run the following command: **Set-ExecutionPolicy -ExecutionPolicy RemoteSigned**.
-4. Run **Get-WindowsAutopilotInfo.ps1** with the parameters you need to use from the list described in the Get-WindowsAutoPilotInfo parameters section above. You need to run the script from the folder it was installed at on step #2.
+2. You must install the PowerShell script, run the following command: `Install-script -name Get-WindowsAutoPilotInfo`, then accept all changes.
+3. Once script is installed, you must set the PowerShell script execution policy, run the following command: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`.
+4. Run `Get-WindowsAutopilotInfo.ps1` with the parameters you need to use from the list described in the [Get-WindowsAutoPilotInfo parameters](#get-windowsautopilotinfor-parameters) section. You must run the script from the folder it was installed in (step #2).
 5. You must sign in to your **Azure Global Administrator** account and accept permission requests when assigning users, adding devices, and adding devices to groups.
 
 Example:
 
-.\Get-WindowsAutopilotInfo.ps1 -AssignedUser user@contoso.com -GroupTag Microsoft365Managed_SensitiveData -Online
+`.\Get-WindowsAutopilotInfo.ps1 -AssignedUser user@contoso.com -GroupTag Microsoft365Managed_SensitiveData -Online`
 
 > [!IMPORTANT]
-> You must have a device rename exception request with the Microsoft Managed Desktop Service Engineering team if you plan on using the **-AssignedComputerName** parameter. See [Admin support for Microsoft Managed Desktop](https://docs.microsoft.com/managed-desktop/working-with-managed-desktop/admin-support) for more information.
+> You must have a device rename exception request with the Microsoft Managed Desktop Service Engineering team if you plan on using the **-AssignedComputerName** parameter. For more information, see [Admin support for Microsoft Managed Desktop](/managed-desktop/working-with-managed-desktop/admin-support).
