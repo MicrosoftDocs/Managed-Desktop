@@ -27,7 +27,7 @@ Once you have the new devices in hand, you'll follow these steps:
 
 1. [Obtain the hardware hash for each device.](#obtain-the-hardware-hash)
 2. [Merge the hash data](#merge-hash-data).
-3. [Register the devices in Microsoft Managed Desktop](#register-devices-by-using-the-admin-portal).
+3. [Register the devices in Microsoft Managed Desktop](#manually-register-devices-in-the-microsoft-managed-desktop-devices-blade).
 4. [Double-check that the image is correct.](#check-the-image)
 5. [Deliver the device](#deliver-the-device).
 
@@ -78,7 +78,9 @@ You'll need to have the data in the CSV files combined into a single file to com
 > [!NOTE]
 > Extra columns are not supported. Quotes are not supported. Only ANSI-format text files can be used (not Unicode). Headers are case-sensitive. Editing the file in Excel and saving it as a CSV file will not generate a usable file due to these requirements. Be sure to preserve any leading zeroes in the device serial numbers.
 
-### Steps to manually register devices in the Microsoft Managed Desktop's device blade
+### Manually register devices in the Microsoft Managed Desktop Devices blade
+
+**To manually register devices in the Microsoft Managed Desktop Devices blade:**
 
 1. Collect the [hardware hash](../get-started/manual-registration.md#obtain-the-hardware-hash) for new devices.
 2. Go to the [Microsoft Endpoint Manager portal](https://endpoint.microsoft.com) and select **Devices** in the left navigation pane.
@@ -86,8 +88,8 @@ You'll need to have the data in the CSV files combined into a single file to com
 4. In the **Microsoft Managed Desktop Devices** workspace, select **+ Register devices**. A fly-in menu opens to register new devices.
 5. In the **File upload** box, provide the path to the CSV file you created previously.
 6. Select a **[device profile](../service-description/profiles.md)** from the dropdown menu. You can only select one device profile at a time (Standard, SensitiveData or PowerUser).
-7. Optional: Turn on the **[Shared device](../service-description/shared-devices.md)** toggle if you want to register Kiosk or Shared devices with Microsoft Managed Desktop.
-7. Select **Register devices**. The system will add the devices to your list of devices. If successful, the device will show as **Ready for user** meaning it's ready and waiting for a user to start using. For more information, see [Manual registration](../get-started/manual-registration.md).
+7. Optional. Turn on the **[Shared device](../service-description/shared-devices.md)** toggle if you want to register Kiosk or Shared devices with Microsoft Managed Desktop.
+7. Select **Register devices**. The system will add the devices to your list of devices. If successful, the device will show as **Ready for user** meaning it's ready and waiting for a user to start using.
 8. If registering Shared or Kiosk devices, the **Shared Device** column will be marked with **Yes**.
 
 > [!NOTE]
