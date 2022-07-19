@@ -11,6 +11,7 @@ ms.collection: M365-modern-desktop
 manager: dougeby
 ms.topic: article
 audience: Admin
+msreviewer: andredm7
 ---
 
 # Manual registration
@@ -77,19 +78,17 @@ You'll need to have the data in the CSV files combined into a single file to com
 > [!NOTE]
 > Extra columns are not supported. Quotes are not supported. Only ANSI-format text files can be used (not Unicode). Headers are case-sensitive. Editing the file in Excel and saving it as a CSV file will not generate a usable file due to these requirements. Be sure to preserve any leading zeroes in the device serial numbers.
 
-### Register devices by using the Admin Portal
+### Steps to manually register devices in the Microsoft Managed Desktop's device blade
 
-In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devices** in the left navigation pane. In the Microsoft Managed Desktop section, select **Devices**. In the Microsoft Managed Desktop Devices workspace, Select **+ Register devices**, which opens a fly-in to register new devices.
-
-<!-- [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age.](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
-
-<!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
-
-**To register devices using the Admin Portal:**
-
-1. In **File upload**, provide a path to the CSV file you created previously.
-2. Select a [device profile](../service-description/profiles.md) in the drop-down menu.
-3. Select **Register devices**. The system will add the devices to your list of devices on **Devices**, marked as **Registration Pending**. Registration typically takes less than 10 minutes, and when successful the device will show as **Ready for user** meaning it's ready and waiting for a user to start using.
+1. Collect the [hardware hash](../get-started/manual-registration.md#obtain-the-hardware-hash) for new devices.
+2. Go to the [Microsoft Endpoint Manager portal](https://endpoint.microsoft.com) and select **Devices** in the left navigation pane.
+3. In the **Microsoft Managed Desktop** section, select **Devices**.
+4. In the **Microsoft Managed Desktop Devices** workspace, select **+ Register devices**. A fly-in menu opens to register new devices.
+5. In the **File upload** box, provide the path to the CSV file you created previously.
+6. Select a **[device profile](../service-description/profiles.md)** from the dropdown menu. You can only select one device profile at a time (Standard, SensitiveData or PowerUser).
+7. Optional: Turn on the **[Shared device](../service-description/shared-devices.md)** toggle if you want to register Kiosk or Shared devices with Microsoft Managed Desktop.
+7. Select **Register devices**. The system will add the devices to your list of devices. If successful, the device will show as **Ready for user** meaning it's ready and waiting for a user to start using. For more information, see [Manual registration](../get-started/manual-registration.md).
+8. If registering Shared or Kiosk devices, the **Shared Device** column will be marked with **Yes**.
 
 > [!NOTE]
 > If you manually change the Azure Active Directory (AAD) group membership of a device, it will be automatically reassigned to the group for its device profile and removed from any conflicting groups.
