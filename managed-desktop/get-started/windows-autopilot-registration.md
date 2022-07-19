@@ -50,7 +50,7 @@ When registering devices yourself, you must import new devices into the Windows 
 6. [Import](../get-started/manual-registration.md#manually-register-devices-in-the-microsoft-managed-desktop-devices-blade) the .CSV file containing all hardware hashes collected in step #1.
 7. If not adding the group tag column in the .CSV file, after you've uploaded the Windows Autopilot devices, you must edit the imported devices' group tag attribute so Microsoft Managed Desktop can register them in its service. 
 
-See below for the group tag attributes. If you're planning on deploying Shared or Kiosk mode devices, you must append **[-Shared](../service-description/shared-devices.md)** to the group tag, as shown in the following table:
+See the following table for the group tag attributes. If you're planning on deploying Shared or Kiosk mode devices, you must append **[-Shared](../service-description/shared-devices.md)** to the group tag, as shown in the following table:
 
 | Device profile | Autopilot group tag (standard mode) | Group tag (shared device mode) |
 | ----- | ----- | ----- |
