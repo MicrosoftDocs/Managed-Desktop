@@ -11,6 +11,7 @@ ms.collection: M365-modern-desktop
 manager: dougeby
 ms.topic: article
 audience: Admin
+msreviewer: andredm7
 ---
 
 # Manual registration for existing devices

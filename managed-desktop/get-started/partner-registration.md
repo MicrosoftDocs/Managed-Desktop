@@ -11,6 +11,7 @@ ms.collection: M365-modern-desktop
 manager: dougeby
 ms.topic: article
 audience: Admin
+msreviewer: andredm7
 ---
 
 # Partner registration
@@ -36,11 +37,11 @@ Once you've established the relationship with your customers, you can use Partne
 4. Under **Apply profiles** to devices, select **Add devices**.
 5. Enter the appropriate Group Tag for the device profile you've selected (as shown in the following table) and then select **Browse** to upload the customer's list (in .csv file format) to Partner Center.
 
-| [Device profile](../service-description/profiles.md) | Group Tag |
-| ----- | -----|
-| Sensitive data | **Microsoft365Managed\_SensitiveData** |
-| Power user | **Microsoft365Managed\_PowerUser** |
-| Standard | **Microsoft365Managed\_Standard** |
+| Device profile | Autopilot group tag (standard mode) | Group tag (shared device mode) |
+| ----- | ----- | ----- |
+| Sensitive data | Microsoft365Managed_SensitiveData |  Microsoft365Managed_SensitiveData-Shared |
+| Power user | Microsoft365Managed_PowerUser | Not supported |
+| Standard  | Microsoft365Managed_Standard | Microsoft365Managed_Standard-Shared |
 
 > [!IMPORTANT]
 > The Group Name must match those listed in the table exactly, including capitalization and special characters. This will allow the newly registered devices to be assigned with the Microsoft Managed Desktop Autopilot profile.
@@ -58,11 +59,11 @@ Before completing registration for a customer, you must first establish a relati
 
 Once you've established the relationship, you can start registering devices for customers using the appropriate Group Tag for each device profile they've selected:
 
-| Device profile | Group Tag |
-| ----- | ----- |
-| Sensitive data | **Microsoft365Managed\_SensitiveData** |
-| Power user | **Microsoft365Managed\_PowerUser** |
-| Standard | **Microsoft365Managed\_Standard** |
+| Device profile | Autopilot group tag (standard mode) | Group tag (shared device mode) |
+| ----- | ----- | ----- |
+| Sensitive data | Microsoft365Managed_SensitiveData |  Microsoft365Managed_SensitiveData-Shared |
+| Power user | Microsoft365Managed_PowerUser | Not supported |
+| Standard  | Microsoft365Managed_Standard | Microsoft365Managed_Standard-Shared |
 
 > [!IMPORTANT]
-> The Group Tags must match those listed in the table exactly, including capitalization and special characters. This will allow the newly registered devices to be assigned with the Microsoft Managed Desktop Autopilot profile.
+> The Group Tags must match those listed in the table exactly, including capitalization and special characters. This will allow the newly registered devices to be assigned with tone of the Microsoft Managed Desktop Autopilot deployment profiles.
