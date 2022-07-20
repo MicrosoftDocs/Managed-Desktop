@@ -91,7 +91,7 @@ The following parameters can be used:
 2. You must install the PowerShell script, run the following command: `Install-script -name Get-WindowsAutoPilotInfo`, then accept all changes.
 3. Once script is installed, you must set the PowerShell script execution policy, run the following command: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`.
 4. Run `Get-WindowsAutopilotInfo.ps1` with the parameters you need to use from the list described in the [Get-WindowsAutoPilotInfo parameters](#get-windowsautopilotinfo-parameters) section. You must run the script from the folder it was installed in (step #2).
-5. You must signin to your **Azure Global Administrator** account and accept permission requests when assigning users, adding devices, and adding devices to groups.
+5. You must sign into your **Azure Global Administrator** account and accept permission requests when assigning users, adding devices, and adding devices to groups.
 
 Example:
 
