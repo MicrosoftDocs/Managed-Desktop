@@ -147,7 +147,7 @@ The following is the high-level overview workflow diagram that covers the manual
         1. **Standard**
         1. **Sensitive**
         1. **Power user**
-    5. Optional. You can use the toggle to switch to **[Shared device mode](../service-description/shared-devices.md)**. Then, select **Register devices** when you want to register a Kiosk/Shard device with Microsoft Managed Desktop. **The Power User device configuration profile isn't supported**.
+    5. Optional. You can use the toggle to switch to **[Shared device mode](../service-description/shared-devices.md)**. Then, select **Register devices** when you want to register a Kiosk/Shared device with Microsoft Managed Desktop. **The Power User device configuration profile isn't supported**.
         1. Two things happen when you turn on **Shared device mode**:
             1. Microsoft Managed Desktop adds these devices into an Azure AD group that has the Windows Autopilot deployment profile with Shared/Kiosk assigned. Microsoft Managed Desktop applies the Windows Autopilot self-deploying mode settings when these devices go through the Windows Out-of-the-Box-Experience.
             1. Microsoft Managed Desktop adds these devices into the Azure AD group that receives the Shared device mode configuration profile with the Kiosk/Shared device mode settings in Microsoft Endpoint Manager-Intune once users go through the Windows Out-of-the-Box-Experience.
