@@ -16,14 +16,13 @@ msreviewer: andredm7
 
 You can also register devices with Microsoft Managed Desktop by manually registering devices with the Windows Autopilot service either in the Microsoft Endpoint Manager portal (Windows Autopilot devices blade) or using the [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) PowerShell script on the PowerShell Gallery website.
 
-When you register a device with Microsoft Managed Desktop outside its device blade, this device registration method is considered a auto device registration since the device registration request wasn't originated in Microsoft Managed Desktop's device blade.
+When you register a device with Microsoft Managed Desktop outside its device blade, this device registration method is considered an auto device registration method since the device registration request wasn't originated in Microsoft Managed Desktop's device blade.
 
 Whether you or a partner are handling device registration, you can choose to use the [Windows Autopilot self-deploying mode](/mem/autopilot/self-deploying) profile in Microsoft Managed Desktop.
 
 ## Before you begin
 
-Review the Windows Autopilot's software-based requirements:
-[Windows Autopilot software requirements](/mem/autopilot/software-requirements).
+Review the [Windows Autopilot software requirements](/mem/autopilot/software-requirements).
 
 If planning to use the Windows Autopilot self-deploying mode, review the self-deploying mode requirements:
 
@@ -48,7 +47,7 @@ When registering devices yourself, you must import new devices into the Windows 
 4. In the **By platform** section, select **Windows**. Then, select **Windows Enrollment**.
 5. In the **Windows Autopilot Deployment Program** section, select **Devices**.
 6. [Import](../get-started/manual-registration.md#manually-register-devices-in-the-microsoft-managed-desktop-devices-blade) the .CSV file containing all hardware hashes collected in step #1.
-7. If not adding the group tag column in the .CSV file, after you've uploaded the Windows Autopilot devices, you must edit the imported devices' group tag attribute so Microsoft Managed Desktop can register them in its service. 
+7. If not adding the group tag column in the .CSV file, after you've uploaded the Windows Autopilot devices, you must edit the imported devices' group tag attribute so Microsoft Managed Desktop can register them in its service.
 
 See the following table for the group tag attributes. If you're planning on deploying Shared or Kiosk mode devices, you must append **[-Shared](../service-description/shared-devices.md)** to the group tag, as shown in the following table:
 
@@ -86,13 +85,13 @@ The following parameters can be used:
 | Assign | Wait for the Autopilot profile assignment. This can take a while for dynamic groups. |
 | Reboot | Restart the device after the Autopilot profile has been assigned. If specified, it's necessary to download the profile and apply the computer name. |
 
-### Using Get-WindowsAutopilotInfo.ps1:
+### Using Get-WindowsAutopilotInfo.ps1
 
 1. Open a Windows PowerShell prompt with administrative rights.
 2. You must install the PowerShell script, run the following command: `Install-script -name Get-WindowsAutoPilotInfo`, then accept all changes.
 3. Once script is installed, you must set the PowerShell script execution policy, run the following command: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`.
 4. Run `Get-WindowsAutopilotInfo.ps1` with the parameters you need to use from the list described in the [Get-WindowsAutoPilotInfo parameters](#get-windowsautopilotinfo-parameters) section. You must run the script from the folder it was installed in (step #2).
-5. You must sign in to your **Azure Global Administrator** account and accept permission requests when assigning users, adding devices, and adding devices to groups.
+5. You must sign into your **Azure Global Administrator** account and accept permission requests when assigning users, adding devices, and adding devices to groups.
 
 Example:
 
