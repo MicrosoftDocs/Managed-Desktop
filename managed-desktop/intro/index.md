@@ -85,7 +85,7 @@ If Microsoft Managed Desktop seems right for your organization, you can delve in
 - How to get started with the service
 - Ongoing operations thereafter, including how you and your users can easily get help if needed.
 
-If you're already ready to come on board, start with contacting your [local account team](https://pages.email.office.com/contactmmd/).
+If you're already ready to come on board, contact your local account team.
 
 ### More information
 
