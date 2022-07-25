@@ -88,9 +88,9 @@ You'll need to have the data in the CSV files combined into a single file to com
 4. In the **Microsoft Managed Desktop Devices** workspace, select **+ Register devices**. A fly-in menu opens to register new devices.
 5. In the **File upload** box, provide the path to the CSV file you created previously.
 6. Select a **[device profile](../service-description/profiles.md)** from the dropdown menu. You can only select one device profile at a time (Standard, SensitiveData or PowerUser).
-7. Optional. Turn on the **[Shared device](../service-description/shared-devices.md)** toggle if you want to register Kiosk or Shared devices with Microsoft Managed Desktop.
+7. Optional. Turn on the **[Shared device](../service-description/shared-devices.md)** toggle if you want to register Shared devices with Microsoft Managed Desktop.
 7. Select **Register devices**. The system will add the devices to your list of devices. If successful, the device will show as **Ready for user** meaning it's ready and waiting for a user to start using.
-8. If registering Shared or Kiosk devices, the **Shared Device** column will be marked with **Yes**.
+8. If registering Shared devices, the **Shared Device** column will be marked with **Yes**.
 
 > [!NOTE]
 > If you manually change the Azure Active Directory (AAD) group membership of a device, it will be automatically reassigned to the group for its device profile and removed from any conflicting groups.
