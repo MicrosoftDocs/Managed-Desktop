@@ -13,7 +13,7 @@ ms.topic: article
 
 # Shared devices
 
-Microsoft Managed Desktop allows you to register devices in "Shared device mode," similar to the shared device mode offered by [Microsoft Intune](/mem/intune/configuration/shared-user-device-settings). Shared device mode can be turned on when you select a device profile during the device registration process.
+Microsoft Managed Desktop allows you to register devices in "shared device mode," similar to the shared device mode offered by [Microsoft Intune](/mem/intune/configuration/shared-user-device-settings). Shared device mode can be turned on when you select a device profile during the [device registration process](#turn-on-shared-device-mode).
 
 Devices in this mode are optimized for situations where users aren't tied down to a single desk and are frequently changing devices. For example, frontline workers such as bank tellers or nursing staff. You can apply the Microsoft Managed Desktop [profiles](profiles.md) to devices in this mode. Devices registered in this mode have some important differences:
 
@@ -39,6 +39,14 @@ Shared device mode isn't a good choice in these situations:
 - When a user's files need to be stored locally rather than in the cloud.
 - If the user experience needs to be different for different users on the device.
 - If the set of applications each user needs differs greatly.
+
+## Turn on shared device mode
+
+There are three ways to turn on shared device mode when registering devices:
+
+1. [Partner registration](../get-started/partner-registration.md)
+1. [Manual registration for new devices](../get-started/manual-registration.md)
+1. [Windows Autopilot registration from Microsoft Endpoint Manager](../get-started/windows-autopilot-registration.md)
 
 ## Consequences of shared device mode
 
