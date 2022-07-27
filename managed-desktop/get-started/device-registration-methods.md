@@ -90,10 +90,10 @@ See the following high-level overview workflow diagram. The diagram covers the a
         1. The "**Microsoft365Managed**" section of the group tag string means the devices must be managed by the Microsoft Managed Desktop service.
         2. The "**_Standard/SensitiveData/PowerUser**" section of the group tag string means the device must registered into Microsoft Managed Desktop using one of its default device configuration profiles (either Standard, SensitiveData, or Power User).
             1. Each registered device must be assigned to one of the Microsoft Managed Desktop's default device configuration profiles. **Adding multiple device configuration profiles as par of the Intune group tag string isn't supported**.
-    4. Optional. You can also append **-Shared** to the end of the Intune group tag string when you want to register a [Kiosk/Shard device](../service-description/shared-devices.md) with Microsoft Managed Desktop. For example, **Microsoft365Managed_Standard-Shared**, or **Microsoft365Managed_SensitiveData-Shared**). **The Power User device configuration profile isn't supported**.
+    4. Optional. You can also append **-Shared** to the end of the Intune group tag string when you want to register a [Shared device](../service-description/shared-devices.md) with Microsoft Managed Desktop. For example, **Microsoft365Managed_Standard-Shared**, or **Microsoft365Managed_SensitiveData-Shared**). **The Power User device configuration profile isn't supported**.
         1. Two things happen when "**-Shared**" is appended to the end of the Intune group tag string:
-            1. Microsoft Managed Desktop adds these devices into an Azure AD group that has the Windows Autopilot deployment profile with Shared/Kiosk assigned. Microsoft Managed Desktop applies the Windows Autopilot self-deploying mode settings when these devices go through the Windows Out-of-the-Box-Experience.
-            2. Microsoft Managed Desktop adds these devices into the Azure AD group that receives the Shared device mode configuration profile with the Kiosk/Shared device mode settings in Microsoft Endpoint Manager-Intune once users go through the Windows Out-of-the-Box-Experience.
+            1. Microsoft Managed Desktop adds these devices into an Azure AD group that has the Windows Autopilot deployment profile with Shared devices assigned. Microsoft Managed Desktop applies the Windows Autopilot self-deploying mode settings when these devices go through the Windows Out-of-the-Box-Experience.
+            2. Microsoft Managed Desktop adds these devices into the Azure AD group that receives the Shared device mode configuration profile with the Shared device mode settings in Microsoft Endpoint Manager-Intune once users go through the Windows Out-of-the-Box-Experience.
 3. Partner, OEM, or IT admin uploads the .CSV file into either via Partner center, using OEM APIs or through the Windows Autopilot devices blade in the Microsoft Endpoint Manager portal.
 4. Microsoft Managed Desktop has a function that checks for assigned devices in all three Microsoft Managed Desktop Windows Autopilot profiles every hour.
     1. The three Windows Autopilot Deployment profiles supported in Microsoft Managed Desktop are:
@@ -147,10 +147,10 @@ The following is the high-level overview workflow diagram that covers the manual
         1. **Standard**
         1. **Sensitive**
         1. **Power user**
-    5. Optional. You can use the toggle to switch to **[Shared device mode](../service-description/shared-devices.md)**. Then, select **Register devices** when you want to register a Kiosk/Shared device with Microsoft Managed Desktop. **The Power User device configuration profile isn't supported**.
+    5. Optional. You can use the toggle to switch to **[Shared device mode](../service-description/shared-devices.md)**. Then, select **Register devices** when you want to register a Shared device with Microsoft Managed Desktop. **The Power User device configuration profile isn't supported**.
         1. Two things happen when you turn on **Shared device mode**:
-            1. Microsoft Managed Desktop adds these devices into an Azure AD group that has the Windows Autopilot deployment profile with Shared/Kiosk assigned. Microsoft Managed Desktop applies the Windows Autopilot self-deploying mode settings when these devices go through the Windows Out-of-the-Box-Experience.
-            1. Microsoft Managed Desktop adds these devices into the Azure AD group that receives the Shared device mode configuration profile with the Kiosk/Shared device mode settings in Microsoft Endpoint Manager-Intune once users go through the Windows Out-of-the-Box-Experience.
+            1. Microsoft Managed Desktop adds these devices into an Azure AD group that has the Windows Autopilot deployment profile with Shared assigned. Microsoft Managed Desktop applies the Windows Autopilot self-deploying mode settings when these devices go through the Windows Out-of-the-Box-Experience.
+            1. Microsoft Managed Desktop adds these devices into the Azure AD group that receives the Shared device mode configuration profile with the Shared device mode settings in Microsoft Endpoint Manager-Intune once users go through the Windows Out-of-the-Box-Experience.
 3. Microsoft Managed Desktop API does four things:
     1. Reads all hardware hashes from the .CSV file.
     2. Creates an Intune group tag based on the IT admin’s Microsoft Managed Desktop’s device configuration profile’s selection.
