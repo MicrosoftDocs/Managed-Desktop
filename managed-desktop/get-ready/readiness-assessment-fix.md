@@ -21,7 +21,7 @@ For each check, the tool will report one of four possible results:
 | Ready | No action is required before completing enrollment. |
 | Advisory | Follow the steps in the tool or this article for the best experience with enrollment and for users. <br><br> You *can* complete enrollment, but you must fix these issues before you deploy your first device. |
 | Not ready | **Enrollment will fail if you don't fix these issues.** <br><br> Follow the steps in the tool or this article to resolve them. |
-| Error | The Azure Active Directory (AD) role you're using doesn't have sufficient permission to run this check. |
+| Error | The Azure Active Directory (AD) role you're using doesn't have sufficient permission to run this check or your tenant is not properly licensed for Microsoft Intune. |
 
 > [!NOTE]
 > The results reported by this tool reflect the status of your settings only at the time that you ran it. If you make changes later to policies in Microsoft Intune, Azure Active Directory, or Microsoft 365, items that were "Ready" can become "Not ready." To avoid problems with Microsoft Managed Desktop operations, check the specific settings described in this article before you change any policies.
