@@ -64,7 +64,7 @@ In the OAuth 2.0 client credentials grant flow, you use the application ID and c
 You send an HTTP POST request to the /token identity platform endpoint to acquire an access token:
 
 ```http
-https://login.microsoftonline.com/{tenantId}/oauth2/token
+https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
 ```
 
 | Parameter  | Condition | Description |
@@ -73,7 +73,7 @@ https://login.microsoftonline.com/{tenantId}/oauth2/token
 | client_id | Required | The application ID assigned when you registered your app. |
 | Scope | Required | Must be `https://mwaas-services-customerapi-prod.azurewebsites.net/.default` |
 | client_secret | Required | The client secret that you generated for your app in the app registration portal.|
-| grant_type | Required | Must be `client_credential`. |
+| grant_type | Required | Must be `client_credentials`. |
 
 ### Token response
 
