@@ -64,7 +64,8 @@ If successful, this method returns a 200 OK response code and a list of ticket
 
 Here is an HTTP example to list the first 50 tickets returned in descending order by the **createdDateTime** property.
 
-```http GET https://mmdls.microsoft.com/support/odata/v1/tickets?$skip=0&$top=50&$orderby=createdDateTime desc
+```
+http GET https://mmdls.microsoft.com/support/odata/v1/tickets?$skip=0&$top=50&$orderby=createdDateTime desc
 ```
 
 ### List tickets response
