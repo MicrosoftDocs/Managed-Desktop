@@ -113,7 +113,7 @@ OEMs have allowed customers to download all the drivers needed for their models.
 | Dell | [Drivers & Downloads](https://www.dell.com/support/home/en-us?app=drivers) |
 | HP | [Official HP® Drivers and Software Download](https://support.hp.com/drivers) |
 | Lenovo | [Lenovo Drivers and Updates](https://support.lenovo.com/us/en/) |
-| Surface | [Download drivers and firmware for Surface](/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120) |
+| Surface | [Download drivers and firmware for Surface](https://support.microsoft.com/en-gb/surface/download-drivers-and-firmware-for-surface-09bb2e09-2a4b-cb69-0951-078a7739e120) |
 
 ### Add system SKU specific drivers
 
