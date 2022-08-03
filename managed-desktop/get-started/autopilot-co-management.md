@@ -1,6 +1,6 @@
 ---
 title: Autopilot into co-management
-description:  This article explains how combine the benefits of Microsoft Intune for workload management but continue to have client applications managed by Configuration Manager
+description:  This article explains how to combine the benefits of Microsoft Intune for workload management but continue to have client applications managed by Configuration Manager
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: tiaraquan
@@ -13,7 +13,7 @@ ms.topic: how-to
 
 # Autopilot into co-management
 
-Microsoft Managed Desktop allows you to provision devices using [Autopilot into co-management](/mem/configmgr/comanage/autopilot-enrollment), where the device is co-managed. The device can be registered as detailed in the [device registration overview article](device-registration-methods.md) and delivered to users. When the device goes through the  [first run experience](esp-first-run.md), the device joins Azure Active Directory.
+Microsoft Managed Desktop allows you to configure devices using [Autopilot into co-management](/mem/configmgr/comanage/autopilot-enrollment), where the device is co-managed. The device can be registered as detailed in the [device registration overview article](device-registration-methods.md) and delivered to users. When the device goes through the  [first run experience](esp-first-run.md), the device joins Azure Active Directory.
 
 The feature is optimal for organizations that already have [co-management for Windows devices](/mem/configmgr/comanage/overview) turned on and want to combine the benefits of Microsoft Intune for all workload management, except for client applications. Client applications can continue to be managed using Configuration Manager.
 
@@ -22,7 +22,7 @@ The feature is optimal for organizations that already have [co-management for Wi
 The following are common scenarios where you may want to use Autopilot into co-management:
 
 - You use Microsoft Intune for all workload management, except client apps, for all devices in your organization.
-- All Microsoft Managed Desktop devices in the tenant will be co-managed once this setting is enabled. It’s recommended to configure the co-management settings soon after completing tenant enrolment into Microsoft Managed Desktop, and prior to registering devices for the service. This will ensure that all devices in Microsoft Managed Desktop are in the co-managed state.
+- All Microsoft Managed Desktop devices in the tenant will be co-managed once this setting is enabled. It’s recommended to configure the co-management settings soon after completing tenant enrollment into Microsoft Managed Desktop, and prior to registering devices for the service. This will ensure that all devices in Microsoft Managed Desktop are in the co-managed state.
 - If you already have existing Microsoft Managed Desktop devices, configuring this setting will affect all these existing devices, by installing and enabling the Configuration Manager client, not just new devices running Autopilot. Devices will be in a co-managed state as soon as the co-managed policy is received by the device.
 
 > [!WARNING]
@@ -38,7 +38,7 @@ Autopilot into co-management currently supports:
 - Azure Active Directory joined only
 - User-driven Autopilot scenarios only
 
-Currently, the following are not supported:
+Currently, the following aren't supported:
 
 - Hybrid Azure AD-joined devices
 - Autopilot self-deployment mode
@@ -68,7 +68,7 @@ For Microsoft Managed Desktop devices, the following settings must be met:
 6. Specify the client installation command-line parameters. You can copy these parameters from the **Enablement** tab of the cloud attach properties in the Configuration Manager console. For more information and specific command-line parameters, see [Get the command line from Configuration Manager](/mem/configmgr/comanage/how-to-prepare-win10#get-the-command-line-from-configuration-manager).
 
 7. Expand the **Advanced** settings, for **Override co-management policy and use Intune for all workloads** option and select **Yes**. Even when Intune is the authority for the Client apps workload, a co-managed device can still get apps from Configuration Manager. For more information, see [Workloads: Client apps](/mem/configmgr/comanage/workloads#client-apps) and Use the [Company Portal app on co-managed devices](/mem/configmgr/comanage/company-portal).
-8. In the **Assignments** page select the **Modern Workplace Devices-All** group.
+8. In the **Assignments** page, select the **Modern Workplace Devices-All** group.
 9. In the **Review + create** page, review the settings, and create the policy.
 
 > [!NOTE]
