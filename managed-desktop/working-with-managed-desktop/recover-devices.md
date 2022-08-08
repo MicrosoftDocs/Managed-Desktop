@@ -42,7 +42,7 @@ The following table describes:
 | User autologin settings | |
 
 > [!NOTE]
-> Performing the device wipe:<ul><li>Does NOT format the drive, erase user data outside of the user profile, or clear the Trusted Platform Module (TPM).</li><li>The experience is different from the Out of Box Experience (OOBE) when users first turn on a new device. Since user profiles are maintained, the user is automatically presented with a Windows logon screen once Windows Recovery has been completed.</li></ul>
+> Performing the device wipe:<ul><li>Does NOT format the drive, erase user data outside of the user profile, or clear the Trusted Platform Module (TPM).</li><li>The experience is different from the [Out of Box Experience](/windows-hardware/customize/desktop/customize-oobe) (OOBE) when users first turn on a new device. Since user profiles are maintained, the user is automatically presented with a Windows logon screen once Windows Recovery has been completed.</li></ul>
 
 ## Reuse the device
 
