@@ -72,7 +72,7 @@ For Microsoft Managed Desktop devices, the following settings must be met:
 9. In the **Review + create** page, review the settings, and create the policy.
 
 > [!NOTE]
-> To provide a consistent user experience and unified application delivery on all devices, configure co-managed devices to also use the Company Portal. This will also ensure that users receive notifications only from the Company Portal. For more information, see [Apps in Company Portal](/mem/configmgr/comanage/company-portal#configuration-manager-client-settings).
+> To provide a consistent user experience and unified application delivery on all devices, configure co-managed devices to also use the Company Portal. This will also ensure that users receive notifications only from the Company Portal. For more information, see [Apps in the Company Portal](/mem/configmgr/comanage/company-portal#configuration-manager-client-settings).
 
 ### Step 2: Deploy applications in Configuration Manager
 
