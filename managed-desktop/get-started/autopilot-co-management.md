@@ -66,7 +66,6 @@ For Microsoft Managed Desktop devices, the following settings must be met:
 5. In the **Settings** page, select **Yes** to the **Automatically install the Configuration Manager agent** setting.
 :::image type="content" source="../media/mmd-autopilot-co-management.png" alt-text="Configure the co-management settings":::
 6. Specify the client installation command-line parameters. You can copy these parameters from the **Enablement** tab of the cloud attach properties in the Configuration Manager console. For more information and specific command-line parameters, see [Get the command line from Configuration Manager](/mem/configmgr/comanage/how-to-prepare-win10#get-the-command-line-from-configuration-manager).
-
 7. Expand the **Advanced** settings, for **Override co-management policy and use Intune for all workloads** option and select **Yes**. Even when Intune is the authority for the Client apps workload, a co-managed device can still get apps from Configuration Manager. For more information, see [Workloads: Client apps](/mem/configmgr/comanage/workloads#client-apps) and Use the [Company Portal app on co-managed devices](/mem/configmgr/comanage/company-portal).
 8. In the **Assignments** page, select the **Modern Workplace Devices-All** group.
 9. In the **Review + create** page, review the settings, and create the policy.
