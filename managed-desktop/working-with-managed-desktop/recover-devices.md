@@ -66,7 +66,7 @@ However, this option isn’t preferred to reimage the device because OEM pre-ins
 The following table describes:
 
 - The information and files that are kept after Autopilot Refresh.
-- The information and files that aren't after Autopilot Refresh.
+- The information and files that aren't kept after Autopilot Refresh.
 
 | Kept after Autopilot Refresh | Not kept after Autopilot Refresh |
 | ----- | ----- |
