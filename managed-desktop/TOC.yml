@@ -143,6 +143,8 @@
           href: get-started/enable-support.md
         - name: Get your users ready to use devices
           href: get-started/get-started-devices.md
+        - name: Autopilot into co-management
+          href: get-started/autopilot-co-management.md
         - name: First-run experience with Autopilot and the Enrollment Status Page 
           href: get-started/esp-first-run.md
         - name: Windows 10 location service
@@ -190,6 +192,8 @@
           href: working-with-managed-desktop/change-device-profile.md
         - name: Assign devices to deployment group
           href: working-with-managed-desktop/assign-deployment-group.md
+        - name: Recover devices
+          href: working-with-managed-desktop/recover-devices.md
         - name: Remove devices
           href: working-with-managed-desktop/remove-devices.md
         - name: Configurable settings
