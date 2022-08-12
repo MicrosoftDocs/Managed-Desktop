@@ -51,24 +51,24 @@ The preferred method when handing an existing device from one user to another is
 There are two options for device reuse scenarios available to IT admins in Microsoft Managed Desktop:
 
 - [Reimage the device](#reimage-the-device) (preferred)
-- [Autopilot Refresh](#autopilot-refresh)
+- [Autopilot Reseth](#autopilot-reset)
 
 ### Reimage the device
 
 For imaging options, it’s best to utilize a [OEM image](/managed-desktop/service-description/device-images) whenever possible for this scenario but for some cases where a non-OEM image is needed, the Microsoft Managed Desktop [universal image](/managed-desktop/service-description/universal-image) may be an option.  
 
-### Autopilot Refresh
+### Autopilot Reset
 
-An alternative to reimaging a device is to use [Autopilot Refresh](/mem/autopilot/windows-autopilot-reset).  
+An alternative to reimaging a device is to use [Autopilot Reset](/mem/autopilot/windows-autopilot-reset).  
 
 However, this option isn’t preferred to reimage the device because OEM pre-installed applications (for example, Microsoft 365 Apps for enterprise) aren't restored. Microsoft Office will need to be reinstalled post Windows Recovery using the Company Portal or Intune Application installation.
 
 The following table describes:
 
-- The information and files that are kept after Autopilot Refresh.
-- The information and files that aren't kept after Autopilot Refresh.
+- The information and files that are kept after Autopilot Reset.
+- The information and files that aren't kept after Autopilot Reset.
 
-| Kept after Autopilot Refresh | Not kept after Autopilot Refresh |
+| Kept after Autopilot Reset | Not kept after Autopilot Reset |
 | ----- | ----- |
 | User accounts associated with the device | User profiles |
 | Machine state (domain join, Azure AD-joined) | User-installed apps (store and Win32 apps) |
