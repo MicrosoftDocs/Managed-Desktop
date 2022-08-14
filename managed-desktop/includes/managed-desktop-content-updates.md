@@ -2,6 +2,17 @@
 
 
 
+## Week of August 08, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/9/2022 | [Autopilot into co-management](/managed-desktop/get-started/autopilot-co-management) | added |
+| 8/9/2022 | [Recover devices](/managed-desktop/working-with-managed-desktop/recover-devices) | added |
+| 8/9/2022 | [Prerequisites for Microsoft Managed Desktop](/managed-desktop/get-ready/prerequisites) | modified |
+| 8/12/2022 | [Recover devices](/managed-desktop/working-with-managed-desktop/recover-devices) | modified |
+
+
 ## Week of July 25, 2022
 
 
