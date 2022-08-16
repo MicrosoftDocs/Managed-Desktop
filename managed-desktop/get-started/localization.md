@@ -42,7 +42,7 @@ Users can select the language of their choice for Windows 10, and Microsoft 365 
 ## Install more languages
 
 > [!NOTE]
-> In April 2022, Microsoft Managed Desktop allows standard users to install language accessory packs directly from their Microsoft Office apps by deploying this [policy](/deployoffice/overview-deploying-languages-microsoft-365-apps#allow-users-who-arent-admins-to-install-additional-languages).Users can now add languages directly by using the language settings found in any Office app by navigating to **Options > Language > Add a Language**.<p>Previously, Microsoft Office required users to be an admin and by adding devices to the custom Modern Workplace-Office-Language_Packs group that allowed users to add languages to Microsoft Office. This group is no longer needed and has been removed.
+> In April 2022, Microsoft Managed Desktop allows standard users to install language accessory packs directly from their Microsoft Office apps by deploying this [policy](/deployoffice/overview-deploying-languages-microsoft-365-apps#allow-users-who-arent-admins-to-install-additional-languages). Users can now add languages directly by using the language settings found in any Office app by navigating to **Options > Language > Add a Language**.<p>Previously, Microsoft Office required users to be an admin and by adding devices to the custom Modern Workplace-Office-Language_Packs group that allowed users to add languages to Microsoft Office. This group is no longer needed and has been removed.
 
 ## Supported languages
 
