@@ -23,6 +23,7 @@ This article lists new and updated articles in the [Microsoft Managed Desktop do
 
 | New or changed article | Description |
 | ----- | ----- |
+| [Localize the user experience](get-started/localization.md) | Updated the Install more language section |
 | [Autopilot into co-management](get-started/autopilot-co-management.md) | New feature added to the Microsoft Managed Desktop service. |
 | [Recover devices](working-with-managed-desktop/recover-devices.md) | New section explaining how to recover your devices with Windows Recovery. |
 
