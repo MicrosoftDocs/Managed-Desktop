@@ -16,7 +16,7 @@ audience: Admin
 
 # Localize the user experience
 
-Users of Microsoft Managed Desktop devices can select the language of their choice either during the setup process (the "out of box experience"), or afterwards.
+Users of Microsoft Managed Desktop devices can select the language of their choice either during the setup process (the "out of box experience"), or after completing the setup process.
 
 ## During setup (the "out of box experience")
 
@@ -32,7 +32,7 @@ During setup, users can select the language of their choice. This selection affe
 
 ## After completing setup
 
-Users can select the language of their choice for Windows 10, and Microsoft 365 Apps for Enterprise anytime after the setup process is complete. Specifically:
+Users can select the language of their choice for Windows 10, and Microsoft 365 Apps for enterprise anytime after the setup process is complete. Specifically:
 
 | Feature | Description |
 | ------ | ------ |
@@ -42,9 +42,7 @@ Users can select the language of their choice for Windows 10, and Microsoft 365 
 ## Install more languages
 
 > [!NOTE]
-> As of March 16, 2022, we're phasing out the Modern Workplace-Office-Language_Packs group that allows yours to add languages to Microsoft Office. The transition to the new method (see below) will be completed in April 2022. If you have any issues during this transition period, please reach out to [support](../working-with-managed-desktop/admin-support.md).
-
-By default, Microsoft Office requires users to be admin. Microsoft Managed Desktop deploys an Office policy to enable standard users to install language accessory packs directly from their Office apps. For more information, see [Allow users who aren't admins to install additional languages](/deployoffice/overview-deploying-languages-microsoft-365-apps#allow-users-who-arent-admins-to-install-additional-languages).
+> In April 2022, Microsoft Managed Desktop allows standard users to install language accessory packs directly from their Microsoft Office apps by deploying this [policy](/deployoffice/overview-deploying-languages-microsoft-365-apps#allow-users-who-arent-admins-to-install-additional-languages).Users can now add languages directly by using the language settings found in any Office app by navigating to **Options > Language > Add a Language**.<p>Previously, Microsoft Office required users to be an admin and by adding devices to the custom Modern Workplace-Office-Language_Packs group that allowed users to add languages to Microsoft Office. This group is no longer needed and has been removed.
 
 ## Supported languages
 
@@ -52,50 +50,12 @@ For new devices, your manufacturer must provide device images that include the l
 
 If you're reusing existing devices, you might need to work with your Microsoft account representative to obtain appropriate images. For more information, see [Device images](../service-description/device-images.md).
 
-The [universal image](../service-description/universal-image.md) provided by Microsoft Managed Desktop includes these languages and for Windows 10:
-
-- Arabic
-- Bulgarian
-- Chinese Simplified
-- Chinese Traditional
-- Croatian
-- Czech
-- Danish  
-- Dutch  
-- English (US, GB, AU, CA, IN)
-- Estonian
-- Finnish
-- French (France, Canada)
-- German
-- Greek
-- Hebrew
-- Hungarian
-- Indonesian
-- Italian
-- Japanese
-- Korean
-- Latvian
-- Lithuanian
-- Norwegian (Bokmål)
-- Polish
-- Portuguese (Brazil)
-- Portuguese (Portugal)
-- Romanian
-- Russian
-- Serbian (Latin alphabet)
-- Slovak
-- Slovenian
-- Spanish (Spain, Mexico)
-- Swedish
-- Thai
-- Turkish
-- Ukrainian
-- Vietnamese
+The [universal image](../service-description/universal-image.md) provided by Microsoft Managed Desktop includes the supported languages and for Windows 10. For more information, see [language support](../service-description/universal-image.md#language-support).
 
 > [!NOTE]
-> Microsoft 365 Apps for Enterprise might support a slightly different list.
+> Microsoft 365 Apps for enterprise might support a slightly different list.
 
-If your users need a language other than the ones listed here, file a [support request](../working-with-managed-desktop/admin-support.md) by using the [Admin portal](access-admin-portal.md).
+If your users need a language other than the ones listed in [language support](../service-description/universal-image.md#language-support), submit a [support request](../working-with-managed-desktop/admin-support.md) by using the [admin center](access-admin-portal.md).
 
 ## Languages for support and operations
 
