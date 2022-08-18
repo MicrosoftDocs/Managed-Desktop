@@ -16,7 +16,7 @@ ms.collection: M365-modern-desktop
 Whether you're providing your own user support or working with a partner to provide support, use the following steps to allow the support provider to request elevated device access, or escalate issues to Microsoft Managed Desktop, if needed.
 
 1. If they don't already have one, set up an account in the same Azure Active Directory (AAD) domain as the Microsoft Managed Desktop devices.
-1. Add the user accounts to the **Modern Workplace Roles-Support Partner** security group in the Azure Active Directory (AAD).
+1. Add the user accounts to the **Modern Workplace Roles - Support Partner** security group in the Azure Active Directory (AAD).
 
 To submit an elevation or escalation request, see [Get user support](../working-with-managed-desktop/end-user-support.md).
 
