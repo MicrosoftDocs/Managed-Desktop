@@ -54,7 +54,8 @@ If successful, this method returns a 200 OK response code and user details in 
 
 Here is an example of the HTTP request.
 
-```http GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices/jdoe@contoso.onmicrosoft.com
+```http
+GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices/jdoe@contoso.onmicrosoft.com
 ```
 
 ### Example response
