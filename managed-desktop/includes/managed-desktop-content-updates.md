@@ -2,6 +2,14 @@
 
 
 
+## Week of August 15, 2022
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 8/16/2022 | [Localize the user experience](/managed-desktop/get-started/localization) | modified |
+
+
 ## Week of August 08, 2022
 
 
