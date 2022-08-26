@@ -63,4 +63,4 @@ Support is available either through Windows 365, or Microsoft Managed Desktop fo
 | ----- | ------ |
 | Does Microsoft Managed Desktop on Windows 365 Cloud PCs have any feature differences from a physical device? | Some. With the nature of a Cloud PC, the baseline has been modified to optimize the experience on Windows 365. |
 | Do my Cloud PCs appear any differently in the Microsoft Managed Desktop admin center? | Cloud PC displays the model as the license type you have provisioned. |
-| Can I run Microsoft Managed Desktop on my Windows 365 Business Workloads? | Can I run Microsoft Managed Desktop on my Windows 365 Business Workloads? |
+| Can I run Microsoft Managed Desktop on my Windows 365 Business Workloads? | No. Microsoft Managed Desktop is only available on enterprise workloads. |
