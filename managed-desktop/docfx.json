@@ -57,6 +57,11 @@
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "Managed-Desktop"
+    "dest": "Managed-Desktop",
+    "targets": {
+      "Pdf": {  
+      "template_folder": "_themes.pdf"  
+      }  
+}
   }
 }
