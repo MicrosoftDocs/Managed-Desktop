@@ -77,7 +77,7 @@ Microsoft manages some settings as a part of the service. Microsoft Managed Desk
 
 ### Update settings
 
-Microsoft Managed Desktop maintains all [update settings](/deployoffice/configure-update-settings-microsoft-365-apps) for managed devices and you should modify these settings.
+Microsoft Managed Desktop maintains all [update settings](/deployoffice/configure-update-settings-microsoft-365-apps) for managed devices and you should not modify these settings.
 
 | Setting | Default value | Description |
 | ------ | ------ | ------ |
