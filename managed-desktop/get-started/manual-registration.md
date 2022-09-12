@@ -49,8 +49,9 @@ You can use the [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com
 
 1. Open a PowerShell prompt with administrative rights.
 2. Run `Install-Script -Name Get-WindowsAutoPilotInfo`.
-3. Run `powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`.
-4. Run `powershell -ExecutionPolicy restricted` to prevent subsequent unrestricted scripts from running.
+3. Run `powershell -ExecutionPolicy Unrestricted`.
+4. Run `Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`.
+5. Run `powershell -ExecutionPolicy restricted` to prevent subsequent unrestricted scripts from running.
 
 #### Flash drive method
 
