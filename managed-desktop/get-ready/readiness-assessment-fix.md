@@ -72,7 +72,7 @@ Intune Device Compliance policies in your Azure AD organization might affect Mic
 
 | Result  | Meaning |
 | ----- | ----- |
-| Advisory | You have at least one compliance policy that applies all users. Microsoft Managed Desktop also includes compliance policies that will apply to your Microsoft Managed Desktop devices. Review all of the compliance policies created by your organization that apply to Microsoft Managed Desktop devices to ensure there are no conflicts. <br><br> For more information, see [Create a compliance policy in Microsoft Intune](/mem/intune/protect/create-compliance-policy). |
+| Advisory | You have at least one compliance policy that applies to all users. Microsoft Managed Desktop also includes compliance policies that will apply to your Microsoft Managed Desktop devices. Review all of the compliance policies created by your organization that apply to Microsoft Managed Desktop devices to ensure there are no conflicts. <br><br> For more information, see [Create a compliance policy in Microsoft Intune](/mem/intune/protect/create-compliance-policy). |
 
 ### Device Configuration profiles
 
