@@ -147,7 +147,7 @@ Here is an example of the JSON response.
 Here is an HTTP example to skip the first record and list the next top two records.
 
 ```http
-GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/users?skip=1&top=2
+GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/users?$skip=1&$top=2
 ```
 
 ### List users with filters response
@@ -217,7 +217,7 @@ Here is an example of the JSON response.
 Here is an HTTP example to list users with assigned device based on device name.
 
 ```http
-GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/users?searchText={deviceName}
+GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/users?$searchText={deviceName}
 ```
 
 ### List users by searchText response
