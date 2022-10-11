@@ -51,7 +51,7 @@ The preferred method when handing an existing device from one user to another is
 There are two options for device reuse scenarios available to IT admins in Microsoft Managed Desktop:
 
 - [Reimage the device](#reimage-the-device) (preferred)
-- [Autopilot Reseth](#autopilot-reset)
+- [Autopilot Reset](#autopilot-reset)
 
 ### Reimage the device
 
