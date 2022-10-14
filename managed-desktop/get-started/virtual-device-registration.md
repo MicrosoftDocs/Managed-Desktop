@@ -67,11 +67,11 @@ The following Azure Virtual Desktop features aren’t supported:
 
 ### Onboard your workloads
 
-Microsoft Managed Desktop onboards newly provisioned session hosts through the enrollment API. The API is executed after the device has been Azure AD joined and Intune Registered. The API requires the Azure AD Device ID of the virtual machine.
+Microsoft Managed Desktop onboards newly provisioned session hosts through the [enrollment API](#azure-virtual-desktop-enrollment-api). The API is executed after the device has been Azure AD joined and Intune Registered. The API requires the Azure AD Device ID of the virtual machine.
 
 ### Azure Virtual Desktop enrollment API
 
-The following script provides IT teams with the ability to manually register Azure Virtual Desktop virtual machines with the Microsoft Managed Desktop service using the enrollment API. The script can be incorporated into existing provisioning or deployment pipelines for automation.  
+The following PowerShell script provides IT teams with the ability to manually register Azure Virtual Desktop virtual machines with the Microsoft Managed Desktop service using the enrollment API. The script can be incorporated into existing provisioning or deployment pipelines for automation.  
 
 For more information on how to use Microsoft Managed Desktop APIs, see [Microsoft Managed Desktop API](../developer/mmd-api-overview.md).  
 
@@ -80,6 +80,8 @@ For more information on how to use Microsoft Managed Desktop APIs, see [Microsof
 The script uses the [Az.Accounts Module](/powershell/module/az.accounts) and should be executed with [Intune administrator permissions](/mem/intune/fundamentals/users-add#types-of-administrators) for the tenant because the scripts will collect a Token for the takeover action.
 
 Save and execute the `New-MMDAVDEnrollment.ps1` PowerShell script locally.
+
+#### PowerShell script example
 
 The PowerShell script provides the parameters for your Azure AD device ID. The following PowerShell script is an example of the Azure AD device ID parameters:
 
