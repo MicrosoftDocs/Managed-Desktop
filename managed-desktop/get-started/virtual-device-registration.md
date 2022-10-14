@@ -77,7 +77,7 @@ For more information on how to use Microsoft Managed Desktop APIs, see [Microsof
 
 #### Dependencies
 
-The script uses the [Az.Accounts Module](https://learn.microsoft.com/powershell/module/az.accounts/?view=azps-8.3.0) and should be executed with [Intune administrator permissions](/mem/intune/fundamentals/users-add#types-of-administrators) for the tenant because the scripts will collect a Token for the takeover action.
+The script uses the [Az.Accounts Module](/powershell/module/az.accounts/?view=azps-8.3.0&preserve-view=true) and should be executed with [Intune administrator permissions](/mem/intune/fundamentals/users-add#types-of-administrators) for the tenant because the scripts will collect a Token for the takeover action.
 
 Save and execute the `New-MMDAVDEnrollment.ps1` PowerShell script locally.
 
