@@ -34,7 +34,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## HTTP request
 
 ```http
-GET https://mmdls.microsoft.com/support/odata/v1/tickets
+POST https://mmdls.microsoft.com/support/odata/v1/tickets
 ```
 
 ## Request headers
@@ -80,7 +80,7 @@ If successful, this method returns a 200 OK response code and a list of device
 Here is an example of the HTTP request.
 
 ```http
-GET https://mmdls.microsoft.com/support/odata/v1/tickets`
+POST https://mmdls.microsoft.com/support/odata/v1/tickets`
 ```
 
 Here is an example of the JSON request.
@@ -153,7 +153,7 @@ Here is an example of the JSON response.
 Here is an example of the HTTP request.
 
 ```http
-GET https://mmdls.microsoft.com/support/odata/v1/tickets
+POST https://mmdls.microsoft.com/support/odata/v1/tickets
 ```
 
 Here is an example of the JSON request.
@@ -226,7 +226,7 @@ Here is an example of the JSON response.
 Here is an example of the HTTP request:
 
 ```http
-GET https://mmdls.microsoft.com/support/odata/v1/tickets
+POST https://mmdls.microsoft.com/support/odata/v1/tickets
 ```
 
 Here is an example of the JSON request:
