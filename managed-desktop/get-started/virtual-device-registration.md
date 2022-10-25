@@ -158,5 +158,5 @@ PostRegisterRequest $Global:CusmPartnerAPIUrl
 Support is available either through Windows 365, Azure, or Microsoft Managed Desktop for update related incidents.
 
 - For Windows 365 support, see [Get support](/mem/get-support).
-- For Azure Virtual Desktop support, see  [Get support](/support/create-ticket/).
+- For Azure Virtual Desktop support, see  [Get support](https://azure.microsoft.com/support/create-ticket/).
 - For Microsoft Managed Desktop support, see [Submit a support request](../working-with-managed-desktop/admin-support.md).
