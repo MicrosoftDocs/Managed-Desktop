@@ -251,10 +251,10 @@
                   href: developer/mmd-api-list-tickets.md
                 - name: Get ticket by ID
                   href: developer/mmd-api-get-ticket-id.md
+                - name: Add notes to ticket
+                  href: developer/mmd-api-add-notes.md  
                 - name: Get ticket notes
                   href: developer/mmd-api-get-ticket-notes.md
-                - name: Add notes to ticket
-                  href: developer/mmd-api-add-notes.md
             - name: Elevation requests
               href:
               items:

@@ -8,7 +8,7 @@ ms.author: tiaraquan
 manager: dougeby
 ms.topic: article
 ms.localizationpriority: medium
-ms.date: 04/26/2022
+ms.date: 10/25/2022
 ms.collection: M365-modern-desktop
 ---
 
@@ -30,7 +30,7 @@ One of the following permissions is required to call this API. To learn more, in
 ## HTTP request
 
 ```http
-GET https://mmdls.microsoft.com/support/odata/v1/tickets('{ticketId}')
+GET https://mmdls.microsoft.com/support/odata/v1/tickets('TicketId')
 ```
 
 ## Request headers
@@ -55,7 +55,7 @@ If successful, this method returns a 200 OK response code and user details in 
 Here is an example of the HTTP request.
 
 ```http
-GET https://mmdls.microsoft.com/support/odata/v1/tickets('{MMD-1465058-R5V8P}')
+GET https://mmdls.microsoft.com/support/odata/v1/tickets('TicketId')
 ```
 
 ### Example response
