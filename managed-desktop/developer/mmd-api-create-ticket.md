@@ -80,7 +80,7 @@ If successful, this method returns a 200 OK response code and a list of device
 Here is an example of the HTTP request.
 
 ```http
-POST https://mmdls.microsoft.com/support/odata/v1/tickets`
+POST https://mmdls.microsoft.com/support/odata/v1/tickets
 ```
 
 Here is an example of the JSON request.
