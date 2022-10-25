@@ -139,4 +139,3 @@ The [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement
 
 1. Their organization can control and administer their account (including controlling privacy-related settings), and access and process their data.
 1. Microsoft may collect and process the data to provide the service to the organization and end users.
-
