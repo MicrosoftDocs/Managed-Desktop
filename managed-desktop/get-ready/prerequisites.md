@@ -54,7 +54,7 @@ Microsoft Managed Desktop requires certain license options in order to function.
 
 1. Review prerequisites (this article).
 1. Run [readiness assessment tools](readiness-assessment-tool.md).
-1. Buy [Company Portal](../get-started/company-portal.md).
+1. Get [Company Portal](../get-started/company-portal.md).
 1. Review [prerequisites for guest accounts](guest-accounts.md).
 1. Check [network configuration](network.md).
 1. [Prepare certificates and network profiles](certs-wifi-lan.md).
