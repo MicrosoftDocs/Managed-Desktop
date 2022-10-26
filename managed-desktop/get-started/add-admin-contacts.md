@@ -53,7 +53,7 @@ Admin contacts are required when you [submit a Support request](../service-descr
 1. Access [admin portal](access-admin-portal.md).
 1. Add and verify admin contacts in the Admin portal (this article).
 1. [Adjust settings after enrollment](conditional-access.md).
-1. Deploy and assign [Intune Company Portal](company-portal.md).
+1. Deploy and assign the [Intune Company Portal](company-portal.md).
 1. [Assign licenses](assign-licenses.md).
 1. [Deploy apps](deploy-apps.md).
 1. [Prepare devices](Prepare-devices.md).

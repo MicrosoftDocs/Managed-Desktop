@@ -99,7 +99,7 @@ After you've completed enrollment in Microsoft Managed Desktop, remember to go b
 
 1. Review [prerequisites for Microsoft Managed Desktop](prerequisites.md).
 2. Run readiness assessment tools (this article).
-3. Buy [Company Portal](../get-started/company-portal.md).
+3. Get the [Company Portal](../get-started/company-portal.md).
 4. Review [prerequisites for guest accounts](guest-accounts.md).
 5. Check [network configuration](network.md).
 6. [Prepare certificates and network profiles](certs-wifi-lan.md).

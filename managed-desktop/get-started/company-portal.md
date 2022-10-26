@@ -1,5 +1,5 @@
 ---
-title: Install Intune Company Portal on devices 
+title: Install the Intune Company Portal on devices 
 description: Info on installing company portal app on Microsoft Managed Desktop devices 
 keywords: Microsoft Managed Desktop, Microsoft 365, Company Portal
 ms.service: m365-md
@@ -11,7 +11,7 @@ manager: dougeby
 ms.topic: article
 ---
 
-# Install Intune Company Portal on devices
+# Install the Intune Company Portal on devices
 
 Microsoft Managed Desktop requires that IT administrators install the Intune Company Portal for their users with Microsoft Managed Desktop devices. The benefits to your organization include:
 
@@ -22,17 +22,17 @@ Microsoft Managed Desktop requires that IT administrators install the Intune Com
 
 This article documents the process for deploying the Intune Company Portal to your Microsoft Managed Desktop users. The overall process looks like this:
 
-1. [Purchase Company Portal from Microsoft Store for Business and sync with Intune](#step-1-purchase-company-portal-from-microsoft-store-for-business-and-sync-with-intune).
+1. [Get the Company Portal from Microsoft Store for Business and sync with Intune](#step-1-get-the-company-portal-from-microsoft-store-for-business-and-sync-with-intune).
 2. [Assign Company Portal to your users](#step-2-assign-company-portal-to-your-users).
 3. [Communicate change to your users.](#step-3-communicate-change-to-your-users)
 
-## Step 1: Purchase Company Portal from Microsoft Store for Business and sync with Intune
+## Step 1: Get the Company Portal from Microsoft Store for Business and sync with Intune
 
-For information on how to purchase the apps and sync with Intune, see [Microsoft Store for Business apps](deploy-apps.md#msfb-apps) in *Deploy apps to Microsoft Managed Desktop devices*.
+For information on how to get the apps and sync with Intune, see [Microsoft Store for Business apps](deploy-apps.md#msfb-apps) in *Deploy apps to Microsoft Managed Desktop devices*.
 
 This article provides info on how to:
 
-- Purchase Company Portal from Microsoft Store for Business.
+- Get the Company Portal from Microsoft Store for Business.
 - Force sync between Intune and Microsoft Store for Business.
 - Verify active sync between Intune and Microsoft Store for Business.
 
@@ -52,7 +52,7 @@ As the IT administrator for your organization, it's important to let your users 
 1. Access [admin portal](access-admin-portal.md).
 1. [Add and verify admin contacts in the Admin portal](add-admin-contacts.md).
 1. [Adjust settings after enrollment](conditional-access.md).
-1. Deploy and assign Intune Company Portal (this article).
+1. Deploy and assign the Intune Company Portal (this article).
 1. [Assign licenses](assign-licenses.md).
 1. [Deploy apps](deploy-apps.md).
 1. [Prepare devices](prepare-devices.md)

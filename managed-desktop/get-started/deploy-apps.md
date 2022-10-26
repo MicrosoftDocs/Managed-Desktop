@@ -52,7 +52,7 @@ You can sign in to the Microsoft Managed Desktop portal, or sign in to Intune an
 
 If you haven't signed up with Microsoft Store for Business, you can sign up when you shop for apps. After you have your apps, you can sync them with Microsoft Managed Desktop.
 
-**To buy apps from the Microsoft Store for Business:**
+**To get or purchase from the Microsoft Store for Business:**
 
 1. Sign in to [Microsoft Store for Business](https://businessstore.microsoft.com) with your Microsoft Store for Business Admin account.
 2. Select **Shop for my group**.
@@ -109,7 +109,7 @@ Add your users to these groups to either:
 1. Access [admin portal](access-admin-portal.md).
 1. [Add and verify admin contacts in the Admin portal](add-admin-contacts.md).
 1. [Adjust settings after enrollment](conditional-access.md).
-1. Deploy and assign [Intune Company Portal](company-portal.md).
+1. Deploy and assign the [Intune Company Portal](company-portal.md).
 1. [Assign licenses](assign-licenses.md).
 1. Deploy apps (this article).
 1. [Prepare devices](prepare-devices.md).

@@ -102,7 +102,7 @@ Once your LAN profile has been exported, you can prepare the policy for Microsof
 
 1. Review [prerequisites for Microsoft Managed Desktop](prerequisites.md).
 1. Run [readiness assessment tools](readiness-assessment-tool.md).
-1. Buy [Company Portal](../get-started/company-portal.md).
+1. Get the [Company Portal](../get-started/company-portal.md).
 1. Review [prerequisites for guest accounts](guest-accounts.md).
 1. Check [network configuration](network.md).
 1. Prepare certificates and network profiles (this article).
