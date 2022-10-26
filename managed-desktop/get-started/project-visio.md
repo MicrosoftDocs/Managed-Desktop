@@ -32,7 +32,7 @@ Microsoft Managed Desktop will add Microsoft Project and Microsoft Visio as two 
 
 **To deploy Project and Visio:**
 
-Add the user to the appropriate group and the application will become available in the Company Portal. It may take a few minutes to sync, but then your users can install the apps from Company Portal.
+Add the user to the appropriate group and the application will become available in the Company Portal. It may take a few minutes to sync, but then your users can install the apps from the Company Portal.
 
 Azure AD Group name | Which users to assign?
  --- | ---

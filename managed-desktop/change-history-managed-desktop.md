@@ -203,7 +203,7 @@ This article lists new and updated articles in the [Microsoft Managed Desktop do
 | [Fix issues found by the readiness assessment tool](get-ready/readiness-assessment-fix.md) | Updated article |
 | [Adjust settings after enrollment](get-started/conditional-access.md) | Updated article |
 | [Work with reports](working-with-managed-desktop/reports.md) | Updated article |
-| [Install Intune Company Portal on devices](get-started/company-portal.md) | Updated article |
+| [Install the Intune Company Portal on devices](get-started/company-portal.md) | Updated article |
 | [Device requirements](service-description/device-requirements.md) | New article |
 | [Compliance](intro/compliance.md) | Updated article |
 | [How updates are handled in Microsoft Managed Desktop](service-description/updates.md) | Updated article |
@@ -433,7 +433,7 @@ This article lists new and updated articles in the [Microsoft Managed Desktop do
 
 | New or changed article | Description |
 | ----- | ----- |
-| [Install Intune Company Portal on Microsoft Managed Desktop devices](get-started/company-portal.md) | New article |
+| [Install the Intune Company Portal on Microsoft Managed Desktop devices](get-started/company-portal.md) | New article |
 | [Install Microsoft Project and Microsoft Visio on Microsoft Managed Desktop devices](get-started/project-visio.md) | New article |
 | [Prepare on-premises resources access for Microsoft Managed Desktop](get-ready/authentication.md) | New article |
 | [Register devices in Microsoft Managed Desktop](get-started/manual-registration.md) | New article |
@@ -444,7 +444,7 @@ This article lists new and updated articles in the [Microsoft Managed Desktop do
 
 | New or changed article | Description |
 | ----- | ----- |
-| [Install Intune Company Portal on Microsoft Managed Desktop devices](get-started/company-portal.md) | New article |
+| [Install the Intune Company Portal on Microsoft Managed Desktop devices](get-started/company-portal.md) | New article |
 | [Install Microsoft Project and Microsoft Visio on Microsoft Managed Desktop devices](get-started/project-visio.md) | New article |
 
 ## February 2019

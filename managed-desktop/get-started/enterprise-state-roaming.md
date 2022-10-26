@@ -27,8 +27,8 @@ To enable Enterprise State Roaming, follow the steps in [Enable Enterprise State
 1. [Add and verify admin contacts in the Admin portal](add-admin-contacts.md).
 2. [Adjust conditional access](conditional-access.md).
 3. [Assign licenses](assign-licenses.md).
-4. [Deploy Intune Company Portal](company-portal.md).
-5. Enable Enterprise State Roaming (this topic).
+4. [Deploy the Intune Company Portal](company-portal.md).
+5. Enable Enterprise State Roaming (this article).
 6. [Prepare devices](prepare-devices.md).
 7. [Get your users ready to use devices](get-started-devices.md).
 8. [Deploy apps](deploy-apps.md).

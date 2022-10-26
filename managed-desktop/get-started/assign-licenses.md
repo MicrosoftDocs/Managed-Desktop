@@ -24,7 +24,7 @@ If you have any difficulty with license assignment, contact Admin [support](../w
 1. Access [admin portal](access-admin-portal.md).
 1. [Add and verify admin contacts in the Admin portal](add-admin-contacts.md).
 1. [Adjust settings after enrollment](conditional-access.md).
-1. Deploy and assign [Intune Company Portal](company-portal.md).
+1. Deploy and assign the [Intune Company Portal](company-portal.md).
 1. Assign licenses (this article).
 1. [Deploy apps](deploy-apps.md).
 1. [Prepare devices](prepare-devices.md).

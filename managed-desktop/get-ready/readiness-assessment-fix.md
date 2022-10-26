@@ -55,7 +55,7 @@ Microsoft Managed Desktop requires that IT administrators install Intune Company
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | You don't have Company Portal installed for your users. Purchase Company Portal and force a sync between Intune and Microsoft Store for Business. <br><br> For more information, see [Install Intune Company Portal on devices](../get-started/company-portal.md).
+| Not ready | You don't have Company Portal installed for your users. Get the Company Portal and force a sync between Intune and Microsoft Store for Business. <br><br> For more information, see [Install the Intune Company Portal on devices](../get-started/company-portal.md).
 
 ### Conditional access policies
 
@@ -106,7 +106,7 @@ We use Microsoft Store for Business and deploy the Company Portal app on Microso
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | Microsoft Store for Business either isn't enabled or isn't synced with Intune. <br><br> For more information, see [How to manage volume purchased apps from the Microsoft Store for Business with Microsoft Intune](/mem/intune/apps/windows-store-for-business) and [Install Intune Company Portal on devices](../get-started/company-portal.md). |
+| Not ready | Microsoft Store for Business either isn't enabled or isn't synced with Intune. <br><br> For more information, see [How to manage volume purchased apps from the Microsoft Store for Business with Microsoft Intune](/mem/intune/apps/windows-store-for-business) and [Install the Intune Company Portal on devices](../get-started/company-portal.md). |
 
 ### Multi-factor authentication
 
@@ -158,7 +158,7 @@ Review apps you want your Microsoft Managed Desktop users to have.
 
 | Result  | Meaning |
 | ----- | ----- |
-| Advisory | You should prepare an inventory of the apps that you want your Microsoft Managed Desktop users to have. Since these apps must be deployed by Intune, evaluate reusing existing Intune apps. Consider using Company Portal (see [Install Intune Company Portal on devices](../get-started/company-portal.md) and Enrollment Status Page (ESP) to distribute apps to your users. <br><br> For more information, see [Apps in Microsoft Managed Desktop](apps.md) and [First-run experience with Autopilot and the Enrollment Status Page](../get-started/esp-first-run.md). <br><br> You can ask your Microsoft account representative for a query in Microsoft Endpoint Configuration Manager to identify those apps that are ready to migrate to Intune or need adjustment. |
+| Advisory | You should prepare an inventory of the apps that you want your Microsoft Managed Desktop users to have. Since these apps must be deployed by Intune, evaluate reusing existing Intune apps. Consider using Company Portal (see [Install the Intune Company Portal on devices](../get-started/company-portal.md) and Enrollment Status Page (ESP) to distribute apps to your users. <br><br> For more information, see [Apps in Microsoft Managed Desktop](apps.md) and [First-run experience with Autopilot and the Enrollment Status Page](../get-started/esp-first-run.md). <br><br> You can ask your Microsoft account representative for a query in Microsoft Endpoint Configuration Manager to identify those apps that are ready to migrate to Intune or need adjustment. |
 
 ### Windows Hello for Business
 
