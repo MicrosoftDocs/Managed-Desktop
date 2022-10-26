@@ -22,7 +22,7 @@ Microsoft Managed Desktop requires that IT administrators install the Intune Com
 
 This article documents the process for deploying the Intune Company Portal to your Microsoft Managed Desktop users. The overall process looks like this:
 
-1. [Get the Company Portal from Microsoft Store for Business and sync with Intune](#step-1-purchase-company-portal-from-microsoft-store-for-business-and-sync-with-intune).
+1. [Get the Company Portal from Microsoft Store for Business and sync with Intune](#step-1-get-the-company-portal-from-microsoft-store-for-business-and-sync-with-intune).
 2. [Assign Company Portal to your users](#step-2-assign-company-portal-to-your-users).
 3. [Communicate change to your users.](#step-3-communicate-change-to-your-users)
 
