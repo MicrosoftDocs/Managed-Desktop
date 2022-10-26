@@ -18,6 +18,7 @@ Your gateway to the Microsoft Managed Desktop service is [Microsoft Endpoint Man
 
 > [!NOTE]
 > In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) the following browsers are supported:
+
 > - Microsoft Edge (latest version)
 > - Safari (latest version, Mac only)
 > - Chrome (latest version)
@@ -93,7 +94,7 @@ For easy management of built-in roles, there's a security group for each custom 
 1. Access admin portal (this article).
 1. [Add and verify admin contacts in the Admin portal](add-admin-contacts.md).
 1. [Adjust settings after enrollment](conditional-access.md).
-1. Deploy and assign [Intune Company Portal](company-portal.md).
+1. Deploy and assign the [Intune Company Portal](company-portal.md).
 1. [Assign licenses](assign-licenses.md).
 1. [Deploy apps](deploy-apps.md).
 1. [Prepare devices](prepare-devices.md).
