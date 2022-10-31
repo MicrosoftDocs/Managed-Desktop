@@ -44,7 +44,7 @@ Microsoft Managed Desktop's processor duties include ensuring appropriate confid
 
 ## Microsoft Managed Desktop data storage and staff location
 
-Windows Autopatch stores its data in the Azure data centers based on your data residency. For more information, see [Microsoft 365 data center locations](/microsoft-365/enterprise/o365-data-locations).
+Microsoft Managed Desktop stores its data in the Azure data centers based on your data residency. For more information, see [Microsoft 365 data center locations](/microsoft-365/enterprise/o365-data-locations).
 
 > [!IMPORTANT]
 > <ul><li>Existing European Union (EU) customers are moving from the North American data centers to the European data centers by the end of 2022.</li><li>If you're an existing Autopatch customer, but **not** part of the European Union, data migration from North America to your respective data residency will occur next year.</li><li>As of Oct 31, 2022, only **new** Autopatch customers (EU, UK, Africa, Middle East) will have their data live in the European data centers.</li></ul>
