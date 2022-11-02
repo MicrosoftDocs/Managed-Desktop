@@ -42,6 +42,7 @@ Once you've established the relationship with your customers, you can use Partne
 | Sensitive data | Microsoft365Managed_SensitiveData |  Microsoft365Managed_SensitiveData-Shared |
 | Power user | Microsoft365Managed_PowerUser | Not supported |
 | Standard  | Microsoft365Managed_Standard | Microsoft365Managed_Standard-Shared |
+| Kiosk | [Microsoft365Managed_Kiosk](../service-description/profiles.md#device-profile-details) | Microsoft365Managed_Kiosk-Shared |
 
 > [!IMPORTANT]
 > The Group Name must match those listed in the table exactly, including capitalization and special characters. This will allow the newly registered devices to be assigned with the Microsoft Managed Desktop Autopilot profile.
@@ -64,6 +65,7 @@ Once you've established the relationship, you can start registering devices for 
 | Sensitive data | Microsoft365Managed_SensitiveData |  Microsoft365Managed_SensitiveData-Shared |
 | Power user | Microsoft365Managed_PowerUser | Not supported |
 | Standard  | Microsoft365Managed_Standard | Microsoft365Managed_Standard-Shared |
+| Kiosk | [Microsoft365Managed_Kiosk](../service-description/profiles.md#device-profile-details) | Microsoft365Managed_Kiosk-Shared |
 
 > [!IMPORTANT]
 > The Group Tags must match those listed in the table exactly, including capitalization and special characters. This will allow the newly registered devices to be assigned with tone of the Microsoft Managed Desktop Autopilot deployment profiles.
