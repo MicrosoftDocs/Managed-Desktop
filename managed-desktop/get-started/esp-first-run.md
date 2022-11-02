@@ -43,7 +43,7 @@ Microsoft Managed Desktop uses these settings in the Autopilot profile used for 
 
 ### Kiosk-%RAND:9% Autopilot settings
 
-This device profile is used for [Kiosk devices](../service-description/kiosk-device-profile.md).
+These settings apply to devices with the [Kiosk device profile](../service-description/kiosk-device-profile.md) assigned.
 
 | Setting | Value |
 | ----- | ----- |
