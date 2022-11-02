@@ -56,6 +56,8 @@ See the following table for the group tag attributes. If you're planning on depl
 | Standard  | Microsoft365Managed_Standard | Microsoft365Managed_Standard-Shared |
 
 If you have a partner that enrolls devices, follow the steps in [Partner registration](../get-started/partner-registration.md).
+> [!TIP]
+> You may have devices that were previously registered in Windows Autopilot that you want to register with Microsoft Managed Desktop that have either no group tag, or have a non-Microsoft Managed Desktop group tag.  You can register these devices with Microsoft Managed Desktop by either adding one of thegroup tags shown in the table above, or replacing the existing group tag atribute with a Microsoft Managed Desktop group tag.   It is not supported to replace an existing Microoft Managed Desktop group tag with a different Microsoft Managed Desktop group tag. 
 
 > [!WARNING]
 > When registering Shared devices, don't try to edit the group tab attribute by appending **-Shared** to devices previously imported to Windows Autopilot. Devices already imported into Windows Autopilot, using one of the Microsoft Managed Desktop group tags starting with **Microsoft365Managed_**, but without **-Shared** initially appended, are already part of a different Azure Active Directory group. This Azure Active Directory group doesn't have the Windows Autopilot self-deploying mode profile assigned to it. If you must re-purpose an existing device to be a shared device, you must delete and reregister the device into Windows Autopilot again.
