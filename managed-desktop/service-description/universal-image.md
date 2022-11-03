@@ -60,7 +60,7 @@ The feature supports driver injection to Windows, WinRE, and WinPE.
 
 ### Prerequisites
 
-The following are the prerequisites are needed to deploy multi-model driver support. The prerequisites include:
+Prerequisites to deploy multi-model driver support are as follows:
 
 - System SKU
 - A workstation to author content on the USB
