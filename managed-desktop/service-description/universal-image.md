@@ -60,7 +60,7 @@ The feature supports driver injection to Windows, WinRE, and WinPE.
 
 ### Prerequisites
 
-The following are the prerequisites are needed to deploy multi-model driver support. The prerequisites include:
+Prerequisites to deploy multi-model driver support are as follows:
 
 - System SKU
 - A workstation to author content on the USB
@@ -128,11 +128,11 @@ There are two partitions on the USB as created by the Microsoft Managed Desktop 
 - WinPE (E:)
 - Images (F:)
 
-The JSON file (`SKU_Folder.json`) is located on the WinPE partition in the `<USB WinPE Partition>:\Scripts` folder. For example, `E:\Scripts` where "`E:`" is the USB WinPE partition.
+The JSON file (`SKU_Folder.json`) is located on the Images partition in the `<USB Image Partition>:\Images\Drivers` folder. For example, `F:\Images\Drivers` where "`F:`" is the USB Images partition.
 
 #### Step 2: Edit the JSON file
 
-1. Locate the JSON file in the WinPE\Scripts folder and add entries to map the driver folders to the correct device model (System SKU).
+1. Locate the JSON file in the Images\Drivers folder and add entries to map the driver folders to the correct device model (System SKU).
 1. Insert an entry for `"SystemSKU": “name of System SKU”`. The name should exactly match the System SKU found in the prerequisite section.  
 1. Insert an entry for the `“Folder”: “name of folder containing drivers”`. The name should exactly match the driver folder name you created on the USB key with the drivers. For more information, see [Create driver folders](#step-3-create-driver-folders). The path for drivers is based on `<USB Images partition>:\Images\Drivers`. You don't need a full path, just the name of the folder within that location.
 1. You don't need to include `_OS`, `_WinPE`, `_WinRE` in the folder name in the JSON file. We'll automatically look for your folder name to contain those extensions.
