@@ -17,7 +17,12 @@ audience: Admin
 
 Microsoft Managed Desktop uses Windows Autopilot, Azure Active Directory, and Microsoft Intune.
 
-For these services to work together seamlessly, devices need consistent, standardized names. Microsoft Managed Desktop applies a standardized name format (of the form `MMD-%RAND11`) when devices are enrolled. Windows Autopilot assigns these names. For more information about Autopilot, see [First-run experience with Autopilot and the Enrollment Status Page](../get-started/esp-first-run.md).
+For these services to work together seamlessly, devices need consistent, standardized names. Microsoft Managed Desktop applies the following standardized name formats when devices are enrolled:
+
+- `MMD-%RAND:11`
+- `[Kiosk-%RAND:9%](profiles.md#device-profile-details)`(for devices with the [Kiosk device profile](kiosk-device-profile.md) assigned)
+
+Windows Autopilot assigns these names. For more information about Autopilot, see [First-run experience with Autopilot and the Enrollment Status Page](../get-started/esp-first-run.md).
 
 ## Automated name changes
 
