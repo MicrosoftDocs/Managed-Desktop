@@ -35,6 +35,9 @@
               href: service-description/device-services.md
             - name: Device profiles
               href: service-description/profiles.md
+              items:
+                  - name: Kiosk device profile
+                    href: service-description/kiosk-device-profile.md
             - name: Device deployment groups
               href: service-description/deployment-groups.md
             - name: Device configuration
