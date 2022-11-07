@@ -25,6 +25,8 @@ Enrollment Status Page and Autopilot for pre-provisioned deployment are enabled 
 
 Microsoft Managed Desktop uses these settings in the Autopilot profile used for your users' devices:
 
+### MMD-%RAND:11% Autopilot settings
+
 | Setting | Value |
 | ----- | ----- |
 | Deployment mode | User Driven |
@@ -37,23 +39,59 @@ Microsoft Managed Desktop uses these settings in the Autopilot profile used for 
 | User account type| Standard |
 | Allow White Glove Out of Box Experience (OOBE) | Yes |
 | Apply device name template | Yes |
-| Enter a name | `MMD-%RAND:11%` |
+| Enter a name | `[MMD-%RAND:11%](../service-description/profiles.md#device-profile-details)` |
+
+### Kiosk-%RAND:9% Autopilot settings
+
+These settings apply to devices with the [Kiosk device profile](../service-description/kiosk-device-profile.md) assigned.
+
+| Setting | Value |
+| ----- | ----- |
+| Deployment mode | Self-Deploying |
+| Join to Azure AD as | Azure AD joined |
+| Language (Region) | Operating system default |
+| Automatically configure keyboard | No |
+| Microsoft Software License Terms | Hide |
+| Privacy settings | Hide |
+| Hide change account options | Hide |
+| User account type| Standard |
+| Allow White Glove Out of Box Experience (OOBE) | Yes |
+| Apply device name template | Yes |
+| Enter a name | `[Kiosk-%RAND:9%](../service-description/profiles.md#device-profile-details)` |
 
 ## Enrollment Status Page settings
 
 Microsoft Managed Desktop uses these settings for the Enrollment Status Page experience:
+
+### MMD-%RAND:11% Enrollment Status Page settings
 
 | Setting | Value |
 | ------ | ------ |
 | Show app and profile configuration progress | Yes |
 | Show an error when installation takes longer than specified number of minutes | 60 |
 | Show custom message when time limit error occurs | No |
-| Allow users to collect logs about installation errors| Yes |
+| Turn on log collection and diagnostics page for end users | Yes |
 | Only show page to devices provisioned by out-of-box experience (OOBE) | Yes |
 | Block device use until all apps and profiles are installed | Yes |
 | Allow users to reset device if installation error occurs | Yes |
 | Allow users to use device if installation error occurs | Yes |
 | Block device use until these required apps are installed if they're assigned to the user/device <ul><li> Modern Workplace - Time Correction</li><li>Modern Workplace - Client Library</li></ul> | Yes |
+
+### Kiosk-%RAND:9% Enrollment Status Page settings
+
+| Setting | Value |
+| ------ | ------ |
+| Show app and profile configuration progress | Yes |
+| Show an error when installation takes longer than specified number of minutes | 60 |
+| Show custom message when time limit error occurs | No |
+| Turn on log collection and diagnostics page for end users | Yes |
+| Only show page to devices provisioned by out-of-box experience (OOBE) | Yes |
+| Block device use until all apps and profiles are installed | Yes |
+| Allow users to reset device if installation error occurs | Yes |
+| Allow users to use device if installation error occurs | Yes |
+| Block device use until these required apps are installed if they're assigned to the user/device <ul><li> Modern Workplace - Time Correction</li><li>Modern Workplace - Client Library</li></ul> | All |
+
+## Enrollment Status Page experience
 
 The Enrollment Status Page experience occurs in three phases. For more, see [Enrollment Status Page tracking information](/mem/intune/enrollment/windows-enrollment-status#enrollment-status-page-tracking-information).
 
