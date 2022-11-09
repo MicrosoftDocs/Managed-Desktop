@@ -23,6 +23,7 @@ This article lists new and updated articles in the [Microsoft Managed Desktop do
 
 | New or changed article | Description |
 | ----- | ----- |
+| [Privacy](service-description/privacy-personal-data.md) | Updated Microsoft Managed Desktop data storage and staff location information |
 | [Kiosk device profile](service-description/kiosk-device-profile.md) | New device profile added to the Microsoft Managed Desktop service. |
 
 ## October 2022
