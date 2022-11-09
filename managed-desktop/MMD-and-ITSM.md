@@ -12,7 +12,7 @@ ms.localizationpriority: medium
 
 # Microsoft Managed Desktop and ITIL
 
-Many organizations find it valuable to structure their IT services along the lines of a formalized IT Service Model (ITSM), such as [ITIL](https://www.axelos.com/best-practice-solutions/itil). 
+Many organizations find it valuable to structure their IT services along the lines of a formalized IT Service Model (ITSM), such as [ITIL](https://www.axelos.com/best-practice-solutions/itil).
 
 Microsoft Managed Desktop enables your organization to comply with many key aspects of such formalized ITSM models. Using ITIL as an example, this article helps you see the connections between common ITIL phases and processes and equivalent Microsoft Managed Desktop features, where applicable. This information only applies to the Microsoft Managed Desktop portion of your organization.
 
@@ -29,9 +29,7 @@ This table relates key ITIL phases and processes to Microsoft Managed Desktop fe
 |Information security management     | Security information, including information security for the service.<br><br> Security-related policies and other information on how devices are configured.   | - [Security in Microsoft Managed Desktop](service-description/security.md)<br><br>- [Device configuration](service-description/device-policies.md)  |
 |Availability management     |  Microsoft Managed Desktop balances responsibility with your organization to ensure availability of service.<br><br>Admins and users have routes to respective support if there are service or availability issues. | - [Microsoft Managed Desktop operations and monitoring](service-description/operations-and-monitoring.md)<br><br>- [Admin support for Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md)<br>- [Get user support](working-with-managed-desktop/end-user-support.md)  |
 
-
 ## Service transition
-
 
 |ITIL process |Description  |Documentation |
 |---------|---------|---------|
@@ -40,10 +38,7 @@ This table relates key ITIL phases and processes to Microsoft Managed Desktop fe
 |Service asset and configuration management     | Information regarding your organization's Microsoft Managed Desktop deployment is available on the IT admin portal.  | [Admin support for Microsoft Managed Desktop](working-with-managed-desktop/admin-support.md) |
 |Knowledge management     | Information on the Microsoft Managed Desktop service is kept up to date on this site.   | [Change history for Microsoft Managed Desktop documentation](change-history-managed-desktop.md)        |
 
-
-
 ## Service operation
-
 
 |ITIL process |Description  |Documentation  |
 |---------|---------|---------|
