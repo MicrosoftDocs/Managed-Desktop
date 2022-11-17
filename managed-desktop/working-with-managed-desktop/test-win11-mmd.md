@@ -21,6 +21,9 @@ We've created the device group (**Modern Workplace - Windows 11 Pre-Release Test
 
 You can use new devices or any existing devices for Windows 11 testing. However, you shouldn't enroll production devices in this group until you’re confident in the test devices' compatibility and overall experience.
 
+> [!IMPORTANT]
+> Once you've tested and upgraded your devices to Windows 11, the devices should be [**removed** from the Windows 11 Pre-Release Test Devices group](/azure/active-directory/fundamentals/how-to-manage-groups#remove-members-or-owners-of-a-group) to ensure they receive [updates](../service-description/updates.md) via the assigned [deployment groups](../service-description/deployment-groups.md).
+
 ## Prioritize applications to submit to the Test Base
 
 Business-critical applications are the best candidates for more validation in a closed Windows 11 environment. We can help you decide on apps for Windows 11 testing based on usage and reliability data. To request our recommendations, follow these steps:
