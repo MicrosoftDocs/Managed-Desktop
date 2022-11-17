@@ -17,34 +17,37 @@ ms.localizationpriority: medium
 
 # Change history for Microsoft Managed Desktop documentation
 
-This article lists new and updated articles in the [Microsoft Managed Desktop documentation](index.yml). "Updated" articles have had material additions or corrections. Minor fixes such as correction of typos, style, or formatting issues aren't listed. You can always view the history of specific commits (including details of any changes) by visiting the [repo on GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+This article lists new and updated articles in the [Microsoft Managed Desktop documentation](index.yml).
+
+Minor fixes such as typos, style, or formatting issues aren't listed. You can always view the history of specific commits (including details of any changes) by visiting the [repo on GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
 
 ## November 2022
 
 | New or changed article | Description |
 | ----- | ----- |
+| [Preview and test Windows 11](working-with-managed-desktop/test-win11-mmd.md) | Added note to remove devices from the Windows 11 Pre-Release Test Devices group after upgrading to Windows 11 |
 | [Privacy](service-description/privacy-personal-data.md) | Updated Microsoft Managed Desktop data storage and staff location information |
-| [Kiosk device profile](service-description/kiosk-device-profile.md) | New device profile added to the Microsoft Managed Desktop service. |
+| [Kiosk device profile](service-description/kiosk-device-profile.md) | New device profile added to the Microsoft Managed Desktop service |
 
 ## October 2022
 
 | New or changed article | Description |
 | ----- | ----- |
-| [Azure Virtual Desktop workloads](get-started/virtual-device-registration.md#azure-virtual-desktop-workloads) | New feature added to the Microsoft Managed Desktop service. |
+| [Azure Virtual Desktop workloads](get-started/virtual-device-registration.md#azure-virtual-desktop-workloads) | New feature added to the Microsoft Managed Desktop service |
 
 ## August 2022
 
 | New or changed article | Description |
 | ----- | ----- |
 | [Localize the user experience](get-started/localization.md) | Updated the Install more language section |
-| [Autopilot into co-management](get-started/autopilot-co-management.md) | New feature added to the Microsoft Managed Desktop service. |
-| [Recover devices](working-with-managed-desktop/recover-devices.md) | New section explaining how to recover your devices with Windows Recovery. |
+| [Autopilot into co-management](get-started/autopilot-co-management.md) | New feature added to the Microsoft Managed Desktop service |
+| [Recover devices](working-with-managed-desktop/recover-devices.md) | New section explaining how to recover your devices with Windows Recovery |
 
 ## July 2022
 
 | New or changed article | Description |
 | ----- | ----- |
-| [Device registration](get-started/device-registration-methods.md) | Added detailed auto-registration and manual registration diagrams and process information. |
+| [Device registration](get-started/device-registration-methods.md) | Added detailed auto-registration and manual registration diagrams and process information |
 | [Windows Autopilot registration in Microsoft Endpoint Manager](get-started/windows-autopilot-registration.md) | Added instructions on how to manually register devices from the Microsoft Managed Desktop devices blade |
 | [Virtual device registration](get-started/virtual-device-registration.md) | Added new section |
 
