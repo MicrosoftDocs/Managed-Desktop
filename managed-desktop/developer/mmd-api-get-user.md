@@ -52,7 +52,7 @@ If successful, this method returns a 200 OK response code and user details in 
 
 ### Example request
 
-Here is an example of the HTTP request.
+The following is an example of the HTTP request.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices/jdoe@contoso.onmicrosoft.com
@@ -60,7 +60,7 @@ GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices/jdoe
 
 ### Example response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 ```json
 { 

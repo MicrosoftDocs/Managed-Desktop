@@ -54,20 +54,18 @@ If successful, this method returns a 204 response code and there is no content 
 
 ### Example request
 
-Here is an HTTP example of a request to add notes to a specific ticket and a second request to retrieve all ticket notes.
+The following is an HTTP example of a request to add notes to a specific ticket and a second request to retrieve all ticket notes.
 
-Here is an example of the HTTP request:
+The following is an example of the HTTP request:
 
 ```http
 POST https://mmdls.microsoft.com/support/odata/v1/tickets('TicketId')/addNote 
 ```
 
-Here is an example of the JSON request:
+The following is an example of the JSON request:
 
 ```json
 {     
-
     "text": "Note to add to ticket" 
-
 }
 ```

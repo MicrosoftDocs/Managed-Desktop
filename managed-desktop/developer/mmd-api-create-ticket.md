@@ -77,13 +77,13 @@ If successful, this method returns a 200 OK response code and a list of device
 
 ### Create a support ticket request
 
-Here is an example of the HTTP request.
+The following is an example of the HTTP request.
 
 ```http
 POST https://mmdls.microsoft.com/support/odata/v1/tickets
 ```
 
-Here is an example of the JSON request.
+The following is an example of the JSON request.
 
 ```json
 { 
@@ -105,7 +105,7 @@ Here is an example of the JSON request.
 
 ### Create support ticket response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 ```json
 { 
@@ -150,13 +150,13 @@ Here is an example of the JSON response.
 
 ### Request a change
 
-Here is an example of the HTTP request.
+The following is an example of the HTTP request.
 
 ```http
 POST https://mmdls.microsoft.com/support/odata/v1/tickets
 ```
 
-Here is an example of the JSON request.
+The following is an example of the JSON request.
 
 ```json
 { 
@@ -171,14 +171,13 @@ Here is an example of the JSON request.
         "surname": "Doe", 
         "email": "jd@contoso.com", 
         "phoneNumber": "phone number", 
- 
     } 
 }
 ```
 
 ### Request a change response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 ```json
 { 
@@ -223,13 +222,13 @@ Here is an example of the JSON response.
 
 ### Incident support ticket request
 
-Here is an example of the HTTP request:
+The following is an example of the HTTP request:
 
 ```http
 POST https://mmdls.microsoft.com/support/odata/v1/tickets
 ```
 
-Here is an example of the JSON request:
+The following is an example of the JSON request:
 
 ```json
 { 
@@ -256,7 +255,7 @@ Here is an example of the JSON request:
 
 ### Incident support ticket response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 ```json
 { 

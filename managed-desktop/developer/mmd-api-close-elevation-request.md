@@ -54,13 +54,13 @@ If successful, this method returns a 204 No Content response code.
 
 ### Example request
 
-Here is an example of the HTTP request.
+The following is an example of the HTTP request.
 
 ```http
 PATCH https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationRequests/{elevationRequestId}
 ```
 
-Here is an example of the JSON request.
+The following is an example of the JSON request.
 
 ```json
 { 
@@ -70,19 +70,19 @@ Here is an example of the JSON request.
 
 ### Example response
 
-Here is an example of a successful response.
+The following is an example of a successful response.
 
-| Response |
-| --- |
-| 204 No Content |
+```json
+204 No Content
+```
 
 ### Failed responses
 
-Here are examples of failed responses.
+The following are examples of failed responses.
 
 #### Example one
 
-Here is an example of a failed JSON response.
+The following is an example of a failed JSON response.
 
 ```json
 { 
@@ -95,7 +95,7 @@ Here is an example of a failed JSON response.
 
 #### Example two
 
-Here is an example of a failed JSON response.
+The following is an example of a failed JSON response.
 
 ```json
 { 

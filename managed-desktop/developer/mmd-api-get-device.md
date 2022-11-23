@@ -52,7 +52,7 @@ If successful, this method returns a 200 OK response code and a list of device
 
 ### Example request
 
-Here is an example of the HTTP request.
+The following is an example of the HTTP request.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices/MMD-123456789
@@ -60,10 +60,10 @@ GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices/MMD-
 
 ### Example response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
-> The response list shown here may be truncated for brevity. All devices will be returned from an actual call.
+> The response list shown may be truncated for brevity. All devices will be returned from an actual call.
 
 ```json
 { 

@@ -60,7 +60,7 @@ If successful, this method returns a 200 OK response code and a list of ticket
 
 ### List elevation request
 
-Here is an HTTP example to list the first two elevation requests.
+The following is an HTTP example to list the first two elevation requests.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationRequests?$skip=0&$top=2
@@ -68,7 +68,7 @@ GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationReq
 
 ### List elevation response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
 > The response list shown here may be truncated for brevity. All elevation requests will be returned from an actual call.
@@ -132,7 +132,7 @@ Here is an example of the JSON response.
 
 ### List elevation requests for a device request
 
-Here is an HTTP example to list all elevation requests for a specific device.
+The following is an HTTP example to list all elevation requests for a specific device.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationRequests?$filter=deviceName eq 'MMD-03690457680'
@@ -140,10 +140,10 @@ GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationReq
 
 ### List elevation requests for a device response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
-> The response list shown here may be truncated for brevity. All elevation requests will be returned from an actual call.
+> The response list shown may be truncated for brevity. All elevation requests will be returned from an actual call.
 
 ```json
 { 
@@ -204,7 +204,7 @@ Here is an example of the JSON response.
 
 ### List elevation requests filtered by category request
 
-Here is an HTTP example to list all elevation requests with category of ‘Office’.
+The following is an HTTP example to list all elevation requests with category of ‘Office’.
 
 ```http
 GET https://mmdls.microsoft.com/odata/v1/tenants/{tenantId}/elevationRequests?$filter=contains(category,'Office')
@@ -212,10 +212,10 @@ GET https://mmdls.microsoft.com/odata/v1/tenants/{tenantId}/elevationRequests?$f
 
 ### List elevation requests filtered by category response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
-> The response list shown here may be truncated for brevity. All tickets will be returned from an actual call.
+> The response list shown may be truncated for brevity. All tickets will be returned from an actual call.
 
 ```json
 { 
