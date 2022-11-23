@@ -78,7 +78,7 @@ Devices that are assigned the [Power user device profile](#device-profile-detail
 The CSV includes:
 
 - Information retrieved from all devices that have been active in the last 28 days.
-- Refreshed data. The data is refreshed once a day at midnight. The content is refreshed every 24 hours.
-- The device profile name. Device profiles can be filtered for Power user device profiles.
-- If members of the local administrators’ group include Azure Active Directory groups. These members will include a (G) suffix. Disabled accounts will include a (D) suffix.
-- Some data that will appear as GUIDs. Data that appears as GUIDS is because we're unable to determine the usernames. We only gather the usernames as displayed on the local device.
+- Data that's refreshed once a day at midnight. The content is refreshed every 24 hours.
+- The device profile names and can be filtered for Power user device profiles.
+- Members of the local administrators' group that include Azure Active Directory groups, the group will include a (G) suffix. Disabled accounts will include a (D) suffix.
+- Some data that will appear as GUIDs. Data that appears as GUIDs is because we're unable to determine the usernames. We only gather the usernames as displayed on the local device.
