@@ -18,9 +18,9 @@ ms.collection: M365-modern-desktop
 
 Creates a new support ticket.
 
-Adding attachments is not currently supported via the API. To add a file to an existing support ticket, visit the **Service requests** page in the Microsoft Endpoint Manager portal.
+Adding attachments isn't currently supported via the API. To add a file to an existing support ticket, visit the **Service requests** page in the Microsoft Endpoint Manager portal.
 
-Viewing and adding contents to discussions is not currently supported via the API.
+Viewing and adding contents to discussions isn't currently supported via the API.
 
 ## Prerequisites
 
@@ -58,7 +58,7 @@ Don't supply a request body for this method.
 | usersOrDevicesImpacted |    | Int32  | Number of users/devices impacted. |
 | businessImpact |    | String | Describe business impact |
 | issueFirstNoticed  |    | String | Time when issue was first noticed. |
-| issueReproduced |    | Boolean | Issue is reproduceable on non-Microsoft Managed device. |
+| issueReproduced |    | Boolean | Issue is reproducible on non-Microsoft Managed device. |
 | endUserSupportEngaged  |    | Boolean   | End user support was engaged. |
 | troubleshootingSteps   |    | String  | Description of troubleshooting steps performed. |
 | reproSteps |    | String  | Steps to reproduce issue.                               |
