@@ -68,7 +68,7 @@ GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/users
 
 ### List all users request response
 
-Here is an example of the JSON response.
+Here's an example of the JSON response.
 
 > [!NOTE]
 > The response list shown may be truncated for brevity. All users will be returned from an actual call.
