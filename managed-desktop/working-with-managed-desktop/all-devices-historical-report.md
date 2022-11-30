@@ -23,7 +23,7 @@ The historical All devices report provides a visual representation of the update
 1. Select the **Reports** tab.
 1. Select **All devices report—historical**.
 
-[ INSERT IMAGE HERE ]
+:::image type="content" source="../media/reports/all-devices-historical-report.png" alt-text="All devices—historical report" lightbox="../media/reports/all-devices-historical-report.png":::
 
 > [!TIP]
 > This report provides a time stamp of when the report trend was last generated and can be seen at the top of the page.
