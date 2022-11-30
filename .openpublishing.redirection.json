@@ -2,12 +2,12 @@
   "redirections": [
     {
       "source_path": "managed-desktop/working-with-managed-desktop/device-status-report.md",
-      "redirect_url": "managed-desktop/working-with-managed-desktop/all-devices-report",
+      "redirect_url": "/managed-desktop/working-with-managed-desktop/all-devices-report",
       "redirect_document_id": true
     },
     {
       "source_path": "managed-desktop/working-with-managed-desktop/security-updates-report.md",
-      "redirect_url": "managed-desktop/working-with-managed-desktop/eligible-devices-historical-report",
+      "redirect_url": "/managed-desktop/working-with-managed-desktop/eligible-devices-historical-report",
       "redirect_document_id": true
     },  
   ]
