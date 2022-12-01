@@ -17,7 +17,15 @@ This report provides straightforward summaries of key metrics for Microsoft Mana
 
 This report will be published each month to Microsoft Endpoint Manager and contain aggregate information about the previous month. Historical reports will continue to be available to you through the same portal for month-over-month comparisons.
 
-## What's covered in the report
+**To view the Service metrics report:**
+
+1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).
+1. Select **Reports**.
+1. Navigate to the **Microsoft Managed Desktop** > **Managed devices**.
+1. Select the **Reports** tab. In this view, you'll see all the types of Microsoft Managed Desktop reports available to you.
+1. Select **Service reports** to see the list of service metrics reports that have been published for your tenant. Once downloaded, it can be viewed or shared with your organization offline and outside of the portal.
+
+## Report information
 
 Below are the data summaries provided in the report.
 
@@ -35,9 +43,3 @@ Below are the data summaries provided in the report.
 
 > [!NOTE]
 > Content included in this report may change slightly each month. We are always looking for the best way to share these details with you and will make updates to keep the most relevant information in this report.
-
-**To download a copy of the report:**
-
-1. In the **Reports** menu, navigate to the **Microsoft Managed Desktop** section. Then, select **Managed devices**.
-1. Select the **Reports** tab. In this view, you'll see all the types of Microsoft Managed Desktop reports available to you.
-1. Select **Service reports** to see the list of service metrics reports that have been published for your tenant. Once downloaded, it can be viewed or shared with your organization offline and outside of the portal.
