@@ -25,7 +25,7 @@ The historical All devices report provides a visual representation of the update
 
 :::image type="content" source="../media/reports/all-devices-historical-report.png" alt-text="All devices—historical report" lightbox="../media/reports/all-devices-historical-report.png":::
 
-> [!TIP]
+> [!NOTE]
 > This report provides a time stamp of when the report trend was last generated and can be seen at the top of the page.
 
 ## Report options
