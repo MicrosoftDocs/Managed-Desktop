@@ -21,6 +21,12 @@ This article lists new and updated articles in the [Microsoft Managed Desktop do
 
 Minor fixes such as typos, style, or formatting issues aren't listed. You can always view the history of specific commits (including details of any changes) by visiting the [repo on GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
 
+## December 2022
+
+| New or changed article | Description |
+| ----- | ----- |
+| [Reports](working-with-managed-desktop/reports.md) | Added Windows quality update reports |
+
 ## November 2022
 
 | New or changed article | Description |
