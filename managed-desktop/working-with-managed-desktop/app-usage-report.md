@@ -15,7 +15,14 @@ ms.topic: article
 
 This report helps you understand how applications are being used across your Microsoft Managed Desktop devices. It can also act as a reference to help you assess any effect on your users when application issues are discovered.
 
-The information in this report includes:
+**To view the App usage report:**
+
+1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).
+1. Select **Reports**.
+1. Navigate to **Microsoft Managed Desktop** > **Managed devices**. Then, select the **Reports** tab.
+1. Select **Application usage**.
+
+## Report information
 
 | Column name | Description |
 | ------ | ------ |
@@ -26,4 +33,4 @@ The information in this report includes:
 | % of reporting devices | The percentage of total reporting devices that have used this application.
 
 > [!IMPORTANT]
-> For devices to report data, they must be set to the Optional diagnostic data level. Learn more about [how Microsoft Managed Desktop uses Windows diagnostic data](../service-description/privacy-personal-data.md).\
+> For devices to report data, they must be set to the Optional diagnostic data level. Learn more about [how Microsoft Managed Desktop uses Windows diagnostic data](../service-description/privacy-personal-data.md).
