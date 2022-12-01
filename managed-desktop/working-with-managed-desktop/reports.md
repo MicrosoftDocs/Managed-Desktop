@@ -27,7 +27,7 @@ The following reports are available:
 | ------ | ------ |
 | [**Device inventory**](device-inventory-report.md) | Download a comma-delimited file of the devices' serial number, name, manufacturer, etc. |
 | [**Application usage report**](app-usage-report.md) | This report provides information about typical app usage across your Microsoft Managed Desktop devices. For devices to provide data to this report, they must be set to the Optional diagnostic data level. |
-| [**Service Metrics report**](service-metrics-report.md) | This report provides straightforward summaries of key metrics for Microsoft Managed Desktop month over month. |
+| [**Service metrics report**](service-metrics-report.md) | This report provides straightforward summaries of key metrics for Microsoft Managed Desktop month over month. |
 
 ## Windows quality update reports
 
