@@ -25,6 +25,8 @@ Minor fixes such as typos, style, or formatting issues aren't listed. You can al
 
 | New or changed article | Description |
 | ----- | ----- |
+| [Universal image](service-description/universal-image.md) | Added tip to enable rapid testing and validation in Hyper-V environments using VHDX |
+| [Virtual device registration](get-started/virtual-device-registration.md) | Added note to Azure Virtual Desktop section. Shared device mode is not supported |
 | [Reports](working-with-managed-desktop/reports.md) | Added Windows quality update reports |
 
 ## November 2022

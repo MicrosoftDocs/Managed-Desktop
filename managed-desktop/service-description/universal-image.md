@@ -34,6 +34,9 @@ About the universal image:
 
 Submit requests for the universal image by creating a change request in the [admin center](../working-with-managed-desktop/admin-support.md). You'll receive instructions on how to download the universal image.
 
+> [!TIP]
+> To enable rapid testing and validation of the Microsoft Managed Desktop platform in your Hyper-V environment, you'll need a VHDX file. To obtain the VHDX file, [submit a request](../working-with-managed-desktop/admin-support.md).
+
 ## Language support
 
 The following are the images we support as part of the download script:
