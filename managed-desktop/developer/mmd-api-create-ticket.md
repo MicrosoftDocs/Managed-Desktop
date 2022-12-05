@@ -97,8 +97,7 @@ Here is an example of the JSON request.
         "givenName": "John", 
         "surname": "Doe", 
         "email": "jd@contoso.com", 
-        "phoneNumber": "phone number", 
-
+        "phoneNumber": "phone number"
     } 
 }
 ```
@@ -170,8 +169,7 @@ Here is an example of the JSON request.
         "givenName": "John", 
         "surname": "Doe", 
         "email": "jd@contoso.com", 
-        "phoneNumber": "phone number", 
- 
+        "phoneNumber": "phone number"
     } 
 }
 ```
