@@ -234,7 +234,7 @@
                   href: developer/mmd-api-list-devices.md
                 - name: Get device by device name
                   href: developer/mmd-api-get-device.md
-                - name: List profiles
+                - name: List device profiles
                   href: developer/mmd-api-list-profiles.md
                 - name: Reassign device profile
                   href: developer/mmd-api-reassign-device-profile.md
