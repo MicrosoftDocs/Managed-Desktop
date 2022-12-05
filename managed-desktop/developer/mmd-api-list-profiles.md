@@ -12,7 +12,7 @@ ms.date: 04/26/2022
 ms.collection: M365-modern-desktop
 ---
 
-# List profiles
+# List all device profiles
 
 ## API description
 
