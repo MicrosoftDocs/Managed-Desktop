@@ -71,6 +71,9 @@ Microsoft Managed Desktop onboards newly provisioned session hosts through the [
 
 ### Azure Virtual Desktop enrollment API
 
+> [!NOTE]
+> Shared device mode isn't supported on AVD workloads via API.
+
 The following PowerShell script provides IT teams with the ability to manually register Azure Virtual Desktop virtual machines with the Microsoft Managed Desktop service using the enrollment API. The script can be incorporated into existing provisioning or deployment pipelines for automation.  
 
 For more information on how to use Microsoft Managed Desktop APIs, see [Microsoft Managed Desktop API](../developer/mmd-api-overview.md).  
