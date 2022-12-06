@@ -23,7 +23,7 @@ You can think of device profiles as being part of a hierarchy of device configur
 | Device configuration options | Description
 | ----- | ----- |
 | Your configurations | At the top are your own configurations, such as network details or applications. A device can have any number of these configurations, which aren't managed or blocked by Microsoft Managed Desktop. |
-| Customizations | The next higher level is additional [customizations](customizing.md). Each device can have one or more (or no) customizations. The customizations can either modify a lower-level layer (Device profiles or the foundational configuration), or be an entirely new request that's layered on top of the standard configuration. |
+| Customizations | The next higher level is more [customizations](customizing.md). Each device can have one or more (or no) customizations. The customizations can either:<ul><li>Modify a lower-level layer (device profiles or the foundational configuration) or</li><li>Be an entirely new request that's layered on top of the standard configuration.</li></ul> |
 | Device profiles | Every Microsoft Managed Desktop device must have one, and only one, profile assigned. Admins can select which profile a device is assigned.<br><br>You can assign different pre-set profiles to devices. Each profile is optimized for the needs of specific types of users. Three device profiles are available:<ul><li>Standard</li><li>Sensitive Data</li><li>Power user</li><li>[Kiosk](kiosk-device-profile.md)</li></ul> |
 | Foundation | Fundamentally, every Microsoft Managed Desktop device has a foundation that includes:<br><ul><li>Standard security baseline</li><li>Compliance policies</li><li>Windows Update settings</li><li>Groups</li></ul><br>To work with Microsoft Managed Desktop, every device must include all of these elements. These elements can't be changed by admins. You must submit a request to Microsoft Managed Desktop. |
 
@@ -61,6 +61,24 @@ Each device profile also involves these items:
 
 You can request exceptions to the device profiles and their details as you would with any other policy.
 
-Keep in mind that you can only have one of each device profile in your Azure Active Directory organization ("tenant"). For example, you can't request that the Sensitive data device profile disables AppLocker for only some of your users. All devices with the sensitive data device profile must have the same configuration.
+You can only have one of each device profile in your Azure Active Directory organization ("tenant"). For example, you can't request that the Sensitive data device profile disables AppLocker for only some of your users. All devices with the sensitive data device profile must have the same configuration.
 
 Each device can only have one profile. If a given device is used by more than one user, all users on that device will have the same configuration.
+
+## Export admin CSV
+
+Devices that are assigned the [Power user device profile](#device-profile-details) also include user(s) in the administrator group. As an IT admin, you can download and view all users and groups assigned to the local administrators group.  
+
+**To export the CSV file:**
+
+1. In [Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431), select **Devices** in the left pane.
+2. In the **Microsoft Managed Desktop** section, select **Devices**.
+3. Select the **Export** menu option and select **Export admins**. A CSV file is downloaded.
+
+The CSV includes:
+
+- Information retrieved from all devices that have been active in the last 28 days.
+- Data that's refreshed once a day at midnight. The content is refreshed every 24 hours.
+- The device profile names and can be filtered for Power user device profiles.
+- Members of the local administrators' group that include Azure Active Directory groups, the group will include a (G) suffix. Disabled accounts will include a (D) suffix.
+- Some data that will appear as GUIDs. Data that appears as GUIDs is because we're unable to determine the usernames. We only gather the usernames as displayed on the local device.

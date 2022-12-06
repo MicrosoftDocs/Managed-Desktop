@@ -18,9 +18,9 @@ ms.collection: M365-modern-desktop
 
 Creates a new support ticket.
 
-Adding attachments is not currently supported via the API. To add a file to an existing support ticket, visit the **Service requests** page in the Microsoft Endpoint Manager portal.
+Adding attachments isn't currently supported via the API. To add a file to an existing support ticket, visit the **Service requests** page in the Microsoft Endpoint Manager portal.
 
-Viewing and adding contents to discussions is not currently supported via the API.
+Viewing and adding contents to discussions isn't currently supported via the API.
 
 ## Prerequisites
 
@@ -58,7 +58,7 @@ Don't supply a request body for this method.
 | usersOrDevicesImpacted |    | Int32  | Number of users/devices impacted. |
 | businessImpact |    | String | Describe business impact |
 | issueFirstNoticed  |    | String | Time when issue was first noticed. |
-| issueReproduced |    | Boolean | Issue is reproduceable on non-Microsoft Managed device. |
+| issueReproduced |    | Boolean | Issue is reproducible on non-Microsoft Managed device. |
 | endUserSupportEngaged  |    | Boolean   | End user support was engaged. |
 | troubleshootingSteps   |    | String  | Description of troubleshooting steps performed. |
 | reproSteps |    | String  | Steps to reproduce issue.                               |
@@ -77,13 +77,13 @@ If successful, this method returns a 200 OK response code and a list of device
 
 ### Create a support ticket request
 
-Here is an example of the HTTP request.
+The following is an example of the HTTP request.
 
 ```http
 POST https://mmdls.microsoft.com/support/odata/v1/tickets
 ```
 
-Here is an example of the JSON request.
+The following is an example of the JSON request.
 
 ```json
 { 
@@ -104,7 +104,7 @@ Here is an example of the JSON request.
 
 ### Create support ticket response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 ```json
 { 
@@ -149,13 +149,13 @@ Here is an example of the JSON response.
 
 ### Request a change
 
-Here is an example of the HTTP request.
+The following is an example of the HTTP request.
 
 ```http
 POST https://mmdls.microsoft.com/support/odata/v1/tickets
 ```
 
-Here is an example of the JSON request.
+The following is an example of the JSON request.
 
 ```json
 { 
@@ -176,7 +176,7 @@ Here is an example of the JSON request.
 
 ### Request a change response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 ```json
 { 
@@ -221,13 +221,13 @@ Here is an example of the JSON response.
 
 ### Incident support ticket request
 
-Here is an example of the HTTP request:
+The following is an example of the HTTP request:
 
 ```http
 POST https://mmdls.microsoft.com/support/odata/v1/tickets
 ```
 
-Here is an example of the JSON request:
+The following is an example of the JSON request:
 
 ```json
 { 
@@ -254,7 +254,7 @@ Here is an example of the JSON request:
 
 ### Incident support ticket response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 ```json
 { 

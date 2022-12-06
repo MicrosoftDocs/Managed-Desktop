@@ -62,7 +62,7 @@ If successful, this method returns a 200 OK response code and a list of ticket
 
 ### List tickets request
 
-Here is an HTTP example to list the first 50 tickets returned in descending order by the **createdDateTime** property.
+The following is an HTTP example to list the first 50 tickets returned in descending order by the **createdDateTime** property.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tickets?$skip=0&$top=50&$orderby=createdDateTime desc
@@ -70,10 +70,10 @@ GET https://mmdls.microsoft.com/support/odata/v1/tickets?$skip=0&$top=50&$orderb
 
 ### List tickets response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
-> The response list shown here may be truncated for brevity. All tickets will be returned from an actual call.
+> The response list shown may be truncated for brevity. All tickets will be returned from an actual call.
 
 ```json
 { 
@@ -158,7 +158,7 @@ Here is an example of the JSON response.
 
 ### List tickets filtered by title request
 
-Here is an HTTP example to list all tickets that contain `Test` in ticket title
+The following is an HTTP example to list all tickets that contain `Test` in ticket title
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tickets?$filter=contains(title,'Test')
@@ -166,10 +166,10 @@ GET https://mmdls.microsoft.com/support/odata/v1/tickets?$filter=contains(title,
 
 ### List tickets filtered by title response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
-> The response list shown here may be truncated for brevity. All tickets will be returned from an actual call.
+> The response list shown may be truncated for brevity. All tickets will be returned from an actual call.
 
 ```json
 { 
@@ -254,7 +254,7 @@ Here is an example of the JSON response.
 
 ### List tickets filtered by state and severity request
 
-Here is an HTTP example to list all high severity tickets that are resolved.
+The following is an HTTP example to list all high severity tickets that are resolved.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tickets?$filter=state eq 'resolved' and severity eq 2 
@@ -262,10 +262,10 @@ GET https://mmdls.microsoft.com/support/odata/v1/tickets?$filter=state eq 'resol
 
 ### List tickets filtered by state and severity response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
-> The response list shown here may be truncated for brevity. All tickets will be returned from an actual call.
+> The response list shown may be truncated for brevity. All tickets will be returned from an actual call.
 
 ```json
 { 
