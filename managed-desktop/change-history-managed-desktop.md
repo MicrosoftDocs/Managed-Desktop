@@ -17,14 +17,17 @@ ms.localizationpriority: medium
 
 # Change history for Microsoft Managed Desktop documentation
 
-This article lists new and updated articles in the [Microsoft Managed Desktop documentation](index.yml).
+This article lists new and updated feature releases, and service releases, with their corresponding Message center post numbers (if applicable).
 
-Minor fixes such as typos, style, or formatting issues aren't listed. You can always view the history of specific commits (including details of any changes) by visiting the [repo on GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+Minor corrections such as typos, style, or formatting issues aren't listed.
 
 ## December 2022
 
 | New or changed article | Description |
 | ----- | ----- |
+| [List all device profiles API](developer/mmd-api-list-profiles.md) | New API to list all device profiles<ul><li>[MC476013](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul>|
+| [Reassign device profiles API](developer/mmd-api-reassign-device-profile.md) | New API to reassign device profiles<ul><li>[MC476013](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul> |
+| [Device profiles](service-description/profiles.md) | Added information about the Export admin CSV feature<ul><li>[MC476013](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul> |
 | [Universal image](service-description/universal-image.md) | Added tip to enable rapid testing and validation in Hyper-V environments using VHDX |
 | [Virtual device registration](get-started/virtual-device-registration.md) | Added note to Azure Virtual Desktop section. Shared device mode is not supported |
 | [Reports](working-with-managed-desktop/reports.md) | Added Windows quality update reports |

@@ -107,9 +107,9 @@ The scenario outlined in this article assumes that you already have the followin
 #### Example: Create an action using Microsoft Managed Desktop API
 
 1. Navigate to **Process Automation** \> **Flow Designer**.
-1. Select the **New** button and select **Action**.
-1. Fill in the **Action Properties** (example GET MMD device details) and select **Submit**.
-1. Define action inputs by selecting **+ Create Input** and enter the following values:
+2. Select the **New** button and select **Action**.
+3. Fill in the **Action Properties** (example GET MMD device details) and select **Submit**.
+4. Define action inputs by selecting **+ Create Input** and enter the following values:
 
     | Label | Name | Type | Mandatory |
     | ----- | ----- | ----- | ----- |
@@ -117,11 +117,11 @@ The scenario outlined in this article assumes that you already have the followin
     | Device name | device_name | String | Turn on |
 
 5. Add an action step after Inputs and select **REST** (Perform a REST web service request).
-1. Under **Connection Details**:
+6. Under **Connection Details**:
     1. **Connection**: Use Connection Alias
     2. **Connection Alias**: Select the connection alias you’ve previously set up. For example, select MMD API Connection.
     3. Confirm **Base URL** auto-populates with `https://mmdls.microsoft.com/support/odata/v1/`.
-1. Under **Request Details**:
+7. Under **Request Details**:
     1. **Build Request**: Manually
     2. **Resource Path**: `tenants/{tenant_Id data pill}/*devices/{device_name data pill}`**Note**: drag and drop the data pills of the input variables you created in the previous step.
     3. **HTTP Method**: GET
@@ -129,11 +129,11 @@ The scenario outlined in this article assumes that you already have the followin
         1. Name: Authorization
         1. Value: Bearer `{Credential Value data pill}`
 ![Request details screen](../media/api/request-details.png)
-1. Select **Save** to save a draft of your action.
-1. Select **Test** to test and validate your new action:
-1. Enter your Azure AD directory ID.
-1. Enter a valid Microsoft Managed Desktop device name.
-1. Select **Run Test**.
-1. After Flow Designer is done processing test action, select **Your test has finished running. View the action execution details**, to validate the response.
-1. In the **Execution Details** tab that opens, navigate to **ACTION \>**Expand Steps**\>Step Output Data**.
-1. Confirm the **200 Status code** and the JSON in **Response Body** if action was successful.
+8. Select **Save** to save a draft of your action.
+9. Select **Test** to test and validate your new action:
+10. Enter your Azure AD directory ID.
+11. Enter a valid Microsoft Managed Desktop device name.
+12. Select **Run Test**.
+13. After Flow Designer is done processing test action, select **Your test has finished running. View the action execution details**, to validate the response.
+14. In the **Execution Details** tab that opens, navigate to **ACTION \>**Expand Steps**\>Step Output Data**.
+15. Confirm the **200 Status code** and the JSON in **Response Body** if action was successful.

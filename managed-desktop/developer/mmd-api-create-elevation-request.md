@@ -44,7 +44,7 @@ POST https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationRe
 
 | Property | Type | Description |
 | --- | --- | --- |
-| partnerTicketId | String | Ticket id of support ticket linked to elevation request. |
+| partnerTicketId | String | Ticket ID of support ticket linked to elevation request. |
 | deviceName | String | Device name. |
 | title  | String | Title. |
 | category | String | Request category.  |
@@ -59,13 +59,13 @@ If successful, this method returns a 201 Created response code and a list of d
 
 ### Example request
 
-Here is an example of the HTTP request.
+The following is an example of the HTTP request.
 
 ```http
 POST https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/elevationRequests
 ```
 
-Here is an example of the JSON request.
+The following is an example of the JSON request.
 
 ```json
 { 
@@ -80,7 +80,7 @@ Here is an example of the JSON request.
 
 ### Example response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 ```json
 { 
@@ -111,11 +111,11 @@ Here is an example of the JSON response.
 
 ### Failed responses
 
-Here are examples of failed responses.
+The following are examples of failed responses.
 
 #### Example one
 
-Here is an example of a failed JSON response.
+The following is an example of a failed JSON response.
 
 ```json
 { 
@@ -128,7 +128,7 @@ Here is an example of a failed JSON response.
 
 #### Example two
 
-Here is an example of a failed JSON response.
+The following is an example of a failed JSON response.
 
 ```json
 { 

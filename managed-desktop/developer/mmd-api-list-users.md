@@ -60,7 +60,7 @@ If successful, this method returns a 200 OK response code and a list of device
 
 ### List all users request
 
-Here is an example of the HTTP request.
+The following is an example of the HTTP request.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/users
@@ -68,10 +68,10 @@ GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/users
 
 ### List all users request response
 
-Here is an example of the JSON response.
+Here's an example of the JSON response.
 
 > [!NOTE]
-> The response list shown here may be truncated for brevity. All users will be returned from an actual call.
+> The response list shown may be truncated for brevity. All users will be returned from an actual call.
 
 ```json
     "@odata.context": "https://mmd-support-prod-nam.trafficmanager.net/odata/v1/$metadata#Users",</p>
@@ -144,7 +144,7 @@ Here is an example of the JSON response.
 
 ### List users with filters request
 
-Here is an HTTP example to skip the first record and list the next top two records.
+The following is an HTTP example to skip the first record and list the next top two records.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/users?$skip=1&$top=2
@@ -152,10 +152,10 @@ GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/users?$skip=
 
 ### List users with filters response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
-> The response list shown here may be truncated for brevity. All users will be returned from an actual call.
+> The response list shown may be truncated for brevity. All users will be returned from an actual call.
 
 ```json
 { 
@@ -214,7 +214,7 @@ Here is an example of the JSON response.
 
 ### List users by searchText request
 
-Here is an HTTP example to list users with assigned device based on device name.
+The following is an HTTP example to list users with assigned device based on device name.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/users?$searchText={deviceName}
@@ -222,10 +222,10 @@ GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/users?$searc
 
 ### List users by searchText response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
-> The response list shown here may be truncated for brevity. All users will be returned from an actual call.
+> The response list shown may be truncated for brevity. All users will be returned from an actual call.
 
 ```json
 { 

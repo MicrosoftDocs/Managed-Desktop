@@ -37,7 +37,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 ## HTTP request
 
-Here is an example of an HTTP request.
+The following is an example of an HTTP request.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices
@@ -63,7 +63,7 @@ If successful, this method returns a 200 OK response code and a list of device
 
 ### List all devices request
 
-Here is an example of the HTTP request.
+The following is an example of the HTTP request.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices
@@ -71,10 +71,10 @@ GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices
 
 ### List all devices response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
-> The response list shown here may be truncated for brevity. All devices will be returned from an actual call.
+> The response list shown may be truncated for brevity. All devices will be returned from an actual call.
 
 ```json
 { 
@@ -169,7 +169,7 @@ Here is an example of the JSON response.
 
 ### List devices with filters request
 
-Here is an HTTP example to skip the first record and list the next top two records.
+The following is an HTTP example to skip the first record and list the next top two records.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices?$skip=1&$top=2
@@ -177,7 +177,7 @@ GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices?$ski
 
 ### List devices with filters response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
 > The response list shown here may be truncated for brevity. All devices will be returned from an actual call.
@@ -248,7 +248,7 @@ Here is an example of the JSON response.
 
 ### List devices with userUpn request
 
-Here is an HTTP example that returns list of devices based on search of user’s UPN.
+The following is an HTTP example that returns list of devices based on search of user’s UPN.
 
 ```http
 GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices?$searchText=jdoe@contoso.onmicrosoft.com
@@ -256,7 +256,7 @@ GET https://mmdls.microsoft.com/support/odata/v1/tenants/{tenantId}/devices?$sea
 
 ### List devices with userUpn response
 
-Here is an example of the JSON response.
+The following is an example of the JSON response.
 
 > [!NOTE]
 > The response list shown here may be truncated for brevity. All devices will be returned from an actual call.
