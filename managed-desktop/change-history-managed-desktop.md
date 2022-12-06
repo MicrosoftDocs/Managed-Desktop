@@ -17,9 +17,9 @@ ms.localizationpriority: medium
 
 # Change history for Microsoft Managed Desktop documentation
 
-This article lists new and updated articles in the [Microsoft Managed Desktop documentation](index.yml).
+This article lists new and updated feature releases, and service releases, with their corresponding Message center post numbers (if applicable).
 
-Minor fixes such as typos, style, or formatting issues aren't listed. You can always view the history of specific commits (including details of any changes) by visiting the [repo on GitHub](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop).
+Minor corrections such as typos, style, or formatting issues aren't listed.
 
 ## December 2022
 
