@@ -26,7 +26,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | New or changed article | Description |
 | ----- | ----- |
 | [List all device profiles API](developer/mmd-api-list-profiles.md) | New API to list all device profiles<ul><li>[MC476013](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul>|
-| [Reassign device profiles API](developer/reassign-device-profile.md) | New API to reassign device profiles<ul><li>[MC476013](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul> |
+| [Reassign device profiles API](developer/mmd-api-reassign-device-profile.md) | New API to reassign device profiles<ul><li>[MC476013](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul> |
 | [Device profiles](service-description/profiles.md) | Added information about the Export admin CSV feature<ul><li>[MC476013](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul> |
 | [Universal image](service-description/universal-image.md) | Added tip to enable rapid testing and validation in Hyper-V environments using VHDX |
 | [Virtual device registration](get-started/virtual-device-registration.md) | Added note to Azure Virtual Desktop section. Shared device mode is not supported |
