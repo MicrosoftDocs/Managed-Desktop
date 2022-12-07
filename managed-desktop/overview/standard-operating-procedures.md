@@ -1,6 +1,6 @@
 ---
 title: Standard operating procedures
-description:  Who does what for various change processes
+description:  Details the standard operating procedures in Microsoft Managed Desktop
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: tiaraquan

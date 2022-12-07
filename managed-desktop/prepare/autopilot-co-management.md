@@ -87,7 +87,7 @@ For Microsoft Managed Desktop devices, the following settings must be met:
 For Microsoft to manage your devices in Microsoft Managed Desktop, you must have devices registered with the service. Follow the registration methods described in [device registration overview article](device-registration-overview.md).
 
 - For new devices, once registered, deliver the new device to users to complete device enrollment.  
-- If you reuse an existing device, the device must be wiped and reset. For more information, see [device wipe with factory reset](../operate/reset-devices-factory.md#device-wipe-with-factory-reset).
+- If you reuse an existing device, the device must be wiped and reset. For more information, see [device wipe with factory reset](../operate/reset-devices-factory.md).
 
 Once complete, your user can start up the device and proceed through the Windows setup experience.  
 
