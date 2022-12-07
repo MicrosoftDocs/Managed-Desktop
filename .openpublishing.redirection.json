@@ -9,6 +9,511 @@
       "source_path": "managed-desktop/working-with-managed-desktop/security-updates-report.md",
       "redirect_url": "/managed-desktop/working-with-managed-desktop/eligible-devices-historical-report",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/intro",
+      "redirect_url": "/managed-desktop/overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description",
+      "redirect_url": "/managed-desktop/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "managed-desktop/intro/index.md",
+      "redirect_url": "/managed-desktop/overview/service-plan",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/index.md",
+      "redirect_url": "/managed-desktop/overview/service-plan-description",
+      "redirect_document_id": true
     },  
+    {
+      "source_path": "managed-desktop/service-description/device-services.md",
+      "redirect_url": "/managed-desktop/overview/device-services",
+      "redirect_document_id": true
+    }, 
+    {
+      "source_path": "managed-desktop/service-description/customizing.md",
+      "redirect_url": "/managed-desktop/overview/exceptions-to-service-plan",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/security-operations.md",
+      "redirect_url": "/managed-desktop/overview/security-operations",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/MMD-and-ITSM.md",
+      "redirect_url": "/managed-desktop/overview/MMD-and-ITSM",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/intro/compliance.md",
+      "redirect_url": "/managed-desktop/overview/compliance",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/intro/roles-and-responsibilities.md",
+      "redirect_url": "/managed-desktop/overview/roles-and-responsibilities",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/operations-and-monitoring.md",
+      "redirect_url": "/managed-desktop/overview/change-management",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/servicechanges.md",
+      "redirect_url": "/managed-desktop/overview/service-changes-communication",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/intro/technologies.md",
+      "redirect_url": "/managed-desktop/overview/operating-system",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/intro/win11-overview.md",
+      "redirect_url": "/managed-desktop/overview/win11-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/security.md",
+      "redirect_url": "/managed-desktop/overview/security-technologies",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/regions-languages.md",
+      "redirect_url": "/managed-desktop/overview/regions-languages",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready",
+      "redirect_url": "/managed-desktop/prepare",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/prerequisites.md",
+      "redirect_url": "/managed-desktop/prepare/prerequisites",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/index.md",
+      "redirect_url": "/managed-desktop/prepare/prerequisites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "managed-desktop/get-started/assign-licenses.md",
+      "redirect_url": "/managed-desktop/prepare/prerequisites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "managed-desktop/service-description/device-requirements.md",
+      "redirect_url": "/managed-desktop/prepare/device-requirements",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/guest-accounts.md",
+      "redirect_url": "/managed-desktop/prepare/guest-accounts",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/company-portal.md",
+      "redirect_url": "/managed-desktop/prepare/company-portal",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/enterprise-state-roaming.md",
+      "redirect_url": "/managed-desktop/prepare/enterprise-state-roaming",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/network.md",
+      "redirect_url": "/managed-desktop/prepare/network",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/certs-wifi-lan.md",
+      "redirect_url": "/managed-desktop/prepare/certs-wifi-lan",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/authentication.md",
+      "redirect_url": "/managed-desktop/prepare/on-premise-resources",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/autopilot-co-management.md",
+      "redirect_url": "/managed-desktop/prepare/autopilot-co-management",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/readiness-assessment-downloadable.md",
+      "redirect_url": "/managed-desktop/prepare/readiness-assessment-downloadable",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/readiness-assessment-tool.md",
+      "redirect_url": "/managed-desktop/prepare/readiness-assessment-online",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/readiness-assessment-fix.md",
+      "redirect_url": "/managed-desktop/prepare/readiness-assessment-fix",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/conditional-access.md",
+      "redirect_url": "/managed-desktop/prepare/adjust-management-settings",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/mapped-drives.md",
+      "redirect_url": "/managed-desktop/prepare/mapped-drives",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/printing.md",
+      "redirect_url": "/managed-desktop/prepare/printing",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/access-admin-portal.md",
+      "redirect_url": "/managed-desktop/prepare/access-admin-center",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/add-admin-contacts.md",
+      "redirect_url": "/managed-desktop/prepare/add-admin-contacts",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/device-images.md",
+      "redirect_url": "/managed-desktop/prepare/device-images",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/universal-image.md",
+      "redirect_url": "/managed-desktop/prepare/universal-image",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/prepare-devices.md",
+      "redirect_url": "/managed-desktop/prepare/prepare-devices-for-registration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/device-registration-methods.md",
+      "redirect_url": "/managed-desktop/prepare/device-registration-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/partner-registration.md",
+      "redirect_url": "/managed-desktop/prepare/partner-registration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/windows-autopilot-registration.md",
+      "redirect_url": "/managed-desktop/prepare/windows-autopilot-registration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/manual-registration.md",
+      "redirect_url": "/managed-desktop/prepare/manual-registration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/manual-registration-existing-devices.md",
+      "redirect_url": "/managed-desktop/prepare/manual-registration-existing-devices",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/virtual-device-registration.md",
+      "redirect_url": "/managed-desktop/prepare/virtual-device-registration",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/shared-devices.md",
+      "redirect_url": "/managed-desktop/prepare/shared-devices",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/mmd-app-requirements.md",
+      "redirect_url": "/managed-desktop/prepare/app-requirements",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/apps.md",
+      "redirect_url": "/managed-desktop/prepare/apps",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/app-control.md",
+      "redirect_url": "/managed-desktop/prepare/app-control",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/apps-MCS.md",
+      "redirect_url": "/managed-desktop/prepare/apps-MCS",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started",
+      "redirect_url": "/managed-desktop/deploy",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/esp-first-run.md",
+      "redirect_url": "/managed-desktop/deploy/esp-first-run",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/index.md",
+      "redirect_url": "/managed-desktop/prepare/enroll-your-tenant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "managed-desktop/get-started/localization.md",
+      "redirect_url": "/managed-desktop/deploy/localization",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/validate-device.md",
+      "redirect_url": "/managed-desktop/deploy/validate-device",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/enable-support.md",
+      "redirect_url": "/managed-desktop/deploy/enable-user-support-features",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/get-started-devices.md",
+      "redirect_url": "/managed-desktop/deploy/get-started-devices",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/device-location.md",
+      "redirect_url": "/managed-desktop/deploy/device-location",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/get-started-app-control.md",
+      "redirect_url": "/managed-desktop/deploy/initial-app-deployment-with-app-control",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/deploy-apps.md",
+      "redirect_url": "/managed-desktop/deploy/deploy-apps",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/work-with-app-control",
+      "redirect_url": "/managed-desktop/deploy/add-app-with-app-control",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop",
+      "redirect_url": "/managed-desktop/operate",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/deployment-groups.md",
+      "redirect_url": "/managed-desktop/operate/deployment-groups",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/index.md",
+      "redirect_url": "/managed-desktop/operate/deployment-groups",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/assign-deployment-group.md",
+      "redirect_url": "/managed-desktop/operate/assign-deployment-group",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/device-policies.md",
+      "redirect_url": "/managed-desktop/operate/device-policies",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/profiles.md",
+      "redirect_url": "/managed-desktop/operate/device-profiles",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/kiosk-device-profile.md",
+      "redirect_url": "/managed-desktop/operate/kiosk-device-profile",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/change-device-profile.md",
+      "redirect_url": "/managed-desktop/operate/change-device-profile",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/device-names.md",
+      "redirect_url": "/managed-desktop/operate/request-device-name-change",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-ready/address-device-names.md",
+      "redirect_url": "/managed-desktop/operate/request-device-name-change",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "managed-desktop/service-description/updates.md",
+      "redirect_url": "/managed-desktop/operate/updates",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/manage-apps.md",
+      "redirect_url": "/managed-desktop/operate/manage-apps",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/project-visio.md",
+      "redirect_url": "/managed-desktop/operate/project-visio",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/edge-browser-app.md",
+      "redirect_url": "/managed-desktop/operate/edge-browser-app",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/m365-apps.md",
+      "redirect_url": "/managed-desktop/operate/m365-apps",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/teams.md",
+      "redirect_url": "/managed-desktop/operate/teams",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/onedrive.md",
+      "redirect_url": "/managed-desktop/operate/onedrive",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/reports.md",
+      "redirect_url": "/managed-desktop/operate/reports",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/device-inventory-report.md",
+      "redirect_url": "/managed-desktop/operate/device-inventory-report",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/app-usage-report.md",
+      "redirect_url": "/managed-desktop/operate/app-usage-report",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/service-metrics-report.md",
+      "redirect_url": "/managed-desktop/operate/service-metrics-report",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/summary-dashboard.md",
+      "redirect_url": "/managed-desktop/operate/summary-dashboard",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/all-devices-report.md",
+      "redirect_url": "/managed-desktop/operate/all-devices-report",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/all-devices-historical-report.md",
+      "redirect_url": "/managed-desktop/operate/all-devices-historical-report",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/eligible-devices-historical-report.md",
+      "redirect_url": "/managed-desktop/operate/eligible-devices-historical-report",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/ineligible-devices-historical-report.md",
+      "redirect_url": "/managed-desktop/operate/ineligible-devices-historical-report",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/config-setting-overview.md",
+      "redirect_url": "/managed-desktop/operate/config-setting-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/config-setting-ref.md",
+      "redirect_url": "/managed-desktop/operate/config-setting-ref",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/config-setting-deploy.md",
+      "redirect_url": "/managed-desktop/operate/config-setting-deploy",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/recover-devices.md",
+      "redirect_url": "/managed-desktop/operate/recover-devices",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/remove-devices.md",
+      "redirect_url": "/managed-desktop/operate/remove-devices",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/test-win11-mmd.md",
+      "redirect_url": "/managed-desktop/operate/test-windows-11",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/end-user-support.md",
+      "redirect_url": "/managed-desktop/operate/end-user-support",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/user-support.md",
+      "redirect_url": "/managed-desktop/operate/end-user-support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "managed-desktop/working-with-managed-desktop/admin-support.md",
+      "redirect_url": "/managed-desktop/operate/support-request",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/support.md",
+      "redirect_url": "/managed-desktop/operate/support-request",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "managed-desktop/service-description/privacy-personal-data.md",
+      "redirect_url": "/managed-desktop/references/privacy-personal-data",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/service-description/diagnostic-logs.md",
+      "redirect_url": "/managed-desktop/references/diagnostic-logs",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/change-history-managed-desktop.md",
+      "redirect_url": "/managed-desktop/whats-new/whats-new-2018",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "managed-desktop/get-started/devices.md",
+      "redirect_url": "/managed-desktop/prepare/prepare-devices-for-registration",
+      "redirect_document_id": false
+    }  
   ]
 }

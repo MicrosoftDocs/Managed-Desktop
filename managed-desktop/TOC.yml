@@ -1,225 +1,265 @@
 - name: Microsoft Managed Desktop
   href: index.yml
   items: 
-    - name: What is Microsoft Managed Desktop?
-      href: intro/index.md
-      items: 
-        - name: Microsoft Managed Desktop and Windows 11
-          href: intro/win11-overview.md
-        - name: Roles and responsibilities
-          href: intro/roles-and-responsibilities.md
-        - name: Technologies in Microsoft Managed Desktop
-          href: intro/technologies.md
-        - name: Microsoft Managed Desktop and ITIL
-          href: MMD-and-ITSM.md
+    - name: Overview
+      href: overview/service-plan.md
+      items:
+        - name: Service plan description
+          href: overview/service-plan-description.md
+        - name: Device services
+          href: overview/device-services.md
+        - name: Exceptions to the service plan 
+          href: overview/exceptions-to-service-plan.md
+        - name: Security
+          href:
+          items:
+            - name: Security operations
+              href: overview/security-operations.md
+            - name: ITIL
+              href: overview/MMD-and-ITSM.md
         - name: Compliance
-          href: intro/compliance.md
-    - name: Microsoft Managed Desktop service description
-      href: service-description/index.md
-      items: 
+          href: overview/compliance.md
+        - name: Standard operating procedures
+          href: overview/standard-operating-procedures.md
+        - name: Roles and responsibilities
+          href: overview/roles-and-responsibilities.md
+        - name: Change management
+          href: overview/change-management.md
+          items:
+            - name: Service changes and communication
+              href: overview/service-changes-communication.md
+        - name: Technologies and applications
+          href:
+          items:
+            - name: Operating system
+              href: overview/operating-system.md
+            - name: Microsoft Managed Desktop and Windows 11
+              href: overview/win11-overview.md
+            - name: Office 365 E3 or E5
+              href: overview/core-applications.md
+            - name: Security and access management technologies
+              href: overview/security-technologies.md
         - name: Supported regions
-          href: service-description/regions-languages.md
-        - name: Devices
+          href: overview/regions-languages.md
+    - name: Prepare
+      href:
+      items:
+        - name: Prepare your tenant
+          href:
+          items:
+          - name: Infrastructure prerequisites
+            href: prepare/prerequisites.md
+          - name: Device requirements
+            href: prepare/device-requirements.md
+          - name: Guest account prerequisites
+            href: prepare/guest-accounts.md
+          - name: Enable Store for Business and get the Company Portal
+            href: prepare/company-portal.md
+          - name: Enable Enterprise State Roaming
+            href: prepare/enterprise-state-roaming.md
+        - name: Prepare your environment
+          href:
+          items:
+            - name: Prepare your network
+              href: prepare/network.md
+            - name: Prepare certificates and network profiles
+              href: prepare/certs-wifi-lan.md
+            - name: Prepare on-premises resource access
+              href: prepare/on-premise-resources.md
+            - name: Autopilot into co-management
+              href: prepare/autopilot-co-management.md
+        - name: Enroll your tenant
+          href:
+          items:
+            - name: Step 1. Run the Readiness assessment tools
+              href: 
+              items:
+                - name: Run the Device readiness assessment tool
+                  href: prepare/readiness-assessment-downloadable.md
+                - name: Run the Online readiness assessment tool
+                  href: prepare/readiness-assessment-online.md
+            - name: Step 2. Fix issues found by the Online readiness assessment tool
+              href: prepare/readiness-assessment-fix.md
+            - name: Step 3. Enroll your tenant
+              href: prepare/enroll-your-tenant.md
+            - name: Step 4. Adjust management settings
+              href: prepare/adjust-management-settings.md
+            - name: Step 5. Optional. Request mapped drives and printing resources
+              href:
+              items:
+                - name: Mapped drives
+                  href: prepare/mapped-drives.md
+                - name: Printing resources
+                  href: prepare/printing.md
+        - name: Access the admin center
+          href: prepare/access-admin-center.md
+        - name: Add and verify admin contacts
+          href: prepare/add-admin-contacts.md
+        - name: Prepare your devices
           href: 
           items:
-            - name: Device requirements
-              href: service-description/device-requirements.md
             - name: Device images
-              href: service-description/device-images.md
+              href: prepare/device-images.md
               items:
-                  - name: Universal image
-                    href: service-description/universal-image.md
-            - name: Device names
-              href: service-description/device-names.md
-            - name: Device services
-              href: service-description/device-services.md
-            - name: Device profiles
-              href: service-description/profiles.md
-              items:
-                  - name: Kiosk device profile
-                    href: service-description/kiosk-device-profile.md
-            - name: Device deployment groups
-              href: service-description/deployment-groups.md
-            - name: Device configuration
-              href: service-description/device-policies.md
-        - name: Security technologies
-          href: service-description/security.md
-        - name: Security operations
-          href: service-description/security-operations.md
-        - name: Privacy
-          href: service-description/privacy-personal-data.md
-        - name: Updates
-          href: service-description/updates.md
-        - name: Admin support
-          href: service-description/support.md
-        - name: User support
-          href: service-description/user-support.md
-        - name: Operations and monitoring
-          href: service-description/operations-and-monitoring.md
-        - name: Diagnostic logs
-          href: service-description/diagnostic-logs.md
-        - name: Application requirements
-          href: service-description/mmd-app-requirements.md
-        - name: Application control
-          href: service-description/app-control.md
-        - name: Service changes and communication
-          href: service-description/servicechanges.md
-        - name: Exceptions to the service plan
-          href: service-description/customizing.md
-    - name: Get ready for enrollment in Microsoft Managed Desktop
-      href: get-ready/index.md
-      items: 
-        - name: Prerequisites for Microsoft Managed Desktop
-          href: get-ready/prerequisites.md
-        - name: Use readiness assessment tools
-          href: get-ready/readiness-assessment-tool.md
-          items:
-            - name: Fix issues found by the online readiness assessment tool
-              href: get-ready/readiness-assessment-fix.md
-            - name: Downloadable readiness assessment checker
-              href: get-ready/readiness-assessment-downloadable.md
-        - name: Prerequisites for guest accounts
-          href: get-ready/guest-accounts.md
-        - name: Prepare network
-          href: get-ready/network.md
-        - name: Prepare certificates and network profiles
-          href: get-ready/certs-wifi-lan.md
-        - name: Prepare on-premises resources access
-          href: get-ready/authentication.md
-        - name: Prepare apps
-          href: get-ready/apps.md
-          items: 
-            - name: Working with Microsoft Consulting Services
-              href: get-ready/apps-MCS.md
-        - name: Prepare mapped drives
-          href: get-ready/mapped-drives.md
-        - name: Prepare printing resources
-          href: get-ready/printing.md
-        - name: Address device names
-          href: get-ready/address-device-names.md
-    - name: Get started with Microsoft Managed Desktop
-      href: get-started/index.md
-      items: 
-        - name: Access the Admin portal
-          href: get-started/access-admin-portal.md
-        - name: Add and verify admin contacts in the Admin portal
-          href: get-started/add-admin-contacts.md
-        - name: Adjust settings after enrollment
-          href: get-started/conditional-access.md
-        - name: Assign licenses
-          href: get-started/assign-licenses.md
-        - name: Deploy Intune Company Portal
-          href: get-started/company-portal.md
-        - name: Enable Enterprise State Roaming
-          href: get-started/enterprise-state-roaming.md
-        - name: Localize the user experience
-          href: get-started/localization.md
-        - name: Validate new devices
-          href: get-started/validate-device.md
+                - name: Universal image
+                  href: prepare/universal-image.md
         - name: Register devices
-          href: 
-          items: 
-            - name: Prepare devices
-              href: get-started/prepare-devices.md
+          href:
+          items:
+            - name: Prepare devices for registration
+              href: prepare/prepare-devices-for-registration.md
             - name: Device registration overview
-              href: get-started/device-registration-methods.md
-              items:
-                  - name: Auto-registration
-                    href:
-                    items:
-                      - name: Partner registration
-                        href: get-started/partner-registration.md
-                      - name: Window Autopilot registration from Microsoft Endpoint Manager
-                        href: get-started/windows-autopilot-registration.md
-                  - name: Manual registration
-                    href:
-                    items:
-                      - name: Manual registration for new devices
-                        href: get-started/manual-registration.md
-                      - name: Manual registration for existing devices
-                        href: get-started/manual-registration-existing-devices.md
-                  - name: Shared devices
-                    href: service-description/shared-devices.md
-                  - name: Virtual device registration
-                    href: get-started/virtual-device-registration.md
+              href: prepare/device-registration-overview.md
+              items: 
+                - name: Auto-registration
+                  href:
+                  items:
+                    - name: Partner registration
+                      href: prepare/partner-registration.md
+                    - name: Windows Autopilot registration from Microsoft Endpoint Manager
+                      href: prepare/windows-autopilot-registration.md
+                - name: Manual registration
+                  href:
+                  items:
+                    - name: Manual registration for new devices
+                      href: prepare/manual-registration.md
+                    - name: Manual registration for existing devices
+                      href: prepare/manual-registration-existing-devices.md
+                - name: Virtual device registration
+                  href: prepare/virtual-device-registration.md
+                - name: Register devices in shared device mode
+                  href: prepare/shared-devices.md
+        - name: Prepare applications
+          href:
+          items:
+            - name: Application requirements
+              href: prepare/app-requirements.md
+            - name: Apps in Microsoft Managed Desktop
+              href: prepare/apps.md
+            - name: App control
+              href: prepare/app-control.md
+            - name: Package apps with Microsoft Consulting Services
+              href: prepare/apps-MCS.md
+    - name: Deploy
+      href:
+      items:
+        - name: Configure the First-run Experience with Autopilot and the Enrollment Status Page
+          href: deploy/esp-first-run.md
+        - name: Configure the local language
+          href: deploy/localization.md
+        - name: Assign the Company Portal and communicate changes to your users
+          href: deploy/company-portal-communication.md
+        - name: Validate new devices
+          href: deploy/validate-device.md
         - name: Turn on user support features
-          href: get-started/enable-support.md
-        - name: Get your users ready to use devices
-          href: get-started/get-started-devices.md
-        - name: Autopilot into co-management
-          href: get-started/autopilot-co-management.md
-        - name: First-run experience with Autopilot and the Enrollment Status Page 
-          href: get-started/esp-first-run.md
+          href: deploy/enable-user-support-features.md
+        - name: Get users ready to use devices
+          href: deploy/get-started-devices.md
         - name: Windows 10 location service
-          href: get-started/device-location.md
-        - name: Get started with app control
-          href: get-started/get-started-app-control.md
+          href: deploy/device-location.md
         - name: Deploy apps
-          href: get-started/deploy-apps.md
-          items: 
+          href:
+          items:
+            - name: Initial app deployment with app control
+              href: deploy/initial-app-deployment-with-app-control.md
+            - name: Deploy apps to devices
+              href: deploy/deploy-apps.md
+            - name: Add a new app with app control
+              href: deploy/add-app-with-app-control.md
+    - name: Operate
+      href:
+      items:
+        - name: Assign devices to a deployment group
+          href:
+          items:
+            - name: Device deployment groups
+              href: operate/deployment-groups.md
+            - name: Assign devices to a deployment group
+              href: operate/assign-deployment-group.md
+        - name: Configure device policies, profiles, and device names
+          href:
+          items:
+            - name: Device policies
+              href: operate/device-policies.md
+            - name: Device profiles
+              href: operate/device-profiles.md
+              items:
+                - name: Kiosk device profile
+                  href: operate/kiosk-device-profile.md
+            - name: Change the device profile
+              href: operate/change-device-profile.md
+            - name: Device names and request device name changes
+              href: operate/request-device-name-change.md
+        - name: Software update management
+          href:
+          items:
+            - name: Update groups
+              href: operate/updates.md
+            - name: Manage app updates
+              href: operate/manage-apps.md
             - name: Microsoft Project and Microsoft Visio
-              href: get-started/project-visio.md
+              href: operate/project-visio.md
             - name: Microsoft Edge
-              href: get-started/edge-browser-app.md
-            - name: Microsoft 365 Apps for Enterprise
-              href: get-started/m365-apps.md
+              href: operate/edge-browser-app.md
+            - name: Microsoft 365 Apps for enterprise
+              href: operate/m365-apps.md
             - name: Microsoft Teams
-              href: get-started/teams.md
+              href: operate/teams.md
             - name: Microsoft OneDrive
-              href: get-started/onedrive.md
-    - name: Working with Microsoft Managed Desktop
-      href: working-with-managed-desktop/index.md
-      items: 
-        - name: Work with reports
-          href: working-with-managed-desktop/reports.md
+              href: operate/onedrive.md
+        - name: Reports
+          href: operate/reports.md
           items:
             - name: Managed devices reports
               href:
               items:
                 - name: Device inventory report
-                  href: working-with-managed-desktop/device-inventory-report.md
+                  href: operate/device-inventory-report.md
                 - name: App usage report
-                  href: working-with-managed-desktop/app-usage-report.md
+                  href: operate/app-usage-report.md
                 - name: Service metrics report
-                  href: working-with-managed-desktop/service-metrics-report.md
+                  href: operate/service-metrics-report.md
             - name: Windows quality reports
               href:
               items:
                 - name: Summary dashboard
-                  href: working-with-managed-desktop/summary-dashboard.md
+                  href: operate/summary-dashboard.md
                 - name: All devices report
-                  href: working-with-managed-desktop/all-devices-report.md
+                  href: operate/all-devices-report.md
                 - name: All devices report—historical
-                  href: working-with-managed-desktop/all-devices-historical-report.md
+                  href: operate/all-devices-historical-report.md
                 - name: Eligible devices report—historical
-                  href: working-with-managed-desktop/eligible-devices-historical-report.md
+                  href: operate/eligible-devices-historical-report.md
                 - name: Ineligible devices report—historical
-                  href: working-with-managed-desktop/ineligible-devices-historical-report.md
-        - name: Admin support
-          href: working-with-managed-desktop/admin-support.md
-        - name: User support
-          href: working-with-managed-desktop/end-user-support.md
-        - name: Manage apps
-          href: working-with-managed-desktop/manage-apps.md
-        - name: Work with app control
-          href: working-with-managed-desktop/work-with-app-control.md
-        - name: Change device profile
-          href: working-with-managed-desktop/change-device-profile.md
-        - name: Assign devices to deployment group
-          href: working-with-managed-desktop/assign-deployment-group.md
-        - name: Recover devices
-          href: working-with-managed-desktop/recover-devices.md
-        - name: Remove devices
-          href: working-with-managed-desktop/remove-devices.md
+                  href: operate/ineligible-devices-historical-report.md
         - name: Configurable settings
-          href: working-with-managed-desktop/config-setting-overview.md
-          items: 
-            - name: Configurable settings reference
-              href: working-with-managed-desktop/config-setting-ref.md
-            - name: Deploy configurable settings
-              href: working-with-managed-desktop/config-setting-deploy.md
-        - name: Preview and test Windows 11 with Microsoft Managed Desktop
-          href: working-with-managed-desktop/test-win11-mmd.md
+          href: 
+          items:
+            - name: Configurable settings overview
+              href: operate/config-setting-overview.md
+            - name: Configurable settings categories
+              href: operate/config-setting-ref.md
+            - name: Deploy and track configurable settings
+              href: operate/config-setting-deploy.md
+        - name: Reset devices with a factory reset
+          href: operate/reset-devices-factory.md
+        - name: Recover devices
+          href: operate/recover-devices.md
+        - name: Remove devices
+          href: operate/remove-devices.md
+        - name: Preview and test Windows 11
+          href: operate/test-windows-11.md
+        - name: Get user support
+          href: operate/end-user-support.md
+        - name: Submit a support request
+          href: operate/support-request.md
+    - name: References
+      href:
+      items:
+        - name: Privacy
+          href: references/privacy-personal-data.md
+        - name: Diagnostic logs
+          href: references/diagnostic-logs.md
     - name: Developer
       href:
       items:
@@ -287,5 +327,16 @@
                   href: developer/mmd-api-list-elevation-requests.md
                 - name: Get elevation request details
                   href: developer/mmd-api-get-elevation-request-details.md
-    - name: Change history
-      href: change-history-managed-desktop.md
+    - name: What's new
+      href:
+      items:
+        - name: What's new 2022
+          href: whats-new/whats-new-2022.md
+        - name: What's new 2021
+          href: whats-new/whats-new-2021.md
+        - name: What's new 2020
+          href: whats-new/whats-new-2020.md
+        - name: What's new 2019
+          href: whats-new/whats-new-2019.md
+        - name: What's new 2018
+          href: whats-new/whats-new-2018.md
