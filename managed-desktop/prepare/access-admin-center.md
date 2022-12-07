@@ -62,7 +62,7 @@ The following are the built-in roles provided by Microsoft Managed Desktop:
 
 ### Assigning built-in roles to user
 
-For easy management of built-in roles, there's a security group for each custom role with the name "Modern Workplace Roles - _Role Name_". For example, “Modern Workplace Roles – Security Manager”).
+For easy management of built-in roles, there's a security group for each custom role with the name "Modern Workplace Roles - **Role Name**". For example, “Modern Workplace Roles – **Security Manager**”).
 
 **To assign users to one of these security groups:**
 
@@ -82,8 +82,8 @@ For easy management of built-in roles, there's a security group for each custom 
 
 1. Go to [portal.azure.com](https://portal.azure.com/).
 2. Search for and open **Enterprise applications**.
-3. Change the **Application type** filter to _Microsoft Applications_ and, then select **Apply**.
-4. Search for and select _Modern Workplace Customer APIs_.
+3. Change the **Application type** filter to **Microsoft Applications** and, then select **Apply**.
+4. Search for and select **Modern Workplace Customer APIs**.
 5. Select **Users and groups** from the pane on the left side, and then select **+ Add user/group**.
 6. Search for the group you want from **Users and groups**.
 7. Search for the applicable role from **Select a role**, and then select it.

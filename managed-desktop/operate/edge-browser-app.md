@@ -12,7 +12,6 @@ ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ---
 
-
 # Microsoft Edge
 
 [Microsoft Edge](https://www.microsoft.com/edge) provides world-class performance and value with:

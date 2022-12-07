@@ -1,6 +1,6 @@
 ---
-title: Work with app control
-description: Learn how to manage app control.
+title: Add a new app with app control
+description: Learn how to add a new app with app control.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: tiaraquan
@@ -12,7 +12,10 @@ ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ---
 
-# Work with app control
+# Add a new app with app control
+
+> [!NOTE]
+> The [app control](../prepare/app-control.md) feature is optional. You must [submit a request](../operate/support-request.md) to turn on app control.
 
 Once app control has been deployed in your environment, both you and Microsoft Managed Desktop Operations have ongoing responsibilities. For example, you might want to add a new app in the environment, or add (or remove) a trusted signer. To improve security, all apps should be code-signed before you release them to users. An app's publisher details includes information about the signer.
 

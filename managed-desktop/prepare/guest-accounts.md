@@ -1,5 +1,5 @@
 ---
-title: Prerequisites for guest accounts
+title: Guest account prerequisites
 description:  Configuration guidelines for guest accounts and how to adjust them
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
@@ -12,7 +12,7 @@ ms.topic: article
 audience: Admin
 ---
 
-# Prerequisites for guest accounts
+# Guest account prerequisites
 
 ## External collaboration settings
 

@@ -151,7 +151,7 @@
           href: deploy/company-portal-communication.md
         - name: Validate new devices
           href: deploy/validate-device.md
-        - name: Turn on user support features
+        - name: Set up user support features
           href: deploy/enable-user-support-features.md
         - name: Get users ready to use devices
           href: deploy/get-started-devices.md

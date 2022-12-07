@@ -1,5 +1,5 @@
 ---
-title: Prepare printing resources for Microsoft Managed Desktop 
+title: Prepare printing resources
 description:  Important steps to make sure printing work smoothly
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
@@ -12,7 +12,7 @@ ms.topic: article
 audience: Admin
 ---
 
-# Prepare printing resources for Microsoft Managed Desktop
+# Prepare printing resources
 
 As you get ready to enroll in Microsoft Managed Desktop, you should evaluate your printing requirements and determine the right approach for your environment. You have three options:
 

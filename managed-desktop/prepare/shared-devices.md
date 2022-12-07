@@ -1,5 +1,5 @@
 ---
-title: Shared devices
+title: Register devices in shared device mode
 description:  How and when to use shared device mode
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
@@ -11,7 +11,7 @@ manager: dougeby
 ms.topic: article
 ---
 
-# Shared devices
+# Register devices in shared device mode
 
 Microsoft Managed Desktop allows you to register devices in "shared device mode," similar to the shared device mode offered by [Microsoft Intune](/mem/intune/configuration/shared-user-device-settings). Shared device mode can be turned on when you select a device profile during the [device registration process](#turn-on-shared-device-mode).
 

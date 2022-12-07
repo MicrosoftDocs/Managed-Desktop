@@ -18,6 +18,6 @@ Whether you're providing your own user support or working with a partner to prov
 1. If they don't already have one, set up an account in the same Azure Active Directory (AAD) domain as the Microsoft Managed Desktop devices.
 1. Add the user accounts to the **Modern Workplace Roles - Support Partner** security group in the Azure Active Directory (AAD).
 
-To submit an elevation or escalation request, see [Get user support](../operate/end-user-support.md#submit-an-elevation-or-escalation-request).
+To submit an elevation or escalation request, see [Get end user support](../operate/end-user-support.md#submit-an-elevation-or-escalation-request).
 
 <!--when available, add link to downloadable articles at DLC-->

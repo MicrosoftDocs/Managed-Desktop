@@ -1,5 +1,5 @@
 ---
-title: Prepare on-premises resources access for Microsoft Managed Desktop 
+title: Prepare access to on-premises resources
 description:  Important steps to make sure an Azure AD can communicate with on-premises AD to provide authentication
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
@@ -12,7 +12,7 @@ ms.topic: article
 audience: Admin
 ---
 
-# Prepare on-premises resources access for Microsoft Managed Desktop
+# Prepare access to on-premises resources
 
 In Microsoft Managed Desktop, devices are automatically joined to Azure Active Directory (Azure AD). For this reason, if you're using an on-premises Active Directory, you must ensure that devices joined to Azure AD can communicate with your on-premises Active Directory.
 

@@ -29,7 +29,7 @@ To ensure the quality of service without compromising security, the support prov
 
 | Role | Responsibilities |
 | ------ | ------ |
-| Support provider | Whoever provides support (either you for customer-led support or a partner for partner-led) is responsible for these items: <ul><li>Provide all user support and technical assistance from first contact through to resolution for the user.</li><li>Fulfill all service-level agreements for user support established by your organization, or in partnership with your chosen support provider.</li><li>Perform specific troubleshooting actions, such as requesting elevated device privileges as described in [Get user support](../operate/end-user-support.md).</li><li>Troubleshoot and remediate user problems including: <ul><li>Operating system (Windows)</li><li>Microsoft Apps for enterprise</li><li>Browser features</li><li>Device problems</li><li>Problems with infrastructure, such as printers, drivers, and VPNs</li><li>Line-of-business applications</li></ul></ul> |
+| Support provider | Whoever provides support (either you for customer-led support or a partner for partner-led) is responsible for these items: <ul><li>Provide all user support and technical assistance from first contact through to resolution for the user.</li><li>Fulfill all service-level agreements for user support established by your organization, or in partnership with your chosen support provider.</li><li>Perform specific troubleshooting actions, such as requesting elevated device privileges as described in [Elevation requests](../operate/end-user-support.md#submit-an-elevation-request).</li><li>Troubleshoot and remediate user problems including: <ul><li>Operating system (Windows)</li><li>Microsoft Apps for enterprise</li><li>Browser features</li><li>Device problems</li><li>Problems with infrastructure, such as printers, drivers, and VPNs</li><li>Line-of-business applications</li></ul></ul> |
 | IT admin | Your IT admin is responsible for these items: <ul><li>Work with the support provider to set and manage service level agreements for user support</li><li>Manage elevated access privileges for approved support staff. For more information, see [Turn on user support features](../deploy/enable-user-support-features.md).</li><li>If there are device issues affecting users, escalate the issues by using the Microsoft Managed Desktop admin support process. For more information, see [Admin support for Microsoft Managed Desktop](../operate/support-request.md).</li><li>Route hardware-related issues to the appropriate vendor or supplier.</li><li>Maintain and protect device security policy settings on Microsoft Managed Desktop devices. Don't change the policies we set. </li></ul> |
 | Microsoft Managed Desktop |As the service provider, we're responsible for these items: <ul><li>Provide the means for elevated device access and issue escalation including documentation.</li><li>Keep this information about the roles and responsibilities current.</li><li>Respond to admin support requests in accordance with the severity definitions.</li><li>Provide threat monitoring and mitigation for all enrolled devices all day every day.</li></ul> |
 
@@ -45,7 +45,7 @@ If an issue must be escalated to Microsoft Managed Desktop, it's helpful to iden
 
 | Problem | Contact this team |
 | ------ | ------ |
-| Problems specific to Microsoft Managed Desktop | For example, a policy or setting that's deployed by the service itself. Escalate directly to the Operations team by creating a new support request. For more information, see [Get user support](../operate/end-user-support.md).
+| Problems specific to Microsoft Managed Desktop | For example, a policy or setting that's deployed by the service itself. Escalate directly to the Operations team by creating a new support request. For more information, see [escalation request](../operate/end-user-support.md#submit-an-escalation-request).
 | Hardware problems | Direct to your hardware supplier or vendor.
 | Other problems| Escalate through existing support channels, whether that's a Unified or Premier subscription.
 
@@ -58,7 +58,7 @@ If an issue must be escalated to Microsoft Managed Desktop, it's helpful to iden
 
 Since Microsoft Managed Desktop devices run on standard user by default, some tasks require elevation of privileges. For more information about user account control, see [User account control](/windows/security/identity-protection/user-account-control/user-account-control-overview). In order for support staff to be able to [perform tasks](../operate/end-user-support.md#submit-an-elevation-request) while troubleshooting issues for users, we provide "just-in-time" access to an admin account. This password is accessed securely by only users you designate, and rotates every couple of hours.  
 
-For steps on how to set up users for access to this portal, see [Turn on user support features](../deploy/enable-user-support-features.md).
+For steps on how to set up users to access to this portal, see [Turn on user support features](../deploy/enable-user-support-features.md).
 
 For steps on submitting an elevation request, see [Elevation requests](../operate/end-user-support.md#submit-an-elevation-request).
 
@@ -78,7 +78,7 @@ For steps on submitting an escalation request, see [Escalation requests](../oper
 > [!IMPORTANT]
 > Ensure you've [set up user support](../deploy/enable-user-support-features.md) before you submit an elevation or escalation request.
 
-If you've reached the point in the [workflow](../operate/end-user-support.md) where you need to request elevated device access or escalation to Microsoft, use the following steps:
+If you've reached the point in the [escalation path](../operate/end-user-support.md) where you need to request elevated device access or escalation to Microsoft, use the following steps:
 
 ### Submit an elevation request
 
