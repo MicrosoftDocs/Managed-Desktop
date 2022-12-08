@@ -57,7 +57,7 @@ These settings apply to devices with the [Kiosk device profile](../operate/kiosk
 | User account type| Standard |
 | Allow White Glove Out of Box Experience (OOBE) | Yes |
 | Apply device name template | Yes |
-| Enter a name | `[Kiosk-%RAND:9%](../operate/device-profiles.md#device-profile-details)` |
+| Enter a name | [Kiosk-%RAND:9%](../operate/device-profiles.md#device-profile-details) |
 
 ## Enrollment Status Page settings
 
