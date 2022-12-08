@@ -1,7 +1,7 @@
 - name: Microsoft Managed Desktop
   href: index.yml
   items: 
-    - name: Overview
+    - name: What is Microsoft Managed Desktop?
       href: overview/service-plan.md
       items:
         - name: Service plan description
