@@ -25,17 +25,17 @@ landingContent:
       - linkListType: overview
         links:
           - text: What is Microsoft Managed Desktop?
-            url: ./intro/index.md
+            url: ./overview/service-plan.md
           - text: Service description
-            url: ./service-description/index.md
+            url: ./overview/service-plan-description.md
       - linkListType: get-started
         links:
-          - text: Get ready
-            url: get-ready/index.md
-          - text: Get started
-            url: get-started/index.md
-          - text: Working with Microsoft Managed Desktop
-            url: ./working-with-managed-desktop/index.md
+          - text: Prerequisites
+            url: ./prepare/prerequisites.md
+          - text: Deploy apps
+            url: ./deploy/deploy-apps.md
+          - text: Reports
+            url: ./operate/reports.md
   
   # Card (optional)
   - title: Articles and blog posts
