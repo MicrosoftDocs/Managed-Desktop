@@ -27,13 +27,13 @@ This table relates key ITIL phases and processes to Microsoft Managed Desktop fe
 |Service-level management     | Response times are defined for admin support requests and incidents.  |  [Admin support for Microsoft Managed Desktop](../operate/support-request.md)  |
 |Service catalog management     | Service description detailing components of the service is kept true to state of the service, available to all current and interested customers.<br><br>Pre-requisites detailed to understand what is needed to operate the service.  |<ul><li>[Microsoft Managed Desktop service description](../overview/service-plan-description.md)</li><li>[Get ready for enrollment in Microsoft Managed Desktop](../prepare/prerequisites.md)</li></ul> |
 |Information security management     | Security information, including information security for the service.<br><br> Security-related policies and other information on how devices are configured.   |<ul><li>[Security in Microsoft Managed Desktop](../overview/security-technologies.md)</li><li>[Device configuration](../operate/device-policies.md)</li></ul>  |
-|Availability management     |  Microsoft Managed Desktop balances responsibility with your organization to ensure availability of service.<br><br>Admins and users have routes to respective support if there are service or availability issues. | <ul><li>[Microsoft Managed Desktop operations and monitoring](../overview/change-management.md)</li><li>[Admin support for Microsoft Managed Desktop](../operate/support-request.md)</li><li>[Get user support](../operate/end-user-support.md)</li></ul>  |
+|Availability management     |  Microsoft Managed Desktop balances responsibility with your organization to ensure availability of service.<br><br>Admins and users have routes to respective support if there are service or availability issues. | <ul><li>[Change management](../overview/change-management.md)</li><li>[Admin support for Microsoft Managed Desktop](../operate/support-request.md)</li><li>[Get user support](../operate/end-user-support.md)</li></ul>  |
 
 ## Service transition
 
 | ITIL process | Description | Documentation |
 | -----| ----- | ----- |
-| Change management | Defined balance of responsibility, process overview, and types related to change management available. | [Microsoft Managed Desktop operations and monitoring](../overview/change-management.md) |
+| Change management | Defined balance of responsibility, process overview, and types related to change management available. | [Change management](../overview/change-management.md) |
 | Release and deployment management|  Microsoft Managed Desktop manages updates for devices enrolled in the service. | [How updates are handled in Microsoft Managed Desktop](../operate/updates.md) |
 |Service asset and configuration management  | Information regarding your organization's Microsoft Managed Desktop deployment is available on the IT admin portal.  | [Admin support for Microsoft Managed Desktop](../operate/support-request.md) |
 |Knowledge management | Information on the Microsoft Managed Desktop service is kept up to date on this site. | What's new for Microsoft Managed Desktop documentation  |
