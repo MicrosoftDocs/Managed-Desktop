@@ -39,7 +39,7 @@ Microsoft Managed Desktop uses these settings in the Autopilot profile used for 
 | User account type| Standard |
 | Allow White Glove Out of Box Experience (OOBE) | Yes |
 | Apply device name template | Yes |
-| Enter a name | `[MMD-%RAND:11%](../operate/device-profiles.md#device-profile-details)` |
+| Enter a name | [MMD-%RAND:11%](../operate/device-profiles.md#device-profile-details) |
 
 ### Kiosk-%RAND:9% Autopilot settings
 
