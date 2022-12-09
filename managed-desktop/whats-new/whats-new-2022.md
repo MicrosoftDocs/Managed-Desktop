@@ -34,6 +34,12 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | [Virtual device registration](../prepare/virtual-device-registration.md) | Added note to Azure Virtual Desktop section. Shared device mode is not supported |
 | [Reports](../operate/reports.md) | Added Windows quality update reports |
 
+### December service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC481190](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop advisory: December 2022 (2022.12 B) Windows quality update deployment |
+
 ## November 2022
 
 ### November feature releases or updates
