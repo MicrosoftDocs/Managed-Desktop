@@ -1,5 +1,5 @@
 ---
-title: Software update management
+title: Software update management overview
 description: This article describes how updates are managed in Microsoft Managed Desktop.
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ---
 
-# Software update management
+# Software update management overview
 
 <!--This topic is the target for a "Learn more" link in the admin center (aka.ms/update-rings); do not delete.-->
 
