@@ -12,13 +12,10 @@
           href: overview/device-services.md
         - name: Exceptions to the service plan 
           href: overview/exceptions-to-service-plan.md
-        - name: Security
-          href:
-          items:
-            - name: Security operations
-              href: overview/security-operations.md
-            - name: ITIL
-              href: overview/MMD-and-ITSM.md
+        - name: Security operations
+          href: overview/security-operations.md
+        - name: ITIL
+          href: overview/MMD-and-ITSM.md
         - name: Compliance
           href: overview/compliance.md
         - name: Standard operating procedures
