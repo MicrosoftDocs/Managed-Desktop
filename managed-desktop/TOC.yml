@@ -6,9 +6,8 @@
       items:
         - name: What is Microsoft Managed Desktop?
           href: overview/service-plan.md
-          items:
-            - name: Service plan description
-              href: overview/service-plan-description.md
+        - name: Service plan description
+          href: overview/service-plan-description.md
         - name: Device services
           href: overview/device-services.md
         - name: Exceptions to the service plan 
