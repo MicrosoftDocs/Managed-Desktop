@@ -27,6 +27,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | New or changed article | Description |
 | ----- | ----- |
+| [Software update management](../operate/updates.md) | Added information about the Release management blade and its features<ul><li>[MC484917](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li><li>[MC484918](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul> |
 | [List all device profiles API](../developer/mmd-api-list-profiles.md) | New API to list all device profiles<ul><li>[MC476013](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul>|
 | [Reassign device profiles API](../developer/mmd-api-reassign-device-profile.md) | New API to reassign device profiles<ul><li>[MC476013](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul> |
 | [Device profiles](../operate/device-profiles.md) | Added information about the Export admin CSV feature<ul><li>[MC476013](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul> |
