@@ -192,7 +192,7 @@
         - name: Software update management
           href:
           items:
-            - name: Update groups
+            - name: Software update management overview
               href: operate/updates.md
             - name: Manage app updates
               href: operate/manage-apps.md
