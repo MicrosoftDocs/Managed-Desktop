@@ -329,6 +329,8 @@
     - name: What's new
       href:
       items:
+        - name: What's new 2023
+          href: whats-new/whats-new-2023.md
         - name: What's new 2022
           href: whats-new/whats-new-2022.md
         - name: What's new 2021
