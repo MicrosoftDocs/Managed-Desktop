@@ -5,7 +5,7 @@ keywords: change history
 ms.service: m365-md
 ms.sitesec: library
 author: tiaraquan
-ms.topic: article
+ms.topic: whats-new
 audience: ITPro
 manager: dougeby
 f1.keywords:
