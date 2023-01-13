@@ -13,7 +13,7 @@ ms.topic: article
 
 # Add and verify admin contacts in the admin center
 
-There are several ways that Microsoft Managed Desktop service communicates with customers. To streamline communication and ensure we're checking with the right people, you must provide a set of admin contacts. Microsoft Managed Desktop IT Operations will contact these people for assistance with troubleshooting issues.
+There are several ways that Microsoft Managed Desktop service communicates with customers. To streamline communication and ensure we're checking with the right people, you must provide a set of admin contacts. Microsoft Managed Desktop IT Operations will contact these people for assistance with fixing issues.
 
 > [!IMPORTANT]
 > You might have already added these contacts in the admin center. If so, take a moment now to double-check that the contact list is accurate, since Microsoft Managed Desktop **must** be able to reach them if a severe incident occurs.
@@ -24,9 +24,9 @@ Admin contacts should be the best person or group that can answer questions and 
 
 | Area of focus | For questions about |
 | ----- | ----- |
-| App packaging | Troubleshooting app packaging. |
-| Devices | Device health, troubleshooting with Microsoft Managed Desktop devices. |
-| Security | Troubleshooting security issues with Microsoft Managed Desktop devices. |
+| App packaging | Fixing app packaging. |
+| Devices | Device health |
+| Security | Fixing security issues with Microsoft Managed Desktop devices. |
 | IT help desk | In cases where our support staff hands over user tickets outside of Microsoft Managed Desktop support areas. |
 | Other | For issues not covered by other areas. |
 
