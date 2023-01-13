@@ -39,7 +39,7 @@ ms.collection: M365-modern-desktop
 | issueFirstNoticed  | DateTimeOffset | Time when issue was first noticed. |
 | issueReproduced | Boolean | Issue is re-produced on non-Microsoft Managed device. |
 | endUserSupportEngaged | Boolean  | End user support was engaged. |
-| troubleshootingSteps  | String  | Description of troubleshooting steps performed. |
+| troubleshootingSteps  | String  | Description of the performed remediation steps. |
 | reproSteps | String | Steps to reproduce issue. |
 | id  | String | Ticket Id. |
 | severity | Severity Level | Ticket severity. |

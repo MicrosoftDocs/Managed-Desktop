@@ -101,12 +101,12 @@ You can monitor the progress of device registration on the main page. Possible s
 | State | Description |
 | -----|-----|
 | Registration Pending | Registration isn't completed yet. Check back later. |
-| Registration failed | Registration couldn't be completed. For more information, see [Troubleshooting device registration](#troubleshooting-device-registration). |
+| Registration failed | Registration couldn't be completed. For more information, see [Fix device registration errors](#fix-device-registration-errors). |
 | Ready for user | Registration succeeded. The device is now ready to be delivered to the user. Microsoft Managed Desktop will guide them through first-time set-up, so there's no need for you to do any further preparations. |
 | Active | The device has been delivered to the user and they've registered with your tenant. This state also indicates that they're regularly using the device. |
 | Inactive | The device has been delivered to the user and they've registered with your tenant. However, they haven't used the device recently (in the last seven days).  |
 
-#### Troubleshooting device registration
+#### Fix device registration errors
 
 | Error message | Details |
 |-----| ----- |

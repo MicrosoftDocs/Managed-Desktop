@@ -55,7 +55,7 @@ Microsoft Managed Desktop Engineering Operations and Security Operations teams a
 
 ### Microsoft Windows 10 diagnostic data
 
-Microsoft Managed Desktop uses [Windows 10 Enhanced diagnostic data](/windows/privacy/windows-diagnostic-data) to keep Windows secure, up to date, troubleshoot problems, and make product improvements.
+Microsoft Managed Desktop uses [Windows 10 Enhanced diagnostic data](/windows/privacy/windows-diagnostic-data) to keep Windows secure, up to date, fix problems, and make product improvements.
 
 The enhanced diagnostic data setting includes more detailed information about the devices enrolled in Microsoft Managed Desktop and their settings, capabilities, and device health. When enhanced diagnostic data is selected, data, including required diagnostic data, are collected. For more information, see [Changes to Windows diagnostic data collection](/windows/privacy/changes-to-windows-diagnostic-data-collection) about the Windows 10 diagnostic data setting and data collection.
 
