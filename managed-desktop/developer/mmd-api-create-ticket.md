@@ -60,8 +60,8 @@ Don't supply a request body for this method.
 | issueFirstNoticed  |    | String | Time when issue was first noticed. |
 | issueReproduced |    | Boolean | Issue is reproducible on non-Microsoft Managed device. |
 | endUserSupportEngaged  |    | Boolean   | End user support was engaged. |
-| troubleshootingSteps   |    | String  | Description of troubleshooting steps performed. |
-| reproSteps |    | String  | Steps to reproduce issue.                               |
+| troubleshootingSteps   |    | String  | Description of performed remediation steps. |
+| reproSteps |    | String  | Steps to reproduce issue. |
 | severity | True | Severity Level | Ticket severity. |
 | contact | True | CaseContact | Case contact object. |
 | givenName | True | String | First name. |

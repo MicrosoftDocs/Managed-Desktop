@@ -144,9 +144,9 @@ For more information about best practices, see [Selecting required apps for your
 
 To add the latest Microsoft Edge browser to the multi-app kiosk configuration, Microsoft Edge must be included using the **Add Win32 app** option. Selecting the **Add Microsoft Edge** button will install the legacy Microsoft Edge browser.
 
-## Troubleshoot kiosk mode issues
+## Fix Kiosk mode issues
 
 | Issue | Workaround and/or information |
 | ----- | ----- |
-| General troubleshooting tips | For more information about general troubleshooting tips, see [Troubleshoot kiosk mode issues (Windows 10/11)](/windows/configuration/kiosk-troubleshoot). |
+| General tips | For more information about general tips, see [Troubleshoot kiosk mode issues (Windows 10/11)](/windows/configuration/kiosk-troubleshoot). |
 | Users are automatically signed out or can't sign into Windows 10 computers with the multi-app profile assigned | For more information, see [Users can't log on to Windows 10 computers with multi-app Kiosk device profile assigned](/troubleshoot/mem/intune/users-cannot-logon-windows-multi-app-kiosk). |

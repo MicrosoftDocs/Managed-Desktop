@@ -78,7 +78,7 @@ The following is an example of the JSON response.
     "issueFirstNoticed": "2021-10-06T07:00:00Z", 
     "issueReproduced": true, 
     "endUserSupportEngaged": true, 
-    "troubleshootingSteps": "Describe any troubleshooting steps performed.", 
+    "troubleshootingSteps": "Describe any performed remediation steps.", 
     "nextActionOwner": "Microsoft", 
     "nextActionTime": null, 
     "reproSteps": null, 

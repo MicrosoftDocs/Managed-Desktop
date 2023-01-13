@@ -19,13 +19,13 @@ After you make changes to your setting categories and stage a deployment, the De
 
 The following are the statuses you'll see for each deployment.
 
-Status | Explanation
---- | ---
-Deploy | Your change is waiting to be deployed to this group.
-In progress | The change is being applied to active devices in this group.
-Complete | The change completed on all active devices in this group.
-Failed | The change failed on 10 percent of active devices in the group. The deployment was stopped.<br><br> A support request will be automatically opened with Microsoft Managed Desktop operations to troubleshoot the deployment.
-Reverted | The change was reverted to the last change that was successfully deployed to all deployment groups.
+| Status | Explanation |
+| ----- | ----- |
+| Deploy | Your change is waiting to be deployed to this group. |
+| In progress | The change is being applied to active devices in this group. |
+| Complete | The change completed on all active devices in this group. |
+| Failed | The change failed on 10 percent of active devices in the group. The deployment was stopped.<br><br> A support request will be automatically opened with Microsoft Managed Desktop operations to fix the deployment.|
+| Reverted | The change was reverted to the last change that was successfully deployed to all deployment groups. |
 
 ## Deploy changes
 

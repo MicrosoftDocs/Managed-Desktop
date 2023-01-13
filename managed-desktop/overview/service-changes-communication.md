@@ -89,7 +89,7 @@ This is the primary channel for official service announcements and feature chang
 
 You can view the health of your Microsoft services, including Microsoft Managed Desktop on the Service health page in the Microsoft 365 admin center.
 
-If you’re experiencing problems with a cloud service, you can check the service health to determine whether this is a known incident with a resolution in progress before you engage support or spend time troubleshooting. For more information, see [how to check M365 service health](/microsoft-365/enterprise/view-service-health). For admins that have access to the Service health dashboard, Microsoft Managed Desktop posts are also displayed in Microsoft Endpoint Manager > Service health dashboard > Messages page.
+If you’re experiencing problems with a cloud service, you can check the service health to determine whether this is a known incident with a resolution in progress before you engage support or spend time fixing the issue. For more information, see [how to check M365 service health](/microsoft-365/enterprise/view-service-health). For admins that have access to the Service health dashboard, Microsoft Managed Desktop posts are also displayed in Microsoft Endpoint Manager > Service health dashboard > Messages page.
 
 ### Direct messages
 
