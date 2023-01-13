@@ -37,11 +37,11 @@ ms.collection: M365-modern-desktop
 | usersOrDevicesImpacted | Int32 | Number of users/devices impacted. |
 | businessImpact | String | Describe business impact |
 | issueFirstNoticed  | DateTimeOffset | Time when issue was first noticed. |
-| issueReproduced | Boolean | Issue is re-produced on non-Microsoft Managed device. |
+| issueReproduced | Boolean | Issue is reproduced on non-Microsoft Managed device. |
 | endUserSupportEngaged | Boolean  | End user support was engaged. |
 | troubleshootingSteps  | String  | Description of the performed remediation steps. |
 | reproSteps | String | Steps to reproduce issue. |
-| id  | String | Ticket Id. |
+| ID  | String | Ticket ID. |
 | severity | Severity Level | Ticket severity. |
 | state | Ticket State | Ticket State. |
 | createdDateTime | DateTimeOffset | Time of ticket creation. |
@@ -55,7 +55,7 @@ ms.collection: M365-modern-desktop
 
 | Property | Type | Description |
 | --- | --- | --- |
-| id | Guid | Unique identifier. |
+| ID | Guid | Unique identifier. |
 | givenName | String | First name. |
 | surname | String | Last name. |
 | email | String | Email address. |
