@@ -27,4 +27,5 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | Message center post number | Description |
 | ----- | ----- |
+| [MC500890](https://admin.microsoft.com/adminportal/home#/MessageCenter) | January 2023 Microsoft Managed Desktop baseline configuration update |
 | [MC494387](https://admin.microsoft.com/adminportal/home#/MessageCenter) | January 2023 (2023.01 B) Windows quality update deployment |
