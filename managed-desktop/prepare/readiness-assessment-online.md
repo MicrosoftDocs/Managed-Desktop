@@ -10,6 +10,7 @@ ms.author: tiaraquan
 manager: dougeby
 ms.topic: how-to
 audience: Admin
+ms.date: 12/06/2022
 ---
 
 # Run the Online readiness assessment tool

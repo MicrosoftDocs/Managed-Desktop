@@ -9,6 +9,7 @@ ms.collection: M365-modern-desktop
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: how-to
+ms.date: 12/06/2022
 ---
 
 # Install the Intune Company Portal on devices
