@@ -11,6 +11,7 @@ ms.collection: M365-modern-desktop
 manager: dougeby
 ms.topic: how-to
 audience: Admin
+ms.date: 12/06/2022
 ---
 
 # Virtual device registration

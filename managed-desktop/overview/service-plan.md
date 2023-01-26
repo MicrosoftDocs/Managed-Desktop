@@ -11,6 +11,7 @@ ms.custom: intro-overview
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: article
+ms.date: 12/06/2022
 ---
 
 # What is Microsoft Managed Desktop?

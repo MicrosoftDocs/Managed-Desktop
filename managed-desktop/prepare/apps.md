@@ -10,6 +10,7 @@ ms.author: tiaraquan
 manager: dougeby
 ms.topic: article
 audience: Admin
+ms.date: 12/06/2022
 ---
 
 # Apps in Microsoft Managed Desktop

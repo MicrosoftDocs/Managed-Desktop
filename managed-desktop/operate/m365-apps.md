@@ -11,6 +11,7 @@ ms.author: tiaraquan
 manager: dougeby
 ms.topic: article
 ms.localizationpriority: medium
+ms.date: 12/06/2022
 ---
 
 # Microsoft 365 Apps for enterprise

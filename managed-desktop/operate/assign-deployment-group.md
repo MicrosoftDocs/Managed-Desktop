@@ -9,6 +9,7 @@ ms.collection: M365-modern-desktop
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: article
+ms.date: 12/06/2022
 ---
 
 # Assign devices to a deployment group

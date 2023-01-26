@@ -12,6 +12,7 @@ manager: dougeby
 ms.topic: article
 audience: Admin
 msreviewer: andredm7
+ms.date: 12/06/2022
 ---
 
 # Manual registration for new devices

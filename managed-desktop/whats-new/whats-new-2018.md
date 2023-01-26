@@ -13,6 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: article
 ms.localizationpriority: medium
+ms.date: 12/06/2022
 ---
 
 # What's new 2018
