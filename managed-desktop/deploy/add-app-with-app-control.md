@@ -10,6 +10,7 @@ audience: ITpro
 ms.topic: article
 ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
+ms.date: 12/06/2022
 ---
 
 # Add a new app with app control
