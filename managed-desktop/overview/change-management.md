@@ -11,6 +11,7 @@ ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 manager: dougeby
 ms.topic: article
+ms.date: 12/06/2022
 ---
 
 # Change management
