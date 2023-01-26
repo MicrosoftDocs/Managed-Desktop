@@ -12,6 +12,7 @@ ms.collection: M365-modern-desktop
 manager: dougeby
 ms.topic: conceptual
 audience: Admin
+ms.date: 12/06/2022
 ---
 
 # Device profiles
