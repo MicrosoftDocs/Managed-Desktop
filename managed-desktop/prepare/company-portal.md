@@ -25,6 +25,6 @@ Microsoft Managed Desktop requires that IT administrators install the Intune Com
 
 See [Microsoft Store for Business apps](../deploy/deploy-apps.md#msfb-apps) for more information on how to:
 
-- Get the Company Portal from Microsoft Store for Business
-- Force sync between Intune and Microsoft Store for Business
+- Get the Company Portal from Microsoft Store for Business.
+- Force sync between Intune and Microsoft Store for Business.
 - Verify active sync between Intune and Microsoft Store for Business.
