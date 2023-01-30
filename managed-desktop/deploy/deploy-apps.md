@@ -92,8 +92,8 @@ Uninstall |  The app is uninstalled from devices in the selected groups. | MMD â
 
 Add your users to these groups to either:
 
-- Make the app available
-- Install the app, or
+- Make the app available.
+- Install the app.
 - Remove the app from their Microsoft Managed Desktop device.
 
 <span id="3" />
@@ -102,7 +102,7 @@ Add your users to these groups to either:
 
 **To assign the app to your users:**
 
-1. Sign in to [Microsoft Managed Desktop admin center](https://aka.ms/mmdportal).
+1. Sign in to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. In the Managed Desktop pane, select **Apps**.
 3. In the Apps workload section, select the app you want to assign users to, and select **Assign users groups**.
 4. For the specific app, select an assignment type (Available, Required, Uninstall) and assign the appropriate group.
