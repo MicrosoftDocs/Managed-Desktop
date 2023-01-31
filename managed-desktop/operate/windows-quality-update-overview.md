@@ -32,7 +32,7 @@ For a device to be eligible for Windows quality updates as a part of Microsoft M
 | Internet connectivity | Devices must have a steady internet connection, and access to Windows [update endpoints](../prepare/network.md). |
 | Windows edition | Devices must be on a Windows edition supported by Microsoft Managed Desktop. For more information, see [Prerequisites](../prepare/prerequisites.md). |
 | Mobile device management (MDM) policy conflict | Devices must not have deployed any policies that would prevent device management. For more information, see [Conflicting and unsupported policies](../references/windows-update-policies.md#conflicting-and-unsupported-policies). |
-| Group policy conflict | Devices must not have group policies deployed which would prevent device management. For more information, see [Group policy](../references/windows-update-policies.md#unsupported-policies.md#group-policy-and-other-policy-managers) |
+| Group policy conflict | Devices must not have group policies deployed which would prevent device management. For more information, see [Group policy](../references/windows-update-policies.md#group-policy-and-other-policy-managers) |
 
 ## Windows quality update releases
 
