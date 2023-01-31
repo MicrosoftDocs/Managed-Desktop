@@ -22,81 +22,99 @@ ms.date: 12/06/2022
 
 Microsoft Managed Desktop connects all devices to a modern cloud-based infrastructure.
 
-Keeping Windows, Office, drivers, firmware, and Microsoft Store for Business applications up to date is a balance of speed and stability. We use update groups to ensure operating system updates and policies are rolled out in a safe manner. For more information, see the video [Microsoft Managed Desktop Change and Release Process](https://www.microsoft.com/videoplayer/embed/RE4mWqP).
+Keeping your devices up to date is a balance of speed and stability. Microsoft Managed Desktop connects all devices to a modern cloud-based infrastructure to manage updates on your behalf. We use update groups to ensure operating system updates and policies are rolled out in a safe manner. For more information, see the video [Microsoft Managed Desktop Change and Release Process](https://www.microsoft.com/videoplayer/embed/RE4mWqP).
 
 Updates released by Microsoft are cumulative and are categorized as quality or feature updates. For more information, see [Windows Update for Business: Update types](/windows/deployment/update/waas-manage-updates-wufb#update-types).
 
-## Update groups
+## Software update workloads
 
-Microsoft Managed Desktop uses four Azure AD groups to manage updates:
+| Software update workload | Description |
+| ----- | ----- |
+| Windows quality update | Microsoft Managed Desktop uses four deployment rings to manage Windows quality updates. For more detailed information, see [Windows quality updates](../operate/windows-quality-update-overview.md). |
+| Anti-virus definition | Updated with each scan. |
+| Microsoft 365 Apps for enterprise | For more information, see [Microsoft 365 Apps for enterprise](../operate/m365-apps.md). |
+| Microsoft Edge | For more information, see [Microsoft Edge](../operate/edge-browser-app.md). |
+| Microsoft Teams | For more information, see [Microsoft Teams](../operate/teams.md). |
 
-| Group | Description |
-| ------ | ------ |
-| Test | Used to validate Microsoft Managed Desktop policy changes, operating system updates, feature updates, and other changes pushed to the Azure AD organization ("tenant"). The Test group is: <br><ul><li>Best for testing or users who can provide early feedback.</li><li>Exempt from any established service level agreements and user support.</li><li>Available to validate compatibility of applications with new policy or operating system changes.</li></ul> |
-| First | Contains early software adopters and devices that could be subject to pre-release updates. <br><br> Devices in this group might experience outages if there are scenarios that weren't covered during testing in the Test group. |
-| Fast | Prioritizes speed over stability. The Fast group is: <br><ul><li>Useful for detecting quality issues before they're offered to the Broad group.</li> <li>The next layer of validation, and is typically more stable than the Test and First groups.</li></ul> |
-| Broad | This group is the last group to have feature and quality updates available. <br><br> The Broad group contains most of users in the Azure AD organization, and therefore favors stability over speed in deployment. Testing of apps should be done with this group because the environment is the most stable. |
+## Microsoft Managed Desktop deployment rings
 
-### Moving devices between update groups
+During the [tenant enrollment process](/prepare/enroll-your-tenant.md), Microsoft Managed Desktop creates four Azure AD assigned groups that are used to segment devices into its update groups:
 
-You might want some devices to receive updates last and others that you want to go first. To move these devices into the appropriate update group, see [Assign devices to a deployment group](../operate/assign-deployment-group.md).
+| Ring | Description |
+| ----- | ----- |
+| **Modern Workplace Devices - Test** | Deployment ring for testing update deployments prior production rollout.<p>The Test group is exempt from any established service level agreements and user support. It's best to move just a few devices at first and then review the user experience. Microsoft Managed Desktop won't automatically assign devices to this group. This group will only contain devices you specify.</p>|
+| **Modern Workplace Devices - First** | First production deployment ring for early adopters.|
+| **Modern Workplace Devices - Fast** | Fast deployment ring for quick rollout and adoption. |
+| **Modern Workplace Devices - Broad** | Final deployment ring for broad rollout into the organization. |
+| Automatic | Select Automatic when you want Microsoft Managed Desktop to automatically assign devices to one of the other groups.<p>We won't automatically assign devices to Test. If you want to release a device that you've previously specified so it can be automatically assigned again, select this option.</p> |
 
-For more information on roles and responsibilities within these deployment groups, see [Microsoft Managed Desktop Roles and responsibilities](../overview/roles-and-responsibilities.md)
+Each deployment ring has a different set of update deployment policies to control the updates rollout.
 
-### Using Microsoft Managed Desktop update groups
+> [!WARNING]
+> Adding or importing devices into any of these groups directly is not supported and doing so might cause an unexpected impact on the Microsoft Managed Desktop service. To move devices between these groups, see [Move devices in between deployment rings](../operate/updates.md#move-devices-in-between-deployment-rings).
 
-There are parts of the service that you manage, like app deployment, where it might be necessary to target all managed devices.
+> [!IMPORTANT]
+> Microsoft Managed Desktop device registration doesn't assign devices to its test deployment ring (**Modern Workplace Devices - Test**). This is intended to prevent devices that are essential to a business from being affected or devices that are used by executives from receiving early software update deployments.
 
-## Update deployment
-
-Below describes how update deployment works.
-
-| Step | Description |
-| ------ | ------ |
-| Step 1 | Microsoft Managed Desktop deploys a new feature or quality update according to the schedule specified in the following [table](#deployment-settings).|
-| Step 2 | During deployment, Microsoft Managed Desktop monitors for signs of failure, or disruption based on diagnostic data and the user support system. If any are detected, we immediately pause the deployment to all current and future groups.<p>For example, if an issue is discovered while deploying a quality update to the First group, the update deployments to First, Fast, and Broad groups will be paused until the issue is mitigated. For more information, see [Release management](#release-management).</p><p> You can report compatibility issues by [submitting a support request](support-request.md) in the Microsoft Managed Desktop admin center.</p><p>Feature and quality updates are paused independently. The pause is in effect for 35 days by default. However, it can be reduced or extended depending on whether the issue is mitigated.</p> |
-| Step 3 | Once the groups are unpaused, deployment resumes according to the schedule in the following [table](#deployment-settings). |
-| Step 4| Users are empowered to respond to restart notifications for a set period. This period is known as the deadline, and it's measured from the time the update is offered to the device. <br><br> During this time, the device will only automatically restart outside active hours. After this period expires, the deadline has been reached and the device will restart at the next available opportunity, regardless of active hours. <br><br> The deadline for quality updates is three days; for feature updates it's five days. |
+Also, during the [device registration process](../prepare/device-registration-overview.md), Microsoft Managed Desktop assigns each device being registered to one of its deployment rings so that the service has the proper representation of the device diversity across the organization in each deployment ring. The deployment ring distribution is designed to release software update deployments to as few devices as possible to get the signals needed to make a quality evaluation of a given update deployment.
 
 > [!NOTE]
-> This deployment process applies to both feature and quality updates, though the timeline varies for each.
+> You can't create additional deployment rings or use your own for devices managed by the Microsoft Managed Desktop service.
 
-## Deployment settings
+### Deployment ring calculation logic
 
-Update deployment settings listed below:
+The Microsoft Managed Desktop deployment ring calculation happens during the [device registration process](../prepare/device-registration-overview.md) and it works as follows:
 
-| Update type | Test | First | Fast | Broad |
-| ------ | ------ | ------ | ------ | ------ |
-| Quality updates for operating system | Zero days | One day | Six days | Nine days |
-| Feature updates for operating system | Zero days | 30 days | 60 days | 90 days |
-| Drivers/firmware | Follows the schedule for quality updates. | Follows the schedule for quality updates. | Follows the schedule for quality updates. | Follows the schedule for quality updates. |
-| Anti-virus definition | Updated with each scan. | Updated with each scan. | Updated with each scan. | Updated with each scan. |
-| Microsoft 365 Apps for Enterprise | [Learn more](../operate/m365-apps.md#updates-to-microsoft-365-apps) | [Learn more](../operate/m365-apps.md#updates-to-microsoft-365-apps) | [Learn more](../operate/m365-apps.md#updates-to-microsoft-365-apps) | [Learn more](../operate/m365-apps.md#updates-to-microsoft-365-apps) |
-| Microsoft Edge | [Learn more](../operate/edge-browser-app.md#updates-to-microsoft-edge) | [Learn more](../operate/edge-browser-app.md#updates-to-microsoft-edge) | [Learn more](../operate/edge-browser-app.md#updates-to-microsoft-edge) | [Learn more](../operate/edge-browser-app.md#updates-to-microsoft-edge) |
-| Microsoft Teams | [Learn more](../operate/teams.md#updates) | [Learn more](../operate/teams.md#updates) | [Learn more](../operate/teams.md#updates) | [Learn more](../operate/teams.md#updates) |
+- If the Microsoft Managed Desktop tenant's existing managed device size is **≤ 200**, the deployment ring assignment is First **(5%)**, Fast **(15%)**, remaining devices go to the Broad ring **(80%)**.
+- If the Microsoft Managed Desktop tenant's existing managed device size is **>200**, the deployment ring assignment will be First **(1%)**, Fast **(9%)**, remaining devices go to the Broad ring **(90%)**.
 
->[!NOTE]
->These deferral periods are intentionally designed to ensure high security and performance standards for all users.<br><br> Based on data gathered across all Microsoft Managed Desktop devices and the varying scope and impact of updates, Microsoft Managed Desktop reserves flexibility to modify the length of the above deferral periods for any and all deployment groups on an ad hoc basis.
->
->Microsoft Managed Desktop conducts an independent assessment of each Windows feature release to evaluate its necessity and usefulness to its managed tenants. Consequently, Microsoft Managed Desktop might or might not deploy all Windows feature updates.
+| Deployment ring | Default device balancing percentage | Description |
+| ----- | ----- | ----- |
+| Test | **zero** | Microsoft Managed Desktop doesn't automatically add devices to this deployment ring. You must manually add devices to the Test ring following the required procedure. For more information on these procedures, see [Move devices in between deployment rings](#move-devices-in-between-deployment-rings). The recommended number of devices in this ring, based upon your environment size, is as follows:<br><ul><li>**0–500** devices: minimum **one** device.</li><li>**500–5000** devices: minimum **five** devices.</li><li>**5000+** devices: minimum **50** devices.</li></ul>Devices in this group are intended for your IT Administrators and testers since changes are released here first. This release schedule provides your organization the opportunity to validate updates prior to reaching production users. |
+| First |  **1%** | The First ring is the first group of production users to receive a change.<p><p>This group is the first set of devices to send data to Microsoft Managed Desktop and are used to generate a health signal across all end-users. For example, Microsoft Managed Desktop can generate a statistically significant signal saying that critical errors are trending up in a specific release for all end-users, but can't be confident that it's doing so in your organization.<p><p>Since Microsoft Managed Desktop doesn't yet have sufficient data to inform a release decision, devices in this deployment ring might experience outages if there are scenarios that weren't covered during early testing in the Test ring.|
+| Fast | **9%** | The Fast ring is the second group of production users to receive changes. The signals from the First ring are considered as a part of the release process to the Broad ring.<p><p>The goal with this deployment ring is to cross the **500**-device threshold needed to generate statistically significant analysis at the tenant level. These extra devices allow Microsoft Managed Desktop to consider the effect of a release on the rest of your devices and evaluate if a targeted action for your tenant is needed.</p> |
+| Broad | Either **80%** or **90%** | The Broad ring is the last group of users to receive software update deployments. Since it contains most of the devices registered with Microsoft Managed Desktop, it favors stability over speed in a software update deployment.|
 
-## Release management
+## Move devices in between deployment rings
 
-In the Release management blade, you can:
+If you want to move separate devices to different deployment rings, after Microsoft Managed Desktop's deployment ring assignment, you can repeat the following steps for one or more devices from the **Ready** tab.
 
-1. Track the Windows quality update schedule for devices in the [four deployment groups](../operate/deployment-groups.md).
-1. Review release announcements and knowledge based articles for regular and Out of Band (OOB) Windows quality updates.
-1. Turn off expedited Windows quality updates.
+> [!IMPORTANT]
+> If you change the assignment, policies that are specific to that group will be applied to the device. The change might install the latest version of Windows 10 (including any new feature or quality updates). It's best to move just a few devices at first and then check the resulting user experience. Be aware that certain updates will restart the device. Double-check that you've selected the right devices to assign. It can take up to 24 hours for the assignment to take effect.
 
-### Release management tabs
+**To move devices in between deployment rings:**
 
-The following tabs are available in the Release management blade.
+1. In the [Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Devices** in the left pane.
+2. In the **Microsoft Managed Desktop** section, select **Devices**.
+3. In the **Ready** tab, select one or more devices you want to assign. All selected devices will be assigned to the deployment ring you specify.
+4. Select **Device actions** from the menu.
+5. Select **Assign device to ring**. A fly-in opens.
+6. Use the dropdown menu to select the deployment ring to move devices to, and then select **Save**. The **Ring assigned by** column will change to **Pending**.
 
-| Tab | Description |
+When the assignment is complete, the **Ring assigned by** column changes to **Admin** (which indicates that you made the change) and the **Ring** column shows the new deployment ring assignment.
+
+> [!NOTE]
+> You can only move devices to other deployment rings when they're in an active state in the **Ready** tab.<p>If you don't see the **Ring assigned by column** change to **Pending** in Step 5, check to see whether the device exists in Microsoft Intune or not by searching for it in its device blade. For more information, see [Device details in Intune](/mem/intune/remote-actions/device-inventory).
+  
+> [!WARNING]
+> Moving devices between deployment rings through directly changing Azure AD group membership isn't supported and may cause unintended configuration conflicts within the Microsoft Managed Desktop service. To avoid service interruption to devices, use the **Assign device to ring** action described previously to move devices between deployment rings.
+  
+## Automated deployment ring remediation functions
+
+Microsoft Managed Desktop monitors device membership in its deployment rings, except for the **Modern Workplace Devices - Test** ring, to provide automated deployment ring remediation functions to mitigate the risk of not having its managed devices being part of one of its deployment rings. These automated functions help mitigate risk of potentially having devices in a vulnerable state, and exposed to security threats in case they're not receiving update deployments due to either:
+
+- Changes performed by the IT admin on objects created by the Microsoft Managed Desktop tenant enrollment process, or
+- An issue occurred which prevented devices from getting a deployment rings assigned during the [device registration process](../prepare/device-registration-overview.md).
+
+There are two automated deployment ring remediation functions:
+
+| Function | Description |
 | ----- | ----- |
-| Release schedule | For each [deployment group](../operate/deployment-groups.md), the Release schedule tab contains:<ul><li>The status of the update. Releases will appear as **Active**. The update schedule is based on the values of the [Windows 10 Update Ring policies](/mem/intune/protect/windows-update-for-business-configure), which have been configured on your behalf.</li><li>The date the update is available.</li><li>The target completion date of the update.</li></ul><p>In this tab, you can either **Pause** and/or **Resume** a Windows quality update release.</p><p>There are **two** types of paused quality updates, **Service Paused** and **Customer Paused**.<ul><li>**Service Paused**: If the Microsoft Managed Desktop service has paused an update, the release will have the **Service Paused** status. You must submit a [support request](../operate/support-request.md) to resume the update.</li><li>**Customer Paused**: If you've paused an update, the release will have the **Customer Paused** status. The Microsoft Managed Desktop service can't overwrite a customer-initiated pause. You must select **Resume** to resume the update.</li></ul>|
-| Release announcements | View knowledge base (KB) articles corresponding to deployed out of band (OOB) and regular Windows quality updates.<br><p>**To view deployed Out of Band quality updates:**<ol><li>Go to [Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) > **Devices** > **Microsoft Managed Desktop** > **Release management**.</li><li>Under the **Release Announcements** tab, you can view the knowledge base (KB) articles corresponding to deployed OOB and regular Windows quality updates.</li></ol></p><p>Announcements will be **removed** from the Release announcements tab when the next quality update is released. Further, if quality updates are paused for a deployment group, the OOB updates will also be paused.</p> |
-| Release settings | Microsoft Managed Desktop assesses threat and vulnerability information on an ongoing basis throughout the release cycle.<p>By default, the service expedites quality updates as needed. For those organizations seeking greater control, you can disable expedited quality updates for Microsoft Managed Desktop-enrolled devices using Microsoft Intune.</p><p>**To turn off expedited quality updates:**</p><ol><li>Go to [**Endpoint Manager admin center**](https://endpoint.microsoft.com/#view/Microsoft_Intune_DeviceSettings/TenantAdminMenu/~/managedDesktopServiceRequests) > **Devices**.</li><li>Under **Microsoft Managed Desktop** > **Release management** > **Release settings** tab > Turn off the **Expedited Quality Updates** setting.</li></ol></p> |
+| **Check Device Deployment Ring Membership** | Every hour, Microsoft Managed Desktop checks to see if any of its managed devices aren't part of one of the deployment rings. If, for some reason, a device isn't part of a deployment ring, Microsoft Managed Desktop randomly assigns the device to one of its deployment rings (except for the **Modern Workplace Devices - Test** ring). |
+| **Multi-deployment ring device remediator:**| Every hour, Microsoft Managed Desktop checks to see if any of its managed devices are part of multiple deployment rings (except for the **Modern Workplace Devices - Test** ring). If, for some reason, a device is part of multiple deployment rings, Microsoft Managed Desktop randomly removes device of one or more deployment rings until the device is only part of one deployment ring.|
+
+> [!IMPORTANT]
+> Microsoft Managed Desktop automated deployment ring functions doesn't assign or remove devices to or from the **Modern Workplace Devices - Test** ring.
 
 ## Windows Insider Program
 
