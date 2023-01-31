@@ -1,0 +1,125 @@
+---
+title: Windows quality updates
+description: This article explains how Windows quality updates are managed in Microsoft Managed Desktop.
+keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
+ms.service: m365-md
+author: tiaraquan
+f1.keywords:
+- NOCSH
+ms.author: tiaraquan
+manager: dougeby
+ms.topic: conceptual
+ms.localizationpriority: medium
+ms.collection: M365-modern-desktop
+---
+
+# Windows quality updates
+
+## Service level objective
+
+Microsoft Managed Desktop aims to keep at least 95% of eligible devices on the latest Windows quality update 21 days after release.
+
+## Device eligibility
+
+For a device to be eligible for Windows quality updates as a part of Microsoft Managed Desktop they must meet the following criteria:
+
+| Criteria | Description |
+| ----- | ----- |
+| Activity | Devices must have at least six hours of usage, with at least two hours being continuous. |
+| Intune sync | Devices must have checked with Intune within the last five days. |
+| Storage space | Devices must have more than one GB (GigaBytes) of free storage space. |
+| Deployed | Microsoft Managed Desktop doesn't update devices that haven't yet been deployed. |
+| Internet connectivity | Devices must have a steady internet connection, and access to Windows [update endpoints](../prepare/network.md). |
+| Windows edition | Devices must be on a Windows edition supported by Microsoft Managed Desktop. For more information, see [Prerequisites](../prepare/prerequisites.md). |
+| Mobile device management (MDM) policy conflict | Devices must not have deployed any policies that would prevent device management. For more information, see [Conflicting and unsupported policies](../references/windows-update-policies.md#conflicting-and-unsupported-policies). |
+| Group policy conflict | Devices must not have group policies deployed which would prevent device management. For more information, see [Group policy](../references/windows-update-policies.md#group-policy-and-other-policy-managers) |
+
+## Windows quality update releases
+
+Microsoft Managed Desktop deploys the [B release of Windows quality updates](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/windows-quality-updates-primer/ba-p/2569385) that are released on the second Tuesday of each month.
+
+To release updates to devices in a gradual manner, Microsoft Managed Desktop deploys a set of mobile device management (MDM) policies to each update deployment ring to control the rollout. There are three primary policies that are used to control Windows quality updates:
+
+| Policy | Description |
+| ----- | ----- |
+| [Deferrals](/windows/client-management/mdm/policy-csp-update#update-deferqualityupdatesperiodindays) | Deferral policies delay the time the update is offered to the device by a specific number of days. The "offer" date for Windows quality updates is equal to the number of days specified in the deferral policy after the second Tuesday of each month. |
+| [Deadlines](/windows/client-management/mdm/policy-csp-update#update-autorestartdeadlineperiodindays)    | Before the deadline, restarts can be scheduled by users or automatically scheduled outside of active hours. After the deadline passes, restarts will occur regardless of active hours and users won't be able to reschedule. The deadline for a specific device is set to be the specified number of days after the update is offered to the device. |
+| [Grace periods](/windows/client-management/mdm/policy-csp-update#update-configuredeadlinegraceperiod) | This policy specifies a minimum number of days after an update is downloaded until the device is automatically restarted. This policy overrides the deadline policy so that if a user comes back from vacation, it prevents the device from forcing a restart to complete the update as soon as it comes online. |
+
+> [!IMPORTANT]
+> Deploying deferral, deadline, or grace period policies which conflict with Microsoft Managed Desktop's policies will cause a device to be considered ineligible for management, it will still receive policies from Microsoft Managed Desktop that are not in conflict, but may not function as designed.  These devices will be marked as ineligible in our device reporting and will not count towards our [service level objective](#service-level-objective).
+
+Microsoft Managed Desktop configures these policies differently across deployment rings to gradually release the update to devices in your estate. Devices in the Test ring receive changes first and devices in the Broad ring receive changes last. For more information, see [Microsoft Managed Desktop deployment rings](../operate/updates.md#microsoft-managed-desktop-deployment-rings).
+
+:::image type="content" source="../operate/media/release-process-timeline.png" alt-text="Release process timeline" lightbox="../operate/media/release-process-timeline.png":::
+
+## Release management
+
+In the Release management blade, you can:
+
+- Track the [Windows quality update schedule](#release-schedule) for devices in the [four deployment rings](../operate/updates.md#microsoft-managed-desktop-deployment-rings).
+- [Turn off expedited Windows quality updates](#turn-off-service-driven-expedited-quality-update-releases).
+- Review release announcements and knowledge based articles for regular and [Out of Band (OOB) Windows quality updates](#out-of-band-releases).
+
+### Release schedule
+
+For each [deployment ring](../operate/updates.md#microsoft-managed-desktop-deployment-rings), the **Release schedule** tab contains:
+
+- The status of the update. Releases will appear as **Active**. The update schedule is based on the values of the [Windows 10 Update Ring policies](/mem/intune/protect/windows-update-for-business-configure), which have been configured on your behalf.
+- The date the update is available.
+- The target completion date of the update.
+- In the **Release schedule** tab, you can either [**Pause** and/or **Resume**](#pausing-and-resuming-a-release) a Windows quality update release.
+
+### Expedited releases
+
+Threat and vulnerability information about a new revision of Windows becomes available on the second Tuesday of each month. Microsoft Managed Desktop assesses that information shortly afterwards. If the service determines that it's critical to security, it may be expedited. The quality update is also evaluated on an ongoing basis throughout the release and Microsoft Managed Desktop may choose to expedite at any time during the release.
+
+When running an expedited release, the regular goal of 95% of devices in 21 days no longer applies. Instead, Microsoft Managed Desktop greatly accelerates the release schedule of the release to update the environment more quickly. This approach requires an updated schedule for all devices outside of the Test ring since those devices are already getting the update quickly.
+
+| Release type | Group | Deferral | Deadline | Grace period |
+| ----- | ----- | ----- | ----- | ----- |
+| Standard release | Test<p>First<p>Fast<p>Broad | 0<p>1<p>6<p>9 | 0<p>2<p>2<p>5 | 0<p>2<p>2<p>2 |
+| Expedited release | All devices | 0 | 1 | 1 |
+
+#### Turn off service-driven expedited quality update releases
+
+Microsoft Managed Desktop provides the option to turn off of service-driven expedited quality updates.
+
+By default, the service expedites quality updates as needed. For those organizations seeking greater control, you can disable expedited quality updates for Microsoft Managed Desktop-enrolled devices using Microsoft Intune.
+
+**To turn off service-driven expedited quality updates:**
+
+1. Go to **[Microsoft Endpoint Manager portal](https://go.microsoft.com/fwlink/?linkid=2109431)** > **Devices**.
+2. Under **Microsoft Managed Desktop** > **Release management**, go to the **Release settings** tab and turn off the **Expedited Quality Updates** setting.
+
+> [!NOTE]
+> Microsoft Managed Desktop doesn't allow customers to request expedited releases.
+
+### Out of Band releases
+
+Microsoft Managed Desktop schedules and deploys required Out of Band (OOB) updates released outside of the normal schedule.
+
+**To view deployed Out of Band quality updates:**
+
+1. Go to [Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) > **Devices** > **Microsoft Managed Desktop** > **Release management**.
+2. Under the **Release Announcements** tab, you can view the knowledge base (KB) articles corresponding to deployed OOB and regular Windows quality updates.
+
+> [!NOTE]
+> Announcements will be **removed** from the Release announcements tab when the next quality update is released. Further, if quality updates are paused for a deployment ring, the OOB updates will also be paused.
+
+### Pausing and resuming a release
+
+If Microsoft Managed Desktop detects a [significant issue with a release](../operate/windows-quality-update-signals.md), we may decide to pause that release.
+
+In the [Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) > **Release management** > in the **Release schedule** tab, you can pause or resume a Windows quality update.
+
+There are two statuses associated with paused quality updates, **Service Paused** and **Customer Paused**.
+
+| Status | Description |
+| ----- | ------ |
+| Service Paused | If the Microsoft Managed Desktop service has paused an update, the release will have the **Service Paused** status. You must [submit a support request](../operate/support-request.md) to resume the update. |
+| Customer Paused | If you've paused an update, the release will have the **Customer Paused** status. The Microsoft Managed Desktop service can't overwrite a customer-initiated pause. You must select **Resume** to resume the update. |
+
+## Remediating Ineligible and/or Not up to Date devices
+
+To ensure your devices receive Windows quality updates, Microsoft Managed Desktop provides information on how you can remediate [Ineligible Devices (Customer Actions)](../operate/reports.md#ineligible-devices-customer-action). In addition, the Microsoft Managed Desktop service may remediate [Not up to Date devices](../operate/reports.md#not-up-to-date-microsoft-action) to bring them back into compliance.

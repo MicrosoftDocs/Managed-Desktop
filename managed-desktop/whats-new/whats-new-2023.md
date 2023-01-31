@@ -24,6 +24,13 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 ## January 2023
 
+### January feature releases or updates
+
+| New or changed article | Description |
+| ----- | ----- |
+| [Windows quality update](../operate/windows-quality-update-overview.md) | Added Windows quality update section and information |
+| [Software update management](../operate/updates.md) | Updated Software update management overview information |
+
 ### January service release
 
 | Message center post number | Description |
