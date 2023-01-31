@@ -81,9 +81,9 @@ Healthy devices are devices that meet all of the following prerequisites:
 
 | Sub status | Description |
 | ----- | ----- |
-| Up to Date | Devices are up to date with the latest quality update deployed through the [Microsoft Managed Desktop release schedule](../operate/updates.md) |
-| In Progress | Devices are currently installing the latest quality update deployed through the [Microsoft Managed Desktop release schedule](../operate/updates.md) |
-| Paused | Devices that are currently paused due to a Microsoft Managed Desktop pause. For more information, see [update deployment](../operate/updates.md#update-deployment). |
+| Up to Date | Devices are up to date with the latest quality update deployed through the [Microsoft Managed Desktop release schedule](../operate/windows-quality-update-overview.md#windows-quality-update-releases) |
+| In Progress | Devices are currently installing the latest quality update deployed through the [Microsoft Managed Desktop release schedule](../operate/windows-quality-update-overview.md#windows-quality-update-releases) |
+| Paused | Devices that are currently paused due to a Microsoft Managed Desktop pause. For more information, see [update deployment](../operate/windows-quality-update-overview.md#pausing-and-resuming-a-release). |
 
 #### Not Up to Date (Microsoft Action)
 
