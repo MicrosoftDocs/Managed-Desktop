@@ -1,5 +1,5 @@
 ---
-title: Windows quality and feature update communications
+title: Windows quality update communications
 description: This article explains Windows quality and feature update communications
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.collection: M365-modern-desktop
 ---
 
-# Windows quality and feature update communications
+# Windows quality update communications
 
 There are three categories of communication that are sent out during a Windows quality and feature update:
 
@@ -21,7 +21,11 @@ There are three categories of communication that are sent out during a Windows q
 - [Communications during release](#communications-during-release)
 - [Incident communications](#incident-communications)
 
-Communications are posted to Message center, Service health dashboard, and the Microsoft Managed Desktop messages section of the Microsoft Endpoint Manager admin center as appropriate for the type of communication.  
+Communications are posted to, as appropriate for the type of communication, to the:
+
+- Message center
+- Service health dashboard
+- Microsoft Managed Desktop messages section of the Microsoft Endpoint Manager admin center 
 
 :::image type="content" source="../operate/media/update-communications.png" alt-text="Update communications timeline" lightbox="../operate/media/update-communications.png":::
 

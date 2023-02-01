@@ -204,8 +204,8 @@
                       href: operate/windows-quality-update-end-user-experience.md
                     - name: Windows quality update signals
                       href: operate/windows-quality-update-signals.md
-                - name: Windows quality and feature update communications
-                  href: operate/update-communications.md
+                    - name: Windows quality update communications
+                      href: operate/update-communications.md
             - name: Manage app updates
               href: operate/manage-apps.md
             - name: Microsoft Project and Microsoft Visio
