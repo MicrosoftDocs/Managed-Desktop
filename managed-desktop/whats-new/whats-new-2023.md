@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: article
 ms.localizationpriority: medium
-ms.date: 01/09/2023
+ms.date: 02/02/2023
 ---
 
 # What's new 2023
@@ -21,6 +21,14 @@ ms.date: 01/09/2023
 This article lists new and updated feature releases, and service releases, with their corresponding Message center post numbers (if applicable).
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
+
+## February 2023
+
+### February feature releases or updates
+
+| New or changed article | Description |
+| ----- | ----- |
+| [Privacy](../references/privacy-personal-data.md) | Added additional resources to the Microsoft Windows 10/11 diagnostic data section |
 
 ## January 2023
 
