@@ -5,7 +5,9 @@ keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation, sett
 ms.service: m365-md
 author: tiaraquan
 ms.localizationpriority: medium
-ms.collection: M365-modern-desktop
+ms.collection: 
+- M365-modern-desktop
+- tier2
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: article

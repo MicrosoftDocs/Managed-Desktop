@@ -9,7 +9,9 @@ manager: dougeby
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 04/26/2022
-ms.collection: M365-modern-desktop
+ms.collection: 
+- M365-modern-desktop
+- tier2
 ---
 
 # List tickets

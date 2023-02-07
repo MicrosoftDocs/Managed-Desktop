@@ -14,6 +14,9 @@ ms.author: tiaraquan
 ms.article: article
 ms.localizationpriority: medium
 ms.date: 02/02/2023
+ms.collection: 
+- M365-modern-desktop
+- tier2
 ---
 
 # What's new 2023
