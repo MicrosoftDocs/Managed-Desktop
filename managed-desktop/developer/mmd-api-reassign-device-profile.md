@@ -9,9 +9,7 @@ manager: dougeby
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 12/06/2022
-ms.collection: 
-- M365-modern-desktop
-- tier2
+ms.collection: M365-modern-desktop
 ---
 
 # Reassign device profile
