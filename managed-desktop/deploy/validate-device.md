@@ -7,9 +7,7 @@ f1.keywords:
 - NOCSH
 ms.author: tiaraquan
 ms.localizationpriority: medium
-ms.collection: 
-- M365-modern-desktop
-- tier2
+ms.collection: M365-modern-desktop
 manager: dougeby
 ms.topic: article
 audience: Admin
