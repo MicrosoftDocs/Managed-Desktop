@@ -4,7 +4,9 @@ description:  Technologies used for device security, identity and access managem
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: tiaraquan
-ms.collection: M365-modern-desktop
+ms.collection: 
+- M365-modern-desktop
+- tier2
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: article

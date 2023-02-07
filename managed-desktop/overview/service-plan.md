@@ -6,7 +6,9 @@ ms.service: m365-md
 audience: ITpro
 author: tiaraquan
 ms.localizationpriority: medium
-ms.collection: M365-modern-desktop
+ms.collection: 
+- M365-modern-desktop
+- tier2
 ms.custom: intro-overview
 ms.author: tiaraquan
 manager: dougeby
