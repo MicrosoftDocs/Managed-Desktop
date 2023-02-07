@@ -10,7 +10,9 @@ ms.author: tiaraquan
 manager: dougeby
 ms.topic: article
 ms.localizationpriority: medium
-ms.collection: M365-modern-desktop
+ms.collection: 
+- M365-modern-desktop
+- tier2
 ms.date: 12/06/2022
 ---
 

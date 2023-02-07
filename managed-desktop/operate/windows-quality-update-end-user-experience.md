@@ -10,7 +10,9 @@ ms.author: tiaraquan
 manager: dougeby
 ms.topic: conceptual
 ms.localizationpriority: medium
-ms.collection: M365-modern-desktop
+ms.collection: 
+- M365-modern-desktop
+- tier2
 ---
 
 # Windows quality update end user experience

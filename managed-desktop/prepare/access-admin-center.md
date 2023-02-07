@@ -8,7 +8,9 @@ author: tiaraquan
 ms.topic: article
 audience: ITPro
 ms.localizationpriority: medium
-ms.collection: M365-modern-desktop
+ms.collection: 
+- M365-modern-desktop
+- tier2
 manager: dougeby
 ms.date: 12/06/2022
 ---

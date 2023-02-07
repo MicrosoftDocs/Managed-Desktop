@@ -9,7 +9,9 @@ manager: dougeby
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 03/07/2019
-ms.collection: M365-modern-desktop
+ms.collection: 
+- M365-modern-desktop
+- tier2
 ---
 
 # Install Microsoft Project or Microsoft Visio on Microsoft Managed Desktop devices

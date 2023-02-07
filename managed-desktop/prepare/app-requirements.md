@@ -6,7 +6,9 @@ ms.service: m365-md
 author: tiaraquan
 ms.author: tiaraquan
 ms.localizationpriority: medium
-ms.collection: M365-modern-desktop
+ms.collection: 
+- M365-modern-desktop
+- tier2
 manager: dougeby
 ms.topic: article
 ms.date: 12/06/2022
