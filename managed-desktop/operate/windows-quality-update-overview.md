@@ -92,7 +92,7 @@ By default, the service expedites quality updates as needed. For those organizat
 **To turn off service-driven expedited quality updates:**
 
 1. Go to **[Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** > **Devices**.
-2. Under **Microsoft Managed Desktop** > **Release management**, go to the **Release settings** tab and turn off the **Expedited Quality Updates** setting.
+2. Under **Microsoft Managed Desktop** > **Release management**, go to the **Release settings** tab and turn off the **Expedited quality updates** setting.
 
 > [!NOTE]
 > Microsoft Managed Desktop doesn't allow customers to request expedited releases.
