@@ -111,6 +111,11 @@ Microsoft Managed Desktop schedules and deploys required Out of Band (OOB) updat
 
 ### Pausing and resuming a release
 
+> [!CAUTION]
+> It's only recommended to use Microsoft Managed Desktop's end-user experience to pause and resume [Windows quality](windows-quality-update-overview.md#pausing-and-resuming-a-release). If you need assistance with pausing and resuming updates, please [submit a support request](../operate/support-request.md).
+
+The service-level pause of updates is driven by the various software update deployment-related signals Microsoft Managed Desktop receives from Windows Update for Business, and several other product groups within Microsoft.
+
 If Microsoft Managed Desktop detects a [significant issue with a release](../operate/windows-quality-update-signals.md), we may decide to pause that release.
 
 > [!IMPORTANT]
@@ -128,12 +133,13 @@ If Microsoft Managed Desktop detects a [significant issue with a release](../ope
 8. If you're resuming an update, you can select one or more deployment rings.
 9. Select **Okay**.
 
-There are two statuses associated with paused quality updates, **Service Paused** and **Customer Paused**.
+The three following statuses are associated with paused quality updates:
 
 | Status | Description |
 | ----- | ------ |
-| Service Paused | If the Microsoft Managed Desktop service has paused an update, the release will have the **Service Paused** status. You must [submit a support request](../operate/support-request.md) to resume the update. |
-| Customer Paused | If you've paused an update, the release will have the **Customer Paused** status. The Microsoft Managed Desktop service can't overwrite a customer-initiated pause. You must select **Resume** to resume the update. |
+| Service Pause | If the Microsoft Managed Desktop service has paused an update, the release will have the **Service Pause** status. You must [submit a support request](../operate/support-request.md) to resume the update. |
+| Customer Pause | If you've paused an update, the release will have the **Customer Pause** status. The Microsoft Managed Desktop service can't overwrite an IT admin's pause. You must select **Resume** to resume the update. |
+| Customer & Service Pause | If you and Microsoft Managed Desktop have both paused an update, the release will have the **Customer & Service Pause** status. If you resume the update, and the **Service Pause** status still remains, you must [submit a support request](../operate/support-request.md) for Microsoft Managed Desktop to resume the update deployment on your behalf. |
 
 ## Remediating Ineligible and/or Not up to Date devices
 
