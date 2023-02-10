@@ -5,12 +5,12 @@ description: How to find and use the admin center, including controlling access 
 ms.service: m365-md
 ms.author: tiaraquan
 author: tiaraquan
-ms.topic: article
+ms.topic: how-to
 audience: ITPro
 ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier1
 manager: dougeby
 ms.date: 12/06/2022
 ---

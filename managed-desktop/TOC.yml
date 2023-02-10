@@ -75,9 +75,9 @@
               items:
                 - name: Run the Device readiness assessment tool
                   href: prepare/readiness-assessment-downloadable.md
-                - name: Run the Online readiness assessment tool
+                - name: Run the online readiness assessment tool
                   href: prepare/readiness-assessment-online.md
-            - name: Step 2. Fix issues found by the Online readiness assessment tool
+            - name: Step 2. Fix issues found by the online readiness assessment tool
               href: prepare/readiness-assessment-fix.md
             - name: Step 3. Enroll your tenant
               href: prepare/enroll-your-tenant.md
@@ -168,13 +168,6 @@
     - name: Operate
       href:
       items:
-        - name: Assign devices to a deployment group
-          href:
-          items:
-            - name: Device deployment groups
-              href: operate/deployment-groups.md
-            - name: Assign devices to a deployment group
-              href: operate/assign-deployment-group.md
         - name: Configure device policies, profiles, and device names
           href:
           items:

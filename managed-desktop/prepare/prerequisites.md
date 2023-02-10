@@ -1,5 +1,5 @@
 ---
-title: Prerequisites for Microsoft Managed Desktop
+title: Infrastructure prerequisites
 description: Licenses, Azure accounts, authentication settings, and Microsoft 365 settings to set up before enrolling in Microsoft Managed Desktop
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
@@ -7,15 +7,15 @@ author: tiaraquan
 ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier1
 ms.author: tiaraquan
 manager: dougeby
-ms.topic: article
+ms.topic: conceptual
 audience: Admin
 ms.date: 12/06/2022
 ---
 
-# Prerequisites for Microsoft Managed Desktop
+# Infrastructure prerequisites
 
 <!--This topic is the target for a "Learn more" link in the Admin Portal (aka.ms/prereq-azure). DO NOT DELETE.-->
 <!--from Prerequisites -->

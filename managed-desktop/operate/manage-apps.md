@@ -8,12 +8,12 @@ f1.keywords:
 - NOCSH
 ms.author: tiaraquan
 manager: dougeby
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 01/18/2019
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier1
 ---
 
 # Manage line-of-business apps in Microsoft Managed Desktop

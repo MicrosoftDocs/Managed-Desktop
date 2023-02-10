@@ -7,7 +7,7 @@ author: tiaraquan
 ms.author: tiaraquan
 manager: dougeby
 audience: ITpro
-ms.topic: article
+ms.topic: conceptual
 ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop

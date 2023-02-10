@@ -9,10 +9,13 @@ manager: dougeby
 f1.keywords:
 - NOCSH
 ms.author: tiaraquan
-ms.topic: article
+ms.topic: conceptual
 audience: Admin, ITPro
 ms.localizationpriority: medium
 ms.date: 02/02/2023
+ms.collection: 
+- M365-modern-desktop
+- tier1
 ---
 
 # Privacy

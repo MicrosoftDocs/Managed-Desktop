@@ -1,5 +1,5 @@
 ---
-title: Security technologies
+title: Security and access management technologies
 description:  Technologies used for device security, identity and access management, network security, and information security
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
@@ -13,7 +13,7 @@ ms.topic: article
 ms.date: 12/06/2022
 ---
 
-# Security technologies
+# Security and access management technologies
 
 <!--Security, also Onboarding doc: data handling/store, privileged account access -->
 

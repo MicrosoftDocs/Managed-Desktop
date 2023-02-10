@@ -12,7 +12,7 @@ ms.topic: conceptual
 ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier1
 ---
 
 # Windows quality update end user experience
