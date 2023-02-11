@@ -8,7 +8,7 @@ f1.keywords:
 - NOCSH
 ms.author: tiaraquan
 manager: dougeby
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop

@@ -1,5 +1,5 @@
 ---
-title: Run the Online readiness assessment tool
+title: Run the online readiness assessment tool
 description:  Checks settings in Microsoft Endpoint Manager (specifically, Microsoft Intune), Azure Active Directory (Azure AD), and Microsoft 365
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
@@ -7,7 +7,7 @@ author: tiaraquan
 ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier1
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: how-to
@@ -15,9 +15,9 @@ audience: Admin
 ms.date: 12/06/2022
 ---
 
-# Run the Online readiness assessment tool
+# Run the online readiness assessment tool
 
-## Step 1: Run the Online readiness assessment tool for management settings
+## Step 1: Run the online readiness assessment tool for management settings
 
 The [online tool](https://aka.ms/mmdart) checks settings in Microsoft Endpoint Manager (specifically, Microsoft Intune), Azure Active Directory (Azure AD), and Microsoft 365 to ensure they'll work with Microsoft Managed Desktop.
 

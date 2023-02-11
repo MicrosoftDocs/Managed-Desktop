@@ -6,7 +6,7 @@ ms.service: m365-md
 author: tiaraquan
 ms.author: tiaraquan
 manager: dougeby
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 03/07/2019
 ms.collection: 

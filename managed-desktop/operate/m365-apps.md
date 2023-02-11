@@ -9,12 +9,12 @@ f1.keywords:
 - NOCSH
 ms.author: tiaraquan
 manager: dougeby
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 12/06/2022
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier1
 ---
 
 # Microsoft 365 Apps for enterprise

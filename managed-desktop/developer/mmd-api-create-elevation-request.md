@@ -6,12 +6,12 @@ ms.service: m365-md
 author: tiaraquan
 ms.author: tiaraquan
 manager: dougeby
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.date: 04/26/2022
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier3
 ---
 
 # Create an elevation request

@@ -8,11 +8,11 @@ f1.keywords:
 - NOCSH
 ms.author: tiaraquan
 manager: dougeby
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier1
 ms.date: 12/06/2022
 ---
 
@@ -62,6 +62,18 @@ Also, during the [device registration process](../prepare/device-registration-ov
 
 > [!NOTE]
 > You can't create additional deployment rings or use your own for devices managed by the Microsoft Managed Desktop service.
+
+### Labels
+
+The Group assigned by column contains the following labels:
+
+| Label | Description |
+| ----- | ----- |
+| Admin | The device is in a group you've specified. |
+| Auto | Microsoft Managed Desktop assigned the group. |
+| Pending | The device is in the process of moving to a group. |
+
+The **Group** column always shows the group the device is currently in and only updates when a move is complete.
 
 ### Deployment ring calculation logic
 

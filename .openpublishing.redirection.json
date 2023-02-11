@@ -514,6 +514,16 @@
       "source_path": "managed-desktop/get-started/devices.md",
       "redirect_url": "/managed-desktop/prepare/prepare-devices-for-registration",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "managed-desktop/operate/deployment-groups.md",
+      "redirect_url": "/managed-desktop/operate/updates",
+      "redirect_document_id": false
+    },  
+    {
+      "source_path": "managed-desktop/operate/assign-deployment-group.md",
+      "redirect_url": "/managed-desktop/operate/updates",
+      "redirect_document_id": false
     }  
   ]
 }

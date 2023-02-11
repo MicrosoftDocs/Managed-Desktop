@@ -11,7 +11,7 @@ manager: dougeby
 f1.keywords:
 - NOCSH
 ms.author: tiaraquan
-ms.article: article
+ms.article: whats-new
 ms.localizationpriority: medium
 ms.date: 02/02/2023
 ms.collection: 

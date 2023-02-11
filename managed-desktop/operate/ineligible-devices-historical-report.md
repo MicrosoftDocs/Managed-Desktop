@@ -7,10 +7,10 @@ author: tiaraquan
 ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier1
 ms.author: tiaraquan
 manager: dougeby
-ms.topic: article
+ms.topic: conceptual
 msreviewer: adnich
 ms.date: 12/06/2022
 ---
