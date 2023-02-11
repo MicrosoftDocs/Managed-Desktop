@@ -11,12 +11,12 @@ manager: dougeby
 f1.keywords:
 - NOCSH
 ms.author: tiaraquan
-ms.article: article
+ms.article: whats-new
 ms.localizationpriority: medium
 ms.date: 12/06/2022
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier3
 ---
 
 # What's new 2019

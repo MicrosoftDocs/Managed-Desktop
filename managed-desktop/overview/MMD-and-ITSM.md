@@ -6,7 +6,7 @@ ms.service: m365-md
 author: tiaraquan
 ms.author: tiaraquan
 manager: dougeby
-ms.topic: article
+ms.topic: conceptual
 ms.localizationpriority: medium
 ms.date: 12/06/2022
 ---

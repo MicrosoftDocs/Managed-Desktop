@@ -10,7 +10,7 @@ ms.collection:
 - M365-modern-desktop
 - tier2
 manager: dougeby
-ms.topic: article
+ms.topic: how-to
 ms.date: 12/06/2022
 ---
 

@@ -9,9 +9,9 @@ ms.author: tiaraquan
 ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier1
 manager: dougeby
-ms.topic: article
+ms.topic: how-to
 audience: Admin
 msreviewer: andredm7
 ms.date: 12/06/2022

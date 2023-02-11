@@ -7,7 +7,7 @@ author: tiaraquan
 ms.author: tiaraquan
 manager: dougeby
 audience: ITpro
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
@@ -45,7 +45,7 @@ You can always open another support request to pause or roll back part of this d
 
 ### Devices already in use
 
-If already have at least one Microsoft Managed Desktop device in use, follow these steps:
+If already have at least one Microsoft Managed Desktop device in use, use the following steps:
 
 1. Open a service ticket with Microsoft Managed Desktop Operations requesting that we turn on app control. Operations will deploy an [Audit policy](../prepare/app-control.md#audit-policy) to all devices.
 2. [Test your applications](../deploy/add-app-with-app-control.md#add-a-new-app) to see if any would be blocked. If an application would be blocked, open a [signer request](../deploy/add-app-with-app-control.md#add-or-remove-a-trusted-signer).
