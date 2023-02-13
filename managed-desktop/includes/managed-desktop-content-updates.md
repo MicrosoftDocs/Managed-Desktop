@@ -2,6 +2,17 @@
 
 
 
+## Week of February 06, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/8/2023 | [Windows quality updates](/managed-desktop/operate/windows-quality-update-overview) | modified |
+| 2/10/2023 | Assign devices to a deployment group | removed |
+| 2/10/2023 | Device deployment groups | removed |
+| 2/10/2023 | [Software update management overview](/managed-desktop/operate/updates) | modified |
+
+
 ## Week of January 30, 2023
 
 
