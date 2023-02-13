@@ -35,7 +35,7 @@ For customers interested in moving to Windows 11, you can find more information 
 
 ### New Dell devices
 
-To order MMD compliant systems from Dell, have your Dell sales representative ensure that Ready Image with the optional M365 Apps preload option are on the order.  More information on Ready Image can be found at [Ready Image | Dell USA](https://www.dell.com/en-us/dt/services/deployment-services/ready-image.htm#scroll=off).  For details on the patch level details of Ready Image and the M365 Apps preload, go to https://www.dell.com/imagematrix.
+To order Microsoft Managed Desktop compliant systems from Dell, your Dell sales representative must ensure that your order includes the [Ready Image](https://www.dell.com/en-us/dt/services/deployment-services/ready-image.htm#scroll=off) with the optional Microsoft 365 apps preload. For more information on the patch level details of Ready Image and the Microsoft 365 apps preload, go to [Dell Windows Image Support Matrix](https://www.dell.com/imagematrix).
 
 ### New HP devices
 
