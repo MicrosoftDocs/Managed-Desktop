@@ -71,4 +71,4 @@ Once you've established the relationship, you can start registering devices for 
 | Kiosk | [Microsoft365Managed_Kiosk](../operate/device-profiles.md#device-profile-details) | Microsoft365Managed_Kiosk-Shared |
 
 > [!IMPORTANT]
-> The Group Tags must match those listed in the table exactly, including capitalization and special characters. This will allow the newly registered devices to be assigned with tone of the Microsoft Managed Desktop Autopilot deployment profiles.
+> The Group Tags must match those listed in the table exactly, including capitalization and special characters. This will allow the newly registered devices to be assigned with one of the Microsoft Managed Desktop Autopilot deployment profiles.
