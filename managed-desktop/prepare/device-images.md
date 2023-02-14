@@ -14,7 +14,7 @@ ms.collection:
 manager: dougeby
 ms.topic: how-to
 audience: Admin
-ms.date: 12/06/2022
+ms.date: 02/14/2023
 ---
 
 # Device images
@@ -35,9 +35,7 @@ For customers interested in moving to Windows 11, you can find more information 
 
 ### New Dell devices
 
-Work directly with the Dell sales representative.
-
-The representative will ensure that the image approved by Microsoft Managed Desktop is applied to devices in your order. For more information on Dell devices, the image, and the ordering process, contact MMD_at_dell@dell.com.
+To order Microsoft Managed Desktop compliant systems from Dell, your Dell sales representative must ensure that your order includes the [Ready Image](https://www.dell.com/en-us/dt/services/deployment-services/ready-image.htm#scroll=off) with the optional Microsoft 365 apps preload. For more information on the patch level details of Ready Image and the Microsoft 365 apps preload, go to [Dell Windows Image Support Matrix](https://www.dell.com/imagematrix).
 
 ### New HP devices
 
