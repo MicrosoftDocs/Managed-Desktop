@@ -11,7 +11,7 @@ ms.collection:
 - tier2
 manager: dougeby
 ms.topic: how-to
-ms.date: 12/06/2022
+ms.date: 04/22/2022
 ---
 
 # Register devices in shared device mode

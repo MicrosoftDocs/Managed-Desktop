@@ -14,7 +14,7 @@ ms.collection:
 manager: dougeby
 ms.topic: how-to
 audience: Admin
-ms.date: 12/06/2022
+ms.date: 11/18/2022
 ---
 
 # Device profiles

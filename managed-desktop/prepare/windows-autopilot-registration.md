@@ -12,7 +12,7 @@ ms.collection:
 manager: dougeby
 ms.topic: how-to
 msreviewer: andredm7
-ms.date: 12/06/2022
+ms.date: 07/29/2022
 ---
 
 # Manual Windows Autopilot device registration outside the Microsoft Managed Desktop Devices blade

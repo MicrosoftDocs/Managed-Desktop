@@ -11,7 +11,7 @@ ms.collection:
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: conceptual
-ms.date: 12/06/2022
+ms.date: 03/18/2022
 ---
 
 # Configurable settings reference - Microsoft Managed Desktop

@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
 - tier1
-ms.date: 12/06/2022
+ms.date: 11/18/2022
 ---
 
 # Preview and test Windows 11 with Microsoft Managed Desktop
