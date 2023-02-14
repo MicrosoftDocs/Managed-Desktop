@@ -14,7 +14,7 @@ ms.collection:
 manager: dougeby
 ms.topic: how-to
 audience: Admin
-ms.date: 02/10/2023
+ms.date: 02/14/2023
 ---
 
 # Device images
