@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
 - tier1
-ms.date: 12/06/2022
+ms.date: 01/20/2023
 ---
 
 # Software update management overview

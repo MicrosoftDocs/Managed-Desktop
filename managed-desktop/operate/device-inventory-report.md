@@ -10,7 +10,7 @@ ms.collection:
 - tier1
 ms.author: tiaraquan
 manager: dougeby
-ms.topic: article
+ms.topic: conceptual
 ms.date: 12/06/2022
 ---
 

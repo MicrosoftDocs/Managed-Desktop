@@ -13,7 +13,7 @@ manager: dougeby
 ms.topic: how-to
 audience: Admin
 msreviewer: andredm7
-ms.date: 12/06/2022
+ms.date: 07/29/2022
 ---
 
 # Device registration overview
