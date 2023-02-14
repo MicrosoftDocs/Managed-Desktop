@@ -13,6 +13,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
 - tier2
+ms.date: 01/20/2023
 ---
 
 # Windows update policies

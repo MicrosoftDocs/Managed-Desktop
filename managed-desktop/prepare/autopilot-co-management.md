@@ -11,7 +11,7 @@ ms.collection:
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: how-to
-ms.date: 12/06/2022
+ms.date: 08/19/2022
 ---
 
 # Autopilot into co-management

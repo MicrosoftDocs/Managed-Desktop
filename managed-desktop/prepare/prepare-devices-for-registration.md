@@ -12,7 +12,7 @@ ms.collection:
 manager: dougeby
 ms.topic: how-to
 audience: Admin
-ms.date: 12/06/2022
+ms.date: 07/29/2022
 ---
 
 # Prepare devices for registration
