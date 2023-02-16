@@ -37,7 +37,7 @@ Unlike Azure AD administrator roles that apply to various Microsoft products and
 
 | Azure AD role | Microsoft Managed Desktop permissions |
 | ----- | ----- |
-| Global Administrator | Admins with this role will have **read and write permissions to all features** in the [Microsoft Intune admin center]((https://go.microsoft.com/fwlink/?linkid=2109431)). |
+| Global Administrator | Admins with this role will have **read and write permissions to all features** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
 | Global Reader | Admins with this role will have **read-only permissions to all features** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
 | Intune Service Administrator | Admins with this role will have **read and write permissions to features not related to security** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
 | Service Support Administrator | Admins with this role will have **read-only permissions to features not related to security** and **write permissions to manage support requests including escalation requests** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
