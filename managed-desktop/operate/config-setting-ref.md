@@ -37,7 +37,7 @@ These requirements must be met for a desktop background picture:
 
 **To add a custom desktop background picture:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Devices** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Devices** menu.
 2. In the Microsoft Managed Desktop section, select **Settings**.
 3. In the **Settings** workspace, select **Desktop background picture**.
 4. Enter the location of the picture you want to use.
@@ -55,7 +55,7 @@ You must provide the fully qualified domain name (FQDN) for intranet or Internet
 
 **To add a browser start page:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Devices** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Devices** menu.
 2. In the Microsoft Managed Desktop section, select **Settings**.
 3. In the **Settings** workspace, select **Browser start pages**.
 4. Select **Add start page**.
@@ -92,7 +92,7 @@ These best practices are offered to help customers make decisions to modernize t
 
 **To add an enterprise site mode list location:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Devices** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Devices** menu.
 2. In the Microsoft Managed Desktop section, select **Settings**.
 3. In the **Settings** workspace, select **Enterprise mode site list location**.
 4. Enter the https location for your site list.
@@ -115,7 +115,7 @@ Provide the fully qualified domain name (FQDN) for intranet or Internet sites fo
 
 **To add a trusted site:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Devices** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Devices** menu.
 2. In the Microsoft Managed Desktop section, select **Settings**.
 3. In the **Settings** workspace, select **Trusted sites**, and then select **Add trusted site**.
 4. On **Add trusted site**, enter the URL, choose a security zone, and then select **Add trusted site**.
@@ -124,7 +124,7 @@ Provide the fully qualified domain name (FQDN) for intranet or Internet sites fo
 
 **To remove a trusted site:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Devices** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Devices** menu.
 2. In the Microsoft Managed Desktop section, select **Settings**.
 3. In **Settings** workspace, select **Trusted sites**.
 4. Select the site that you want to delete, and then select **Delete**.
@@ -137,7 +137,7 @@ You can manage network proxy settings for your organization. Add your proxy serv
 
 Microsoft Managed Desktop includes a set of default proxy exceptions that are required for the service to operate. The default exclusion list may only be modified by the Microsoft Managed Desktop service. For more information, see [Network configuration for Microsoft Managed Desktop](../prepare/network.md).
 
-The proxy site exceptions added in the Microsoft Managed Desktop admin center are added to the default proxy exceptions included with the Microsoft Managed Desktop service.
+The proxy site exceptions added in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) are added to the default proxy exceptions included with the Microsoft Managed Desktop service.
 
 > [!NOTE]
 > Updating the default proxy exception list is always prioritized over customer deployments. This means that your staged deployment will be paused if there is a deployment for the default proxy exception list.  
@@ -154,7 +154,7 @@ These requirements must be met for proxy server and proxy site exceptions:
 
 **To add an individual proxy site exception:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Devices** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Devices** menu.
 2. In the Microsoft Managed Desktop section, select **Settings**.
 3. In the **Settings** workspace, select **Proxy**.
 4. Enter the **Address** and **Port number** for you proxy server, and then select **Add proxy exception**.

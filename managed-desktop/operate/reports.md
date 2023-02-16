@@ -16,9 +16,9 @@ ms.date: 12/06/2022
 
 # Work with reports
 
-The Microsoft Endpoint Manager console brings together reporting from several products into a single location to help you monitor, and investigate issues with your Azure AD organization ("tenant") configuration and devices.
+The [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) brings together reporting from several products into a single location to help you monitor, and investigate issues with your Azure AD organization ("tenant") configuration and devices.
 
-Microsoft Managed Desktop has a section in the **Reports** menu where you can find reports specific to Microsoft Managed Desktop's management of the registered devices. In several locations throughout Microsoft Endpoint Manager, you can filter reports from other product groups. You can include or exclude devices that are managed by Microsoft Managed Desktop.
+Microsoft Managed Desktop has a section in the **Reports** menu where you can find reports specific to Microsoft Managed Desktop's management of the registered devices. In several locations throughout the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), you can filter reports from other product groups. You can include or exclude devices that are managed by Microsoft Managed Desktop.
 
 ## Managed devices reports
 
@@ -130,7 +130,7 @@ Select **Export devices** to export data for each report type.
 
 ## Endpoint analytics
 
-Microsoft Managed Desktop is now integrated with [Endpoint analytics](/mem/analytics/overview). These reports give you insights for measuring how your organization is working and the quality of the experience delivered to your users. You can find Endpoint analytics in the **Reports** menu of [Microsoft Endpoint Manager](https://endpoint.microsoft.com/). To pivot a score to only include devices being managed by Microsoft Managed Desktop, go to any report, select the **Filter** dropdown, and then select **Microsoft Managed Desktop devices**.
+Microsoft Managed Desktop is now integrated with [Endpoint analytics](/mem/analytics/overview). These reports give you insights for measuring how your organization is working and the quality of the experience delivered to your users. You can find Endpoint analytics in the **Reports** menu of the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). To pivot a score to only include devices being managed by Microsoft Managed Desktop, go to any report, select the **Filter** dropdown, and then select **Microsoft Managed Desktop devices**.
 
 If Endpoint analytics weren't automatically configured for your Azure AD organization ("tenant") during enrollment, you can do that yourself. For more information, see [Onboard in the Endpoint analytics portal](/mem/analytics/enroll-intune#bkmk_onboard). You can enroll all of your devices, or, if you want to include only Microsoft Managed Desktop devices, select the **modern workplace device** groups for Test, First, Fast, and Broad. These reports might require different permissions. For more information, see [Permissions](/mem/analytics/overview#permissions) to ensure you have roles appropriately assigned.
 
@@ -148,8 +148,8 @@ In some cases, it can be helpful to use Intune reports to specifically monitor a
 - [Noncompliant devices](/mem/intune/fundamentals/reports#noncompliant-devices-report-operational)
 
 > [!NOTE]
-> Custom Microsoft Managed Desktop roles guarantee access only to the Microsoft Managed Desktop reports. To access other parts of Microsoft Endpoint Manager, such as **All devices**, see [Role-based access control with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
+> Custom Microsoft Managed Desktop roles guarantee access only to the Microsoft Managed Desktop reports. To access other parts of the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), such as **All devices**, see [Role-based access control with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
 
 ## Microsoft Managed Desktop inventory data
 
-In addition to the other reports, you can export information about the devices managed by Microsoft Managed Desktop. In Microsoft Endpoint Manager, navigate to the **Devices** section, under Microsoft Managed Desktop, select **Devices** and use the **Export all** tab to [download a detailed inventory report](../operate/device-inventory-report.md).
+In addition to the other reports, you can export information about the devices managed by Microsoft Managed Desktop. In the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), navigate to the **Devices** section, under Microsoft Managed Desktop, select **Devices** and use the **Export all** tab to [download a detailed inventory report](../operate/device-inventory-report.md).

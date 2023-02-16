@@ -36,7 +36,7 @@ As an example, we'll use a desktop background picture in these instructions. Aft
 
 **To deploy changes:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Devices** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Devices** menu.
 2. In the Microsoft Managed Desktop section, select **Settings**.
 3. In the **Deployment status** workspace, select the setting you want to deploy. Then, select the staged deployment to deploy.
 4. Select **Deploy** to deploy the change to one of the deployment groups.
@@ -60,7 +60,7 @@ As an example, we'll revert the desktop background picture.
 
 **To revert a change:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Devices** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Devices** menu.
 2. In the Microsoft Managed Desktop section, select **Settings**.
 3. In the **Deployment status** workspace, select the setting you want to revert. Then, select the staged deployment to revert.
 4. Under **Need to revert this change?**, select **Revert deployment**.

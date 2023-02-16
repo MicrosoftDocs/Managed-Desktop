@@ -28,7 +28,7 @@ For general guidance, see [Create a Windows 365 Provisioning Policy](/windows-36
 
 **To deploy Microsoft Managed Desktop on a Windows 365 Provisioning Policy:**
 
-1. Go to the [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) admin center.
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. In the left pane, select **Devices**.
 1. Navigate to Provisioning > **Windows 365**.
 1. Select Provisioning policies > **Create policy**.
@@ -45,7 +45,7 @@ For general guidance, see [Create a Windows 365 Provisioning Policy](/windows-36
 | Question | Answer |
 | ----- | ------ |
 | Does Microsoft Managed Desktop on Windows 365 Cloud PCs have any feature differences from a physical device? | Some. With the nature of a Cloud PC, the baseline has been modified to optimize the experience on Windows 365. |
-| Do my Cloud PCs appear any differently in the Microsoft Managed Desktop admin center? | Cloud PC displays the model as the license type you've provisioned. |
+| Do my Cloud PCs appear any differently in the Microsoft Intune admin center? | Cloud PC displays the model as the license type you've provisioned. |
 | Can I run Microsoft Managed Desktop on my Windows 365 Business Workloads? | No. Microsoft Managed Desktop is only available on enterprise workloads. |
 
 ## Azure Virtual Desktop workloads
@@ -144,7 +144,7 @@ PostRegisterRequest $Global:CusmPartnerAPIUrl
 | Question | Answer |
 | ----- | ----- |
 | Does Microsoft Managed Desktop on Azure Virtual Desktop Virtual Machines have any feature differences from a physical device? | Some. With the nature of an Azure Virtual Desktop, the baseline has been modified to optimize the experience on virtual machines.|
-| Do my virtual machines appear any differently in the Microsoft Managed Desktop admin center? | Virtual machines are displayed as ‘virtual machines’. |
+| Do my virtual machines appear any differently in the Microsoft Intune admin center? | Virtual machines are displayed as ‘virtual machines’. |
 
 ## Configurations that vary from the Microsoft Managed Desktop baseline
 

@@ -25,7 +25,7 @@ Sometimes, Microsoft might need to change details about the way Microsoft Manage
 
 ## Changes made by Microsoft
 
-We'll give you notice at least 30 days ahead of time for any major change that requires action. We'll let you know by using the Microsoft Managed Desktop admin center messaging system.
+We'll give you notice at least 30 days ahead of time for any major change that requires action. We'll let you know by using the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) messaging system.
 
 Major changes are those that might affect any of these areas:
 
@@ -59,7 +59,7 @@ Microsoft Managed Desktop changes and communications are governed by two Microso
 
 Some changes that you might make in your environment could affect Microsoft Managed Desktop.
 
-For these major changes, we ask that you give us at least 30 days' notice by submitting a support request in the Microsoft Managed Desktop admin center. For instructions, see [Admin support](../operate/support-request.md) for Microsoft Managed Desktop. This allows us adequate time to plan and prepare for the change to avoid disruptions.
+For these major changes, we ask that you give us at least 30 days' notice by submitting a support request in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). For instructions, see [Admin support](../operate/support-request.md) for Microsoft Managed Desktop. This allows us adequate time to plan and prepare for the change to avoid disruptions.
 
 Major changes are those that might affect any of the following areas:
 
@@ -82,21 +82,21 @@ The following changes aren't likely to be disruptive, so you don't need to let u
 
 Microsoft Managed Desktop will send general communications about the service for a variety of reasons, for example, service changes, new features, or feature deprecation.
 
-Depending on the type of communications, we’ll either use the standard channels like the Message center and the Service health dashboard which is used by most products and services across Microsoft, or we may send a direct message to the Microsoft Managed Desktop admin contacts that you have registered in the admin center. For your convenience, we combine all these communications into a single blade in Microsoft Endpoint Manager (**Tenant administration** > Microsoft Managed Desktop | **Messages**).
+Depending on the type of communications, we’ll either use the standard channels like the Message center and the Service health dashboard which is used by most products and services across Microsoft, or we may send a direct message to the Microsoft Managed Desktop admin contacts that you have registered in the admin center. For your convenience, we combine all these communications into a single blade in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) (**Tenant administration** > Microsoft Managed Desktop | **Messages**).
 
 ### Message center
 
-This is the primary channel for official service announcements and feature changes. You can read these messages from Microsoft Managed Desktop alongside other services in the Microsoft 365 admin center, the admin mobile app, or receive a weekly digest in email. For more information, see this article on the [Message center](/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true). For admins that have access to Message center, any Microsoft Managed Desktop posts are also displayed in the Messages page in Microsoft Endpoint Manager.
+This is the primary channel for official service announcements and feature changes. You can read these messages from Microsoft Managed Desktop alongside other services in the Microsoft 365 admin center, the admin mobile app, or receive a weekly digest in email. For more information, see this article on the [Message center](/microsoft-365/admin/manage/message-center?view=o365-worldwide&preserve-view=true). For admins that have access to Message center, any Microsoft Managed Desktop posts are also displayed in the Messages page in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
 ### Service health dashboard
 
 You can view the health of your Microsoft services, including Microsoft Managed Desktop on the Service health page in the Microsoft 365 admin center.
 
-If you’re experiencing problems with a cloud service, you can check the service health to determine whether this is a known incident with a resolution in progress before you engage support or spend time fixing the issue. For more information, see [how to check M365 service health](/microsoft-365/enterprise/view-service-health). For admins that have access to the Service health dashboard, Microsoft Managed Desktop posts are also displayed in Microsoft Endpoint Manager > Service health dashboard > Messages page.
+If you’re experiencing problems with a cloud service, you can check the service health to determine whether this is a known incident with a resolution in progress before you engage support or spend time fixing the issue. For more information, see [how to check M365 service health](/microsoft-365/enterprise/view-service-health). For admins that have access to the Service health dashboard, Microsoft Managed Desktop posts are also displayed in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) > Service health dashboard > Messages page.
 
 ### Direct messages
 
-For scenarios that fall outside the scope of the primary channels listed above, we may send direct messages to our customers. An example scenario is if our team needs to send a communication to a trial customer that doesn’t have access to the Message center. These messages are sent only to the admin contacts you’ve registered with our team, and the messages will only appear in Microsoft Endpoint Manager. To view these messages, navigate to **Tenant administration** on the Microsoft Managed Desktop | Messages page.
+For scenarios that fall outside the scope of the primary channels listed above, we may send direct messages to our customers. An example scenario is if our team needs to send a communication to a trial customer that doesn’t have access to the Message center. These messages are sent only to the admin contacts you’ve registered with our team, and the messages will only appear in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). To view these messages, navigate to **Tenant administration** on the Microsoft Managed Desktop | Messages page.
 
 > [!NOTE]
 > The Message center and Service health dashboard have different role requirements and permissions than the rest of Microsoft Managed Desktop. Most users who have been assigned any admin role in Microsoft 365, can view Message center posts. For admin roles that don’t have access to the Message center, see this [list](/microsoft-365/admin/manage/message-center?preserve-view=true&view=o365-worldwide#admin-roles-that-dont-have-access-to-the-message-center). You can also assign the Message center reader role to users who should be able to read and share Message center posts without having any other admin privileges.
@@ -107,6 +107,6 @@ Communications may come over multiple channels. We recommend that, at a minimum,
 
 **To set up notification preferences for each communication channel:**
 
-1. In Microsoft Endpoint Manager, add yourself as an admin contact for Microsoft Managed Desktop.
+1. In the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), add yourself as an admin contact for Microsoft Managed Desktop.
 1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), navigate to **Health > Message center**, and [setup your preferences](/microsoft-365/admin/manage/message-center?preserve-view=true&view=o365-worldwide#preferences) for notifications about new messages.
 1. In the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/p/?linkid=2024339), navigate to **Health > Service health**. Then, select **Customize** to turn on/off the **Send me email notifications about service health** option.

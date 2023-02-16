@@ -25,7 +25,7 @@ The key factor in the two options is to ensure that devices don't have their mob
 
 ## Break and fix
 
-For scenarios where service desk teams have decided that the fastest way to resolve the issue is through a device reset, Microsoft Managed Desktop recommends the **Microsoft Endpoint Manager device wipe action** and selecting the **Retain enrollment state and user account** setting. This action uses Windows recovery on the client device. Performing Windows recovery can place the system back into a known good state and address issues like Windows file corruption, reset to default settings, etc. For more information about Windows recovery (also known as push-button reset), see [Push-button reset feature settings](/windows-hardware/manufacture/desktop/how-push-button-reset-features-work?view=windows-11#settings&preserve-view=true).
+For scenarios where service desk teams have decided that the fastest way to resolve the issue is through a device reset, Microsoft Managed Desktop recommends the **Microsoft Inune device wipe action** and selecting the **Retain enrollment state and user account** setting. This action uses Windows recovery on the client device. Performing Windows recovery can place the system back into a known good state and address issues like Windows file corruption, reset to default settings, etc. For more information about Windows recovery (also known as push-button reset), see [Push-button reset feature settings](/windows-hardware/manufacture/desktop/how-push-button-reset-features-work?view=windows-11#settings&preserve-view=true).
 
 ### What to expect with the Wipe action and retaining enrollment state
 

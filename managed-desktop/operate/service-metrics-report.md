@@ -18,11 +18,11 @@ ms.date: 02/18/2022
 
 This report provides straightforward summaries of key metrics for Microsoft Managed Desktop month over month.
 
-This report will be published each month to Microsoft Endpoint Manager and contain aggregate information about the previous month. Historical reports will continue to be available to you through the same admin center for month-over-month comparisons.
+This report will be published each month to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and contain aggregate information about the previous month. Historical reports will continue to be available to you through the same admin center for month-over-month comparisons.
 
 **To view the Service metrics report:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. Select **Reports**.
 1. Navigate to the **Microsoft Managed Desktop** > **Managed devices**.
 1. Select the **Reports** tab. In this view, you'll see all the types of Microsoft Managed Desktop reports available to you.

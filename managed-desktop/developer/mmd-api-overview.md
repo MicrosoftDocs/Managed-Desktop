@@ -20,7 +20,7 @@ ms.collection:
 
 The Microsoft Managed Desktop API enables data and capabilities through a set of programmatic APIs that will allow you to automate workflows using your preferred tools.
 
-The API enables you to view and manage devices, support tickets, and elevation requests details as you would through Microsoft Endpoint Manager portal.
+The API enables you to view and manage devices, support tickets, and elevation requests details as you would through [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)).
 
 Using the API, you can:
 

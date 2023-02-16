@@ -38,7 +38,7 @@ Once you've established the relationship with your customers, you can use Partne
 2. Select **Customers** from the Partner Center menu and then select the customer whose devices you want to manage.
 3. On the customer's detail page, select **Devices**.
 4. Under **Apply profiles** to devices, select **Add devices**.
-5. Enter the appropriate Group Tag for the device profile you've selected (as shown in the following table) and then select **Browse** to upload the customer's list (in .csv file format) to Partner Center.
+5. Enter the appropriate group tag for the device profile you've selected (as shown in the following table) and then select **Browse** to upload the customer's list (in .csv file format) to Partner Center.
 
 | Device profile | Autopilot group tag (standard mode) | Group tag (shared device mode) |
 | ----- | ----- | ----- |
@@ -48,7 +48,7 @@ Once you've established the relationship with your customers, you can use Partne
 | Kiosk | [Microsoft365Managed_Kiosk](../operate/device-profiles.md#device-profile-details) | Microsoft365Managed_Kiosk-Shared |
 
 > [!IMPORTANT]
-> The Group Name must match those listed in the table exactly, including capitalization and special characters. This will allow the newly registered devices to be assigned with the Microsoft Managed Desktop Autopilot profile.
+> The group name must match those listed in the table exactly, including capitalization and special characters. This will allow the newly registered devices to be assigned with the Microsoft Managed Desktop Autopilot profile.
 
 >[!NOTE]
 > You should have received this .csv file with your device purchase. If you didn't receive a .csv file, you can create one yourself by following the steps in [Adding devices to Windows Autopilot](/windows/deployment/windows-autopilot/add-devices#collecting-the-hardware-id-from-existing-devices-using-powershell). Requirements: <ul><li>Extra columns are not supported.</li> <li>Quotes are not supported.</li> <li>Only ANSI-format text files can be used (not Unicode).</li> <li>Headers are case-sensitive.</li></ul> Editing the file in Excel and saving it as a CSV file will not generate a usable file due to these requirements. Ensure that you preserve any leading zeroes in the device serial numbers. Partners should use [Get-WindowsAutoPilotInfo](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) to register devices for Microsoft Managed Desktop devices in Partner Center.
@@ -61,7 +61,7 @@ For more information about Autopilot in Partner scenarios, see [Add devices to a
 
 Before completing registration for a customer, you must first establish a relationship with them. You should have a unique link to provide to your respective customers. See [How to establish OEM relationship](/windows/deployment/windows-autopilot/registration-auth#oem-authorization).
 
-Once you've established the relationship, you can start registering devices for customers using the appropriate Group Tag for each device profile they've selected:
+Once you've established the relationship, you can start registering devices for customers using the appropriate group tag for each device profile they've selected:
 
 | Device profile | Autopilot group tag (standard mode) | Group tag (shared device mode) |
 | ----- | ----- | ----- |
@@ -71,4 +71,4 @@ Once you've established the relationship, you can start registering devices for 
 | Kiosk | [Microsoft365Managed_Kiosk](../operate/device-profiles.md#device-profile-details) | Microsoft365Managed_Kiosk-Shared |
 
 > [!IMPORTANT]
-> The Group Tags must match those listed in the table exactly, including capitalization and special characters. This will allow the newly registered devices to be assigned with one of the Microsoft Managed Desktop Autopilot deployment profiles.
+> The group tags must match those listed in the table exactly, including capitalization and special characters. This will allow the newly registered devices to be assigned with one of the Microsoft Managed Desktop Autopilot deployment profiles.

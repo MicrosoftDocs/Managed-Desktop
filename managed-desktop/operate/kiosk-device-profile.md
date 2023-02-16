@@ -42,13 +42,13 @@ The following high-level activities must be completed to enable kiosks for devic
 
 Microsoft Managed Desktop and the associated profile and tags will ensure that devices are kept up to date while respecting service windows and the lack of traditional interactive users and identities.  
 
-## Step 1: Create kiosk configuration profiles in Microsoft Endpoint Manager  
+## Step 1: Create kiosk configuration profiles in the Microsoft Intune admin center
 
-Microsoft Endpoint Manager includes a kiosk configuration as a template to help you create and modify these single-app or multi-app kiosk configurations for your business needs. You can configure them with the following steps:
+Microsoft Intune includes a kiosk configuration as a template to help you create and modify these single-app or multi-app kiosk configurations for your business needs. You can configure them with the following steps:
 
 **To create the kiosk configuration profiles:**
 
-1. Go to [Microsoft Endpoint Manager](https://endpoint.microsoft.com).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. Go to Devices > Configuration Profiles > **+ Create Profile**.
     1. For the **Platform**, select **Windows 10 and Later**.
     2. For the **Profile Type**, select **Templates** and **Kiosk**.
@@ -86,7 +86,7 @@ Once kiosk configuration profiles have been created and devices are assigned wit
 
 **To reassign the kiosk device profile:**
 
-1. Go to [Microsoft Endpoint Manager](https://endpoint.microsoft.com).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. Navigate to Devices > Microsoft Managed Desktop > **Devices**.
 1. Find and select on the desired device(s).
 1. In **Devices action**, select **Device Actions**.
@@ -102,7 +102,7 @@ If the user LogonType is Autologon, a local account is automatically created. Th
 
 **To create local users for kiosk device profiles:**
 
-1. Go to [Microsoft Endpoint Manager](https://endpoint.microsoft.com).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. Go to Devices > Configuration Profiles > **Create Profile**.
 1. For the **Platform**, select **Windows 10 and Later**.
 1. For the **Profile Type**, select **Templates and Custom**.
@@ -139,7 +139,7 @@ For more information about best practices, see [Selecting required apps for your
 | Multi-app kiosk is only supported on Windows 10 | For more information, see Kiosks aren't supported on Windows 11](/windows/configuration/lock-down-windows-10-to-specific-apps). |
 | Multiple monitors | The use of multiple monitors isn't supported for multi-app kiosk mode. |
 | Unable to save the kiosk configuration profile, when the user logon type is Azure AD user or group. | This issue occurs when the selected Azure Active Directory user group has multiple users, and the application type is NOT the Microsoft Edge browser. The error **Unable to save due to invalid data. Update your data then try again. Single Fullscreen UWP app configuration accepts only one user or type Autologon, local user or Azure AD user** is displayed. |
-| The configuration profile will report as "Error" when viewing within [Microsoft Endpoint Manager](https://endpoint.microsoft.com) | When using the [Accounts CSP](/windows/client-management/mdm/accounts-csp) to configure a local account on the device, the configuration profile will report as "Error" when viewing within [Microsoft Endpoint Manager](https://endpoint.microsoft.com), even when configured successfully and the account is created on the device. |
+| The configuration profile will report as "Error" when viewing within the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) | When using the [Accounts CSP](/windows/client-management/mdm/accounts-csp) to configure a local account on the device, the configuration profile will report as "Error" when viewing within the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), even when configured successfully and the account is created on the device. |
 | Single-app kiosk and multi-app profiles may not apply accurately | Single-app kiosk and multi-app profiles may not apply accurately, or CSP displays errors when the User Logon Type is Azure AD Group, and the Azure AD group has multiple users. As a workaround, add **Select Logon type** as the **Azure AD user** or group, and add individual accounts to the list. |
 | Microsoft Office apps don't launch in kiosk mode. | This issue occurs when there's a mismatch in the Application Model User ID(AUMID). Use the **Add Win 32 apps** option to configure apps. For more information on how to find the AUMID, see [Find the Application User Model ID of an installed app](/windows/configuration/find-the-application-user-model-id-of-an-installed-app). |
 

@@ -33,7 +33,7 @@ To ensure the quality of service without compromising security, the support prov
 | Role | Responsibilities |
 | ------ | ------ |
 | Support provider | Whoever provides support (either you for customer-led support or a partner for partner-led) is responsible for these items: <ul><li>Provide all user support and technical assistance from first contact through to resolution for the user.</li><li>Fulfill all service-level agreements for user support established by your organization, or in partnership with your chosen support provider.</li><li>Perform specific remediation actions, such as requesting elevated device privileges as described in [Elevation requests](../operate/end-user-support.md#submit-an-elevation-request).</li><li>Remediate user problems including: <ul><li>Operating system (Windows)</li><li>Microsoft Apps for enterprise</li><li>Browser features</li><li>Device problems</li><li>Problems with infrastructure, such as printers, drivers, and VPNs</li><li>Line-of-business applications</li></ul></ul> |
-| IT admin | Your IT admin is responsible for these items: <ul><li>Work with the support provider to set and manage service level agreements for user support</li><li>Manage elevated access privileges for approved support staff. For more information, see [Turn on user support features](../deploy/enable-user-support-features.md).</li><li>If there are device issues affecting users, escalate the issues by using the Microsoft Managed Desktop admin support process. For more information, see [Admin support for Microsoft Managed Desktop](../operate/support-request.md).</li><li>Route hardware-related issues to the appropriate vendor or supplier.</li><li>Maintain and protect device security policy settings on Microsoft Managed Desktop devices. Don't change the policies we set. </li></ul> |
+| IT admin | Your IT admin is responsible for these items: <ul><li>Work with the support provider to set and manage service level agreements for user support</li><li>Manage elevated access privileges for approved support staff. For more information, see [Turn on user support features](../deploy/enable-user-support-features.md).</li><li>If there are device issues affecting users, escalate the issues by [submitting a support request](../operate/support-request.md).</li><li>Route hardware-related issues to the appropriate vendor or supplier.</li><li>Maintain and protect device security policy settings on Microsoft Managed Desktop devices. Don't change the policies we set. </li></ul> |
 | Microsoft Managed Desktop |As the service provider, we're responsible for these items: <ul><li>Provide the means for elevated device access and issue escalation including documentation.</li><li>Keep this information about the roles and responsibilities current.</li><li>Respond to admin support requests in accordance with the severity definitions.</li><li>Provide threat monitoring and mitigation for all enrolled devices all day every day.</li></ul> |
 
 ## Escalation paths
@@ -95,7 +95,7 @@ Before you request elevated access to a device, it's best to review which action
 
 **To request elevation:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Devices** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Devices** menu.
 1. In the **Microsoft Managed Desktop** section, select **Devices**, which contains two tabs: the **Devices** tab and the **Elevation requests** tab.
 1. To create a new elevation request on the **Device** tab, select a single device that you want to elevate.
 1. From the Device actions dropdown menu, select **Request elevation**. A new elevation request fly-in will appear with the device’s name pre-populated in that field.
@@ -113,7 +113,7 @@ Before you request elevated access to a device, it's best to review which action
 
 **To [escalate](../operate/end-user-support.md#escalation-portal) an issue to Microsoft:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Tenant administration** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Tenant administration** menu.
 2. In the Microsoft Managed Desktop section, select **Service requests**.
 3. In the **Service requests** section, select **+ New support request**.
 4. Provide a brief description in the **Title** field. Then, set the **Request type** to **Incident**.

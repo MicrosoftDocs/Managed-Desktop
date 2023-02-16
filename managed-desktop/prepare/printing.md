@@ -33,12 +33,12 @@ The following instructions assume you've prepared the printing resources and dec
 
 **To deploy printers using a custom PowerShell script:**
 
-1. Navigate to the Microsoft Managed Desktop admin center.
+1. Navigate to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. Submit a request labeled *Printer deployment* in the **Support > Support requests** section of the admin center.
 1. Provide the following details:
-    - All UNC paths to shared printer locations that will need to be deployed for Microsoft Managed Desktop devices.
+    - All UNC paths to shared printer locations that must be deployed for Microsoft Managed Desktop devices.
     - User groups that require access to these shared printers.
-1. Using the admin center, we'll let you know when the request has been completed. Initially we'll only deploy the configuration to devices in the Test deployment group.
+1. Using the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), we'll let you know when the request has been completed. Initially we'll only deploy the configuration to devices in the Test deployment group.
 1. Test and confirm whether the configuration works as you expect.
 1. Reply by using the **Discussion** tab in the support request to let us know when you've completed your testing.
 1. We'll then deploy the configuration to the other deployment groups.

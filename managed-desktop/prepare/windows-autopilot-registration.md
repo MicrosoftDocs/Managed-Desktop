@@ -1,6 +1,6 @@
 ---
-title: Windows Autopilot registration from the Microsoft Endpoint Manager portal
-description:  This article describes how to register devices using the Windows Autopilot deployment profile in the Microsoft Endpoint Manager portal
+title: Windows Autopilot registration from the Microsoft Intune admin center
+description:  This article describes how to register devices using the Windows Autopilot deployment profile in the Microsoft Intune admin center
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: tiaraquan
@@ -17,7 +17,7 @@ ms.date: 07/29/2022
 
 # Manual Windows Autopilot device registration outside the Microsoft Managed Desktop Devices blade
 
-You can also register devices with Microsoft Managed Desktop by manually registering devices with the Windows Autopilot service either in the Microsoft Endpoint Manager portal (Windows Autopilot devices blade) or using the [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) PowerShell script on the PowerShell Gallery website.
+You can also register devices with Microsoft Managed Desktop by manually registering devices with the Windows Autopilot service either in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) (Windows Autopilot Devices blade) or using the [Get-WindowsAutoPilotInfo.ps1](https://www.powershellgallery.com/packages/Get-WindowsAutoPilotInfo) PowerShell script on the PowerShell Gallery website.
 
 When you register a device with Microsoft Managed Desktop outside its device blade, this device registration method is considered an auto device registration method since the device registration request wasn't originated in Microsoft Managed Desktop's device blade.
 
@@ -36,14 +36,14 @@ Self-deploying mode uses a device's TPM 2.0 hardware to authenticate the device 
 >
 > For more information about other known issues and review solutions, see [Windows Autopilot known issues](/mem/autopilot/known-issues) and [Troubleshoot Autopilot device import and enrollment](/mem/autopilot/troubleshoot-device-enrollment).
 
-## Steps to register devices in the Microsoft Endpoint Manager-Intune portal
+## Steps to register devices in the Microsoft Intune admin center
 
 When registering devices yourself, you must import new devices into the Windows Autopilot Devices blade.
 
 **To import new devices into the Windows Autopilot Devices blade:**
 
 1. Collect the [hardware hash](../get-started/manual-registration.md#obtain-the-hardware-hash) for new devices you want to assign the Windows Autopilot Self-deployment mode profile to.
-2. Go to the [Microsoft Endpoint Manager portal](https://endpoint.microsoft.com).
+2. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 3. Select **Devices** from the left navigation menu.
 4. In the **By platform** section, select **Windows**. Then, select **Windows Enrollment**.
 5. In the **Windows Autopilot Deployment Program** section, select **Devices**.

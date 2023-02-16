@@ -1,6 +1,6 @@
 ---
 title: Run the online readiness assessment tool
-description:  Checks settings in Microsoft Endpoint Manager (specifically, Microsoft Intune), Azure Active Directory (Azure AD), and Microsoft 365
+description:  Checks settings in Microsoft Intune, Azure Active Directory (Azure AD), and Microsoft 365
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: tiaraquan
@@ -19,7 +19,7 @@ ms.date: 12/06/2022
 
 ## Step 1: Run the online readiness assessment tool for management settings
 
-The [online tool](https://aka.ms/mmdart) checks settings in Microsoft Endpoint Manager (specifically, Microsoft Intune), Azure Active Directory (Azure AD), and Microsoft 365 to ensure they'll work with Microsoft Managed Desktop.
+The [online tool](https://aka.ms/mmdart) checks settings in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), Azure Active Directory (Azure AD), and Microsoft 365 to ensure they'll work with Microsoft Managed Desktop.
 
 Microsoft Managed Desktop retains the data associated with these checks for 12 months after the last time you run a check in your Azure AD organization (tenant). After 12 months, we retain it in de-identified form. You can choose to delete the data we collect.
 
