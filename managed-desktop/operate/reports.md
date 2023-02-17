@@ -34,7 +34,7 @@ The following reports are available:
 
 ## Windows quality update reports
 
-The Windows quality update reports provide you information about:
+The Windows quality update reports provide you with information about:
 
 - Quality update device eligibility
 - Device update health
