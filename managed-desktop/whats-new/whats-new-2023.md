@@ -13,10 +13,10 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 02/14/2023
+ms.date: 02/17/2023
 ms.collection: 
 - M365-modern-desktop
-- tier2
+- tier1
 ---
 
 # What's new 2023
@@ -33,6 +33,12 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | ----- | ----- |
 | [Device images](../prepare/device-images.md) | Updated guidance for ordering [new Dell devices](../prepare/device-images.md#new-dell-devices). |
 | [Privacy](../references/privacy-personal-data.md) | Added additional resources to the Microsoft Windows 10/11 diagnostic data section |
+
+### February service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC518735](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop - Windows 11, Version 22H2 Deployment: Seven day reminder |
 
 ## January 2023
 
