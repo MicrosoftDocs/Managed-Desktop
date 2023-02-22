@@ -42,7 +42,7 @@ Admin contacts are required when you [submit a Support request](../operate/suppo
 
 **To add admin contacts:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. Under **Tenant administration**, in the **Microsoft Managed Desktop** section, select **Admin contacts**.
 1. Select **Add**.
 1. Select an **Area of focus** and enter the info for the contact.

@@ -25,7 +25,7 @@ Microsoft will provide the following services for Microsoft Managed Desktop devi
 | Service | Description |
 | ----- | ----- |
 | Support | Support agents will answer questions directly related to device functionality and diagnose device issues.
-| Inventory | All devices are tracked in the Microsoft Managed Desktop Admin portal for inventory and status.
+| Inventory | All devices are tracked in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) for inventory and status.
 | Firmware and driver updates | By default, Microsoft Managed Desktop devices receive firmware and driver updates from Windows Update.<br><br>Not all hardware partners deploy their updates via Windows Update. Updates not published as Automatic require an exception and must be deployed by the customer.
 | Accessories | Accessories that come with your device are covered by the same services as the device itself, but warranty terms may differ. Refer to the warranty terms when selecting your devices.
 | Device setup | Devices will be pre-configured with the current version of Windows and receive their apps and configurations via the cloud.

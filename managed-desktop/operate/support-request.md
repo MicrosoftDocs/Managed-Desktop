@@ -18,7 +18,7 @@ ms.date: 12/06/2022
 
 Microsoft will provide proactive and reactive incident management.
 
-Microsoft tracks incidents in the Microsoft Managed Desktop admin center. They're classified according to the [severity definitions](../operate/support-request.md#support-request-severity-definitions).
+Microsoft tracks incidents in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). They're classified according to the [severity definitions](../operate/support-request.md#support-request-severity-definitions).
 
 Customers can contact the Microsoft Managed Desktop Operations Team to:
 
@@ -47,7 +47,7 @@ Support requests are triaged and managed according to severity outlined in the [
 
 **To open a new support request:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Tenant administration** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Tenant administration** menu.
 2. In the **Microsoft Managed Desktop** section, select **Service requests**.
 3. In the **Service requests** section, select **+ New support request**.
 4. Select the **Request type** that matches the help you need. The table below outlines the options.
@@ -77,7 +77,7 @@ Email is the recommended approach to interact with our team. You can see the sum
 
 **To view all your active cases:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Tenant Administration** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Tenant Administration** menu.
 2. In the **Microsoft Managed Desktop** section, select **Service request**.
 3. From this view, you can export the summary view or select any case to view the details.
 
@@ -87,7 +87,7 @@ You can edit case details, for example, updating the primary case contact or cha
 
 **To edit case details:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) and navigate to the **Tenant Administration** menu.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Tenant Administration** menu.
 1. In the **Service requests** section, use the search bar or filters to find the case you want to edit.
 1. Select the case to open up the request's details.
 1. Scroll to the bottom of the request details and select **Edit**.
@@ -132,4 +132,4 @@ Below is a list of extra conditions to be aware of when submitting a support req
 ## More resources
 
 - [User support for Microsoft Managed Desktop](end-user-support.md).
-- If you're already subscribed to Microsoft Managed Desktop, you can find detailed procedures, process flows, work instructions, and FAQs in the Microsoft Managed Desktop Admin Guide. In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), navigate to the Tenant administration section, under Microsoft Managed Desktop, select Online resources, then select Other resources. You'll find the Admin Guide here.
+- If you're already subscribed to Microsoft Managed Desktop, you can find detailed procedures, process flows, work instructions, and FAQs in the Microsoft Managed Desktop Admin Guide. In the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), navigate to the **Tenant administration** section. Under **Microsoft Managed Desktop**, select **Online resources**, then select **Other resources**. You'll find the Admin Guide there.

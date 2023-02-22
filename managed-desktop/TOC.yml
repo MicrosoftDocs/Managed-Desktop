@@ -115,7 +115,7 @@
                   items:
                     - name: Partner registration
                       href: prepare/partner-registration.md
-                    - name: Windows Autopilot registration from Microsoft Endpoint Manager
+                    - name: Windows Autopilot registration from the Microsoft Intune admin center
                       href: prepare/windows-autopilot-registration.md
                 - name: Manual registration
                   href:

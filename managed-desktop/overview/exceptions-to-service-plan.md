@@ -36,7 +36,7 @@ An exception is any addition or change to the Microsoft Managed Desktop base con
 
 ## Request an exception
 
-Submit requests through the Microsoft Managed Desktop Admin portal by creating a change request. Be sure to include these details:
+[Submit requests](../operate/support-request.md) through the Microsoft Intune admin center by creating a change request. Be sure to include these details:
 
 | Change request detail | Description |
 | ----- | ----- |
@@ -72,7 +72,7 @@ These conditions could change in the future. If we do make such changes, we'll p
 
 After a requested exception is approved and deployed, it's possible that we might discover problems that violate the key conditions that weren't evident when we approved the change in the first place. In this situation, we might have to revoke approval for the exception.
 
-If we must revoke approval for the exception, we'll notify you by using the Microsoft Managed Desktop admin portal. From the first time we notify you, you have 90 days to remove the exception before the devices with the exception are no longer bound by Microsoft Managed Desktop service level agreements.
+If we must revoke approval for the exception, we'll notify you by using the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). From the first time we notify you, you have 90 days to remove the exception before the devices with the exception are no longer bound by Microsoft Managed Desktop service level agreements.
 
 We'll send you several notifications according to a strict timeline. However, a severe incident or threat might require us to change the timeline of our decisions about an exception. We won't *remove* an exception without your consent. However, any device with a revoked exception will no longer be bound by our service level agreement. The following table is the timeline of notifications we'll send you:
 

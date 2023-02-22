@@ -25,7 +25,7 @@ The selected device profile will be applied to all devices you select in the fir
 
 **To change the device profile:**
 
-1. In Microsoft Endpoint Manager, select **Devices** in the left pane.
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Devices** in the left pane.
 1. In the **Microsoft Managed Desktop** section, select **Devices**.  
 1. Select the checkboxes for the devices you want to modify.
 1. Select **Change device profile**. A fly-in opens.

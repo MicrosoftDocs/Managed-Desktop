@@ -22,7 +22,7 @@ ms.date: 07/29/2022
 >[!NOTE]
 >This article describes the steps for you to reuse devices you already have, and register them in Microsoft Managed Desktop. If you are working with brand-new devices, follow the steps in [Register new devices in Microsoft Managed Desktop yourself](../prepare/manual-registration.md) instead. <br> <br> The process for Partners is documented in [Steps for Partners to register devices](../prepare/partner-registration.md).
 
-Microsoft Managed Desktop can work with brand-new devices, or you can reuse devices you might already have. If you reuse devices, you must reimage them. You're able to register devices with Microsoft Managed Desktop in the Microsoft Endpoint Manager admin center.
+Microsoft Managed Desktop can work with brand-new devices, or you can reuse devices you might already have. If you reuse devices, you must reimage them. You're able to register devices with Microsoft Managed Desktop in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
 ## Prepare to register existing devices
 
@@ -30,7 +30,7 @@ Microsoft Managed Desktop can work with brand-new devices, or you can reuse devi
 
 1. [Obtain the hardware hash for each device.](#obtain-the-hardware-hash)
 2. [Merge the hash data](#merge-hash-data).
-3. [Register the devices in Microsoft Managed Desktop](#register-devices-by-using-the-admin-portal).
+3. [Register the devices in Microsoft Managed Desktop](#register-devices-by-using-the-microsoft-intune-admin-center).
 4. [Double-check that the image is correct.](#check-the-image)
 5. [Deliver the device](#deliver-the-device).
 
@@ -59,11 +59,11 @@ You can use Microsoft Endpoint Configuration Manager to collect the hardware has
 3. Run the report, **Windows Autopilot Device Information**, and view the results.
 4. In the report viewer, select the **Export** icon, and select the **CSV (comma-delimited)** option.
 5. After saving the file, you'll need to filter results to just the devices you plan to register with Microsoft Managed Desktop. Then, upload the data to Microsoft Managed Desktop.
-    - Open Microsoft Endpoint Manager and navigate to the **Devices** menu.
+    - Open the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and navigate to the **Devices** menu.
     - In the Microsoft Managed Desktop section, select **Devices**.
     - Select **+ Register devices**, which opens a fly-in to register new devices.
 
-For more information, see [Register devices by using the Admin Portal](#register-devices-by-using-the-admin-portal) below.
+For more information, see [Register devices by using the Microsoft Intune admin center](#register-devices-by-using-the-microsoft-intune-admin-center) below.
 
 #### Active Directory PowerShell script method
 
@@ -95,7 +95,7 @@ In an Active Directory environment, you can use the `Get-WindowsAutoPilotInfo` P
 1. Access any directories where there might be entries for the devices. Remove entries for each device from *all* directories, including Windows Server Active Directory Domain Services and Azure Active Directory. It could take a few hours to completely process.
 1. Access management services where there might be entries for the devices. Remove entries for each device from *all* management services, including Microsoft Endpoint Configuration Manager, Microsoft Intune, and Windows Autopilot. It could take a few hours to completely process.
 
-Now you can proceed to [register devices](#register-devices-by-using-the-admin-portal).
+Now you can proceed to [register devices](#register-devices-by-using-the-microsoft-intune-admin-center).
 
 #### Manual PowerShell script method
 
@@ -132,21 +132,18 @@ If you collected the hardware hash data by the manual PowerShell or flash drive 
 Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv
 ```
 
-With the hash data merged into one CSV file, you can now proceed to [register the devices](#register-devices-by-using-the-admin-portal).
+With the hash data merged into one CSV file, you can now proceed to [register the devices](#register-devices-by-using-the-microsoft-intune-admin-center).
 
-## Register devices by using the Admin Portal
+## Register devices by using the Microsoft Intune admin center
 
-In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devices** in the left navigation pane. In the Microsoft Managed Desktop section, select **Devices**. In the Microsoft Managed Desktop Devices workspace, Select **+ Register devices**, which opens a fly-in to register new devices.
+**To register devices using the Microsoft Intune admin center:**
 
-<!-- Update with new picture [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age.](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
-
-<!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
-
-**To register devices using the Admin Portal:**
-
-1. In **File upload**, provide a path to the CSV file you created previously.
-2. Select a [device profile](../operate/device-profiles.md) in the dropdown menu.
-3. Select **Register devices**. The system will add the devices to your list of devices on the **Devices blade**. The devices are marked as **Registration Pending**. Registration typically takes less than 10 minutes, and when successful, the device will show as **Ready for user**. **Ready for user** means it's ready and waiting for a user to start using.
+1. In the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)**, select **Devices** in the left navigation pane.
+2. In the **Microsoft Managed Desktop** section, select **Devices**. 
+3. In the **Microsoft Managed Desktop Devices** workspace, Select **+ Register devices**, which opens a fly-in to register new devices.
+4. In **File upload**, provide a path to the CSV file you created previously.
+5. Select a [device profile](../operate/device-profiles.md) in the dropdown menu.
+6. Select **Register devices**. The system will add the devices to your list of devices on the **Devices blade**. The devices are marked as **Registration Pending**. Registration typically takes less than 10 minutes, and when successful, the device will show as **Ready for user**. **Ready for user** means it's ready and waiting for a user to start using.
 
 > [!NOTE]
 > If you manually change the Azure Active Directory (AAD) group membership of a device, it will be automatically reassigned to the group for its device profile and removed from any conflicting groups.
@@ -160,6 +157,10 @@ You can monitor the progress of device registration on the main page. Possible s
 | Ready for user | Registration succeeded. The device is now ready to be delivered to the user. Microsoft Managed Desktop will guide them through first-time set-up, so there's no need for you to do any further preparations. |
 | Active | The device has been delivered to the user and they've registered with your tenant. This state also indicates that they're regularly using the device. |
 | Inactive | The device has been delivered to the user and they've registered with your tenant. However, the user hasn't used the device recently (in the last seven days). |
+
+<!-- Update with new picture [![Fly-in after selecting Register devices, listing devices with columns for assigned users, serial number, status, last-seen date, and age.](../../media/new-registration-ui.png)](../../media/new-registration-ui.png) -->
+
+<!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 ### Fix device registration errors
 

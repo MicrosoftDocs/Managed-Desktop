@@ -32,7 +32,7 @@ You can think of device profiles as being part of a hierarchy of device configur
 
 ## Device profile details
 
-The following table summarizes the settings and their default values for each setting configured by device profiles. Behind the scenes, these settings are configured with OMA-URIs by using Custom Configuration Profiles in Microsoft Endpoint Manager.
+The following table summarizes the settings and their default values for each setting configured by device profiles. Behind the scenes, these settings are configured with OMA-URIs by using Custom Configuration Profiles in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
 <br>
 
@@ -55,7 +55,7 @@ Each device profile also involves these items:
 
 - A dynamic membership Azure Active Directory device group.
 - A static membership Azure Active Directory device group.
-- A Microsoft Endpoint Manager Configuration profile.
+- A Microsoft Intune configuration profile.
 
 > [!IMPORTANT]
 > Don't modify the membership of these groups directly. Use the interface as described in [Reassign profiles](../operate/change-device-profile.md).
@@ -74,7 +74,7 @@ Devices that are assigned the [Power user device profile](#device-profile-detail
 
 **To export the CSV file:**
 
-1. In [Microsoft Endpoint Manager](https://go.microsoft.com/fwlink/?linkid=2109431), select **Devices** in the left pane.
+1. In [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), select **Devices** in the left pane.
 2. In the **Microsoft Managed Desktop** section, select **Devices**.
 3. Select the **Export** menu option and select **Export admins**. A CSV file is downloaded.
 

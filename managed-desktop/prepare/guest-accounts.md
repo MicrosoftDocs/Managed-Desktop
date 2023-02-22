@@ -42,7 +42,7 @@ The **Allow access to unlicensed admins** setting must be enabled. Without this 
 
 **To enable this setting:**
 
-1. Go to the Microsoft Endpoint Manager [admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Navigate to **Tenant administration**, select **Roles**. Then, select **Administrator licensing**.
 3. In the **Allow access to unlicensed admins** section, select **Yes**.
 

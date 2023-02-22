@@ -92,7 +92,7 @@ By default, the service expedites quality updates as needed. For those organizat
 
 **To turn off service-driven expedited quality updates:**
 
-1. Go to **[Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** > **Devices**.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** > **Devices**.
 2. Under **Microsoft Managed Desktop** > **Release management**, go to the **Release settings** tab and turn off the **Expedited quality updates** setting.
 
 > [!NOTE]
@@ -104,7 +104,7 @@ Microsoft Managed Desktop schedules and deploys required Out of Band (OOB) updat
 
 **To view deployed Out of Band quality updates:**
 
-1. Go to [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) > **Devices** > **Microsoft Managed Desktop** > **Release management**.
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** > **Devices** > **Microsoft Managed Desktop** > **Release management**.
 2. Under the **Release Announcements** tab, you can view the knowledge base (KB) articles corresponding to deployed OOB and regular Windows quality updates.
 
 > [!NOTE]
@@ -124,7 +124,7 @@ If Microsoft Managed Desktop detects a [significant issue with a release](../ope
 
 **To pause or resume a Windows quality update:**
 
-1. Go to the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)**.
 2. Select **Devices** from the left navigation menu.
 3. Under the **Microsoft Managed Desktop** section, select **Release management**.
 4. In the **Release management** blade, select either: **Pause** or **Resume**.

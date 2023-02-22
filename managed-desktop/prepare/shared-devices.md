@@ -49,7 +49,7 @@ There are three ways to turn on shared device mode when registering devices:
 
 1. [Partner registration](../prepare/partner-registration.md)
 1. [Manual registration for new devices](../prepare/manual-registration.md)
-1. [Windows Autopilot registration from Microsoft Endpoint Manager](../prepare/windows-autopilot-registration.md)
+1. [Windows Autopilot registration from the Microsoft Intune admin center](../prepare/windows-autopilot-registration.md)
 
 ## Consequences of shared device mode
 
