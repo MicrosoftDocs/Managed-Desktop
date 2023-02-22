@@ -62,7 +62,7 @@ For Microsoft Managed Desktop devices, the following settings must be met:
 
 **To configure the co-management settings:**
 
-1. Go to the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Select the **Devices** menu, select **Enroll devices**, and then select **Windows enrollment**.
 3. Select **Co-management settings**, and then select **Create**.
 4. In the **Basics** page, **specify a name** for the policy, and an optional description.

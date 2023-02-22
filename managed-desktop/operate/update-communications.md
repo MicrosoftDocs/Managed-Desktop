@@ -28,7 +28,7 @@ Communications are posted to, as appropriate for the type of communication, to t
 
 - Message center
 - Service health dashboard
-- Microsoft Managed Desktop messages section of the Microsoft Endpoint Manager admin center 
+- Microsoft Managed Desktop messages section of the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)
 
 :::image type="content" source="../operate/media/update-communications.png" alt-text="Update communications timeline" lightbox="../operate/media/update-communications.png":::
 
@@ -42,7 +42,7 @@ Communications are posted to, as appropriate for the type of communication, to t
 
 ## Communications during release
 
-The most common type of communication during a release is a customer advisory. Customer advisories are posted to both Message center and the Messages blade of the [Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) shortly after Microsoft Managed Desktop becomes aware of the new information.
+The most common type of communication during a release is a customer advisory. Customer advisories are posted to both Message center and the Messages blade of the [Microsoft Intune Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431) shortly after Microsoft Managed Desktop becomes aware of the new information.
 
 There are some circumstances where Microsoft Managed Desktop will need to change the release schedule based on new information.
 

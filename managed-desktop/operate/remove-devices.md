@@ -33,7 +33,7 @@ When you remove a device, you can also remove it from Azure Active Directory (Az
 
 **To remove a device:**
 
-1. In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), select **Devices** in the left navigation pane.
+1. In the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)**, select **Devices** in the left navigation pane.
 2. In the **Microsoft Managed Desktop** section, select **Devices**.
 3. In the **Microsoft Managed Desktop Devices workspace**, select the devices you want to delete.
 4. Select **Device actions**, and then select **Delete Device** which opens a fly-in to remove the devices.

@@ -21,7 +21,7 @@ The historical All devices report provides a visual representation of the update
 
 **To view the historical All devices report:**
 
-1. Sign into the [Microsoft Endpoint Manager admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. Navigate to **Reports** > **Microsoft Managed Desktop** > **Windows Quality Updates**.
 1. Select the **Reports** tab.
 1. Select **All devices report—historical**.

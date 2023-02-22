@@ -29,7 +29,7 @@ Modernizing these services will allow the best user experience with Microsoft Ma
 
 ## Mapped drives on Microsoft Managed Desktop
 
-If you can't remove or replace mapped drives for some use cases, you should submit a support request in the Microsoft Managed Desktop admin center to have them deployed to Microsoft Managed Desktop users.
+If you can't remove or replace mapped drives for some use cases, you should [submit a support request](../operate/support-request.md) to have them deployed to Microsoft Managed Desktop users.
 
 For such a request, you must provide the following details in the support request:
 
@@ -54,7 +54,7 @@ You should remove your requirements for such file shares as soon as possible.
 
 Make sure that mapped drives can't be avoided and you've carefully reviewed the requirements before submitting any support request.
 
-1. Navigate to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/), and select **Troubleshooting + support**.
+1. Navigate to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), and select **Troubleshooting + support**.
 1. In the **Microsoft Managed Desktop** section, select **Service requests**.
 1. Submit a support request titled "Mapped drives deployment" and provide all the required file share details.  
 1. Microsoft Managed Desktop IT Operations will advise, by using support request updates, when the request has been completed. Initially this configuration will only be deployed to devices in the Test deployment group.  

@@ -20,7 +20,7 @@ ms.collection:
 
 Creates a new support ticket.
 
-Adding attachments isn't currently supported via the API. To add a file to an existing support ticket, visit the **Service requests** page in the Microsoft Endpoint Manager portal.
+Adding attachments isn't currently supported via the API. To add a file to an existing support ticket, visit the **Service requests** page in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
 Viewing and adding contents to discussions isn't currently supported via the API.
 

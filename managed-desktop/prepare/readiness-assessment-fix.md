@@ -31,7 +31,7 @@ For each check, the tool will report one of four possible results:
 
 ## Microsoft Intune settings
 
-You can access Intune settings at the Microsoft Endpoint Manager [admin center](https://endpoint.microsoft.com).
+Access the Intune settings in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
 ### Autopilot deployment profile
 
@@ -66,7 +66,7 @@ Conditional Access policies can't prevent Microsoft Managed Desktop from managin
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | You have at least one Conditional Access policy that targets all users. <br><br> During enrollment, we'll attempt to exclude Microsoft Managed Desktop service accounts from relevant Conditional Access policies and apply new Conditional Access policies to restrict access to these accounts. However, if we're unsuccessful, this can cause errors during your enrollment experience. For best practice, create an assignment that targets a specific Azure AD group that doesn't include Microsoft Managed Desktop service accounts. <br><br> After enrollment, you can review the Microsoft Managed Desktop Conditional Access policy in Microsoft Endpoint Manager. For more about these service accounts, see [Standard operating procedures](../overview/standard-operating-procedures.md). |
+| Not ready | You have at least one Conditional Access policy that targets all users. <br><br> During enrollment, we'll attempt to exclude Microsoft Managed Desktop service accounts from relevant Conditional Access policies and apply new Conditional Access policies to restrict access to these accounts. However, if we're unsuccessful, this can cause errors during your enrollment experience. For best practice, create an assignment that targets a specific Azure AD group that doesn't include Microsoft Managed Desktop service accounts. <br><br> After enrollment, you can review the Microsoft Managed Desktop Conditional Access policy in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). For more about these service accounts, see [Standard operating procedures](../overview/standard-operating-procedures.md). |
 | Advisory | You have Conditional Access policies that could prevent Microsoft Managed Desktop from managing the Microsoft Managed Desktop service. <br><br> During enrollment, we'll exclude Microsoft Managed Desktop service accounts from relevant Conditional Access policies and apply new Conditional Access policies to restrict access to these accounts. <br><br> For more information about these service accounts, see [Standard operating procedures](../overview/standard-operating-procedures.md). |
 | Error | The Intune Administrator role doesn't have sufficient permissions for this check. You'll also need to have these Azure AD roles assigned to run this check: <ul><li>Security Reader</li><li>Security Administrator</li><li>Conditional Access Administrator</li><li>Global Reader</li><li>Devices Administrator</li></ul>
 
@@ -145,7 +145,7 @@ Security baseline policies shouldn't target any Microsoft Managed Desktop device
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | You have a security baseline profile that targets all users, all devices, or both. Change the policy to use an assignment that targets a specific Azure AD group that doesn't include any Microsoft Managed Desktop devices. <br><br> For more information, see [Use security baselines to configure Windows 10 devices in Intune](/mem/intune/protect/security-baselines). During enrollment, we apply a new security baseline to all Microsoft Managed Desktop devices. After enrollment, you can review the Microsoft Managed Desktop security baseline policy in the **Configuration policy** area of Microsoft Endpoint Manager. |
+| Not ready | You have a security baseline profile that targets all users, all devices, or both. Change the policy to use an assignment that targets a specific Azure AD group that doesn't include any Microsoft Managed Desktop devices. <br><br> For more information, see [Use security baselines to configure Windows 10 devices in Intune](/mem/intune/protect/security-baselines). During enrollment, we apply a new security baseline to all Microsoft Managed Desktop devices. After enrollment, you can review the Microsoft Managed Desktop security baseline policy in the **Configuration policy** area of the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
 | Advisory | Make sure that any security baseline policies you have exclude Microsoft Managed Desktop devices. For more information, see [Use security baselines to configure Windows 10 devices in Intune](/mem/intune/protect/security-baselines). <br><br> During enrollment, we apply a new security baseline to all Microsoft Managed Desktop devices. The **Modern Workplace Devices - All** Azure AD group is a dynamic group that we create when you enroll in Microsoft Managed Desktop. You'll have to come back to exclude this group after enrollment. |
 
 ### Unlicensed admins

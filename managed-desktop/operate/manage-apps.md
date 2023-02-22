@@ -20,15 +20,15 @@ ms.collection:
 
 <!--Application management -->
 
-There are a couple of ways to manage app updates, and deploy the updates to your Microsoft Managed Desktop devices. You can make app updates in Microsoft Managed Desktop admin center, or Intune.
+You can make app updates in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
 <span id="update-app-mmd" />
 
 ## Update line-of-business apps in Microsoft Managed Desktop
 
-**To update your line-of-business apps in Microsoft Managed Desktop admin center:**
+**To update your line-of-business apps in Microsoft Intune admin center:**
 
-1. Sign in to [Microsoft Managed Desktop admin center](https://aka.ms/mmdportal).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. Under **Inventory**, select **Apps**.  
 1. Select the app you want to updates, and then select **Edit**.
 1. Under **Manage**, select **Properties**.
@@ -45,7 +45,7 @@ The updated app will be deployed to your user's devices.
 
 **To update your line-of-business apps in Intune:**
 
-1. Sign in to [Azure portal](https://portal.azure.com).
+1. Go to the [Azure portal](https://portal.azure.com).
 2. Select **All Services** > **Intune**. Intune is in the **Monitoring + Management** section.
 3. Select **Client Apps > Apps**.
 4. Find and select your app in the list of apps.
@@ -62,11 +62,11 @@ When a new version of an app is deployed, and an error is found, you can roll ba
 
 **To roll back a line-of-business app to a previous version:**
 
-1. Sign in to [Microsoft Managed Desktop admin center](https://aka.ms/mmdportal).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. Under **Inventory**, select **Apps**.  
 3. Select the app you need to roll back, and then select **Edit**.
 4. Under **Manage**, select **Properties**.
     - For **Windows MSI line-of-business app** apps, select **App information**, and then under **Ignore app version**, select **Yes**.
     - For **Windows app (Win 32) - preview** apps, select **App information**, select **Detection rules**, and then select **Add**.
     If there's an MSI rule, verify that **MSI product version check** is set to **No**.
-5. [Upload a previous version of the app source file](../deploy/deploy-apps.md) to Microsoft Managed Desktop admin center.  
+5. [Upload a previous version of the app source file](../deploy/deploy-apps.md) to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).  

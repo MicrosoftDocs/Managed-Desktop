@@ -19,7 +19,7 @@ ms.date: 07/29/2022
 
 # Manual registration for new devices
 
-Microsoft Managed Desktop can work with brand-new devices, or you can reuse devices you might already have. If you reuse devices, you must reimage them. You're able to register devices with Microsoft Managed Desktop in the Microsoft Endpoint Manager admin center.
+Microsoft Managed Desktop can work with brand-new devices, or you can reuse devices you might already have. If you reuse devices, you must reimage them. You're able to register devices with Microsoft Managed Desktop in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
 > [!NOTE]
 > Working with a partner to obtain devices? If so, you don't need to worry about getting the hardware hashes; they'll take care of that for you. Make sure your partner establishes a relationship with you at the [Partner Center](https://partner.microsoft.com/dashboard). Your partner can learn more at [Partner Center help](/partner-center/request-a-relationship-with-a-customer). <br><br>Once this relationship established, your partner will simply register devices on your behalf – no further action required from you. If you want to see the details, or your partner has questions, see [Partner registration](../prepare/partner-registration.md). Once the devices are registered, you can proceed with [checking the image](#check-the-image) and [delivering the devices](#deliver-the-device) to your users.
@@ -87,7 +87,7 @@ You'll need to have the data in the CSV files combined into a single file to com
 **To manually register devices in the Microsoft Managed Desktop Devices blade:**
 
 1. Collect the [hardware hash](../prepare/manual-registration.md#obtain-the-hardware-hash) for new devices.
-2. Go to the [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com) and select **Devices** in the left navigation pane.
+2. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) and select **Devices** in the left navigation pane.
 3. In the **Microsoft Managed Desktop** section, select **Devices**.
 4. In the **Microsoft Managed Desktop Devices** workspace, select **+ Register devices**. A fly-in menu opens to register new devices.
 5. In the **File upload** box, provide the path to the CSV file you created previously.

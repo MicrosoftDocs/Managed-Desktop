@@ -20,7 +20,7 @@ This report helps you understand how applications are being used across your Mic
 
 **To view the App usage report:**
 
-1. Sign in to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 1. Select **Reports**.
 1. Navigate to **Microsoft Managed Desktop** > **Managed devices**. Then, select the **Reports** tab.
 1. Select **Application usage**.

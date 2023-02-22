@@ -17,19 +17,19 @@ ms.date: 12/06/2022
 
 # Access the admin center
 
-Your gateway to the Microsoft Managed Desktop service is [Microsoft Endpoint Manager](https://endpoint.microsoft.com/). If you're unfamiliar with the capabilities of the admin center for device management, see the [Microsoft Endpoint Manager documentation](/mem/).
+Your gateway to the Microsoft Managed Desktop service is the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). If you're unfamiliar with the capabilities of the admin center for device management, see the [Microsoft Intune documentation](/mem/).
 
 > [!NOTE]
-> In [Microsoft Endpoint Manager](https://endpoint.microsoft.com/) the following browsers are supported:
+> In the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) the following browsers are supported:
 
 > - Microsoft Edge (latest version)
 > - Safari (latest version, Mac only)
 > - Chrome (latest version)
 > - Firefox (latest version)
 
-Your administrative account will need specific permissions in order to access the Microsoft Managed Desktop administrative features in Microsoft Endpoint Manager.
+Your administrative account will need specific permissions in order to access the Microsoft Managed Desktop administrative features in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
-You can manage admin access to these features within your organization by using role-based access control. Several Azure Active Directory (Azure AD) administrator roles, and built-in Microsoft Managed Desktop roles are available to provide more granular control to different features within the Microsoft Managed Desktop admin center. For more information about Azure Active Directory roles, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference).
+You can manage admin access to these features within your organization by using role-based access control. Several Azure Active Directory (Azure AD) administrator roles, and built-in Microsoft Managed Desktop roles are available to provide more granular control to different features within the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). For more information about Azure Active Directory roles, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference).
 
 Unlike Azure AD administrator roles that apply to various Microsoft products and services, the built-in roles are specific to Microsoft Managed Desktop and will only guarantee access to the Admin features for this service. Admins can assign built-in roles to users individually, or in combination with Azure AD administrator roles to add Microsoft Managed Desktop permissions to existing admin accounts.
 
@@ -37,12 +37,12 @@ Unlike Azure AD administrator roles that apply to various Microsoft products and
 
 | Azure AD role | Microsoft Managed Desktop permissions |
 | ----- | ----- |
-| Global Administrator | Admins with this role will have **read and write permissions to all features** in the Microsoft Managed Desktop admin center. |
-| Global Reader | Admins with this role will have **read-only permissions to all features** in the Microsoft Managed Desktop admin center. |
-| Intune Service Administrator | Admins with this role will have **read and write permissions to features not related to security** in the Microsoft Managed Desktop admin center. |
-| Service Support Administrator | Admins with this role will have **read-only permissions to features not related to security** and **write permissions to manage support requests including escalation requests** in the Microsoft Managed Desktop admin center. |
+| Global Administrator | Admins with this role will have **read and write permissions to all features** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
+| Global Reader | Admins with this role will have **read-only permissions to all features** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
+| Intune Service Administrator | Admins with this role will have **read and write permissions to features not related to security** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
+| Service Support Administrator | Admins with this role will have **read-only permissions to features not related to security** and **write permissions to manage support requests including escalation requests** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
 | Security Admin | Admins with this role will have **read-only permissions to all features** and **write permissions for security related features** in Microsoft Managed Desktop in the admin center. |
-| Security Reader |Admins with this role will have **read-only permissions to all features** in the Microsoft Managed Desktop admin center. |
+| Security Reader |Admins with this role will have **read-only permissions to all features** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
 
 If you need help with assigning Azure Active Directory roles, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference).
 
@@ -55,10 +55,10 @@ The following are the built-in roles provided by Microsoft Managed Desktop:
 
 | Built-in role | Microsoft Managed Desktop permissions |
 | ----- | ----- |
-| Microsoft Managed Desktop Service Administrator | When assigned to a user, this role gives the admin **read and write permissions to Microsoft Managed Desktop features not related to security** in the Microsoft Managed Desktop admin center. |
-| Microsoft Managed Desktop Service Reader | When assigned to a user, this role gives the admin **read-only permissions to Microsoft Managed Desktop features not related to security** in the Microsoft Managed Desktop admin center. |
-| Microsoft Managed Desktop Security Manager | When assigned to a user, this role gives that admin **read and write permissions only for security related features** in the Microsoft Managed Desktop admin center. |
-| Microsoft Managed Desktop Support Partner |When assigned to a user, this role gives the admin **read and write permissions only for creating and managing elevation requests and support partner engaged escalation requests** in the Microsoft Managed Desktop admin center. |
+| Microsoft Managed Desktop Service Administrator | When assigned to a user, this role gives the admin **read and write permissions to Microsoft Managed Desktop features not related to security** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
+| Microsoft Managed Desktop Service Reader | When assigned to a user, this role gives the admin **read-only permissions to Microsoft Managed Desktop features not related to security** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
+| Microsoft Managed Desktop Security Manager | When assigned to a user, this role gives that admin **read and write permissions only for security related features** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
+| Microsoft Managed Desktop Support Partner |When assigned to a user, this role gives the admin **read and write permissions only for creating and managing elevation requests and support partner engaged escalation requests** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
 
 > [!NOTE]
 > Security features include security-related communications, management of security contacts, management of security-related support requests, and access to security related reports.
@@ -69,7 +69,7 @@ For easy management of built-in roles, there's a security group for each custom 
 
 **To assign users to one of these security groups:**
 
-1. Go to [Microsoft Endpoint Manager](https://endpoint.microsoft.com/).
+1. Go to the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 2. In the left pane, select **Groups**.
 3. Search for **Modern Workplace Roles**, and then select the group associated with the role you want to assign.
 4. Select **Members** on the left side, and then select **+ Add members** in the command bar.
