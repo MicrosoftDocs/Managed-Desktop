@@ -2,6 +2,25 @@
 
 
 
+## Week of February 20, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 2/22/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
+| 2/22/2023 | [Deploy apps to devices](/managed-desktop/deploy/deploy-apps) | modified |
+| 2/22/2023 | [Configurable settings reference for Microsoft Managed Desktop](/managed-desktop/operate/config-setting-ref) | modified |
+| 2/22/2023 | [Kiosk device profile](/managed-desktop/operate/kiosk-device-profile) | modified |
+| 2/22/2023 | [Manage apps in Microsoft Managed Desktop](/managed-desktop/operate/manage-apps) | modified |
+| 2/22/2023 | [Work with reports](/managed-desktop/operate/reports) | modified |
+| 2/22/2023 | [Submit a support request](/managed-desktop/operate/support-request) | modified |
+| 2/22/2023 | [Service changes and communication](/managed-desktop/overview/service-changes-communication) | modified |
+| 2/22/2023 | [Access the admin center](/managed-desktop/prepare/access-admin-center) | modified |
+| 2/22/2023 | [Device registration overview](/managed-desktop/prepare/device-registration-overview) | modified |
+| 2/22/2023 | [Manual registration for existing devices](/managed-desktop/prepare/manual-registration-existing-devices) | modified |
+| 2/22/2023 | [Windows Autopilot registration from the Microsoft Intune admin center](/managed-desktop/prepare/windows-autopilot-registration) | modified |
+
+
 ## Week of February 06, 2023
 
 
@@ -30,13 +49,3 @@
 | 2/2/2023 | [Windows quality updates](/managed-desktop/operate/windows-quality-update-overview) | modified |
 | 2/2/2023 | [Privacy and personal data](/managed-desktop/references/privacy-personal-data) | modified |
 | 2/2/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
-
-
-## Week of January 09, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/9/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | added |
-| 1/13/2023 | [List tickets](/managed-desktop/developer/mmd-api-list-tickets) | modified |
-| 1/13/2023 | [Deploy configurable settings in Microsoft Managed Desktop](/managed-desktop/operate/config-setting-deploy) | modified |
