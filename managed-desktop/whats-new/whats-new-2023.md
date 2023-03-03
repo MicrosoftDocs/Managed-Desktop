@@ -38,6 +38,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | Message center post number | Description |
 | ----- | ----- |
+| [MC521883](https://admin.microsoft.com/adminportal/home#/MessageCenter) | February 2023 Microsoft Managed Desktop baseline configuration update |
 | [MC521456](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop - Windows 11, Version 22H2 Deployment: Updated schedule |
 | [MC518735](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop - Windows 11, Version 22H2 Deployment: Seven day reminder |
 
