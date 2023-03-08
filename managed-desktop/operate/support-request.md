@@ -60,7 +60,7 @@ Support requests are triaged and managed according to severity outlined in the [
 1. Go to the **[Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431)** and navigate to the **Tenant administration** menu.
 2. In the **Microsoft Managed Desktop** section, select **Service requests**.
 3. In the **Service requests** section, select **+ New support request**.
-4. Select the **[Request type](../operate/support-request.md#support-request-type)** that matches the help you need. The table below outlines the options.
+4. Select the **[Request type](#support-request-types)** that matches the help you need. The table below outlines the options.
 5. Select the **Severity** level. For more information, see [severity definition table](#support-request-severity-definitions).
 6. Provide as much information about the request as possible to help the team respond quickly. Depending on the type of request, you may be required to provide different details.
 7. Review all the information you provided for accuracy.
