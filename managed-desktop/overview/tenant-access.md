@@ -41,4 +41,4 @@ Microsoft Managed Desktop uses guest account access during two types of events i
 
 Guest account access is temporary and requires Two-Key completion, whereby anyone on the [Microsoft Managed Desktop Service Engineering or SOC teams](../overview/support-teams.md) are allowed to approve the request.
 
-We’ll send an email to the Microsoft Managed Desktop Service Engineering team alias to request a second person to approve the request. Once approved, an approval notification email is sent to the requester. For more information, see [Guest account prerequisites](../prepare/guest-accounts.md).
+We’ll send an email to the Microsoft Managed Desktop Service Engineering team alias to request a second person to approve the request. Once approved, an approval notification email is sent to the requester. For more information on guest account settings, see [Guest account prerequisites](../prepare/guest-accounts.md).

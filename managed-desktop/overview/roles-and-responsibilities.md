@@ -21,7 +21,7 @@ ms.date: 03/10/2023
 
 When your organization is enrolled in Microsoft Managed Desktop (the service), what does Microsoft do for you? And what are your organization's responsibilities?
 
-## Microsoft Managed Desktop role and responsibilities
+## Microsoft Managed Desktop's roles and responsibilities
 
 Microsoft Managed Desktop (the service) provides these key roles and responsibilities:
 

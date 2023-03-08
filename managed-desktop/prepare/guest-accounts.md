@@ -47,7 +47,7 @@ When your tenant is enrolled into the service, Microsoft creates one group per r
 
 Microsoft Managed Desktop recommends the following configuration in your Azure AD organization for guest account access. You can adjust these settings at the [Azure portal](https://portal.azure.com) under **External Identities / External collaboration settings**:
 
-| Setting | Set to |
+| Setting | Description |
 | ------ | ------ |
 | Guest access | Guests have limited access to properties and memberships of directory objects. |
 | Guest invite settings | Member users and users assigned to specific admin roles can invite guests including guests with member permissions |
