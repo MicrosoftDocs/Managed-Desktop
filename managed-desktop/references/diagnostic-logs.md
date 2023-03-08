@@ -20,7 +20,7 @@ Whether you've reported an issue or an issue was identified by our service, we m
 
 We don't collect any user-generated content or information from user directories. We only collect diagnostic and log data that concerns device health and status.
 
-We store any collected logs for 28 days, and then delete them. We process any logs collected from a device following our [data handling standards](../references/privacy-personal-data.md).
+We store any collected logs for 28 days, and then delete them. We process any logs collected from a device following our [data handling standards](../overview/privacy-personal-data.md).
 
 ## Data collected
 
