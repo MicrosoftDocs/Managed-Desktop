@@ -11,31 +11,27 @@ ms.collection:
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: conceptual
-ms.date: 12/06/2022
+ms.date: 03/10/2023
 ---
 
 # Security operations
 
-The Microsoft Managed Desktop Security Operations Center (SOC) partners with your information security staff to keep your desktop environment secure. Our team receives and responds to all security alerts on managed devices with expert analysis. When needed, we drive security incident response activities. For more information about working with the SOC, review operational documentation in your Admin portal.
+The Microsoft Managed Desktop Security Operations Center (SOC) partners with your information security staff to keep your desktop environment secure. Our [Service Engineering team](../overview/support-teams.md#service-engineering-team) receives and responds to all security alerts on managed devices with expert analysis. When needed, we drive security incident response activities. For more information about working with the SOC, review operational documentation in your [admin portal](https://aka.ms/mmd-STP-processflows).
 
-The SOC offers 24/7/365 coverage from Microsoft full-time employees with expertise in the current and emerging threat landscape, including common attack methods through software, network, or human adversaries.
+Our [Security Operations Center (SOC) team](../overview/support-teams.md#security-operations-center-team) offers 24/7/365 coverage with expertise in the current and emerging threat landscape, including common attack methods through software, network, or human adversaries.
 
-The SOC provides these services:
+Our SOC team provides the following services:
 
 | Service | Description |
 | ------ | ------ |
-| Quick and accurate response to detected events | <ul><li>Analyze data to identify the impact.</li><li>Assess the overall risk to a device or your environment.</li></ul>
-| Device management and isolation actions | <ul><li>Protect your environment from known or suspected compromises</li><li>Reduce the risk by preventing spread.</li></ul>
-| Drive the security incident response | Ensure timely and accurate communication with your security team. |
-| Analysis and recommendations | Provide analysis and recommendations based on threat, and vulnerability data to identify and address risks before they're exploited.
-| Advanced hunting | Across the managed devices to identify indicators and entities for both known and potential threats.|
+| Quick response to detected events | <ul><li>Respond to alerts received from devices</li><li>Analyze event to identify the impact</li><li>Assess the overall risk to a device or Microsoft Managed Desktop environment</li><li>Determine if a security incident should be raised</ul>
+| Drive the security incident response | <ul><li>Protect the Microsoft Managed Desktop environment from known or suspected compromises</li><li>Reduce the compromise risk by preventing spread</li><li>Ensure timely and accurate communication with your [security team](../prepare/add-admin-contacts.md)</li><li>Provide analysis and recommendations based on events and risks</li></ul> |
+| Advanced hunting | <ul><li>Provide analysis and recommendations based on events and risks</li><li>Customized detections and alert suppression, across managed devices, are part of on-demand indicators and entities for both known and potential threats |
 
 ## Processes
 
 | Process | Description |
 | ------ | ------ |
-| Microsoft Managed Desktop Security Operations |  Microsoft Managed Desktop Security Operations is staffed by full-time Microsoft employees in partnership with Microsoft's [Cyber Defense Operations Center](https://www.microsoft.com/msrc/cdoc). |
-| SOC | Our SOC uses collective signals from across our company, both internal and external, to protect your devices—even from things we haven't yet seen in Microsoft Managed Desktop.
-| Microsoft security solutions | Microsoft security solutions align to many cybersecurity protection standards. SOC operations are based on the National Institute of Standards and Technology Computer Security Incident Response Handling Guide (NIST 800-61 r2). <br><br> The process allows for proper collection of information and evidence, for analysis and documentation and post-recovery insights into ways to better defend your environment through these phases: <ul><li>Preparation, detection, and analysis</li><li>Containment</li><li>Eradication</li><li>Recovery</li><li>Post-incident activity</li></ul>
-| Microsoft Threats Experts service | Microsoft Managed Desktop customers are eligible to enroll in the Microsoft Threat Experts service. The SOC liaises with this service to understand better the complex threats affecting your organization, including: <br><ul><li>Alert inquiries</li><li>Potentially compromised devices</li><li>Root cause of a suspicious network connection</li><li>Other threat intelligence regarding ongoing advanced persistent threat campaigns.</li></ul><br>For more information, see [Microsoft Threat Experts](/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts).|
-| SOC's Threat and Vulnerability Management | SOC's Threat and Vulnerability Management process uses some of Microsoft's services to help inform recommendations for your organization to protect against threats. <br><br>The SOC consumes data from your Microsoft Defender for Endpoint Security Center and from relevant vulnerability data sources, within and outside of Microsoft, to discover vulnerabilities and misconfigurations to provide actionable reporting. |
+| Microsoft Managed Desktop Security Operations Centet (SOC) | Microsoft Managed Desktop Security Operations is staffed by full-time Microsoft employees in partnership with Microsoft's [Cyber Defense Operations Center](https://www.microsoft.com/msrc/cdoc). Our [SOC](../overview/support-teams.md#security-operations-center-team) uses collective signals from across our company, both internal and external, to protect your devices—even from things we haven't yet seen in Microsoft Managed Desktop. |
+| Microsoft Managed Desktop security solutions | Microsoft security solutions align to many cybersecurity protection standards. SOC operations are based on the National Institute of Standards and Technology Computer Security Incident Response Handling Guide (NIST 800-61 r2).<p>The process allows for:<ul><li>Proper collection of information and evidence</li><li>Analysis and documentation</li><li>Post-recovery insights to better defend your environment through the following phases:<ul><li>Preparation, detection, and analysis</li><li>Containment</li><li>Eradication</li><li>Recovery</li><li>Post-incident activity</li></ul></ul></p> |
+| Microsoft Defender Threat Experts Service | Microsoft Managed Desktop customers are eligible to enroll in the Microsoft Defender Experts - Endpoint Attack Notification service. The SOC liaises with this service to understand better the complex threats affecting the Microsoft Managed Desktop environment, including: <br><ul><li>Alert inquiries</li><li>Potentially compromised devices</li><li>Root cause of a suspicious network connection</li><li>Other threat intelligence regarding ongoing advanced persistent threat campaigns.</li></ul><br>For more information, see [Microsoft Threat Experts](/windows/security/threat-protection/microsoft-defender-atp/microsoft-threat-experts).|

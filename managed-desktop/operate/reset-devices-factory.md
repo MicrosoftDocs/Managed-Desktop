@@ -13,7 +13,7 @@ ms.collection:
 - tier2
 manager: dougeby
 ms.topic: how-to
-ms.date: 12/06/2022
+ms.date: 03/10/2023
 ---
 
 # Reset devices with a factory reset
@@ -23,21 +23,19 @@ The Microsoft Managed Desktop Operations team can perform a factory reset of dev
 There are a few requirements:
 
 - Your global administrator must submit a [support request](../operate/support-request.md).
-- Include the device's computer name in the request.
-- The user account must be in Azure AD before we reset the device.
+    - After receiving your global administrator's consent, the Microsoft Managed Device Security Operations team can submit the request on your behalf. Include the device's computer name in the request.
+- The user account must be in the Azure Active Directory (AD) before we reset the device.
 
 Managed Desktop Operations team will:
 
-- Look up the device name in Intune.
+- Look up the device name in Microsoft Intune.
 - Send the factory reset command to the device.
 
 > [!NOTE]
-> Do not remove the user account from Azure AD before the device is reset. If the user isn't in Azure AD, Intune can't send the factory reset command to the device.
-
-The device will boot into the "out of box experience," and all preinstalled applications and settings will be applied again. The user of the device needs to provide initial setup information again.
+> Do **not** remove the user account from Azure AD before the device is reset. If the user isn't in Azure AD, Intune can't send the factory reset command to the device.
 
 When the device has been reset, you can give it to a different person in your organization. None of the previous user's data or enterprise data will be on the device. The next user will go through the same process that the previous person did with a new Microsoft Managed Desktop device.
 
-BitLocker is a key component of data security in this process. With BitLocker encryption on Microsoft Managed Desktop devices, data on the drive remains secure even after the device has been factory-reset. Any data that was on the drive won't be available to the next user of the device. For more information, see [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview).
+The device will boot into the "out of box experience," and all preinstalled applications and settings will be applied again. The new user of the device must provide initial setup information again.
 
-For more information, see [Factory reset a device](/intune/remote-actions/devices-wipe#factory-reset-a-device).
+BitLocker is a key component of data security in this process. With BitLocker encryption on Microsoft Managed Desktop devices, data on the drive remains secure even after the device has been factory-reset. Any data that was on the drive won't be available to the next user of the device. For more information, see [BitLocker overview](/windows/security/information-protection/bitlocker/bitlocker-overview) and [factory reset of a device](/intune/remote-actions/devices-wipe#factory-reset-a-device).
