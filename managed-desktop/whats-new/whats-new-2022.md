@@ -52,7 +52,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | New or changed article | Description |
 | ----- | ----- |
 | [Preview and test Windows 11](../operate/test-windows-11.md) | Added note to remove devices from the Windows 11 Pre-Release Test Devices group after upgrading to Windows 11 |
-| [Privacy](../references/privacy-personal-data.md) | Updated Microsoft Managed Desktop data storage and staff location information |
+| [Privacy](../overview/privacy-personal-data.md) | Updated Microsoft Managed Desktop data storage and staff location information |
 | [Kiosk device profile](../operate/kiosk-device-profile.md) | New device profile added to the Microsoft Managed Desktop service<ul><li>[MC454795](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li></ul> |
 
 ### November service release

@@ -36,4 +36,4 @@ This report helps you understand how applications are being used across your Mic
 | % of reporting devices | The percentage of total reporting devices that have used this application.
 
 > [!IMPORTANT]
-> For devices to report data, they must be set to the Optional diagnostic data level. Learn more about [how Microsoft Managed Desktop uses Windows diagnostic data](../references/privacy-personal-data.md).
+> For devices to report data, they must be set to the Optional diagnostic data level. Learn more about [how Microsoft Managed Desktop uses Windows diagnostic data](../overview/privacy-personal-data.md).

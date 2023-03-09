@@ -12,16 +12,42 @@ ms.author: tiaraquan
 manager: dougeby
 ms.topic: how-to
 audience: Admin
-ms.date: 12/06/2022
+ms.date: 03/10/2023
 ---
 
 # Guest account prerequisites
+
+Microsoft Managed Desktop requires the following settings in your Azure Active Directory (AD) organization for guest account access. You can adjust these settings in the Azure portal under **External Identities / External collaboration**:
+
+- Admins and users with the guest inviter role can set invite to **Yes**.
+- For Collaboration restrictions, choose any of the following options:
+    - If you select **Allow invitations to be sent to any domain (most inclusive)**, no other configuration is required.
+    - If you select **Deny invitations to the specified domains**, make sure that Microsoft.com is not listed in the target domains.
+    - If you select **Allow invitations only to the specified domains (most restrictive)**, make sure that Microsoft.com is listed in the target domains.
+
+## Role and group creation during enrollment
+
+When your tenant is enrolled into the service, Microsoft creates one group per role in your Azure AD organization.
+
+### Example of the guest account access process
+
+1. Alert notification is received by the Microsoft Managed Desktop Secure Operations Centers (SOC) team.
+2. A SOC engineer submits a one-time access request for the security admin role.
+3. Depending on the task requirement, the team might need to request one-time access with approval or auto-approval.  
+    1. Once the role-specific request has been completed, the SOC service engineer signs into the tenant’s [Microsoft 365 Defender portal](https://security.microsoft.com) and investigates the alert. Primary investigative actions during a typical alert investigation could include items such as:  
+        1. Review of the alert specific details populated by Defender.
+        2. Classify, set the state, or comment on the incident or alert.  
+        3. Review of device timeline and incident page details.
+        4. Approve or deny remedial actions.
+        5. Start automated investigations.
+    2. Use [Advanced Hunt](/microsoft-365/security/defender/advanced-hunting-overview) capabilities.
+4. When these actions are completed, the SOC engineer signs out of the tenant and closes the request.
 
 ## External collaboration settings
 
 Microsoft Managed Desktop recommends the following configuration in your Azure AD organization for guest account access. You can adjust these settings at the [Azure portal](https://portal.azure.com) under **External Identities / External collaboration settings**:
 
-| Setting | Set to |
+| Setting | Description |
 | ------ | ------ |
 | Guest access | Guests have limited access to properties and memberships of directory objects. |
 | Guest invite settings | Member users and users assigned to specific admin roles can invite guests including guests with member permissions |
