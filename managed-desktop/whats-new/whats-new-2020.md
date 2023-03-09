@@ -31,7 +31,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | ----- | ----- |
 | [What is Microsoft Managed Desktop?](../overview/service-plan.md) | Updated article |
 | [Work with reports](../operate/reports.md) | Updated article |
-| [Privacy and personal data](../references/privacy-personal-data.md) | Updated article |
+| [Privacy and personal data](../overview/privacy-personal-data.md) | Updated article |
 | [Compliance](../overview/compliance.md) | Updated article |
 | [Prerequisites](../prepare/prerequisites.md) | Updated article |
 | [Network configuration](../prepare/network.md) | Updated article |
@@ -62,7 +62,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | New or changed article | Description |
 | ----- | ----- |
-| [Privacy and personal data](../references/privacy-personal-data.md) | New article |
+| [Privacy and personal data](../overview/privacy-personal-data.md) | New article |
 | [Prepare mapped drives for Microsoft Managed Desktop](../prepare/mapped-drives.md) | Updated article |
 | [Get user support](../operate/end-user-support.md) | Updated article |
 | [Configurable settings reference - Microsoft Managed Desktop](../operate/config-setting-ref.md) | Updated article |
@@ -88,7 +88,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | [Security operations in Microsoft Managed Desktop](../overview/security-operations.md) | New article |
 | [Access the admin center](../prepare/access-admin-center.md) | Updated article |
 | [Microsoft 365 Apps for enterprise](../operate/m365-apps.md) | New article |
-| [Privacy and personal data](../references/privacy-personal-data.md) | New article |
+| [Privacy and personal data](../overview/privacy-personal-data.md) | New article |
 
 ## July 2020
 

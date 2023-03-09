@@ -524,6 +524,16 @@
       "source_path": "managed-desktop/operate/assign-deployment-group.md",
       "redirect_url": "/managed-desktop/operate/updates",
       "redirect_document_id": false
-    }  
+    },
+    {
+      "source_path": "managed-desktop/overview/service-plan-description.md",
+      "redirect_url": "/managed-desktop/overview/service-plan",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "managed-desktop/references/privacy-personal-data.md",
+      "redirect_url": "/managed-desktop/overview/privacy-personal-data",
+      "redirect_document_id": false
+    }
   ]
 }

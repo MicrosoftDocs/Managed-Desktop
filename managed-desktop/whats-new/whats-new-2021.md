@@ -50,7 +50,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | [Work with reports](../operate/reports.md)| Updated article |
 | [All devices report](../operate/all-devices-report.md) | Updated article |
 | [Eligible devices-historical report](../operate/eligible-devices-historical-report.md) | Updated article|
-| [Privacy and personal data](../references/privacy-personal-data.md) | Updated article |
+| [Privacy and personal data](../overview/privacy-personal-data.md) | Updated article |
 | [Microsoft Managed Desktop product lifecycle](../prepare/device-requirements.md) | Updated article |
 | [Prepare certificates and network profiles for Microsoft Managed Desktop](../prepare/certs-wifi-lan.md) | Updated article |
 | [Fix issues found by the readiness assessment tool](../prepare/readiness-assessment-fix.md) | Updated article |
@@ -78,7 +78,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | New or changed article | Description |
 | ----- | ----- |
 | [Work with reports](../operate/reports.md) | Updated article |
-| [Privacy](../references/privacy-personal-data.md) | Updated article |
+| [Privacy](../overview/privacy-personal-data.md) | Updated article |
 | [Admin support for Microsoft Managed Desktop](../operate/support-request.md) | Updated article |
 | [Fix issues found by the readiness assessment tool](../prepare/readiness-assessment-fix.md) | Updated article |
 | [Prerequisites for Microsoft Managed Desktop](../prepare/prerequisites.md) | Updated article |
