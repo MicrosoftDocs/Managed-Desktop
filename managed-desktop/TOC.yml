@@ -11,10 +11,10 @@
               href: overview/device-services.md
             - name: Exceptions to the service plan 
               href: overview/exceptions-to-service-plan.md
-            - name: Microsoft Managed Desktop support teams
-              href: overview/support-teams.md
             - name: Tenant access and service accounts
               href: overview/tenant-access.md
+            - name: Microsoft Managed Desktop support teams
+              href: overview/support-teams.md
         - name: Security, privacy and compliance
           href:
           items:
@@ -26,7 +26,6 @@
               href: overview/privacy-personal-data.md
             - name: Compliance and security controls
               href: overview/compliance.md
-            - name: Tenant access and service accounts
         - name: ITIL
           href: overview/MMD-and-ITSM.md
         - name: Standard operating procedures

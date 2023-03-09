@@ -20,11 +20,11 @@ There are two Microsoft Managed Desktop teams to support your organization.
 
 ## Service Engineering team
 
-The Service Engineering (“operations”) team operates the Microsoft Managed Desktop service including responding to:
+The Service Engineering (“operations”) team operates the Microsoft Managed Desktop service including responding to [support requests](../operate/support-request.md) such as:
 
-- Incident
-- Request for information
-- Change request
+- Incidents
+- Requests for information
+- Change requests
 
 For a general description of the service, see [Microsoft Managed Desktop service plan description](../overview/service-plan.md#service-plan-description).
 
