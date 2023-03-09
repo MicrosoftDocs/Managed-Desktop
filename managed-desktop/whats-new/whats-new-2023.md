@@ -51,7 +51,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | New or changed article | Description |
 | ----- | ----- |
-| [Device images](../prepare/device-images.md) | Updated guidance for ordering [new Dell devices](../prepare/device-images.md#new-dell-devices). |
+| [Device images](../prepare/device-images.md) | Updated guidance for ordering [new Dell devices](../prepare/device-images.md#new-dell-devices) |
 | [Privacy](../overview/privacy-personal-data.md) | Added additional resources to the Microsoft Windows 10/11 diagnostic data section |
 
 ### February service release
