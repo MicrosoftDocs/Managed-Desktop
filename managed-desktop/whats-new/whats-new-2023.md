@@ -34,7 +34,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | [What is Microsoft Managed Desktop?](../overview/service-plan.md) | Updated entire Microsoft Managed Desktop service plan |
 | [Exceptions to the service plan](../overview/exceptions-to-service-plan.md) | Updated entire Exceptions to the service plan article |
 | [Microsoft Managed Desktop support teams](../overview/support-teams.md) | Added new article detailing our Microsoft Managed Desktop support teams |
-| [Tenant access and service accounts](../overview/tenant-access.md) Added new article that explains how, and what service accounts, Microsoft Managed Desktop uses to access your tenant when enrolling into the service |
+| [Tenant access and service accounts](../overview/tenant-access.md) | Added new article that explains how, and what service accounts, Microsoft Managed Desktop uses to access your tenant when enrolling into the service |
 | [Security operations](../overview/security-operations.md) | Updated entire Security operations article |
 | [Security and access management technologies](../overview/security-technologies.md) | Updated entire Security technologies article |
 | [Compliance](../overview/compliance.md) | Updated entire Compliance article |
