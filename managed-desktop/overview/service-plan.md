@@ -27,7 +27,7 @@ Microsoft Managed Desktop is a cloud-based device management service that brings
 
 ## Key features and services
 
-- Implement and maintain a [four deployment group, staged and sequenced device management solution](../operate/updates.md#microsoft-managed-desktop-deployment-rings)
+- Implement and maintain a [four deployment ring, staged and sequenced device management solution](../operate/updates.md#microsoft-managed-desktop-deployment-rings)
 - Devices are kept up to date with the latest monthly Windows quality updates for Windows 10 and Windows 11
 - Users will enjoy the latest versions of Windows 10, Windows 11, and Microsoft 365 Apps for enterprise
 - Monitor managed devices 24 hours a day, seven days a week for security issues
@@ -43,8 +43,8 @@ Microsoft Managed Desktop provides the following services, features, and capabil
     - Integrated device configuration and management via Microsoft Endpoint Manager, Azure Active Directory, Autopilot, and Intune
     - Device naming
     - Device configuration
-- Service management and operational support by a dedicated team of service engineers and delivery managers
-- Device security monitoring and remediation services through a dedicated team of security specialists
+- Service management and operational support by a dedicated team of [service engineers and delivery managers](../overview/support-teams.md#service-engineering-team)
+- Device security monitoring and remediation services through a [dedicated team of security specialists](../overview/support-teams.md#security-operations-center-team)
 - Proactive management of the most secure and stable versions of Windows 10/11 and Microsoft 365 Apps for enterprise  
 - Service integration with the Microsoft App Assurance program to diagnose and remediate application compatibility issues
 
@@ -87,7 +87,7 @@ For more information about the value of Microsoft Managed Desktop, including cus
 
 | Information | Description |
 | ----- | ----- |
-| Overview | These articles detail the division of roles and responsibilities between your organization and Microsoft, technologies used in Microsoft Managed Desktop, and how the service fits into a broader strategy as part of the ITIL framework.<br><ul><li>[Privacy](../overview/privacy-personal-data.md)</li><li>[Compliance](../overview/compliance.md)</li><li>[Microsoft Managed Desktop roles and responsibilities](../overview/roles-and-responsibilities.md)</li><li>[Microsoft Managed Desktop technologies](../overview/operating-system.md)</li><li>[Microsoft Managed Desktop and ITIL](../overview/MMD-and-ITSM.md)</li></ul> |
+| Overview | The articles in this section, but not limited to, detail the division of roles and responsibilities between your organization and Microsoft, technologies used in Microsoft Managed Desktop, and how the service fits into a broader strategy as part of the ITIL framework.<br><ul><li>[Privacy](../overview/privacy-personal-data.md)</li><li>[Compliance](../overview/compliance.md)</li><li>[Microsoft Managed Desktop roles and responsibilities](../overview/roles-and-responsibilities.md)</li><li>[Microsoft Managed Desktop technologies](../overview/operating-system.md)</li><li>[Microsoft Managed Desktop and ITIL](../overview/MMD-and-ITSM.md)</li></ul> |
 | Prepare | The articles in this section describe the mandatory steps to enroll your tenant in Microsoft Managed Desktop, including, but not limited to:<ul><li>[Infrastructure requirements](../prepare/prerequisites.md)</li><li>[Device requirements](../prepare/device-requirements.md)</li><li>[Prepare your network](../prepare/on-premise-resources.md)</li><li>[Enroll your tenant](../prepare/enroll-your-tenant.md)</li><li>[Access the admin center](../prepare/access-admin-center.md)</li></ul> |
 | Deploy | Once your tenant is enrolled in Microsoft Managed Desktop, this section includes, but not limited to, the following articles:<ul><li>[First-run experience with Autopilot and the Enrollment Status Page](../deploy/esp-first-run.md)</li><li>[Assign and communicate how to use the Company Portal](../prepare/adjust-management-settings.md)</li><li>[Get your users ready to use devices](../deploy/get-started-devices.md)</li><li>[Deploy apps to devices](../deploy/deploy-apps.md)</li></ul> |
 | Operate | This section includes the following, but not limited to, articles about operating with the Microsoft Managed Desktop service: <ul><li>[Software update management overview](../operate/updates.md)<li>[Move devices in between deployment rings](../operate/updates.md#move-devices-in-between-deployment-rings)</li><li>[Change device profiles](../operate/change-device-profile.md)</li><li>[Work with reports](../operate/reports.md)</li>[Recover devices](../operate/recover-devices.md)</li><li>[Get end user support](../operate/end-user-support.md)</li><li>[Submit a support request](../operate/support-request.md)</li></ul>|

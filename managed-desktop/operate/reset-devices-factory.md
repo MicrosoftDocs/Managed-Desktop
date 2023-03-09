@@ -23,10 +23,10 @@ The Microsoft Managed Desktop Operations team can perform a factory reset of dev
 There are a few requirements:
 
 - Your global administrator must submit a [support request](../operate/support-request.md).
-    - After receiving your global administrator's consent, the Microsoft Managed Device Security Operations team can submit the request on your behalf. Include the device's computer name in the request.
+    - After receiving your global administrator's consent, the [Microsoft Managed Desktop Security Operations Team](../overview/support-teams.md#security-operations-center-team) can submit the request on your behalf. Include the device's computer name in the request.
 - The user account must be in the Azure Active Directory (AD) before we reset the device.
 
-Managed Desktop Operations team will:
+[Microsoft Managed Desktop Operations Team](../overview/support-teams.md#service-engineering-team) will:
 
 - Look up the device name in Microsoft Intune.
 - Send the factory reset command to the device.

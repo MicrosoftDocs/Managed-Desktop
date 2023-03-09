@@ -48,7 +48,7 @@ Below is a summary of how the change process is shared between Microsoft and cus
 
 There are several types of changes that we make to the service regularly. The communication channel for those changes and the actions you're responsible for vary.
 
-Not all changes have the same effect on your users or require action. Some are planned and some are unplanned. For example, non-security updates and security updates aren't usually planned.
+Not all changes have the same effect on your users or require action. Some are planned and some are unplanned. For example, critical and out-of-bad updates aren't usually planned.
 
 Depending on the type of change, the communication channel may vary. The following table lists the types of changes you can expect for the Microsoft Managed Desktop service.
 

@@ -35,8 +35,8 @@ Microsoft Managed Desktop ensures managed devices are secured and protected, and
 | Service | Description |
 | ----- | ----- |
 | Antivirus | [Microsoft Defender Antivirus](/microsoft-365/security/defender-endpoint/microsoft-defender-antivirus-windows) is installed and configured<br>Microsoft Defender Antivirus definitions are up to date. |
-| Full volume encryption | Microsoft Managed Desktop uses Windows BitLocker as the volume encryption solution<br><br>Once an organization is enrolled into the service, devices will be encrypted using Windows BitLocker with built-in Trust Platform Module (TPM) to prevent unauthorized access to local data when the device is in sleep mode, or off. |
-| Monitoring | Microsoft Defender for Endpoint is used for security threat monitoring across all Microsoft Managed Desktop devices. Defender for Endpoint allows enterprise customers to detect, investigate, and respond to advanced threats in their corporate network. For more information, see [Microsoft Defender for Endpoint.](/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) |
+| Full volume encryption | Microsoft Managed Desktop uses Windows BitLocker as the volume encryption solution.<br><br>We offer XTS AES 128 system drive encryption with allowed exceptions for 256. By default, PIN/KEY isn't required, but [you can request for an exception](../operate/support-request.md). Removable media is set to encrypt AES CBC 128.  |
+| Monitoring | [Microsoft Defender for Endpoint](/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) is used for security threat monitoring across all Microsoft Managed Desktop devices. Defender for Endpoint allows enterprise customers to detect, investigate, and respond to advanced threats in their corporate network. |
 | Operating system updates | Microsoft Managed Desktop devices are always secured with the latest security updates. For more information, see [software update management](../operate/updates.md). |
 | Secure Device Configuration | Microsoft Managed Desktop implements the Microsoft Security Baseline. For more information, see [Windows security baselines.](/windows/security/threat-protection/windows-security-baselines)|
 
@@ -47,7 +47,7 @@ Identity and access management protects corporate assets and business-critical d
 | Service | Description |
 | ----- | ----- |
 | Biometric Authentication | Microsoft Managed Desktop offers the configuration option to ensure secure authentication powered by [Windows Hello for Business](/windows-hardware/design/device-experiences/windows-hello). Windows Hello for Business offers biometric security which is stronger than username and password-based authentication. Customers are responsible for implementing the necessary prerequisites for their on-premises Azure Active Directory to use this service in a hybrid configuration. |
-| Device profiles | To protect the system and make it more secure, the user will be assigned one of the following [device profiles](../operate/device-profiles.md):<ul><li>Standard User</li><li>Power User</li><li>Sensitive Data User</li><li>[Kiosk](../operate/kiosk-device-profile.md)</li></ul><p>Device profiles are assigned as part of the Windows Autopilot out-of-box experience. |
+| Device profiles | To protect the system and make it more secure, the end user will be assigned one of the following [device profiles](../operate/device-profiles.md):<ul><li>Standard User</li><li>Power User</li><li>Sensitive Data User</li><li>[Kiosk](../operate/kiosk-device-profile.md)</li></ul><p>Device profiles are assigned as part of the Windows Autopilot out-of-box experience. |
 
 ## Network security
 
