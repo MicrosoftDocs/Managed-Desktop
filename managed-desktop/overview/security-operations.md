@@ -26,7 +26,7 @@ Our SOC team provides the following services:
 | ------ | ------ |
 | Quick response to detected events | <ul><li>Respond to alerts received from devices</li><li>Analyze event to identify the impact</li><li>Assess the overall risk to a device or Microsoft Managed Desktop environment</li><li>Determine if a security incident should be raised</ul>
 | Drive the security incident response | <ul><li>Protect the Microsoft Managed Desktop environment from known or suspected compromises</li><li>Reduce the compromise risk by preventing spread</li><li>Ensure timely and accurate communication with your [security team](../prepare/add-admin-contacts.md)</li><li>Provide analysis and recommendations based on events and risks</li></ul> |
-| Advanced hunting | <ul><li>Provide analysis and recommendations based on events and risks</li><li>Customized detections and alert suppression, across managed devices, are part of on-demand indicators and entities for both known and potential threats |
+| [Advanced hunting](/microsoft-365/security/defender/advanced-hunting-overview) | <ul><li>Provide analysis and recommendations based on events and risks</li><li>Customized detections and alert suppression, across managed devices, are part of on-demand indicators and entities for both known and potential threats |
 
 ## Processes
 
