@@ -2,6 +2,29 @@
 
 
 
+## Week of March 06, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/9/2023 | [Microsoft Managed Desktop support teams](/managed-desktop/overview/support-teams) | added |
+| 3/9/2023 | [Tenant access and service accounts](/managed-desktop/overview/tenant-access) | added |
+| 3/9/2023 | [Reset devices with a factory reset](/managed-desktop/operate/reset-devices-factory) | modified |
+| 3/9/2023 | [Submit a support request](/managed-desktop/operate/support-request) | modified |
+| 3/9/2023 | [Change management](/managed-desktop/overview/change-management) | modified |
+| 3/9/2023 | [Compliance](/managed-desktop/overview/compliance) | modified |
+| 3/9/2023 | [Exceptions to the service plan](/managed-desktop/overview/exceptions-to-service-plan) | modified |
+| 3/9/2023 | [Microsoft Managed Desktop roles and responsibilities](/managed-desktop/overview/roles-and-responsibilities) | modified |
+| 3/9/2023 | [Security operations](/managed-desktop/overview/security-operations) | modified |
+| 3/9/2023 | [Security and access management technologies](/managed-desktop/overview/security-technologies) | modified |
+| 3/9/2023 | Microsoft Managed Desktop service description | removed |
+| 3/9/2023 | [What is Microsoft Managed Desktop?](/managed-desktop/overview/service-plan) | modified |
+| 3/9/2023 | [Standard operating procedures](/managed-desktop/overview/standard-operating-procedures) | modified |
+| 3/9/2023 | [Guest account prerequisites](/managed-desktop/prepare/guest-accounts) | modified |
+| 3/9/2023 | [Diagnostic logs](/managed-desktop/references/diagnostic-logs) | modified |
+| 3/9/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
+
+
 ## Week of February 20, 2023
 
 
@@ -30,22 +53,3 @@
 | 2/10/2023 | Assign devices to a deployment group | removed |
 | 2/10/2023 | Device deployment groups | removed |
 | 2/10/2023 | [Software update management overview](/managed-desktop/operate/updates) | modified |
-
-
-## Week of January 30, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 1/30/2023 | [Fix issues found by the readiness assessment tool](/managed-desktop/prepare/readiness-assessment-fix) | modified |
-| 1/31/2023 | [Windows quality and feature update communications](/managed-desktop/operate/update-communications) | added |
-| 1/31/2023 | [Windows quality update end user experience](/managed-desktop/operate/windows-quality-update-end-user-experience) | added |
-| 1/31/2023 | [Windows quality updates](/managed-desktop/operate/windows-quality-update-overview) | added |
-| 1/31/2023 | [Windows quality update signals](/managed-desktop/operate/windows-quality-update-signals) | added |
-| 1/31/2023 | [Windows update policies](/managed-desktop/references/windows-update-policies) | added |
-| 1/31/2023 | [Software update management overview](/managed-desktop/operate/updates) | modified |
-| 2/1/2023 | [Windows quality update communications](/managed-desktop/operate/update-communications) | modified |
-| 2/2/2023 | [Fix issues found by the readiness assessment tool](/managed-desktop/prepare/readiness-assessment-fix) | modified |
-| 2/2/2023 | [Windows quality updates](/managed-desktop/operate/windows-quality-update-overview) | modified |
-| 2/2/2023 | [Privacy and personal data](/managed-desktop/references/privacy-personal-data) | modified |
-| 2/2/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
