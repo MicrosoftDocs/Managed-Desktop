@@ -11,14 +11,14 @@ ms.collection:
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: how-to
-ms.date: 12/06/2022
+ms.date: 03/17/2023
 ---
 
-# Assign the Company Portal and communicate changes to your users
+# Configure the Intune Company Portal app
 
-## Assign the Company Portal to your users
+Following your enrollment in Microsoft Managed Desktop, the service will add the Intune Company Portal, if not already, to your tenant and assign it to each of the service’s [deployment rings](../operate/updates.md#microsoft-managed-desktop-deployment-rings).  
 
-Following your enrollment in Microsoft Managed Desktop, you should deploy the Company Portal app to the Microsoft Managed Desktop users or devices in your organization.
+IT administrators can customize Company Portal for their organization. Customizations includes brand imaging, adding in local support contacts, and more. For more information, see [How to Configure the Microsoft Intune Company Portal app](/intune/company-portal-app).
 
 ## Communicate change to your users
 

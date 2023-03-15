@@ -11,22 +11,15 @@ ms.collection:
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: how-to
-ms.date: 12/06/2022
+ms.date: 03/17/2023
 ---
 
 # Install the Intune Company Portal on devices
 
-Microsoft Managed Desktop requires that IT administrators install the Intune Company Portal for their users with Microsoft Managed Desktop devices. The benefits to your organization include:
+Microsoft Managed Desktop requires the Intune Company Portal on Microsoft Managed Desktop enrolled devices. If the app hasn’t been added to your tenant, Microsoft Managed Desktop will add the app to your tenant during enrollment.  
 
-- Users have one place to browse and install available applications.
-- IT administrators can organize applications by categories for their users.  
-- Some applications (like Microsoft Project and Microsoft Visio) require Company Portal to deploy with Microsoft Managed Desktop.
-- IT administrators can customize Company Portal for their organization. Customizations includes brand imaging, adding in local support contacts, and more. For more information, see [How to Configure the Microsoft Intune Company Portal app](/intune/company-portal-app).
+The benefits to your organization include:
 
-## Get the Company Portal from Microsoft Store for Business and sync with Intune
-
-See [Microsoft Store for Business apps](../deploy/deploy-apps.md#msfb-apps) for more information on how to:
-
-- Get the Company Portal from Microsoft Store for Business.
-- Force sync between Intune and Microsoft Store for Business.
-- Verify active sync between Intune and Microsoft Store for Business.
+- One place to browse and install available applications.
+- IT administrators can organize applications by categories for their users.
+- Deploy apps like [Microsoft Project and Microsoft Visio](../operate/project-visio.md) with Microsoft Managed Desktop.
