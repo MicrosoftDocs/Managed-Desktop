@@ -147,8 +147,6 @@
               href: prepare/apps.md
             - name: App control
               href: prepare/app-control.md
-            - name: Package apps with Microsoft Consulting Services
-              href: prepare/apps-MCS.md
     - name: Deploy
       href:
       items:
