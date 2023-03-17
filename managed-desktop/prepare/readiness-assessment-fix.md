@@ -12,7 +12,7 @@ ms.author: tiaraquan
 manager: dougeby
 ms.topic: how-to
 audience: Admin
-ms.date: 02/01/2023
+ms.date: 03/17/2023
 ---
 
 # Fix issues found by the readiness assessment tool
@@ -58,7 +58,7 @@ Microsoft Managed Desktop requires that IT administrators install Intune Company
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | You don't have Company Portal installed for your users. Get the Company Portal and force a sync between Intune and Microsoft Store for Business. <br><br> For more information, see [Install the Intune Company Portal on devices](../prepare/company-portal.md).
+| Advisory | You don’t have the Company Portal application available in your tenant. Microsoft Managed Desktop will add it to your tenant when enrolling into the service, or [you can get the Company Portal from Intune using Microsoft Store Integration](/mem/intune/apps/store-apps-microsoft). |
 
 ### Conditional Access policies
 
@@ -103,14 +103,6 @@ You currently have the Enrollment Status Page (ESP) enabled. If you intend to pa
 | ----- | ----- |
 | Not ready | You have the ESP default profile set to **Show app and profile configuration progress**. <br><br> Disable this setting or ensure that assignments to any Azure AD group don't include Microsoft Managed Desktop devices by following the steps in [Set up the Enrollment Status Page](/mem/intune/enrollment/windows-enrollment-status). |
 | Advisory | Make sure that any profiles that has the **Show app and profile configuration progress** setting aren't assigned to any Azure AD group that includes Microsoft Managed Desktop devices. <br><br> For more information, see [Set up the Enrollment Status Page](/mem/intune/enrollment/windows-enrollment-status). |
-
-### Microsoft Store for Business
-
-We use Microsoft Store for Business and deploy the Company Portal app on Microsoft Managed Desktop. This method allows users to optionally install some apps, such as Microsoft Project and Microsoft Visio (where permitted).
-
-| Result  | Meaning |
-| ----- | ----- |
-| Not ready | Microsoft Store for Business either isn't enabled or isn't synced with Intune. <br><br> For more information, see [How to manage volume purchased apps from the Microsoft Store for Business with Microsoft Intune](/mem/intune/apps/windows-store-for-business) and [Install the Intune Company Portal on devices](../prepare/company-portal.md). |
 
 ### Multi-factor authentication
 

@@ -53,7 +53,6 @@ The following are the Microsoft Intune settings:
 | Device type restrictions | Checks that Windows 10 devices in your organization are allowed to enroll in Intune. |
 | Enrollment Status Page | Confirms that Enrollment Status Page isn't enabled. |
 | Intune enrollment | Verifies that Windows 10 devices in your Azure AD organization are automatically enrolled in Intune. |
-| Microsoft Store for Business | Confirms that Microsoft Store for Business is enabled and synced with Intune. |
 | Multi-factor authentication | Verifies that multi-factor authentication isn't applied to Microsoft Managed Desktop service accounts. |
 | PowerShell scripts | Checks that Windows PowerShell scripts are **not** assigned in a way that would target Microsoft Managed Desktop devices. |
 | Region | Checks that your region is supported by Microsoft Managed Desktop. |
@@ -78,7 +77,7 @@ The following are the Azure Active Directory settings:
 | Self-service password reset | Confirms that self-service password reset is enabled. |
 | Standard user role | Verifies that users are standard users and don't have local administrator rights. |
 
-### Microsoft 365 Apps for Enterprise settings
+### Microsoft 365 Apps for enterprise settings
 
 The following are the Microsoft 365 Apps for Enterprise settings:
 

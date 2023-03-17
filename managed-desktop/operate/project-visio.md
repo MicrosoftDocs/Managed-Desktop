@@ -8,7 +8,7 @@ ms.author: tiaraquan
 manager: dougeby
 ms.topic: how-to
 ms.localizationpriority: medium
-ms.date: 03/07/2019
+ms.date: 03/17/2023
 ms.collection: 
 - M365-modern-desktop
 - tier2
@@ -17,6 +17,9 @@ ms.collection:
 # Install Microsoft Project or Microsoft Visio on Microsoft Managed Desktop devices
 
 Microsoft Project and Microsoft Visio require specific steps to be installed on Microsoft Managed Desktop devices. This article documents the prerequisites and installation process for these applications.
+
+> [!IMPORTANT]
+> Microsoft Visio and Project licenses must be from Office 365 subscriptions. Microsoft Managed Desktop doesn’t support volume license keys (VLKs).
 
 ## Prerequisites
 

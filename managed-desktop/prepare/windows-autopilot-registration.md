@@ -82,8 +82,8 @@ The following parameters can be used:
 | -Append | Switch to specify that new computer details should be appended to the specified output file, instead of overwriting the existing file. |
 | -Credential | Credentials that should be used when connecting to a remote computer (not supported when gathering details from the local computer). |
 | -Partner | Switch to specify that the created .CSV file should use the schema for the Partner Center (using serial number, make, and model). |
-| -GroupTag | An optional tag value that should be included in the .CSV file that is intended to be uploaded via Intune (not supported by the Partner Center or Microsoft Store for Business). |
-| -AssignedUser | An optional value specifying the UPN of the user to be assigned to the device. This can only be specified for Intune (not supported by the Partner Center or Microsoft Store for Business). |
+| -GroupTag | An optional tag value that should be included in the .CSV file that is intended to be uploaded via Intune (not supported by the Partner Center). |
+| -AssignedUser | An optional value specifying the UPN of the user to be assigned to the device. This can only be specified for Intune (not supported by the Partner Center). |
 | -Online | Add computers to Windows Autopilot via the Intune Graph API. |
 | -AssignedComputerName | An optional value that specifies the computer name to be assigned to the device. This can only be specified with the **-Online** switch and only works with Azure AD join scenarios. |
 | -AddToGroup | Specifies the name of the Azure AD group that the new device should be added to. |

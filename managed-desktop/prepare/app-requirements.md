@@ -11,7 +11,7 @@ ms.collection:
 - tier1
 manager: dougeby
 ms.topic: conceptual
-ms.date: 12/06/2022
+ms.date: 03/17/2023
 ---
 
 # App requirements
@@ -20,7 +20,7 @@ ms.date: 12/06/2022
 
 <!--Application addendum -->
 
-Microsoft Managed Desktop requires that we manage devices using a specific approach to guarantee the performance, reliability, and serviceability of devices.
+Microsoft Managed Desktop requires that we manage devices using a specific approach to optimize for reliability and serviceability of devices.
 
 | Management area  | Microsoft Managed Desktop approach |
 | ----- | ----- |
@@ -36,4 +36,4 @@ Microsoft Managed Desktop requires that we manage devices using a specific appro
 | Core productivity | Microsoft 365 Apps for enterprise |
 | Browser | Microsoft Edge |
 
-Microsoft Managed Desktop might monitor other software running on managed devices. If any software negatively affects device management, device security, performance, or reliability, you might be required to request an [exception to the service plan](../overview/exceptions-to-service-plan.md).
+Microsoft Managed Desktop reserves the right to monitor devices and software for negative or reduced performance. If any software negatively affects device management, device security, performance, or reliability, you might be required to [request an exception to the service plan](../overview/exceptions-to-service-plan.md).
