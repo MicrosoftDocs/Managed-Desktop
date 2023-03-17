@@ -29,7 +29,7 @@ You can also deploy additional non-Microsoft apps to your users via self-service
 
 ## Apps provided by Microsoft
 
-Included with your Microsoft Managed Desktop license are 64-bit versions of the apps in the Microsoft 365 Apps for Enterprise Standard Suite (Word, Excel, PowerPoint, Outlook, Publisher, Access, Teams, and OneNote.)
+Included with your Microsoft Managed Desktop license are 64-bit versions of the apps in the Microsoft 365 Apps for Enterprise Standard Suite (Word, Excel, PowerPoint, Outlook, Publisher, Access, Teams, and OneNote).
 
 Click-to-Run versions of Microsoft Project and Visio *aren't* included by default, but you can [submit a change request](../operate/support-request.md) for them to be added. For more information about these apps, see [Install Microsoft Project or Microsoft Visio on Microsoft Managed Desktop devices](../operate/project-visio.md).
 

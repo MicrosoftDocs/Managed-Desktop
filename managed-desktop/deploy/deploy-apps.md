@@ -26,6 +26,9 @@ The overall process looks like this:
 1. [Add apps to the Microsoft Intune admin center](#step-1-add-apps-to-the-microsoft-intune-admin-center).
 2. [Assign apps to your users](#step-2-assign-and-deploy-apps-to-your-users).
 
+> [!TIP]
+> If you'd like to restrict the execution of code on client devices, you must turn on [app control](../prepare/app-control.md). To turn on app control, you must [submit a request](../operate/support-request.md).
+
 ## Step 1: Add apps to the Microsoft Intune admin center
 
 Before you can configure, assign, protect, or monitor apps, you must [add the apps to Microsoft Intune](/mem/intune/apps/apps-add).

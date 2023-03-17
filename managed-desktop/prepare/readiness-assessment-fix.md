@@ -58,7 +58,7 @@ Microsoft Managed Desktop requires that IT administrators install Intune Company
 
 | Result  | Meaning |
 | ----- | ----- |
-| Advisory | You don’t have the Company Portal application available in your tenant. Microsoft Managed Desktop will add it to your tenant when enrolling into the service, or [you can get the Company Portal from Intune using the Microsoft Store Integration](/mem/intune/apps/store-apps-microsoft). |
+| Advisory | You don’t have the Company Portal application available in your tenant. Microsoft Managed Desktop will add it to your tenant when enrolling into the service, or [you can get the Company Portal from Intune using Microsoft Store Integration](/mem/intune/apps/store-apps-microsoft). |
 
 ### Conditional Access policies
 
