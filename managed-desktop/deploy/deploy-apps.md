@@ -1,5 +1,5 @@
 ---
-title: Deploy apps to devices
+title: Add and deploy apps to devices
 description: Information for adding and deploying apps to Microsoft Managed Desktop devices.  
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation, apps, line-of-business apps, LOB apps
 ms.service: m365-md
@@ -14,7 +14,7 @@ ms.topic: how-to
 ms.date: 03/17/2023
 ---
 
-# Add and deploy apps
+# Add and deploy apps to devices
 
 Part of onboarding to Microsoft Managed Desktop includes adding and deploying apps to your user's devices. Use the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) to add and deploy your apps.
 

@@ -164,12 +164,12 @@
           href: deploy/get-started-devices.md
         - name: Windows 10 location service
           href: deploy/device-location.md
-        - name: Deploy apps
+        - name: Add and deploy apps
           href:
           items:
             - name: Initial app deployment with app control
               href: deploy/initial-app-deployment-with-app-control.md
-            - name: Deploy apps to devices
+            - name: Add and deploy apps to devices
               href: deploy/deploy-apps.md
             - name: Add a new app with app control
               href: deploy/add-app-with-app-control.md
