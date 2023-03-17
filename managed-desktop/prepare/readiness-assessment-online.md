@@ -77,7 +77,7 @@ The following are the Azure Active Directory settings:
 | Self-service password reset | Confirms that self-service password reset is enabled. |
 | Standard user role | Verifies that users are standard users and don't have local administrator rights. |
 
-### Microsoft 365 Apps for Enterprise settings
+### Microsoft 365 Apps for enterprise settings
 
 The following are the Microsoft 365 Apps for Enterprise settings:
 
