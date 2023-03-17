@@ -66,6 +66,6 @@ Review your apps, checking:
     - If you **already have [Autopilot into co-management](../prepare/autopilot-co-management.md)**, you can [deploy apps using Configuration Manager](../prepare/autopilot-co-management.md#step-2-deploy-applications-in-configuration-manager).
 - Other pre-packaging requirements such as providing license keys, agreement with license terms, and pre-setting server connections.
 
-## Windows default apps
+## Default Windows apps
 
 There are different types of apps that can run on your Windows client devices. Some end user facing apps may be available and installed as part of the default Windows apps, for example, Windows Media Player, Notepad, game apps, etc. You can uninstall these apps from your environment without submitting a support request or a request for an exception.
