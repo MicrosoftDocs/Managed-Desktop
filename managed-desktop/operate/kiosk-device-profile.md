@@ -32,7 +32,7 @@ Single-app kiosks are ideal for purpose-specific devices such as digital or inte
 Kiosk devices are configured using the [AssignedAccess CSP configuration service provider](/windows/client-management/mdm/assignedaccess-csp). The policies are enforced system-wide when the assigned access kiosk configuration is applied on the device.
 
 > [!NOTE]
-> You'll need to [wipe a device](../operate/reset-devices-factory.md) or [reassign the device profile](../operate/change-device-profile.md) to remove all settings before a device is reassigned to a different user and/or assigned a different device profile. For more information, visit [Policies enforced on kiosk devices (Windows 10/11)](/windows/configuration/kiosk-policies).
+> You'll need to [wipe a device](../operate/reset-devices-factory.md) **and** [reassign the device profile](../operate/change-device-profile.md) to remove all settings before a device is reassigned to a different user and/or assigned a different device profile. For more information, visit [Policies enforced on kiosk devices (Windows 10/11)](/windows/configuration/kiosk-policies).
 
 The following high-level activities must be completed to enable kiosks for device management in Microsoft Managed Desktop. Administrators must:
 
@@ -136,7 +136,7 @@ For more information about best practices, see [Selecting required apps for your
 
 | Known issue | Description |
 | ----- | ----- |
-| Multi-app kiosk is only supported on Windows 10 | For more information, see Kiosks aren't supported on Windows 11](/windows/configuration/lock-down-windows-10-to-specific-apps). |
+| Multi-app kiosk is only supported on Windows 10 | For more information, see Kiosks aren't supported on [Windows 11](/windows/configuration/lock-down-windows-10-to-specific-apps). |
 | Multiple monitors | The use of multiple monitors isn't supported for multi-app kiosk mode. |
 | Unable to save the kiosk configuration profile, when the user logon type is Azure AD user or group. | This issue occurs when the selected Azure Active Directory user group has multiple users, and the application type is NOT the Microsoft Edge browser. The error **Unable to save due to invalid data. Update your data then try again. Single Fullscreen UWP app configuration accepts only one user or type Autologon, local user or Azure AD user** is displayed. |
 | The configuration profile will report as "Error" when viewing within the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) | When using the [Accounts CSP](/windows/client-management/mdm/accounts-csp) to configure a local account on the device, the configuration profile will report as "Error" when viewing within the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), even when configured successfully and the account is created on the device. |
