@@ -31,6 +31,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | New or changed article | Description |
 | ----- | ----- |
+| [Apps in Microsoft Managed Deskop](../prepare/apps.md) | Added the [Windows default apps](../prepare/apps.md#windows-default-apps) section |
 | [Install the Intune Company Portal on devices](../prepare/company-portal.md) | Due to the Microsoft Store for Business retirement:<ul><li>Updated guidance on installing the Company Portal app on devices</li></ul> |
 | [Fix issues found by the readiness assessment tool](../prepare/readiness-assessment-fix.md) | Due to the Microsoft Store for Business retirement:<ul><li>Removed Microsoft Store for Business check</li><li>Updated Company Portal check</li></ul> |
 | [Apps in Microsoft Managed Deskop](../prepare/apps.md) | Due to the Microsoft Store for Business retirement:<ul><li>Added note about Microsoft Project and Visio licenses</li><li>Updated information on preparing your apps for Microsoft Managed Desktop</li></ul> |
