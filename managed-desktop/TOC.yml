@@ -62,7 +62,7 @@
             href: prepare/device-requirements.md
           - name: Guest account prerequisites
             href: prepare/guest-accounts.md
-          - name: Enable Store for Business and get the Company Portal
+          - name: Install the Company Portal on devices
             href: prepare/company-portal.md
           - name: Enable Enterprise State Roaming
             href: prepare/enterprise-state-roaming.md
@@ -147,8 +147,6 @@
               href: prepare/apps.md
             - name: App control
               href: prepare/app-control.md
-            - name: Package apps with Microsoft Consulting Services
-              href: prepare/apps-MCS.md
     - name: Deploy
       href:
       items:
@@ -156,7 +154,7 @@
           href: deploy/esp-first-run.md
         - name: Configure the local language
           href: deploy/localization.md
-        - name: Assign the Company Portal and communicate changes to your users
+        - name: Configure the Company Portal and communicate changes to your users
           href: deploy/company-portal-communication.md
         - name: Validate new devices
           href: deploy/validate-device.md
@@ -166,12 +164,12 @@
           href: deploy/get-started-devices.md
         - name: Windows 10 location service
           href: deploy/device-location.md
-        - name: Deploy apps
+        - name: Add and deploy apps
           href:
           items:
             - name: Initial app deployment with app control
               href: deploy/initial-app-deployment-with-app-control.md
-            - name: Deploy apps to devices
+            - name: Add and deploy apps to devices
               href: deploy/deploy-apps.md
             - name: Add a new app with app control
               href: deploy/add-app-with-app-control.md
