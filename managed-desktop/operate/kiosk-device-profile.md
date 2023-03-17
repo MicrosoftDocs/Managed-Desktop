@@ -32,7 +32,7 @@ Single-app kiosks are ideal for purpose-specific devices such as digital or inte
 Kiosk devices are configured using the [AssignedAccess CSP configuration service provider](/windows/client-management/mdm/assignedaccess-csp). The policies are enforced system-wide when the assigned access kiosk configuration is applied on the device.
 
 > [!NOTE]
-> You'll need to [wipe a device](../operate/reset-devices-factory.md) AND [reassign the device profile](../operate/change-device-profile.md) to remove all settings before a device is reassigned to a different user and/or assigned a different device profile. For more information, visit [Policies enforced on kiosk devices (Windows 10/11)](/windows/configuration/kiosk-policies).
+> You'll need to [wipe a device](../operate/reset-devices-factory.md) **and** [reassign the device profile](../operate/change-device-profile.md) to remove all settings before a device is reassigned to a different user and/or assigned a different device profile. For more information, visit [Policies enforced on kiosk devices (Windows 10/11)](/windows/configuration/kiosk-policies).
 
 The following high-level activities must be completed to enable kiosks for device management in Microsoft Managed Desktop. Administrators must:
 
