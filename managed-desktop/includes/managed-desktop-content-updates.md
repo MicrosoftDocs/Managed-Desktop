@@ -2,6 +2,19 @@
 
 
 
+## Week of March 13, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/17/2023 | [Add and deploy apps to devices](/managed-desktop/deploy/deploy-apps) | modified |
+| 3/17/2023 | Working with Microsoft Consulting Services | removed |
+| 3/17/2023 | [Apps in Microsoft Managed Desktop](/managed-desktop/prepare/apps) | modified |
+| 3/17/2023 | [Install the Intune Company Portal on devices](/managed-desktop/prepare/company-portal) | modified |
+| 3/17/2023 | [Fix issues found by the readiness assessment tool](/managed-desktop/prepare/readiness-assessment-fix) | modified |
+| 3/17/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
+
+
 ## Week of March 06, 2023
 
 
@@ -42,14 +55,3 @@
 | 2/22/2023 | [Device registration overview](/managed-desktop/prepare/device-registration-overview) | modified |
 | 2/22/2023 | [Manual registration for existing devices](/managed-desktop/prepare/manual-registration-existing-devices) | modified |
 | 2/22/2023 | [Windows Autopilot registration from the Microsoft Intune admin center](/managed-desktop/prepare/windows-autopilot-registration) | modified |
-
-
-## Week of February 06, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 2/8/2023 | [Windows quality updates](/managed-desktop/operate/windows-quality-update-overview) | modified |
-| 2/10/2023 | Assign devices to a deployment group | removed |
-| 2/10/2023 | Device deployment groups | removed |
-| 2/10/2023 | [Software update management overview](/managed-desktop/operate/updates) | modified |
