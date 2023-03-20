@@ -57,8 +57,8 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | ----- | ----- |
 | [MC529436](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Modern Workplace Management application in Microsoft Managed Desktop |
 | [MC529411](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Prepare for Memory integrity enablement with Windows 11 22H2 |
-| [MC529410](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Device reliability reports (Public preview). This Message center post applies to all Microsoft Managed Desktop customers **except** non-NA01 tenants. Public preview available now. General availability planned to begin April 21. |
-| [MC529409](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Device reliability reports (Public preview). This Message center post applies to all non-NA01 tenants. Public preview available on March 29, 2023. General availability planned to begin April 21. |
+| [MC529410](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Device reliability reports (public preview)<ul><li>This Message center post applies to all Microsoft Managed Desktop customers **except** non-NA01 tenants</li><li>Public preview available now</li><li>General availability planned to begin on April 21, 2023</li></ul> |
+| [MC529409](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Device reliability reports (public preview)<ul><li>This Message center post applies to all non-NA01 tenants</li><li>Public preview available on March 29, 2023</li><li>General availability planned to begin on April 21, 2023</li></ul> |
 
 ## February 2023
 
