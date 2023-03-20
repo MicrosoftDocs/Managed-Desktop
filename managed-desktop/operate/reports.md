@@ -28,7 +28,7 @@ The following reports are available:
 
 | Report | Description |
 | ------ | ------ |
-| [**Device inventory**](../operate/device-inventory-report.md) | Download a comma-delimited file of the devices' serial number, name, manufacturer, etc. |
+| [**Device inventory report**](../operate/device-inventory-report.md) | Download a comma-delimited file of the devices' serial number, name, manufacturer, etc. |
 | [**Application usage report**](../operate/app-usage-report.md) | This report provides information about typical app usage across your Microsoft Managed Desktop devices. For devices to provide data to this report, they must be set to the Optional diagnostic data level. |
 | [**Service metrics report**](../operate/service-metrics-report.md) | This report provides straightforward summaries of key metrics for Microsoft Managed Desktop month over month. |
 
@@ -149,7 +149,3 @@ In some cases, it can be helpful to use Intune reports to specifically monitor a
 
 > [!NOTE]
 > Custom Microsoft Managed Desktop roles guarantee access only to the Microsoft Managed Desktop reports. To access other parts of the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), such as **All devices**, see [Role-based access control with Microsoft Intune](/mem/intune/fundamentals/role-based-access-control).
-
-## Microsoft Managed Desktop inventory data
-
-In addition to the other reports, you can export information about the devices managed by Microsoft Managed Desktop. In the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), navigate to the **Devices** section, under Microsoft Managed Desktop, select **Devices** and use the **Export all** tab to [download a detailed inventory report](../operate/device-inventory-report.md).
