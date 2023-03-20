@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 03/17/2023
+ms.date: 03/20/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -50,6 +50,15 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | [Guest account prerequisites](../prepare/guest-accounts.md) | Updated entire Guest account prerequisites article |
 | [Reset devices with a factory reset](../operate/reset-devices-factory.md) | Updated entire Reset devices with a factory reset article |
 | [Submit a support request](../operate/support-request.md) | Updated entire Submit a support request article |
+
+### March service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC529436](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Modern Workplace Management application in Microsoft Managed Desktop |
+| [MC529411](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Prepare for Memory integrity enablement with Windows 11 22H2 |
+| [MC529410](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Device reliability reports (Public preview). This Message center post applies to all Microsoft Managed Desktop customers **except** non-NA01 tenants. Public preview available now. General availability planned to begin April 21. |
+| [MC529409](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Device reliability reports (Public preview). This Message center post applies to all non-NA01 tenants. Public preview available on March 29, 2023. General availability planned to begin April 21. |
 
 ## February 2023
 
