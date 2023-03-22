@@ -20,7 +20,9 @@ The [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109
 
 Microsoft Managed Desktop has a section in the **Reports** menu where you can find reports specific to Microsoft Managed Desktop's management of the registered devices. In several locations throughout the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), you can filter reports from other product groups. You can include or exclude devices that are managed by Microsoft Managed Desktop.
 
-## Device health reports (public preview)
+## Device health reports
+
+### Device reliability reports (public preview)
 
 > [!IMPORTANT]
 > This feature is in **public preview**. The feature is being actively developed, and may not be complete. You can test and use these features in production environments and provide feedback.
