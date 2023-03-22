@@ -20,6 +20,19 @@ The [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109
 
 Microsoft Managed Desktop has a section in the **Reports** menu where you can find reports specific to Microsoft Managed Desktop's management of the registered devices. In several locations throughout the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), you can filter reports from other product groups. You can include or exclude devices that are managed by Microsoft Managed Desktop.
 
+## Device health reports (public preview)
+
+> [!IMPORTANT]
+> This feature is in **public preview**. The feature is being actively developed, and may not be complete. You can test and use these features in production environments and provide feedback.
+
+| Report | Description |
+| ------ | ------ |
+| [Device reliability historical trends report](../operate/device-reliability-historical-trends-report.md) | This report provides aggregated device reliability (stop errors) information, over the past 28 days, for Microsoft Managed Desktop managed devices in the tenant. |
+| [Operating system stop error report](../operate/operating-system-stop-error-report.md) | This report highlights details about the failure modules that caused an operating system stop error and impacted Microsoft Managed Desktop devices in the tenant. |
+| [Failure module drilldown report](../operate/failure-module-drilldown-report.md) | Use this report to drill down further into the details to better understand the impact of the failure module. |
+| [Affected devices report](../operate/affected-devices-report.md) | This report provides details about the devices that are affected by operating system stop errors. |
+| [Device crash drilldown report](../operate/device-crash-drilldown-report.md) | Use this report to better understand the impact of the operating system stop error on the specified device. |
+
 ## Managed devices reports
 
 Microsoft Managed Desktop provides several reports and dashboards. IT admins, in your organization, can use these reports and dashboards to understand various aspects of your devices.
