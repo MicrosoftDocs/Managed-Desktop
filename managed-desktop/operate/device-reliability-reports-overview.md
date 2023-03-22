@@ -30,7 +30,7 @@ Microsoft Managed Desktop monitors operating system stop error codes on managed 
         - Anomaly detection divides the data into trend and seasonality categories to predict the total number of stop errors in each customer's tenant. By comparing the predicted and actual stop errors that occur, the anomaly detection score is calculated and normalized.
         - The threshold that determines the Anomaly or Not Anomaly label is reviewed and adjusted periodically based on the observed failure impact data. Any anomaly detection scores with absolute scores above the threshold are considered anomalies and will be investigated.
 
-Automated alerts raise a Service Raised Incident (SRI) which is assigned to the Microsoft Managed Desktop Service Engineering Team for investigation and troubleshooting. The Microsoft Managed Desktop Service Engineering Team will work to evaluate and remediate issues that are under Microsoft control.
+Automated alerts raise a Service Raised Incident (SRI) which is assigned to the Microsoft Managed Desktop Service Engineering Team for investigation and troubleshooting. The Microsoft Managed Desktop Service Engineering Team will work to evaluate and remediate issues that are under Microsoft's control.
 
 If customer engagement is needed to remediate issues, the Microsoft Managed Desktop Service Engineering Team will reach out to [admin contacts](../prepare/add-admin-contacts.md) to expedite the remediation process.
 
