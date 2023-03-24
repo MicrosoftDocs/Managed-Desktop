@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 03/20/2023
+ms.date: 03/24/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -31,6 +31,8 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | New or changed article | Description |
 | ----- | ----- |
+| [Device reliability reports](../operate/device-reliability-reports-overview.md) | Added Device reliability reports. The following reports are in **public preview**:<ul><li>[Device reliability historical trends report](../operate/device-reliability-historical-trends-report.md)</li><li>[Operating system stop error report](../operate/operating-system-stop-error-report.md)</li><li>[Failure module drilldown report](../operate/failure-module-drilldown-report.md)</li><li>[Affected devices report](../operate/affected-devices-report.md)</li><li>[Device crash drilldown report](../operate/device-crash-drilldown-report.md)</li></ul> |
+| [Reports](../operate/reports.md) | Added the [Device reliability reports](../operate/reports.md#device-reliability-reports-public-preview) to the Reports overview article |
 | [Apps in Microsoft Managed Deskop](../prepare/apps.md) | Added the [Default Windows apps](../prepare/apps.md#default-windows-apps) section |
 | [Install the Intune Company Portal on devices](../prepare/company-portal.md) | Due to the Microsoft Store for Business retirement:<ul><li>Updated guidance on installing the Company Portal app on devices</li></ul> |
 | [Fix issues found by the readiness assessment tool](../prepare/readiness-assessment-fix.md) | Due to the Microsoft Store for Business retirement:<ul><li>Removed Microsoft Store for Business check</li><li>Updated Company Portal check</li></ul> |

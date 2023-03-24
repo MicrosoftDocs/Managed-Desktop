@@ -18,7 +18,7 @@ ms.date: 03/24/2023
 # Device reliability reports overview (public preview)
 
 > [!IMPORTANT]
-> This feature is in **public preview**. The feature is being actively developed, and may not be complete. You can test and use these features in production environments and provide feedback.
+> This feature is in **public preview**. This feature is being actively developed, and may not be complete. You can test and use these features in production environments and provide feedback.
 
 The Device reliability reports provide the necessary insights for IT admins to better understand the impact of operating system stop errors on Microsoft Managed Desktop managed devices.
 
