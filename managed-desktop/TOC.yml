@@ -222,6 +222,22 @@
         - name: Reports
           href: operate/reports.md
           items:
+            - name: Device health reports
+              href: 
+              items:
+                - name: Device reliability reports
+                  href: operate/device-reliability-reports-overview.md
+                  items:
+                    - name: Device reliability historical trends report
+                      href: operate/device-reliability-historical-trends-report.md
+                    - name: Operating system stop error report
+                      href: operate/operating-system-stop-error-report.md
+                    - name: Failure module drilldown report
+                      href: operate/failure-module-drilldown-report.md
+                    - name: Affected devices report
+                      href: operate/affected-devices-report.md
+                    - name: Device crash drilldown report
+                      href: operate/device-crash-drilldown-report.md
             - name: Managed devices reports
               href:
               items:
