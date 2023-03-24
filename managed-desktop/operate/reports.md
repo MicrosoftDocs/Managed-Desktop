@@ -25,7 +25,7 @@ Microsoft Managed Desktop has a section in the **Reports** menu where you can fi
 ### Device reliability reports (public preview)
 
 > [!IMPORTANT]
-> This feature is in **public preview**. The feature is being actively developed, and may not be complete. You can test and use these features in production environments and provide feedback.
+> This feature is in **public preview**. This feature is being actively developed, and may not be complete. You can test and use these features in production environments and provide feedback.
 
 | Report | Description |
 | ------ | ------ |

@@ -35,7 +35,7 @@ Automated alerts raise a Service Raised Incident (SRI) which is assigned to the 
 If customer engagement is needed to remediate issues, the Microsoft Managed Desktop Service Engineering Team will reach out to [admin contacts](../prepare/add-admin-contacts.md) to expedite the remediation process.
 
 > [!NOTE]
-> Periodic updates are made to the threshold using a data-driven approach that optimizes the balance between the number of individual incidents addressed by Microsoft and the number of resolved failure cases. If appropriate, fixes for stop errors may be applied to the across all Microsoft Managed Desktop customers' tenants.
+> Periodic updates are made to the threshold using a data-driven approach that optimizes the balance between the number of individual incidents addressed by Microsoft and the number of resolved failure cases. If appropriate, fixes for stop errors may be applied across all Microsoft Managed Desktop customers' tenants.
 
 ## View the Device reliability reports
 
