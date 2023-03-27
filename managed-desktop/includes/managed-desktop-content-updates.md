@@ -2,6 +2,21 @@
 
 
 
+## Week of March 20, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/20/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
+| 3/24/2023 | [Affected devices report](/managed-desktop/operate/affected-devices-report) | added |
+| 3/24/2023 | [Device crash drilldown report](/managed-desktop/operate/device-crash-drilldown-report) | added |
+| 3/24/2023 | [Device reliability historical trends report](/managed-desktop/operate/device-reliability-historical-trends-report) | added |
+| 3/24/2023 | [Device reliability reports overview](/managed-desktop/operate/device-reliability-reports-overview) | added |
+| 3/24/2023 | [Failure module drilldown report](/managed-desktop/operate/failure-module-drilldown-report) | added |
+| 3/24/2023 | [Operating system stop error report](/managed-desktop/operate/operating-system-stop-error-report) | added |
+| 3/24/2023 | [Work with reports](/managed-desktop/operate/reports) | modified |
+
+
 ## Week of March 13, 2023
 
 
