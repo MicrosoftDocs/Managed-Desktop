@@ -12,7 +12,7 @@ ms.author: tiaraquan
 manager: dougeby
 ms.topic: how-to
 audience: Admin
-ms.date: 03/17/2023
+ms.date: 03/27/2023
 ---
 
 # Fix issues found by the readiness assessment tool
@@ -164,9 +164,9 @@ Microsoft Managed Desktop requires Windows Hello for Business to be enabled.
 | ----- | ----- |
 | Advisory | Windows Hello for Business is either disabled or not set up. Enable it by following the steps in [Create a Windows Hello for Business policy](/mem/intune/protect/windows-hello#create-a-windows-hello-for-business-policy). |
 
-### Windows 10 and later update rings
+### Update rings for Windows 10 or later
 
-Your Windows 10 and later update ring policy in Intune must not target any Microsoft Managed Desktop devices.
+Your "Update rings for Windows 10 or later" policy in Intune must not target any Microsoft Managed Desktop devices.
 
 | Result  | Meaning |
 | ----- | ----- |
