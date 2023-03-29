@@ -12,7 +12,7 @@ ms.author: tiaraquan
 ms.topic: conceptual
 audience: Admin, ITPro
 ms.localizationpriority: medium
-ms.date: 02/02/2023
+ms.date: 03/31/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -73,6 +73,14 @@ For more information about how Windows diagnostic data is used, see:
 
 - [Windows diagnostic data in your organization](/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enable-windows-diagnostic-data-processor-configuration)
 - [Features that require Windows diagnostic data](/mem/intune/protect/data-enable-windows-data)
+
+## Tenant access
+
+Microsoft Managed Desktop creates an enterprise application in your tenant. This enterprise application is used to run the Microsoft Managed Desktop service.
+
+| Enterprise application name | Usage | Permissions |
+| ----- | ------ | ----- |
+| Modern Workplace Management | The Modern Workplace Management application:<ul><li>Manages the service</li><li>Publishes baseline configuration updates</li><li>Maintains overall service health</li></ul> | <ul><li>DeviceManagementApps.ReadWrite.All</li><li>DeviceManagementConfiguration.ReadWrite.All</li><li>DeviceManagementManagedDevices.PriviligedOperation.All</li><li>DeviceManagementManagedDevices.ReadWrite.All</li><li>DeviceManagementRBAC.ReadWrite.All</li><li>DeviceManagementServiceConfig.ReadWrite.All</li><li>Directory.Read.All</li><li>Group.Create</li><li>Policy.Read.All</li><li>WindowsUpdates.ReadWrite.All</li></ul> |
 
 ### Microsoft Windows Update for Business
 
