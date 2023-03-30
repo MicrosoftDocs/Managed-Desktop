@@ -71,7 +71,7 @@ Support requests are triaged and managed according to severity outlined in the [
 | Support request type | When to use |
 | ----- | ----- |
 | Incident | You require the Microsoft Managed Desktop Operations team to investigate a user issue. For example, a widespread impact of a change or service outage.
-| Request for information | You're planning a change in networking, proxy configuration, VPN systems, certificate expiration, AD Connect (identity sync) or just need some information about the service. A notification to the Microsoft Managed Desktop Operations team is advised when communicating a change within your organization.
+| Request for information | You're planning a change in networking, proxy configuration, VPN systems, certificate expiration, AD Connect (identity sync) or just need some information about the service. A notification to the Microsoft Managed Desktop Operations team is advised when communicating a change within your organization. All requests for information are treated as severity C.
 | Change request | You require the Microsoft Managed Desktop Operations team to make a change, such as moving devices between update groups. All change requests are treated as severity C.
 
 > [!IMPORTANT]
