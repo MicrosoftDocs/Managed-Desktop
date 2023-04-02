@@ -2,6 +2,15 @@
 
 
 
+## Week of March 27, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 3/31/2023 | [Maintain the Microsoft Managed Desktop environment](/managed-desktop/operate/maintain-environment) | added |
+| 3/31/2023 | [Privacy and personal data](/managed-desktop/overview/privacy-personal-data) | modified |
+
+
 ## Week of March 20, 2023
 
 
@@ -51,22 +60,3 @@
 | 3/9/2023 | [Guest account prerequisites](/managed-desktop/prepare/guest-accounts) | modified |
 | 3/9/2023 | [Diagnostic logs](/managed-desktop/references/diagnostic-logs) | modified |
 | 3/9/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
-
-
-## Week of February 20, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 2/22/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
-| 2/22/2023 | [Deploy apps to devices](/managed-desktop/deploy/deploy-apps) | modified |
-| 2/22/2023 | [Configurable settings reference for Microsoft Managed Desktop](/managed-desktop/operate/config-setting-ref) | modified |
-| 2/22/2023 | [Kiosk device profile](/managed-desktop/operate/kiosk-device-profile) | modified |
-| 2/22/2023 | [Manage apps in Microsoft Managed Desktop](/managed-desktop/operate/manage-apps) | modified |
-| 2/22/2023 | [Work with reports](/managed-desktop/operate/reports) | modified |
-| 2/22/2023 | [Submit a support request](/managed-desktop/operate/support-request) | modified |
-| 2/22/2023 | [Service changes and communication](/managed-desktop/overview/service-changes-communication) | modified |
-| 2/22/2023 | [Access the admin center](/managed-desktop/prepare/access-admin-center) | modified |
-| 2/22/2023 | [Device registration overview](/managed-desktop/prepare/device-registration-overview) | modified |
-| 2/22/2023 | [Manual registration for existing devices](/managed-desktop/prepare/manual-registration-existing-devices) | modified |
-| 2/22/2023 | [Windows Autopilot registration from the Microsoft Intune admin center](/managed-desktop/prepare/windows-autopilot-registration) | modified |
