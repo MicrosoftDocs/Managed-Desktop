@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 03/31/2023
+ms.date: 04/04/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -59,6 +59,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | Message center post number | Description |
 | ----- | ----- |
+| [MC534734](https://admin.microsoft.com/adminportal/home#/MessageCenter) | March 2023 Microsoft Managed Desktop baseline configuration update |
 | [MC529436](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Modern Workplace Management application in Microsoft Managed Desktop |
 | [MC529411](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Prepare for Memory integrity enablement with Windows 11 22H2 |
 | [MC529410](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Device reliability reports (public preview)<ul><li>This Message center post applies to all Microsoft Managed Desktop customers **except** non-NA01 tenants</li><li>Public preview available now</li><li>General availability planned to begin on April 21, 2023</li></ul> |
