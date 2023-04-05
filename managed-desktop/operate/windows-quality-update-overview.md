@@ -113,7 +113,7 @@ Microsoft Managed Desktop schedules and deploys required Out of Band (OOB) updat
 ### Pausing and resuming a release
 
 > [!CAUTION]
-> It's only recommended to use Microsoft Managed Desktop's end-user experience to pause and resume [Windows quality](windows-quality-update-overview.md#pausing-and-resuming-a-release). If you need assistance with pausing and resuming updates, please [submit a support request](../operate/support-request.md).
+> You should only pause and resume [Windows quality updates](windows-quality-update-overview.md#pausing-and-resuming-a-release) on Microsoft Managed Desktop devices using the Microsoft Managed Desktop Release management blade. Do **not** use the Microsoft Intune end-user experience flows to pause or resume Microsoft Managed Desktop devices. If you need assistance with pausing and resuming updates, please [submit a support request](../operate/support-request.md).
 
 The service-level pause of updates is driven by the various software update deployment-related signals Microsoft Managed Desktop receives from Windows Update for Business, and several other product groups within Microsoft.
 
