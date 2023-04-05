@@ -221,6 +221,8 @@
               href: operate/onedrive.md
         - name: Maintain the Microsoft Managed Desktop environment
           href: operate/maintain-environment.md
+        - name: Proactive monitoring
+          href: operate/proactive-monitoring.md
         - name: Reports
           href: operate/reports.md
           items:
