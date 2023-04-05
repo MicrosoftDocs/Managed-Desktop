@@ -25,6 +25,12 @@ This article lists new and updated feature releases, and service releases, with 
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
 
+## April 2023
+
+| New or changed article | Description |
+| ----- | ----- |
+| [Proactive monitoring](../operate/proactive-monitoring.md) | Added information on proactive monitoring |
+
 ## March 2023
 
 ### March feature releases or updates
