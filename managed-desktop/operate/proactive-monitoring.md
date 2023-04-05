@@ -59,7 +59,7 @@ Automated alerts raise a Service Raised Incident (SRI) which is assigned to the 
 | Question | Answer |
 | ----- | ----- |
 | When will a Service Raised Incident be created and investigated? | Microsoft Managed Desktop will:<ul><li>Automatically create an internal (non-customer visible) Service Raised Incident (SRI) if the number of devices in your tenant drops below the threshold during each observation window.</li><li>Assign a service engineer to work toward a resolution.</li></ul> |
-| What action will Microsoft Managed Desktop drive as part of the investigation? | <ul><lil>Engineers will triage, debug, and isolate the failures (hardware or policy) that are most impactful to the devices in your tenant and those that are contributing most to your tenant falling below the threshold.</li><li>Microsoft Managed Desktop service engineers might collaborate with the appropriate Microsoft and/or non-Microsoft partners (if applicable) to advocate on your behalf to provide a solution. The details will be shared with you, including any appropriate actions you must take.</li></ul> |
+| What action will Microsoft Managed Desktop drive as part of the investigation? | <ul><li>Engineers will triage, debug, and isolate the failures (hardware or policy) that are most impactful to the devices in your tenant and those that are contributing most to your tenant falling below the threshold.</li><li>Microsoft Managed Desktop service engineers might collaborate with the appropriate Microsoft and/or non-Microsoft partners (if applicable) to advocate on your behalf to provide a solution. The details will be shared with you, including any appropriate actions you must take.</li></ul> |
 
 ## Roles and responsibilities
 
