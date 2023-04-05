@@ -12,7 +12,7 @@ ms.author: tiaraquan
 manager: dougeby
 ms.topic: conceptual
 msreviewer: vigandhi
-ms.date: 03/24/2023
+ms.date: 04/05/2023
 ---
 
 # Device reliability reports overview (public preview)

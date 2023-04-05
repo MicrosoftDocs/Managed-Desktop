@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 04/04/2023
+ms.date: 04/05/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
