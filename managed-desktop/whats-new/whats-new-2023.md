@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 04/04/2023
+ms.date: 04/05/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -24,6 +24,12 @@ ms.collection:
 This article lists new and updated feature releases, and service releases, with their corresponding Message center post numbers (if applicable).
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
+
+## April 2023
+
+| New or changed article | Description |
+| ----- | ----- |
+| [Proactive monitoring](../operate/proactive-monitoring.md) | Added information on proactive monitoring |
 
 ## March 2023
 
