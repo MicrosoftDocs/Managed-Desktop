@@ -2,6 +2,15 @@
 
 
 
+## Week of April 03, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 4/3/2023 | [Maintain the Microsoft Managed Desktop environment](/managed-desktop/operate/maintain-environment) | added |
+| 4/3/2023 | [Privacy and personal data](/managed-desktop/overview/privacy-personal-data) | modified |
+
+
 ## Week of March 27, 2023
 
 
