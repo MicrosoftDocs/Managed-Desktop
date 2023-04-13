@@ -61,7 +61,7 @@ Each device profile also involves these items:
 > Don't modify the membership of these groups directly. Use the interface as described in [Reassign profiles](../operate/change-device-profile.md).
 
 > [!NOTE]
-> To fully enable the Power User profile on a Windows 365 device you'll need to set Enable Local Admin in the Windows 365 User Settings and add the user to the assigned group. For more information, see [Make a user a local admin](/windows-365/enterprise/assign-users-as-local-admin).
+> To fully turn on the Power User profile on a Windows 365 device, you must set the **Enable Local Admin in the Windows 365 User Settings** and add the user to the assigned group. For more information, see [Make a user a local admin](/windows-365/enterprise/assign-users-as-local-admin).
 
 ## Limitations
 
