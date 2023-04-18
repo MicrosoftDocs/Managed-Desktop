@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 04/05/2023
+ms.date: 04/18/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -27,9 +27,17 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 ## April 2023
 
+### April feature releases or updates
+
 | New or changed article | Description |
 | ----- | ----- |
 | [Proactive monitoring](../operate/proactive-monitoring.md) | Added information on proactive monitoring |
+
+### April service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC542843](https://admin.microsoft.com/adminportal/home#/MessageCenter) | April 2023 Microsoft Managed Desktop baseline configuration update |
 
 ## March 2023
 
@@ -37,6 +45,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | New or changed article | Description |
 | ----- | ----- |
+| [Proactive monitoring](../operate/proactive-monitoring.md) | Added information on proactive monitoring |
 | [Maintain the Microsoft Managed Desktop environment](../operate/maintain-environment.md) | Added guidance about [maintaining the Microsoft Managed Desktop environment](../operate/maintain-environment.md)<li>[MC529436](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li> |
 | [Privacy](../overview/privacy-personal-data.md) | Added [Tenant access](../overview/privacy-personal-data.md#tenant-access) section<li>[MC529436](https://admin.microsoft.com/adminportal/home#/MessageCenter)</li> |
 | [Device reliability reports](../operate/device-reliability-reports-overview.md) | Added Device reliability reports. The following reports are in **public preview**:<ul><li>[Device reliability historical trends report](../operate/device-reliability-historical-trends-report.md)</li><li>[Operating system stop error report](../operate/operating-system-stop-error-report.md)</li><li>[Failure module drilldown report](../operate/failure-module-drilldown-report.md)</li><li>[Affected devices report](../operate/affected-devices-report.md)</li><li>[Device crash drilldown report](../operate/device-crash-drilldown-report.md)</li></ul><p>Corresponding Message center posts:<ul><li>[MC529410](https://admin.microsoft.com/adminportal/home#/MessageCenter). This Message center post applies to all Microsoft Managed Desktop customers **except** non-NA01 tenants. Public preview available now</li><li>[MC529409](https://admin.microsoft.com/adminportal/home#/MessageCenter). This Message center post applies to all non-NA01 tenants. Public preview available March 29, 2023</li></ul></p> |
