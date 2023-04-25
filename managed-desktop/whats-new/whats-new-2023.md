@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 04/18/2023
+ms.date: 04/25/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -37,6 +37,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | Message center post number | Description |
 | ----- | ----- |
+| [MC544783](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop - Windows 11 HVCI Assessment General Availability Announcement |
 | [MC542843](https://admin.microsoft.com/adminportal/home#/MessageCenter) | April 2023 Microsoft Managed Desktop baseline configuration update |
 
 ## March 2023
