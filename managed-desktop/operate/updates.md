@@ -40,7 +40,7 @@ Updates released by Microsoft are cumulative and are categorized as quality or f
 
 ## Microsoft Managed Desktop deployment rings
 
-During the [tenant enrollment process](/prepare/enroll-your-tenant), Microsoft Managed Desktop creates four Azure AD assigned groups that are used to segment devices into its update groups:
+During the [tenant enrollment process](../prepare/enroll-your-tenant.md), Microsoft Managed Desktop creates four Azure AD assigned groups that are used to segment devices into its update groups:
 
 | Ring | Description |
 | ----- | ----- |
