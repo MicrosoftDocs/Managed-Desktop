@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 04/25/2023
+ms.date: 05/01/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -24,6 +24,16 @@ ms.collection:
 This article lists new and updated feature releases, and service releases, with their corresponding Message center post numbers (if applicable).
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
+
+## May 2023
+
+### May service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC548098](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Feature Update: Windows 10 22H2 Announcement |
+| [MC548097](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Removal of Office Language Packs |
+| [MC548096](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Windows Local Admin Password Solution - Public Preview |
 
 ## April 2023
 
