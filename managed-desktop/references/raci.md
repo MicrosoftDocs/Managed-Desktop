@@ -74,13 +74,13 @@ For global App Assure issues independent of Windows 10/11 Pro/Enterprise managem
 
 #### OEM hardware
 
+Original Equipment Manufacturer (OEM) partner team remediates drivers as hardware is OEM owned. Microsoft offers drivers if published to Windows Update.
+
 | Microsoft Managed Desktop reactive operations | You | Microsoft Managed Desktop IT Ops |
 | ----- | ----- | ----- |
 | Issue detection | R-C-I | A |
 | Issue investigation | C-I | R-A |
 | Remediation | R-A* | C-I |
-
-*Original Equipment Manufacturer (OEM) partner team remediates drivers as hardware is OEM owned. Microsoft offers drivers if published to Windows Update.
 
 ### Exceptions
 
@@ -294,40 +294,40 @@ For more information, see [Device profiles](../operate/device-profiles.md).
 
 #### Sensitive device profile
 
-| Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
-| ----- | ----- | ----- | ----- |
+| Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
+| ----- | ----- | ----- |
 | Definition | I | R-A-C |
 | Enforcement | I | R-A-C |
 | Device allocation to profile | R-A-C-I | - |
 
 #### Standard device profile
 
-| Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
-| ----- | ----- | ----- | ----- |
+| Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
+| ----- | ----- | ----- |
 | Definition | I | R-A-C |
 | Enforcement | I | R-A-C |
 | Device allocation to profile | R-A-C-I | - |
 
 #### Power user device profile
 
-| Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
-| ----- | ----- | ----- | ----- |
+| Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
+| ----- | ----- | ----- |
 | Definition | I | R-A-C |
 | Enforcement | I | R-A-C |
 | Device allocation to profile | R-A-C-I | - |
 
 #### Kiosk device profile
 
-| Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
-| ----- | ----- | ----- | ----- |
+| Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
+| ----- | ----- | ----- |
 | Definition | I | R-A-C |
 | Enforcement | I | R-A-C |
 | Device allocation to profile | R-A-C-I | - |
 
 #### Shared device profile
 
-| Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
-| ----- | ----- | ----- | ----- |
+| Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
+| ----- | ----- | ----- |
 | Definition | I | R-A-C |
 | Enforcement | I | R-A-C |
 | Device allocation to profile | R-A-C-I | - |
@@ -336,8 +336,8 @@ For more information, see [Device profiles](../operate/device-profiles.md).
 
 Microsoft Managed Desktop assesses and decides if active exceptions are compliant to our monthly baseline or if they conflict with our service offering security standards. For more information, see [Exceptions to the service plan](../overview/exceptions-to-service-plan.md).
 
-| Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
-| ----- | ----- | ----- | ----- |
+| Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
+| ----- | ----- | ----- |
 | Planning | - | R-A-C |
 | Decision management | I | R-A-C |
 | Deprecation communication | I | R-A |
@@ -347,8 +347,8 @@ Microsoft Managed Desktop assesses and decides if active exceptions are complian
 
 For more information, see [Submit a support request](../operate/support-request.md).
 
-| Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
-| ----- | ----- | ----- | ----- |
+| Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
+| ----- | ----- | ----- |
 | Incident creation | R-A | C-I |
 | Management and resolution of incidents | C-I | R-A |
 | Admin contact(s) maintenance | R-A | C-I |
@@ -359,8 +359,8 @@ For more information, see [Submit a support request](../operate/support-request.
 
 For more information, see [Change management](../overview/change-management.md).
 
-| Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
-| ----- | ----- | ----- | ----- |
+| Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
+| ----- | ----- | ----- |
 | Planning | I | R-A-C |
 | Risk assessment | I | R-A-C |
 | Deployment | I | R-A-C |
@@ -371,16 +371,16 @@ For more information, see [Change management](../overview/change-management.md).
 
 ### Event management
 
-| Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
-| ----- | ----- | ----- | ----- |
+| Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
+| ----- | ----- | ----- |
 | [Monitoring](../overview/privacy-personal-data.md) and [diagnostic data collection](../references/diagnostic-logs.md) | I | R-A-C |
 | [Device health reporting](../operate/device-reliability-reports-overview.md) | I | R-A-C |
 | Remediation of device health | R-C-I | R-A |
 
 ### Device onboarding/off-boarding to/from service
 
-| Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
-| ----- | ----- | ----- | ----- |
+| Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
+| ----- | ----- | ----- |
 | Autopilot registration | R-A-C-I | - |
 | Device enrollment | R-A-C-I | - |
 | Device off-boarding | R-A-C-I | - |
@@ -388,8 +388,8 @@ For more information, see [Change management](../overview/change-management.md).
 
 ### Tenant onboarding/off-boarding
 
-| Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
-| ----- | ----- | ----- | ----- |
+| Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
+| ----- | ----- | ----- |
 | Solution definition | - | R-A-C-I |
 | Service improvement | - | R-A-C-I |
 
