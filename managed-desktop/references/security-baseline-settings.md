@@ -57,7 +57,7 @@ The following table lists the security baseline settings used in Microsoft Manag
 | `AllowEnhancedProtectedMode` | `./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowEnhancedProtectedMode` | `<Enabled/>` |
 | `IncludeAllNetworkPaths` | `./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IncludeAllNetworkPaths` |	`<Disabled/>` |
 | `InternetZoneAllowAccessToDataSources` | `./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAccessToDataSources` |`<Enabled/><Data id=""""IZ_Partname1406"""" value=""""3""""/>` |
-| `RestrictedSitesZoneAllowAccessToDataSources` | `./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAccessToDataSources ` | `<Enabled/><Data id=""""IZ_Partname1406"""" value=""""3""""/>` |
+| `RestrictedSitesZoneAllowAccessToDataSources` | `./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAccessToDataSources` | `<Enabled/><Data id=""""IZ_Partname1406"""" value=""""3""""/>` |
 | `InternetZoneAllowScriptlets`	| `./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptlets` | `<Enabled/><Data id=""""IZ_Partname1209"""" value=""""3""""/>` |
 | `RestrictedSitesZoneAllowScriptlets` | `./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptlets` |	`<Enabled/><Data id=""""IZ_Partname1209"""" value=""""3""""/>`|
 | `InternetZoneAllowAutomaticPromptingForFileDownloads` | `./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAutomaticPromptingForFileDownloads`| `<Enabled/><Data id=""""IZ_Partname2200"""" value=""""3""""/>`|
@@ -185,13 +185,13 @@ The following table lists the security baseline settings used in Microsoft Manag
 | `SolicitedRemoteAssistance` | `./Device/Vendor/MSFT/Policy/Config/RemoteAssistance/SolicitedRemoteAssistance` | `<Disabled/>` |
 | `DoNotAllowPasswordSaving` | `./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/DoNotAllowPasswordSaving` | `<Enabled/>` |
 | `DoNotAllowDriveRedirection` | `./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/DoNotAllowDriveRedirection` | `<Enabled/>` |
-| `PromptForPasswordUponConnection `| `./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/PromptForPasswordUponConnection` | `<Enabled/>` |
+| `PromptForPasswordUponConnection`| `./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/PromptForPasswordUponConnection` | `<Enabled/>` |
 | `RequireSecureRPCCommunication` | `./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/RequireSecureRPCCommunication` | `<Enabled/>` |
 | `ClientConnectionEncryptionLevel` | `./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/ClientConnectionEncryptionLevel` | `<Enabled/><Data id=""""TS_ENCRYPTION_LEVEL"""" value=""""3""""/>` |
 | `AllowBasicAuthentication_Client` | `./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Client` | `<Disabled/>` |
 | `AllowBasicAuthentication_Service` | `./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Service` | `<Disabled/>` |
 | `AllowUnencryptedTraffic_Client` | `./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Client` | `<Disabled/>` |
-| `AllowUnencryptedTraffic_Service` | `./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Service` | `<Disabled/> `|
+| `AllowUnencryptedTraffic_Service` | `./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Service` | `<Disabled/>`|
 | `DisallowDigestAuthentication` | `./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowDigestAuthentication` | `<Enabled/>` |
 | `DisallowStoringOfRunAsCredentials` | `./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowStoringOfRunAsCredentials`| `<Enabled/>` |
 | `RestrictUnauthenticatedRPCClients` | `./Device/Vendor/MSFT/Policy/Config/RemoteProcedureCall/RestrictUnauthenticatedRPCClients` | `<Enabled/><Data id=""""RpcRestrictRemoteClientsList"""" value=""""1""""/>` |
