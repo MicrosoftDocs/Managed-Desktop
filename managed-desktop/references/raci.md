@@ -187,7 +187,7 @@ Supported areas for functionality, but not client data include:
 
 ### Microsoft Managed Desktop Windows image
 
-For more information, see [Universal image](../prepare/universal-image?view=o365-worldwide).
+For more information, see [Universal image](../prepare/universal-image.md).
 
 | Microsoft Managed Desktop reactive operations | You | Microsoft Managed Desktop IT Ops |
 | ----- | ----- | ----- |
@@ -373,8 +373,8 @@ For more information, see [Change management](../overview/change-management.md).
 
 | Service | Microsoft Managed Desktop ongoing solution administration/maintenance | You | Microsoft Managed Desktop IT Ops |
 | ----- | ----- | ----- | ----- |
-| [Monitoring](../overview/references/privacy-personal-data.md) and [diagnostic data collection](../references/diagnostic-logs.md) | I | R-A-C |
-| [Device health reporting](../operate/device-reliability-reports.md) | I | R-A-C |
+| [Monitoring](../overview/privacy-personal-data.md) and [diagnostic data collection](../references/diagnostic-logs.md) | I | R-A-C |
+| [Device health reporting](../operate/device-reliability-reports-overview.md) | I | R-A-C |
 | Remediation of device health | R-C-I | R-A |
 
 ### Device onboarding/off-boarding to/from service
