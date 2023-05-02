@@ -38,7 +38,7 @@ Microsoft Managed Desktop ensures managed devices are secured and protected, and
 | Full volume encryption | Microsoft Managed Desktop uses Windows BitLocker as the volume encryption solution.<br><br>We offer XTS AES 128 system drive encryption with allowed exceptions for 256. By default, PIN/KEY isn't required, but [you can request](../operate/support-request.md) for the PIN/KEY to be required. Removable media is set to encrypt AES CBC 128.  |
 | Monitoring | [Microsoft Defender for Endpoint](/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) is used for security threat monitoring across all Microsoft Managed Desktop devices. Defender for Endpoint allows enterprise customers to detect, investigate, and respond to advanced threats in their corporate network. |
 | Operating system updates | Microsoft Managed Desktop devices are always secured with the latest security updates. For more information, see [software update management](../operate/updates.md). |
-| Secure Device Configuration | Microsoft Managed Desktop implements the Microsoft Security Baseline. For more information, see [Windows security baselines.](/windows/security/threat-protection/windows-security-baselines)|
+| Secure Device Configuration | Microsoft Managed Desktop implements the Microsoft Security Baseline. For more information, see [Windows security baselines.](/windows/security/threat-protection/windows-security-baselines). For Microsoft Managed Desktop default settings, see [Microsoft Managed Desktop security baseline settings](../references/security-baseline-settings.md).|
 
 ## Identity and access management
 

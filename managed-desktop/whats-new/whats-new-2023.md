@@ -27,6 +27,14 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 ## May 2023
 
+### May feature releases or updates
+
+| New or changed article | Description |
+| ----- | ----- |
+| [Security baseline settings](../references/security-baseline-settings.md) | Added information about Microsoft Managed Desktop security baseline settings |
+| [Windows 11 policy settings](../references/windows-11-policy-settings.md) | Added information about Microsoft Managed Desktop Windows 11 policy settings |
+| [Microsoft Manage Desktop RACI matrix](../references/raci.md) | Added RACI information |
+
 ### May service release
 
 | Message center post number | Description |

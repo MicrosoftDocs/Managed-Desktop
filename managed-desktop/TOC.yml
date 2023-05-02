@@ -290,6 +290,14 @@
       items:
         - name: Diagnostic logs
           href: references/diagnostic-logs.md
+        - name: Windows update policies
+          href: references/windows-update-policies.md
+        - name: Security baseline settings
+          href: references/security-baseline-settings.md
+        - name: Windows 11 policy settings
+          href: references/windows-11-policy-settings.md
+        - name: Microsoft Managed Desktop RACI matrix
+          href: references/raci.md
     - name: Developer
       href:
       items:
