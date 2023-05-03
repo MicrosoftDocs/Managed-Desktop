@@ -603,6 +603,8 @@ This policy setting allows you to configure script scanning.
 - Supported on: At least Windows Server 2012 Windows 8 or Windows RT
 - Setting value: `Disabled`
 
+Setting options:
+
 - **Disabled (Default)**: Updates and communications aren't allowed over metered connections.
 - **Enabled**: Allow managed devices to update through metered connections. Data charges may apply.
 
