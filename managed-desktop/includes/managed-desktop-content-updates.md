@@ -2,6 +2,17 @@
 
 
 
+## Week of May 01, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 5/1/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
+| 5/3/2023 | [Microsoft Managed Desktop RACI matrix](/managed-desktop/references/raci) | added |
+| 5/3/2023 | [Security baseline settings](/managed-desktop/references/security-baseline-settings) | added |
+| 5/3/2023 | [Windows 11 policy settings](/managed-desktop/references/windows-11-policy-settings) | added |
+
+
 ## Week of April 17, 2023
 
 
@@ -17,27 +28,3 @@
 |------|------------|--------|
 | 4/3/2023 | [Maintain the Microsoft Managed Desktop environment](/managed-desktop/operate/maintain-environment) | added |
 | 4/3/2023 | [Privacy and personal data](/managed-desktop/overview/privacy-personal-data) | modified |
-
-
-## Week of March 27, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/31/2023 | [Maintain the Microsoft Managed Desktop environment](/managed-desktop/operate/maintain-environment) | added |
-| 3/31/2023 | [Privacy and personal data](/managed-desktop/overview/privacy-personal-data) | modified |
-
-
-## Week of March 20, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 3/20/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
-| 3/24/2023 | [Affected devices report](/managed-desktop/operate/affected-devices-report) | added |
-| 3/24/2023 | [Device crash drilldown report](/managed-desktop/operate/device-crash-drilldown-report) | added |
-| 3/24/2023 | [Device reliability historical trends report](/managed-desktop/operate/device-reliability-historical-trends-report) | added |
-| 3/24/2023 | [Device reliability reports overview](/managed-desktop/operate/device-reliability-reports-overview) | added |
-| 3/24/2023 | [Failure module drilldown report](/managed-desktop/operate/failure-module-drilldown-report) | added |
-| 3/24/2023 | [Operating system stop error report](/managed-desktop/operate/operating-system-stop-error-report) | added |
-| 3/24/2023 | [Work with reports](/managed-desktop/operate/reports) | modified |
