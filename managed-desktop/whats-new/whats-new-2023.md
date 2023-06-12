@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 05/01/2023
+ms.date: 06/12/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -39,6 +39,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | Message center post number | Description |
 | ----- | ----- |
+| [MC548098](https://admin.microsoft.com/adminportal/home#/MessageCenter) | May 2023 Microsoft Managed Desktop baseline configuration update |
 | [MC548098](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Feature Update: Windows 10 22H2 Announcement |
 | [MC548097](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Removal of Office Language Packs |
 | [MC548096](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Windows Local Admin Password Solution - Public Preview |
