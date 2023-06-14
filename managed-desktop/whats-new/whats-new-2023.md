@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 06/12/2023
+ms.date: 06/14/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -31,6 +31,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | New or changed article | Description |
 | ----- | ----- |
+| [Submit a support request](../operate/support-request.md) | Updated the [support request response times](../operate/support-request.md#support-request-severity-definitions) |
 | [Security baseline settings](../references/security-baseline-settings.md) | Added information about Microsoft Managed Desktop security baseline settings |
 | [Windows 11 policy settings](../references/windows-11-policy-settings.md) | Added information about Microsoft Managed Desktop Windows 11 policy settings |
 | [Microsoft Manage Desktop RACI matrix](../references/raci.md) | Added RACI information |
