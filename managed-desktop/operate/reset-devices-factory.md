@@ -24,9 +24,11 @@ There are a few requirements:
 
 - Your global administrator must submit a [support request](../operate/support-request.md).
     - After receiving your global administrator's consent, the [Microsoft Managed Desktop Security Operations Team](../overview/support-teams.md#security-operations-center-team) can submit the request on your behalf. Include the device's computer name in the request.
-- The user account must be in the Azure Active Directory (AD) before we reset the device.
+    - The user account must be in Azure Active Directory (AAD) before we reset the device.
 
-[Microsoft Managed Desktop Operations Team](../overview/support-teams.md#service-engineering-team) will:
+>[!NOTE] If you are unable or unwilling to ask your Global Administrator to submit the request, you can simply do what everyone else does and follow the steps outlined below:
+
+[Microsoft Managed Desktop Operations Team](../overview/support-teams.md#service-engineering-team) will follow the [Wiping a device](../mem/intune/remote-actions/devices-wipe#wiping-a-device) steps:
 
 - Look up the device name in Microsoft Intune.
 - Send the factory reset command to the device.
