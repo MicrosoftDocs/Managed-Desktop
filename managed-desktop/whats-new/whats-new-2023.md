@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 06/23/2023
+ms.date: 07/13/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -24,6 +24,12 @@ ms.collection:
 This article lists new and updated feature releases, and service releases, with their corresponding Message center post numbers (if applicable).
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
+
+## July 2023
+
+| New or changed article | Description |
+| ----- | ----- |
+| [Roles and responsibilities](../overview/roles-and-responsibilities.md) | Updated the Security monitoring and response section |
 
 ## June 2023
 
