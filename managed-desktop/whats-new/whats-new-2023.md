@@ -25,7 +25,7 @@ This article lists new and updated feature releases, and service releases, with 
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
 
-## July 2023
+## July 2023 
 
 | New or changed article | Description |
 | ----- | ----- |
