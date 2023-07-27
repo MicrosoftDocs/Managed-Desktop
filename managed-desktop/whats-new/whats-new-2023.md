@@ -25,11 +25,19 @@ This article lists new and updated feature releases, and service releases, with 
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
 
-## July 2023 
+## July 2023
+
+### July feature releases or updates
 
 | New or changed article | Description |
 | ----- | ----- |
 | [Roles and responsibilities](../overview/roles-and-responsibilities.md) | Updated the Security monitoring and response section |
+
+## July service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC661221](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Update to Microsoft Managed Desktop elevations compatibility with Windows LAPS |
 
 ## June 2023
 
