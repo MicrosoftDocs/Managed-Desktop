@@ -33,7 +33,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 | ----- | ----- |
 | [Roles and responsibilities](../overview/roles-and-responsibilities.md) | Updated the Security monitoring and response section |
 
-## July service release
+### July service release
 
 | Message center post number | Description |
 | ----- | ----- |
