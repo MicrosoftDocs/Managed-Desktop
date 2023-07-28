@@ -13,7 +13,7 @@ ms.custom: intro-overview
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: conceptual
-ms.date: 03/10/2023
+ms.date: 07/28/2023
 ---
 
 # What is Microsoft Managed Desktop?
