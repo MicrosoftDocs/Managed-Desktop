@@ -2,6 +2,14 @@
 
 
 
+## Week of July 24, 2023
+
+
+| Published On |Topic title | Change |
+|------|------------|--------|
+| 7/27/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
+
+
 ## Week of July 10, 2023
 
 
@@ -47,11 +55,3 @@
 | 7/14/2023 | [Manual registration for existing devices](/managed-desktop/prepare/manual-registration-existing-devices) | modified |
 | 7/14/2023 | [Windows Autopilot registration from the Microsoft Intune admin center](/managed-desktop/prepare/windows-autopilot-registration) | modified |
 | 7/14/2023 | [Windows 11 policy settings](/managed-desktop/references/windows-11-policy-settings) | modified |
-
-
-## Week of June 19, 2023
-
-
-| Published On |Topic title | Change |
-|------|------------|--------|
-| 6/23/2023 | [What's new 2023](/managed-desktop/whats-new/whats-new-2023) | modified |
