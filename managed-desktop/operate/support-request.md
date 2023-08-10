@@ -17,7 +17,7 @@ ms.date: 07/28/2023
 # Submit a support request
 
 > [!IMPORTANT]
-> As we enter a new growth phase for managed services at Microsoft, **Microsoft Managed Desktop will transition to end-of-life (EOL) on July 31, 2024**. We're committed to working closely with each customer to provide support and guidance to make the transition as smooth as possible. For more information, see [MC662244](https://admin.microsoft.com/adminportal/home#/MessageCenter) in the Message center. If you have any questions, concerns, or need assistance, [submit a support request](../operate/support-request.md).
+> As we enter a new growth phase for managed services at Microsoft, **Microsoft Managed Desktop will transition to end-of-life (EOL) on July 31, 2024**. We're committed to working closely with each customer to provide support and guidance to make the transition as smooth as possible. If you have any questions, concerns, or need assistance, [submit a support request](../operate/support-request.md).
 
 Microsoft tracks requests and incidents in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). They're classified according to the [severity definitions](../operate/support-request.md#support-request-severity-definitions).
 
