@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 07/28/2023
+ms.date: 08/18/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -27,6 +27,15 @@ ms.collection:
 This article lists new and updated feature releases, and service releases, with their corresponding Message center post numbers (if applicable).
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
+
+## August 2023
+
+### August service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC668250](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop – Windows 11, Default Rollout Completed |
+| [MC661221](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Update to Microsoft Managed Desktop elevations compatibility with Windows LAPS. Included FAQs |
 
 ## July 2023
 
