@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 07/28/2023
+ms.date: 08/18/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -22,11 +22,20 @@ ms.collection:
 # What's new 2023
 
 > [!IMPORTANT]
-> As we enter a new growth phase for managed services at Microsoft, **Microsoft Managed Desktop will transition to end-of-life (EOL) on July 31, 2024**. We're committed to working closely with each customer to provide support and guidance to make the transition as smooth as possible. For more information, see [MC662244](https://admin.microsoft.com/adminportal/home#/MessageCenter) in the Message center. If you have any questions, concerns, or need assistance, [submit a support request](../operate/support-request.md).
+> As we enter a new growth phase for managed services at Microsoft, **Microsoft Managed Desktop will transition to end-of-life (EOL) on July 31, 2024**. We're committed to working closely with each customer to provide support and guidance to make the transition as smooth as possible. If you have any questions, concerns, or need assistance, [submit a support request](../operate/support-request.md).
 
 This article lists new and updated feature releases, and service releases, with their corresponding Message center post numbers (if applicable).
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
+
+## August 2023
+
+### August service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC668250](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop – Windows 11, Default Rollout Completed |
+| [MC661221](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Update to Microsoft Managed Desktop elevations compatibility with Windows LAPS. Included FAQs |
 
 ## July 2023
 
