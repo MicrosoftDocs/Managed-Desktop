@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 08/18/2023
+ms.date: 09/11/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -28,9 +28,17 @@ This article lists new and updated feature releases, and service releases, with 
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
 
+## September 2023
+
+### September service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC672751](https://admin.microsoft.com/adminportal/home#/MessageCenter) | August 2023 Microsoft Managed Desktop baseline configuration update |
+
 ## August 2023
 
-### August service release
+### August service releases
 
 | Message center post number | Description |
 | ----- | ----- |
