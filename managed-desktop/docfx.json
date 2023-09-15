@@ -42,6 +42,7 @@
       "breadcrumb_path": "/managed-desktop/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None",
+      "uhfHeaderId": "MSDocsHeader-M365-IT",
       "contributors_to_exclude": [
         "rjagiewich",
         "traya1",
