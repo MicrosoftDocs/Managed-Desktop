@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 09/11/2023
+ms.date: 10/04/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -34,6 +34,8 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | Message center post number | Description |
 | ----- | ----- |
+| [MC678306](https://admin.microsoft.com/adminportal/home#/MessageCenter) | September 2023 Microsoft Managed Desktop baseline configuration update |
+| [MC678303](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Windows Autopatch availability within Microsoft Intune Admin Center |
 | [MC672751](https://admin.microsoft.com/adminportal/home#/MessageCenter) | August 2023 Microsoft Managed Desktop baseline configuration update |
 
 ## August 2023
