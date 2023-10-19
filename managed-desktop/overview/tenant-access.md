@@ -29,7 +29,7 @@ These accounts remain active while using the service. Microsoft Managed Desktop 
 ### Examples of how Microsoft Managed Desktop uses service accounts
 
 - The [Microsoft Managed Desktop Service Engineering team](../overview/support-teams.md#service-engineering-team) accesses the interactive account through the Microsoft Intune admin center and uses it to change the security policy setting.  
-- The [Microsoft Managed Desktop Secure Operations Centers (SOC) team](../overview/support-teams.md#security-operations-center-team) will use an interactive account to access the Microsoft 365 Defender security portal to perform auditing needs with read-only privilege.
+- The [Microsoft Managed Desktop Secure Operations Centers (SOC) team](../overview/support-teams.md#security-operations-center-team) will use an interactive account to access the Microsoft Defender XDR security portal to perform auditing needs with read-only privilege.
 - The Microsoft Managed Desktop service uses non-interactive accounts to make automated changes. One example would be when a service engineer needs to update a deployment or configuration or perform other changes through a partner API.
 
 ## Guest account access
