@@ -137,7 +137,7 @@ The scenario outlined in this article assumes that you already have the followin
 ![Request details screen](../media/api/request-details.png)
 8. Select **Save** to save a draft of your action.
 9. Select **Test** to test and validate your new action:
-10. Enter your Microsoft Entra directory ID.
+10. Enter your Microsoft Entra ID.
 11. Enter a valid Microsoft Managed Desktop device name.
 12. Select **Run Test**.
 13. After Flow Designer is done processing test action, select **Your test has finished running. View the action execution details**, to validate the response.
