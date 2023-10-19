@@ -30,7 +30,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 ## October 2023
 
-### October service releases
+### October service release
 
 | Message center post number | Description |
 | ----- | ----- |
