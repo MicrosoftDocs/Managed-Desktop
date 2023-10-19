@@ -24,7 +24,7 @@ There are a few requirements:
 
 - Your global administrator must submit a [support request](../operate/support-request.md).
     - After receiving your global administrator's consent, the [Microsoft Managed Desktop Security Operations Team](../overview/support-teams.md#security-operations-center-team) can submit the request on your behalf. Include the device's computer name in the request.
-- The user account must be in the Azure Active Directory (AD) before we reset the device.
+- The user account must be in the Microsoft Entra ID before we reset the device.
 
 [Microsoft Managed Desktop Operations Team](../overview/support-teams.md#service-engineering-team) will:
 
@@ -32,7 +32,7 @@ There are a few requirements:
 - Send the factory reset command to the device.
 
 > [!NOTE]
-> Do **not** remove the user account from Azure AD before the device is reset. If the user isn't in Azure AD, Intune can't send the factory reset command to the device.
+> Do **not** remove the user account from Microsoft Entra ID before the device is reset. If the user isn't in Microsoft Entra ID, Intune can't send the factory reset command to the device.
 
 When the device has been reset, you can give it to a different person in your organization. None of the previous user's data or enterprise data will be on the device. The next user will go through the same process that the previous person did with a new Microsoft Managed Desktop device.
 

@@ -22,7 +22,7 @@ The API access requires OAuth2.0 authentication. For more information, see [OAu
 
 **To configure a service and get an access token:**
 
-1. Create and register [an AAD application](/graph/auth-register-app-v2).
+1. Create and register [a Microsoft Entra application](/graph/auth-register-app-v2).
 1. Configure permissions for Microsoft Managed Desktop on your app.
 1. Get administrator consent.
 1. Get an access token using this application.
@@ -40,7 +40,7 @@ For a service that will call Microsoft Managed Desktop API under its own identit
 
 For steps on how to configure an app using the Azure app registration portal, see [Register your app](/graph/auth-register-app-v2).
 
-With the OAuth 2.0 client credentials grant flow, your app authenticates directly at the Microsoft identity platform endpoint using the application ID assigned by Azure AD and the client secret that you create using the portal.
+With the OAuth 2.0 client credentials grant flow, your app authenticates directly at the Microsoft identity platform endpoint using the application ID assigned by Microsoft Entra ID and the client secret that you create using the portal.
 
 ### Configure permissions
 
@@ -57,7 +57,7 @@ With the OAuth 2.0 client credentials grant flow, your app authenticates directl
 
 In the OAuth 2.0 client credentials grant flow, you use the application ID and client secret values that you saved when you registered your app to request an access token directly from the Microsoft identity platform `/token` endpoint.
 
-The first step to getting an access token for the OAuth 2.0 authorization code flow is to redirect the user to the Microsoft identity platform `/authorize` endpoint. Azure Active Directory will sign the user in and request their consent for the permissions your app requests. In the authorization code grant flow, after consent is obtained, Azure AD will return an `authorization_code` to your app that it can redeem at the Microsoft identity platform/token endpoint for an access token.
+The first step to getting an access token for the OAuth 2.0 authorization code flow is to redirect the user to the Microsoft identity platform `/authorize` endpoint. Microsoft Entra ID will sign the user in and request their consent for the permissions your app requests. In the authorization code grant flow, after consent is obtained, Microsoft Entra ID will return an `authorization_code` to your app that it can redeem at the Microsoft identity platform/token endpoint for an access token.
 
 ### Authorization request
 
@@ -69,7 +69,7 @@ https://login.microsoftonline.com/{tenantId}/oauth2/authorize
 
 | Parameter | Condition | Description |
 | --- | --- | --- |
-| tenantId | Required | The tenant’s Azure Active Directory Id. |
+| tenantId | Required | The tenant’s Microsoft Entra ID. |
 | client_id | Required | The application ID assigned when you registered your app. |
 | Scope | Required | Must be include: `openid offline_access https://mwaas-services-customerapi-prod.azurewebsites.net/.default` |
 | grant_type | Required | Must be `client_credential`. |
@@ -90,7 +90,7 @@ https://login.microsoftonline.com/{tenantId}/oauth2/token
 
 | Parameter | Condition | Description |
 | --- | --- | --- |
-| tenantId | Required | The tenant’s Azure Active Directory Id. |
+| tenantId | Required | The tenant’s Microsoft Entra ID. |
 | client_id | Required | The application ID assigned when you registered your app. |
 | Scope | Required | Must be `https://mwaas-services-customerapi-prod.azurewebsites.net/.default` |
 | client_secret | Required  | The client secret that you generated for your app in the app registration portal. |

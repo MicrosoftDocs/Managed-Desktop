@@ -26,11 +26,13 @@ The scenario outlined in this article assumes that you already have the followin
 - A user account with the admin role in ServiceNow.
 - Your organization’s ServiceNow instance URL typically looks like `https://\<your-organization-domain\>.service-now.com`.
 
-### Create an Azure AD app
+<a name='create-an-azure-ad-app'></a>
 
-**To create an Azure AD app:**
+### Create a Microsoft Entra app
 
-1. Register and configure an application in Azure Active Directory with [application context](mmd-api-access-app-context.md) or [user context](mmd-api-access-user-context.md).
+**To create a Microsoft Entra app:**
+
+1. Register and configure an application in Microsoft Entra ID with [application context](mmd-api-access-app-context.md) or [user context](mmd-api-access-user-context.md).
 2. In **Redirect URI**, enter your ServiceNow instance URL in this format: `https://\<Instance-Name\>.service-now.com/oauth_redirect.do`.
 3. Note the following values:
     1. The client (application) ID assigned by the Azure app registration portal.
@@ -43,11 +45,13 @@ The scenario outlined in this article assumes that you already have the followin
     | openid | Delegated |
     | MWaaSDevice.Read | Delegated |
 
-### Register Azure AD as the OAuth provider
+<a name='register-azure-ad-as-the-oauth-provider'></a>
 
-**To register Azure AD as the 0Auth provider:**
+### Register Microsoft Entra ID as the OAuth provider
 
-1. Register and configure an application in Azure Active Directory with application context or user context.
+**To register Microsoft Entra ID as the 0Auth provider:**
+
+1. Register and configure an application in Microsoft Entra ID with application context or user context.
 2. Navigate to **All** \> **System OAuth** \> **Application Registry**.
 3. Select **New**.
 4. The system displays the message **What kind of OAuth application?** Select **Connect to a third party OAuth Provider**.
@@ -59,8 +63,8 @@ The scenario outlined in this article assumes that you already have the followin
     | Client Id | Enter the client (application) ID assigned by the Azure app registration portal. |
     | Client Secret | Enter the client (application) secret. |
     | Default Grant type | Select: <ul><li>Client Credentials for application context.</li><li>Authorization Code for user context.</li></ul>  |
-    | Authorization URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize`. Replace `{tenantId}` with your Azure AD directory ID. |
-    | Token URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token`. Replace `{tenantId}` with your Azure AD directory ID. |
+    | Authorization URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize`. Replace `{tenantId}` with your Microsoft Entra directory ID. |
+    | Token URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token`. Replace `{tenantId}` with your Microsoft Entra directory ID. |
     | Redirect URL | Enter `https://.service-now.com/oauth_redirect.do` |
 6. In the **OAuth Entity Scopes** related list, create these entries:
 
@@ -87,13 +91,13 @@ The scenario outlined in this article assumes that you already have the followin
     | --- | --- |
     | Name | Enter any name to uniquely identify the record. For example, enter `MMD API Credentials`. |
     | Active  | Checked |
-    | OAuth Entity Profile | Select the OAuth profile you created when you registered the custom Azure AD application as an OAuth provider. For example, select **MMD API OAuth default_profile**. |
+    | OAuth Entity Profile | Select the OAuth profile you created when you registered the custom Microsoft Entra application as an OAuth provider. For example, select **MMD API OAuth default_profile**. |
 6. Select **Submit**.
 7. Optional: If you require both the **Authorization Code** and **Client Credentials** grant types to perform certain actions, create a child alias.
 
 ### Create connection records
 
-**To create connection records for your Azure AD application:**
+**To create connection records for your Microsoft Entra application:**
 
 1. Navigate to **All** \> **Connections & Credentials** \> **Connection**.
 2. Select the **New** button in the Connections related list.
@@ -102,7 +106,7 @@ The scenario outlined in this article assumes that you already have the followin
     | Field | Value |
     | --- | --- |
     | Name | Enter any name to uniquely identify the record. For example, enter `MMD API Connection`. |
-    | Credential | Select the Credential record you created for Azure AD. For example, select **MMD API Credentials**. |
+    | Credential | Select the Credential record you created for Microsoft Entra ID. For example, select **MMD API Credentials**. |
     | Connection URL | Enter `https://mmdls.microsoft.com/support/odata/v1/` |
 4. Select **Submit**.
 
@@ -133,7 +137,7 @@ The scenario outlined in this article assumes that you already have the followin
 ![Request details screen](../media/api/request-details.png)
 8. Select **Save** to save a draft of your action.
 9. Select **Test** to test and validate your new action:
-10. Enter your Azure AD directory ID.
+10. Enter your Microsoft Entra directory ID.
 11. Enter a valid Microsoft Managed Desktop device name.
 12. Select **Run Test**.
 13. After Flow Designer is done processing test action, select **Your test has finished running. View the action execution details**, to validate the response.
