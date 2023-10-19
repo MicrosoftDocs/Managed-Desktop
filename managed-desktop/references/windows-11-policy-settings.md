@@ -657,11 +657,11 @@ This policy setting lets you control the redirection of location data to the rem
 - Supported on: At least Windows 10 Version 1909
 - Setting value: -
 
-This setting enables and configures the device-based tenant restrictions feature for Azure Active Directory. When you turn on this setting, compliant applications are prevented from accessing disallowed tenants according to a policy set in your Azure AD tenant.
+This setting enables and configures the device-based tenant restrictions feature for Microsoft Entra ID. When you turn on this setting, compliant applications are prevented from accessing disallowed tenants according to a policy set in your Microsoft Entra tenant.
 
 Creating a policy in your home tenant is required and more security measures for managed devices are recommended for best protection.
 
-For more information, see [Azure AD Tenant Restrictions](https://go.microsoft.com/fwlink/?linkid=2148762Before) before enabling firewall protection to ensure that a Windows Defender Application Control (WDAC) policy that correctly tags applications has been applied to the target devices.
+For more information, see [Microsoft Entra tenant Restrictions](https://go.microsoft.com/fwlink/?linkid=2148762Before) before enabling firewall protection to ensure that a Windows Defender Application Control (WDAC) policy that correctly tags applications has been applied to the target devices.
 
 Enabling firewall protection without a corresponding WDAC policy prevents all applications from reaching Microsoft endpoints. This firewall setting isn't supported on all versions of Windows. For more information, see [setting up WDAC with tenant restrictions](https://go.microsoft.com/fwlink/?linkid=2155230) |
 
@@ -685,7 +685,7 @@ This policy specifies whether the widgets feature is allowed on the device. Widg
 - Supported on: At least Windows 10
 - Setting value: -
 
-Use this policy setting to configure Windows Hello for Business to use Azure AD Kerberos for on-premises authentication.
+Use this policy setting to configure Windows Hello for Business to use Microsoft Entra Kerberos for on-premises authentication.
 
 - If you turn this policy setting, Windows Hello for Business uses a Kerberos ticket retrieved from authenticating to Azure for on-premises authentication.
 - If you turn off or don't configure this policy setting, Windows Hello for Business uses a key or certificate (depending on other policy settings) for on-premises authentication.

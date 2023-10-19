@@ -25,10 +25,10 @@ For each check, the tool will report one of four possible results:
 | Ready | No action is required before completing enrollment. |
 | Advisory | Follow the steps in the tool or this article for the best experience with enrollment and for users. <br><br> You *can* complete enrollment, but you must fix these issues before you deploy your first device. |
 | Not ready | **Enrollment will fail if you don't fix these issues.** <br><br> Follow the steps in the tool or this article to resolve them. |
-| Error | The Azure Active Directory (AD) role you're using doesn't have sufficient permission to run this check or your tenant isn't properly licensed for Microsoft Intune. |
+| Error | The Microsoft Entra role you're using doesn't have sufficient permission to run this check or your tenant isn't properly licensed for Microsoft Intune. |
 
 > [!NOTE]
-> The results reported by this tool reflect the status of your settings only at the time that you ran it. If you make changes later to policies in Microsoft Intune, Azure Active Directory, or Microsoft 365, items that were "Ready" can become "Not ready." To avoid problems with Microsoft Managed Desktop operations, check the specific settings described in this article before you add or change any policies.
+> The results reported by this tool reflect the status of your settings only at the time that you ran it. If you make changes later to policies in Microsoft Intune, Microsoft Entra ID, or Microsoft 365, items that were "Ready" can become "Not ready." To avoid problems with Microsoft Managed Desktop operations, check the specific settings described in this article before you add or change any policies.
 
 ## Microsoft Intune settings
 
@@ -40,8 +40,8 @@ You shouldn't have any existing Autopilot profiles that include or target-assign
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | You have an Autopilot profile that is assigned to all devices. <br><br> For more information, see [Enroll Windows devices in Intune by using Windows Autopilot](/mem/autopilot/enrollment-autopilot). After Microsoft Managed Desktop enrollment, set your Autopilot policy to exclude the **Modern Workplace Devices - All** Azure AD group.
-| Advisory | Make sure that your Autopilot profiles target an assigned or dynamic Azure AD group that doesn't include Microsoft Managed Desktop devices. <br><br> For more information, see [Enroll Windows devices in Intune by using Windows Autopilot](/mem/autopilot/enrollment-autopilot). After Microsoft Managed Desktop enrollment, set your Autopilot profiles to exclude the **Modern Workplace Devices - All** Azure AD group. |
+| Not ready | You have an Autopilot profile that is assigned to all devices. <br><br> For more information, see [Enroll Windows devices in Intune by using Windows Autopilot](/mem/autopilot/enrollment-autopilot). After Microsoft Managed Desktop enrollment, set your Autopilot policy to exclude the **Modern Workplace Devices - All** Microsoft Entra group.
+| Advisory | Make sure that your Autopilot profiles target an assigned or dynamic Microsoft Entra group that doesn't include Microsoft Managed Desktop devices. <br><br> For more information, see [Enroll Windows devices in Intune by using Windows Autopilot](/mem/autopilot/enrollment-autopilot). After Microsoft Managed Desktop enrollment, set your Autopilot profiles to exclude the **Modern Workplace Devices - All** Microsoft Entra group. |
 
 ### Certificate connectors
 
@@ -63,17 +63,17 @@ Microsoft Managed Desktop requires that IT administrators install Intune Company
 
 ### Conditional Access policies
 
-Conditional Access policies can't prevent Microsoft Managed Desktop from managing your Azure AD organization (tenant) in Intune and Azure AD.
+Conditional Access policies can't prevent Microsoft Managed Desktop from managing your Microsoft Entra organization (tenant) in Intune and Microsoft Entra ID.
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | You have at least one Conditional Access policy that targets all users. <br><br> During enrollment, we'll attempt to exclude Microsoft Managed Desktop service accounts from relevant Conditional Access policies and apply new Conditional Access policies to restrict access to these accounts. However, if we're unsuccessful, this can cause errors during your enrollment experience. For best practice, create an assignment that targets a specific Azure AD group that doesn't include Microsoft Managed Desktop service accounts. <br><br> After enrollment, you can review the Microsoft Managed Desktop Conditional Access policy in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). For more about these service accounts, see [Standard operating procedures](../overview/standard-operating-procedures.md). |
+| Not ready | You have at least one Conditional Access policy that targets all users. <br><br> During enrollment, we'll attempt to exclude Microsoft Managed Desktop service accounts from relevant Conditional Access policies and apply new Conditional Access policies to restrict access to these accounts. However, if we're unsuccessful, this can cause errors during your enrollment experience. For best practice, create an assignment that targets a specific Microsoft Entra group that doesn't include Microsoft Managed Desktop service accounts. <br><br> After enrollment, you can review the Microsoft Managed Desktop Conditional Access policy in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). For more about these service accounts, see [Standard operating procedures](../overview/standard-operating-procedures.md). |
 | Advisory | You have Conditional Access policies that could prevent Microsoft Managed Desktop from managing the Microsoft Managed Desktop service. <br><br> During enrollment, we'll exclude Microsoft Managed Desktop service accounts from relevant Conditional Access policies and apply new Conditional Access policies to restrict access to these accounts. <br><br> For more information about these service accounts, see [Standard operating procedures](../overview/standard-operating-procedures.md). |
-| Error | The Intune Administrator role doesn't have sufficient permissions for this check. You'll also need to have these Azure AD roles assigned to run this check: <ul><li>Security Reader</li><li>Security Administrator</li><li>Conditional Access Administrator</li><li>Global Reader</li><li>Devices Administrator</li></ul>
+| Error | The Intune Administrator role doesn't have sufficient permissions for this check. You'll also need to have these Microsoft Entra roles assigned to run this check: <ul><li>Security Reader</li><li>Security Administrator</li><li>Conditional Access Administrator</li><li>Global Reader</li><li>Devices Administrator</li></ul>
 
 ### Device Compliance policies
 
-Intune Device Compliance policies in your Azure AD organization might affect Microsoft Managed Desktop devices.
+Intune Device Compliance policies in your Microsoft Entra organization might affect Microsoft Managed Desktop devices.
 
 | Result  | Meaning |
 | ----- | ----- |
@@ -81,11 +81,11 @@ Intune Device Compliance policies in your Azure AD organization might affect Mic
 
 ### Device Configuration profiles
 
-Intune Device Configuration profiles in your Azure AD organization can't target any Microsoft Manage Desktop devices or users.
+Intune Device Configuration profiles in your Microsoft Entra organization can't target any Microsoft Manage Desktop devices or users.
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | You have at least one configuration profile that applies to all users, all devices, or both. Reset the profile to apply to a specific Azure AD group that doesn't include any Microsoft Managed Desktop devices. <br><br> For more information, see [Create a profile with custom settings in Microsoft Intune](/mem/intune/configuration/custom-settings-configure). |
+| Not ready | You have at least one configuration profile that applies to all users, all devices, or both. Reset the profile to apply to a specific Microsoft Entra group that doesn't include any Microsoft Managed Desktop devices. <br><br> For more information, see [Create a profile with custom settings in Microsoft Intune](/mem/intune/configuration/custom-settings-configure). |
 | Advisory | Make sure that any configuration policies you have don't include any Microsoft Managed Desktop devices or users. <br><br> For more information, see [Create a profile with custom settings in Microsoft Intune](/mem/intune/configuration/custom-settings-configure). |
 
 ### Device type restrictions
@@ -102,18 +102,18 @@ You currently have the Enrollment Status Page (ESP) enabled. If you intend to pa
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | You have the ESP default profile set to **Show app and profile configuration progress**. <br><br> Disable this setting or ensure that assignments to any Azure AD group don't include Microsoft Managed Desktop devices by following the steps in [Set up the Enrollment Status Page](/mem/intune/enrollment/windows-enrollment-status). |
-| Advisory | Make sure that any profiles that has the **Show app and profile configuration progress** setting aren't assigned to any Azure AD group that includes Microsoft Managed Desktop devices. <br><br> For more information, see [Set up the Enrollment Status Page](/mem/intune/enrollment/windows-enrollment-status). |
+| Not ready | You have the ESP default profile set to **Show app and profile configuration progress**. <br><br> Disable this setting or ensure that assignments to any Microsoft Entra group don't include Microsoft Managed Desktop devices by following the steps in [Set up the Enrollment Status Page](/mem/intune/enrollment/windows-enrollment-status). |
+| Advisory | Make sure that any profiles that has the **Show app and profile configuration progress** setting aren't assigned to any Microsoft Entra group that includes Microsoft Managed Desktop devices. <br><br> For more information, see [Set up the Enrollment Status Page](/mem/intune/enrollment/windows-enrollment-status). |
 
 ### Multi-factor authentication
 
-Multi-factor authentication shouldn't prevent Microsoft Managed Desktop from managing your Azure AD organization (tenant) in Intune and Azure AD.
+Multi-factor authentication shouldn't prevent Microsoft Managed Desktop from managing your Microsoft Entra organization (tenant) in Intune and Microsoft Entra ID.
 
 | Result  | Meaning |
 | ----- | ----- |
 | Not ready | You have some multi-factor authentication policies set as **required** for Conditional Access policies that are assigned to all users. <br><br> During enrollment, we'll exclude Microsoft Managed Desktop service accounts from relevant Conditional Access policies and apply new Conditional Access policies to restrict access to these accounts. <br><br> For more information about these service accounts, see [Standard operating procedures](../overview/standard-operating-procedures.md). |
 | Advisory | You have multi-factor authentication required on Conditional Access policies that could prevent Microsoft Managed Desktop from managing the Microsoft Managed Desktop service. <br><br> During enrollment, we'll exclude Microsoft Managed Desktop service accounts from relevant Conditional Access policies and apply new Conditional Access policies to restrict access to these accounts. For more information about these service accounts, see [Standard operating procedures](../overview/standard-operating-procedures.md). |
-| Error | The user running the readiness assessment doesn't have sufficient permissions for this check. You must have the following Azure AD roles assigned to run this check: <ul><li>Security Reader</li><li>Security Administrator</li><li>Conditional Access Administrator</li><li>Global Reader</li><li>Devices Administrator</li></ul>
+| Error | The user running the readiness assessment doesn't have sufficient permissions for this check. You must have the following Microsoft Entra roles assigned to run this check: <ul><li>Security Reader</li><li>Security Administrator</li><li>Conditional Access Administrator</li><li>Global Reader</li><li>Devices Administrator</li></ul>
 
 ### PowerShell scripts
 
@@ -121,7 +121,7 @@ Windows PowerShell scripts can't be assigned in a way that would target Microsof
 
 | Result  | Meaning |
 | ----- | ----- |
-| Advisory | Make sure that Windows PowerShell scripts in your Azure AD organization don't target any Microsoft Manage Desktop devices or users. Don't assign a PowerShell script to target all users, all devices, or both. Change the policy to use an Assignment that targets a specific Azure AD group that doesn't include any Microsoft Managed Desktop devices or users. <br><br> For more information, see [Use PowerShell scripts on Windows 10 devices in Intune](/mem/intune/apps/intune-management-extension). |
+| Advisory | Make sure that Windows PowerShell scripts in your Microsoft Entra organization don't target any Microsoft Manage Desktop devices or users. Don't assign a PowerShell script to target all users, all devices, or both. Change the policy to use an Assignment that targets a specific Microsoft Entra group that doesn't include any Microsoft Managed Desktop devices or users. <br><br> For more information, see [Use PowerShell scripts on Windows 10 devices in Intune](/mem/intune/apps/intune-management-extension). |
 
 ### Region
 
@@ -129,8 +129,8 @@ Your region must be supported by Microsoft Managed Desktop.
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | Your Azure AD organization region isn't currently supported by Microsoft Managed Desktop. <br><br> For more information, see [Microsoft Managed Desktop supported regions and languages](../overview/regions-languages.md). |
-| Advisory | One or more of the countries where your Azure AD organization is located isn't supported by Microsoft Managed Desktop. <br><br> For more information, see [Microsoft Managed Desktop supported regions and languages](../overview/regions-languages.md). |
+| Not ready | Your Microsoft Entra organization region isn't currently supported by Microsoft Managed Desktop. <br><br> For more information, see [Microsoft Managed Desktop supported regions and languages](../overview/regions-languages.md). |
+| Advisory | One or more of the countries where your Microsoft Entra organization is located isn't supported by Microsoft Managed Desktop. <br><br> For more information, see [Microsoft Managed Desktop supported regions and languages](../overview/regions-languages.md). |
 
 ### Security baselines
 
@@ -138,12 +138,12 @@ Security baseline policies shouldn't target any Microsoft Managed Desktop device
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | You have a security baseline profile that targets all users, all devices, or both. Change the policy to use an assignment that targets a specific Azure AD group that doesn't include any Microsoft Managed Desktop devices. <br><br> For more information, see [Use security baselines to configure Windows 10 devices in Intune](/mem/intune/protect/security-baselines). During enrollment, we apply a new security baseline to all Microsoft Managed Desktop devices. After enrollment, you can review the Microsoft Managed Desktop security baseline policy in the **Configuration policy** area of the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
-| Advisory | Make sure that any security baseline policies you have exclude Microsoft Managed Desktop devices. For more information, see [Use security baselines to configure Windows 10 devices in Intune](/mem/intune/protect/security-baselines). <br><br> During enrollment, we apply a new security baseline to all Microsoft Managed Desktop devices. The **Modern Workplace Devices - All** Azure AD group is a dynamic group that we create when you enroll in Microsoft Managed Desktop. You'll have to come back to exclude this group after enrollment. |
+| Not ready | You have a security baseline profile that targets all users, all devices, or both. Change the policy to use an assignment that targets a specific Microsoft Entra group that doesn't include any Microsoft Managed Desktop devices. <br><br> For more information, see [Use security baselines to configure Windows 10 devices in Intune](/mem/intune/protect/security-baselines). During enrollment, we apply a new security baseline to all Microsoft Managed Desktop devices. After enrollment, you can review the Microsoft Managed Desktop security baseline policy in the **Configuration policy** area of the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
+| Advisory | Make sure that any security baseline policies you have exclude Microsoft Managed Desktop devices. For more information, see [Use security baselines to configure Windows 10 devices in Intune](/mem/intune/protect/security-baselines). <br><br> During enrollment, we apply a new security baseline to all Microsoft Managed Desktop devices. The **Modern Workplace Devices - All** Microsoft Entra group is a dynamic group that we create when you enroll in Microsoft Managed Desktop. You'll have to come back to exclude this group after enrollment. |
 
 ### Unlicensed admins
 
-This setting must be enabled to avoid a "lack of permissions" error when we interact with your Azure AD organization.
+This setting must be enabled to avoid a "lack of permissions" error when we interact with your Microsoft Entra organization.
 
 | Result  | Meaning |
 | ----- | ----- |
@@ -171,20 +171,22 @@ Your "Update rings for Windows 10 or later" policy in Intune must not target any
 
 | Result  | Meaning |
 | ----- | ----- |
-| Not ready | You have an "update ring" policy that targets all devices, all users, or both. Change the policy to use an Assignment that targets a specific Azure AD group that doesn't include any Microsoft Managed Desktop devices. <br><br> For more information, see [Manage Windows 10 software updates in Intune](/mem/intune/protect/windows-update-for-business-configure). |
-| Advisory | Make sure that any update ring policies you have exclude the **Modern Workplace Devices - All** Azure AD group. If you have assigned Azure AD user groups to these policies, make sure that any update ring policies you have also excluded the **Modern Workplace - All** Azure AD group that you add your Microsoft Managed Desktop users to (or an equivalent group). <br><br> For more information, see [Manage Windows 10 and 11 software updates in Intune](/mem/intune/protect/windows-update-for-business-configure). Both the **Modern Workplace Devices - All** and **Modern Workplace - All** Azure AD groups are groups that we create when you enroll in Microsoft Managed Desktop. You'll have to come back to exclude this group after enrollment. |
+| Not ready | You have an "update ring" policy that targets all devices, all users, or both. Change the policy to use an Assignment that targets a specific Microsoft Entra group that doesn't include any Microsoft Managed Desktop devices. <br><br> For more information, see [Manage Windows 10 software updates in Intune](/mem/intune/protect/windows-update-for-business-configure). |
+| Advisory | Make sure that any update ring policies you have exclude the **Modern Workplace Devices - All** Microsoft Entra group. If you have assigned Microsoft Entra user groups to these policies, make sure that any update ring policies you have also excluded the **Modern Workplace - All** Microsoft Entra group that you add your Microsoft Managed Desktop users to (or an equivalent group). <br><br> For more information, see [Manage Windows 10 and 11 software updates in Intune](/mem/intune/protect/windows-update-for-business-configure). Both the **Modern Workplace Devices - All** and **Modern Workplace - All** Microsoft Entra groups are groups that we create when you enroll in Microsoft Managed Desktop. You'll have to come back to exclude this group after enrollment. |
 
-## Azure Active Directory settings
+<a name='azure-active-directory-settings'></a>
 
-You can access Azure Active Directory settings in the [Azure portal](https://portal.azure.com).
+## Microsoft Entra settings
+
+You can access Microsoft Entra settings in the [Azure portal](https://portal.azure.com).
 
 ### Intune enrollment
 
-Windows 10 and later devices in your Azure AD organization must be able to automatically enroll in Intune.
+Windows 10 and later devices in your Microsoft Entra organization must be able to automatically enroll in Intune.
 
 | Result  | Meaning |
 | ----- | ----- |
-| Advisory | Make sure the **MDM User scope** is set to **Some** or **All**, not **None**. <br><br> If you choose **Some**, come back after enrollment and select the **Modern Workplace - All** Azure AD group for **Groups** or an equivalent group targeting all of your Microsoft Managed Desktop users. <br><br> For more information, see [Set up enrollment for Windows devices using Microsoft Intune](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment). |
+| Advisory | Make sure the **MDM User scope** is set to **Some** or **All**, not **None**. <br><br> If you choose **Some**, come back after enrollment and select the **Modern Workplace - All** Microsoft Entra group for **Groups** or an equivalent group targeting all of your Microsoft Managed Desktop users. <br><br> For more information, see [Set up enrollment for Windows devices using Microsoft Intune](/mem/intune/enrollment/windows-enroll#enable-windows-10-automatic-enrollment). |
 
 ### Ad-hoc subscriptions
 
@@ -200,7 +202,7 @@ Enterprise State Roaming should be enabled.
 
 | Result  | Meaning |
 | ----- | ----- |
-| Advisory | Make sure that Enterprise State Roaming is enabled for **All** or for **Selected** groups. <br><br> For more information, see [Enable Enterprise State Roaming in Azure Active Directory](/azure/active-directory/devices/enterprise-state-roaming-enable). |
+| Advisory | Make sure that Enterprise State Roaming is enabled for **All** or for **Selected** groups. <br><br> For more information, see [Enable Enterprise State Roaming in Microsoft Entra ID](/azure/active-directory/devices/enterprise-state-roaming-enable). |
 
 ### Guest Invitation settings
 
@@ -240,11 +242,11 @@ Users with certain security roles must have those roles assigned in Microsoft De
 
 | Result  | Meaning |
 | ----- | ----- |
-| Advisory | If you have users assigned to any of these roles in your Azure AD organization, make sure they also have these roles assigned in Microsoft Defender for Endpoint. Otherwise, administrators with these roles won't be able to access the admin center. <ul><li>Security Operator</li><li>Global Reader</li></ul> <br> For more information, see [Create and manage roles for role-based access control](/windows/security/threat-protection/microsoft-defender-atp/user-roles).
+| Advisory | If you have users assigned to any of these roles in your Microsoft Entra organization, make sure they also have these roles assigned in Microsoft Defender for Endpoint. Otherwise, administrators with these roles won't be able to access the admin center. <ul><li>Security Operator</li><li>Global Reader</li></ul> <br> For more information, see [Create and manage roles for role-based access control](/windows/security/threat-protection/microsoft-defender-atp/user-roles).
 
 ### Security default
 
-Security defaults in Azure Active Directory will prevent Microsoft Managed Desktop from managing your devices.
+Security defaults in Microsoft Entra ID will prevent Microsoft Managed Desktop from managing your devices.
 
 | Result  | Meaning |
 | ----- | ----- |
@@ -252,7 +254,7 @@ Security defaults in Azure Active Directory will prevent Microsoft Managed Deskt
 
 ### Self-service Password Reset
 
-Self-service Password Reset (SSPR) can be enabled for all Microsoft Managed Desktop users excluding Microsoft Managed Desktop service accounts. <br><br> For more information, see [Tutorial: Enable users to unlock their account or reset passwords using Azure Active Directory self-service password reset](/azure/active-directory/authentication/tutorial-enable-sspr).
+Self-service Password Reset (SSPR) can be enabled for all Microsoft Managed Desktop users excluding Microsoft Managed Desktop service accounts. <br><br> For more information, see [Tutorial: Enable users to unlock their account or reset passwords using Microsoft Entra self-service password reset](/azure/active-directory/authentication/tutorial-enable-sspr).
 
 | Result  | Meaning |
 | ----- | ----- |

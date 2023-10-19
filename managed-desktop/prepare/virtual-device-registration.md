@@ -35,7 +35,7 @@ For general guidance, see [Create a Windows 365 Provisioning Policy](/windows-36
 1. Provide a policy name and select **Join Type**. For more information, see [Device join types](/windows-365/enterprise/identity-authentication#device-join-types).  
 1. Select **Next**.
 1. Choose the desired image and select **Next**.
-1. Under the **Microsoft managed services** section, select **Microsoft Managed Desktop**. Then, select **Next**. Microsoft Managed Desktop isn't supported on Hybrid Azure AD workloads. If selected, the *Microsoft Managed Desktop isn't currently supported with Hybrid Azure AD join. To change the join type, go to the General tab, then select Azure AD join* message appears.
+1. Under the **Microsoft managed services** section, select **Microsoft Managed Desktop**. Then, select **Next**. Microsoft Managed Desktop isn't supported on Hybrid Microsoft Entra workloads. If selected, the *Microsoft Managed Desktop isn't currently supported with Microsoft Entra hybrid join. To change the join type, go to the General tab, then select Microsoft Entra join* message appears.
 1. Select your **Microsoft Managed Desktop profile**. Then, select **Next**.
 1. Assign your policy accordingly and select **Next**.
 1. Select **Create**. Now your newly provisioned Windows 365 Enterprise Cloud PCs will automatically be enrolled and managed by Microsoft Managed Desktop.
@@ -70,7 +70,7 @@ The following Azure Virtual Desktop features aren’t supported:
 
 ### Onboard your workloads
 
-Microsoft Managed Desktop onboards newly provisioned session hosts through the [enrollment API](#azure-virtual-desktop-enrollment-api). The API is executed after the device has been Azure AD joined and Intune Registered. The API requires the Azure AD Device ID of the virtual machine.
+Microsoft Managed Desktop onboards newly provisioned session hosts through the [enrollment API](#azure-virtual-desktop-enrollment-api). The API is executed after the device has been Microsoft Entra joined and Intune Registered. The API requires the Microsoft Entra Device ID of the virtual machine.
 
 ### Azure Virtual Desktop enrollment API
 
@@ -89,7 +89,7 @@ Save and execute the `New-MMDAVDEnrollment.ps1` PowerShell script locally.
 
 #### PowerShell script example
 
-The PowerShell script provides the parameters for your Azure AD device ID. The following PowerShell script is an example of the Azure AD device ID parameters:
+The PowerShell script provides the parameters for your Microsoft Entra device ID. The following PowerShell script is an example of the Microsoft Entra device ID parameters:
 
 ```powershell
 $Global:aadDeviceID = "Azure AD Device ID" 
