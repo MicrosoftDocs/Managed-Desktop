@@ -63,8 +63,8 @@ The scenario outlined in this article assumes that you already have the followin
     | Client Id | Enter the client (application) ID assigned by the Azure app registration portal. |
     | Client Secret | Enter the client (application) secret. |
     | Default Grant type | Select: <ul><li>Client Credentials for application context.</li><li>Authorization Code for user context.</li></ul>  |
-    | Authorization URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize`. Replace `{tenantId}` with your Microsoft Entra directory ID. |
-    | Token URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token`. Replace `{tenantId}` with your Microsoft Entra directory ID. |
+    | Authorization URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize`. Replace `{tenantId}` with your Microsoft Entra ID. |
+    | Token URL | Enter `https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token`. Replace `{tenantId}` with your Microsoft Entra ID. |
     | Redirect URL | Enter `https://.service-now.com/oauth_redirect.do` |
 6. In the **OAuth Entity Scopes** related list, create these entries:
 
