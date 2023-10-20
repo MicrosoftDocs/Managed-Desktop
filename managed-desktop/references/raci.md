@@ -23,7 +23,9 @@ ms.collection:
 
 ## Product and service RACI matrix
 
-### Azure Active Directory (AD)
+<a name='azure-active-directory-ad'></a>
+
+### Microsoft Entra ID
 
 | Microsoft Managed Desktop reactive operations | You | Microsoft Managed Desktop IT Ops |
 | ----- | ----- | ----- |

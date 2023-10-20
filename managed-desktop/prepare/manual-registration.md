@@ -97,7 +97,7 @@ You'll need to have the data in the CSV files combined into a single file to com
 9. If registering Shared devices, the **Shared Device** column will be marked with **Yes**.
 
 > [!NOTE]
-> If you manually change the Azure Active Directory (AAD) group membership of a device, it will be automatically reassigned to the group for its device profile and removed from any conflicting groups.
+> If you manually change the Microsoft Entra group membership of a device, it will be automatically reassigned to the group for its device profile and removed from any conflicting groups.
 
 You can monitor the progress of device registration on the main page. Possible states reported include:
 
