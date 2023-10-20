@@ -23,7 +23,7 @@ As you get ready to enroll in Microsoft Managed Desktop, you should evaluate you
 | ------ | ------ |
 | Deploy the Microsoft Universal Print solution | The Microsoft Universal Print solution to make it easy for Microsoft Managed Desktop devices to discover printers. For more information, see [What is Universal Print](/universal-print/fundamentals/universal-print-whatis). |
 | Deploy printers directly by using a custom PowerShell script | Follow the steps in the [Set up local printers](#set-up-local-printers) section. |
-| Use a non-Microsoft cloud printing solution | Use a non-Microsoft cloud printing solution that is compatible with Windows 10 devices and joined to an Azure Active Directory domain. The solution must meet the software requirements for Microsoft Managed Desktop. For more information, see [Microsoft Managed Desktop app requirements](../prepare/app-requirements.md). |
+| Use a non-Microsoft cloud printing solution | Use a non-Microsoft cloud printing solution that is compatible with Windows 10 devices and joined to a Microsoft Entra domain. The solution must meet the software requirements for Microsoft Managed Desktop. For more information, see [Microsoft Managed Desktop app requirements](../prepare/app-requirements.md). |
 
 In all the above options, if the printer drivers aren't available from Microsoft Update or the Microsoft Store, you must obtain them yourself, and have them packaged for deployment to your Microsoft Managed Desktop devices with Microsoft Intune. For more, see [Intune Standalone - Win32 app management](/mem/intune/apps/apps-win32-app-management)
 

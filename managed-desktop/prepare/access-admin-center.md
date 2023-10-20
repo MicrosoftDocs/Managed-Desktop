@@ -29,13 +29,15 @@ Your gateway to the Microsoft Managed Desktop service is the [Microsoft Intune a
 
 Your administrative account will need specific permissions in order to access the Microsoft Managed Desktop administrative features in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431).
 
-You can manage admin access to these features within your organization by using role-based access control. Several Azure Active Directory (Azure AD) administrator roles, and built-in Microsoft Managed Desktop roles are available to provide more granular control to different features within the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). For more information about Azure Active Directory roles, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference).
+You can manage admin access to these features within your organization by using role-based access control. Several Microsoft Entra administrator roles, and built-in Microsoft Managed Desktop roles are available to provide more granular control to different features within the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). For more information about Microsoft Entra roles, see [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
 
-Unlike Azure AD administrator roles that apply to various Microsoft products and services, the built-in roles are specific to Microsoft Managed Desktop and will only guarantee access to the Admin features for this service. Admins can assign built-in roles to users individually, or in combination with Azure AD administrator roles to add Microsoft Managed Desktop permissions to existing admin accounts.
+Unlike Microsoft Entra administrator roles that apply to various Microsoft products and services, the built-in roles are specific to Microsoft Managed Desktop and will only guarantee access to the Admin features for this service. Admins can assign built-in roles to users individually, or in combination with Microsoft Entra administrator roles to add Microsoft Managed Desktop permissions to existing admin accounts.
 
-## Azure Active Directory roles with Microsoft Managed Desktop access
+<a name='azure-active-directory-roles-with-microsoft-managed-desktop-access'></a>
 
-| Azure AD role | Microsoft Managed Desktop permissions |
+## Microsoft Entra roles with Microsoft Managed Desktop access
+
+| Microsoft Entra role | Microsoft Managed Desktop permissions |
 | ----- | ----- |
 | Global Administrator | Admins with this role will have **read and write permissions to all features** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
 | Global Reader | Admins with this role will have **read-only permissions to all features** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
@@ -44,10 +46,10 @@ Unlike Azure AD administrator roles that apply to various Microsoft products and
 | Security Admin | Admins with this role will have **read-only permissions to all features** and **write permissions for security related features** in Microsoft Managed Desktop in the admin center. |
 | Security Reader |Admins with this role will have **read-only permissions to all features** in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). |
 
-If you need help with assigning Azure Active Directory roles, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference).
+If you need help with assigning Microsoft Entra roles, see [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference).
 
 > [!IMPORTANT]
-> Only the Global Administrator role has the necessary permissions to *enroll* your organization in Microsoft Managed Desktop. Be aware that Azure Active Directory roles will give user accounts privileges across a variety of Microsoft services. After completing enrollment with Microsoft Managed Desktop, you should always use the role with the *least* privileges necessary to accomplish your other tasks.
+> Only the Global Administrator role has the necessary permissions to *enroll* your organization in Microsoft Managed Desktop. Be aware that Microsoft Entra roles will give user accounts privileges across a variety of Microsoft services. After completing enrollment with Microsoft Managed Desktop, you should always use the role with the *least* privileges necessary to accomplish your other tasks.
 
 ## Built-in roles provided by Microsoft Managed Desktop
 

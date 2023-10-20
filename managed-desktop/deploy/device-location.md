@@ -19,7 +19,7 @@ ms.date: 12/06/2022
 
 # Windows 10 location service
 
-Devices in Microsoft Managed Desktop are registered by using Windows Autopilot. This process lets us manage them with Azure Active Directory and Microsoft Intune.
+Devices in Microsoft Managed Desktop are registered by using Windows Autopilot. This process lets us manage them with Microsoft Entra ID and Microsoft Intune.
 
 By default, the Windows 10 location service is disabled when a device is turned on for the first time, unless, this feature is enabled in the Privacy settings during the "out of box experience." These settings are hidden during Autopilot enrollment in Microsoft Managed Desktop. For more information about how Autopilot is set up, see [First-run experience with Autopilot and the Enrollment Status Page](../deploy/esp-first-run.md).
 

@@ -17,7 +17,7 @@ ms.date: 03/10/2023
 
 # Guest account prerequisites
 
-Microsoft Managed Desktop requires the following settings in your Azure Active Directory (AD) organization for guest account access. You can adjust these settings in the Azure portal under **External Identities / External collaboration**:
+Microsoft Managed Desktop requires the following settings in your Microsoft Entra organization for guest account access. You can adjust these settings in the Azure portal under **External Identities / External collaboration**:
 
 - Admins and users with the guest inviter role can set invite to **Yes**.
 - For Collaboration restrictions, choose any of the following options:
@@ -27,7 +27,7 @@ Microsoft Managed Desktop requires the following settings in your Azure Active D
 
 ## Role and group creation during enrollment
 
-When your tenant is enrolled into the service, Microsoft creates one group per role in your Azure AD organization.
+When your tenant is enrolled into the service, Microsoft creates one group per role in your Microsoft Entra organization.
 
 ### Example of the guest account access process
 
@@ -45,26 +45,26 @@ When your tenant is enrolled into the service, Microsoft creates one group per r
 
 ## External collaboration settings
 
-Microsoft Managed Desktop recommends the following configuration in your Azure AD organization for guest account access. You can adjust these settings at the [Azure portal](https://portal.azure.com) under **External Identities / External collaboration settings**:
+Microsoft Managed Desktop recommends the following configuration in your Microsoft Entra organization for guest account access. You can adjust these settings at the [Azure portal](https://portal.azure.com) under **External Identities / External collaboration settings**:
 
 | Setting | Description |
 | ------ | ------ |
 | Guest access | Guests have limited access to properties and memberships of directory objects. |
 | Guest invite settings | Member users and users assigned to specific admin roles can invite guests including guests with member permissions |
 
-Microsoft Managed Desktop requires the following configuration in your Azure AD organization for guest account access. You can adjust this setting at the [Azure portal](https://portal.azure.com) under **External Identities / External collaboration settings**:
+Microsoft Managed Desktop requires the following configuration in your Microsoft Entra organization for guest account access. You can adjust this setting at the [Azure portal](https://portal.azure.com) under **External Identities / External collaboration settings**:
 
 | Setting | Option |
 | ------ | ------ |
 | Collaboration restrictions | Select any of these options: <ul><li>If you select **Allow invitations to be sent to any domain (most inclusive)**, no other configuration required.</li><li>If you select **Deny invitations to the specified domains**, make sure that Microsoft.com isn't listed in the target domains.</li><li>If you select **Allow invitations only to the specified domains (most restrictive)**, make sure that Microsoft.com *is* listed in the target domains.</li><ul>
 
-If you set restrictions that interact with these settings, ensure to exclude the Azure Active Directory **Modern Workplace Service Accounts**. For example, if you have a conditional access policy that prevents guest accounts from accessing the Intune portal, exclude the **Modern Workplace Service Accounts** group from this policy.
+If you set restrictions that interact with these settings, ensure to exclude the Microsoft Entra ID **Modern Workplace Service Accounts**. For example, if you have a conditional access policy that prevents guest accounts from accessing the Intune portal, exclude the **Modern Workplace Service Accounts** group from this policy.
 
 For more information, see [Enable B2B external collaboration and manage who can invite guests](/azure/active-directory/external-identities/delegate-invitations#to-configure-external-collaboration-settings).
 
 ## Unlicensed Intune admin
 
-The **Allow access to unlicensed admins** setting must be enabled. Without this setting enabled, errors can occur when we try to access your Azure AD organization for service. You can safely enable this setting without worrying about security implications. The scope of access is defined by the roles assigned to users, including our operations staff.
+The **Allow access to unlicensed admins** setting must be enabled. Without this setting enabled, errors can occur when we try to access your Microsoft Entra organization for service. You can safely enable this setting without worrying about security implications. The scope of access is defined by the roles assigned to users, including our operations staff.
 
 **To enable this setting:**
 

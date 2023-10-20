@@ -33,13 +33,13 @@ Admins should verify that they meet these prerequisites:
 
 ## Deploy Project and Visio for Microsoft Managed Desktop devices
 
-Microsoft Managed Desktop will add Microsoft Project and Microsoft Visio as two Win32 Applications in Microsoft Intune. We'll also create two groups in Azure Active Directory. The groups will be assigned to the corresponding application with the "Available" intent.
+Microsoft Managed Desktop will add Microsoft Project and Microsoft Visio as two Win32 Applications in Microsoft Intune. We'll also create two groups in Microsoft Entra ID. The groups will be assigned to the corresponding application with the "Available" intent.
 
 **To deploy Project and Visio:**
 
 Add the user to the appropriate group and the application will become available in the Company Portal. It may take a few minutes to sync, but then your users can install the apps from the Company Portal.
 
-| Azure AD Group name | Which users to assign? |
+| Microsoft Entra group name | Which users to assign? |
 | ----- | ----- |
 | Modern Workplace-Office-Project_Install | Users needing Project |
 | Modern Workplace-Office-Visio_Install | Users needing Visio |

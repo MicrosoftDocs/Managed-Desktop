@@ -16,7 +16,7 @@ ms.date: 12/06/2022
 
 # Work with reports
 
-The [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) brings together reporting from several products into a single location to help you monitor, and investigate issues with your Azure AD organization ("tenant") configuration and devices.
+The [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431) brings together reporting from several products into a single location to help you monitor, and investigate issues with your Microsoft Entra organization ("tenant") configuration and devices.
 
 Microsoft Managed Desktop has a section in the **Reports** menu where you can find reports specific to Microsoft Managed Desktop's management of the registered devices. In several locations throughout the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), you can filter reports from other product groups. You can include or exclude devices that are managed by Microsoft Managed Desktop.
 
@@ -147,7 +147,7 @@ Select **Export devices** to export data for each report type.
 
 Microsoft Managed Desktop is now integrated with [Endpoint analytics](/mem/analytics/overview). These reports give you insights for measuring how your organization is working and the quality of the experience delivered to your users. You can find Endpoint analytics in the **Reports** menu of the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431). To pivot a score to only include devices being managed by Microsoft Managed Desktop, go to any report, select the **Filter** dropdown, and then select **Microsoft Managed Desktop devices**.
 
-If Endpoint analytics weren't automatically configured for your Azure AD organization ("tenant") during enrollment, you can do that yourself. For more information, see [Onboard in the Endpoint analytics portal](/mem/analytics/enroll-intune#bkmk_onboard). You can enroll all of your devices, or, if you want to include only Microsoft Managed Desktop devices, select the **modern workplace device** groups for Test, First, Fast, and Broad. These reports might require different permissions. For more information, see [Permissions](/mem/analytics/overview#permissions) to ensure you have roles appropriately assigned.
+If Endpoint analytics weren't automatically configured for your Microsoft Entra organization ("tenant") during enrollment, you can do that yourself. For more information, see [Onboard in the Endpoint analytics portal](/mem/analytics/enroll-intune#bkmk_onboard). You can enroll all of your devices, or, if you want to include only Microsoft Managed Desktop devices, select the **modern workplace device** groups for Test, First, Fast, and Broad. These reports might require different permissions. For more information, see [Permissions](/mem/analytics/overview#permissions) to ensure you have roles appropriately assigned.
 
 > [!NOTE]
 > To better respect user privacy, there must be more than 10 Microsoft Managed Desktop devices enrolled with Endpoint analytics to use this filter.

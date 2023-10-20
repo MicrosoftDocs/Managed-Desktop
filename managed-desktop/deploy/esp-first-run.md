@@ -33,7 +33,7 @@ Microsoft Managed Desktop uses these settings in the Autopilot profile used for 
 | Setting | Value |
 | ----- | ----- |
 | Deployment mode | User Driven |
-| Join to Azure AD as | Azure AD joined |
+| Join to Microsoft Entra ID as | Microsoft Entra joined |
 | Language (Region) | User Select |
 | Automatically configure keyboard | No |
 | Microsoft Software License Terms | Hide |
@@ -51,7 +51,7 @@ These settings apply to devices with the [Kiosk device profile](../operate/kiosk
 | Setting | Value |
 | ----- | ----- |
 | Deployment mode | Self-Deploying |
-| Join to Azure AD as | Azure AD joined |
+| Join to Microsoft Entra ID as | Microsoft Entra joined |
 | Language (Region) | Operating system default |
 | Automatically configure keyboard | No |
 | Microsoft Software License Terms | Hide |
@@ -141,7 +141,7 @@ If the setup used by Microsoft Managed Desktop doesn't exactly match your needs,
 
 ### Autopilot settings change
 
-You might want to request a different device name template. You can't, however, change Deployment Mode, Join to Azure AD As, Privacy Settings, or User Account Type.
+You might want to request a different device name template. You can't, however, change Deployment Mode, Join to Microsoft Entra ID As, Privacy Settings, or User Account Type.
 
 ### Enrollment Status Page settings change
 

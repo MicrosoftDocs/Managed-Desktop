@@ -1,6 +1,6 @@
 ---
 title: Run the online readiness assessment tool
-description:  Checks settings in Microsoft Intune, Azure Active Directory (Azure AD), and Microsoft 365
+description:  Checks settings in Microsoft Intune, Microsoft Entra ID, and Microsoft 365
 keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation
 ms.service: m365-md
 author: tiaraquan
@@ -19,9 +19,9 @@ ms.date: 12/06/2022
 
 ## Step 1: Run the online readiness assessment tool for management settings
 
-The [online tool](https://aka.ms/mmdart) checks settings in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), Azure Active Directory (Azure AD), and Microsoft 365 to ensure they'll work with Microsoft Managed Desktop.
+The [online tool](https://aka.ms/mmdart) checks settings in the [Microsoft Intune admin center](https://go.microsoft.com/fwlink/?linkid=2109431), Microsoft Entra ID, and Microsoft 365 to ensure they'll work with Microsoft Managed Desktop.
 
-Microsoft Managed Desktop retains the data associated with these checks for 12 months after the last time you run a check in your Azure AD organization (tenant). After 12 months, we retain it in de-identified form. You can choose to delete the data we collect.
+Microsoft Managed Desktop retains the data associated with these checks for 12 months after the last time you run a check in your Microsoft Entra organization (tenant). After 12 months, we retain it in de-identified form. You can choose to delete the data we collect.
 
 Anyone with at least the Global Reader or Intune Administrator role will be able to run this tool, but two of the checks ([Conditional access policies](../prepare/readiness-assessment-fix.md#conditional-access-policies) and [Multi-factor authentication](../prepare/readiness-assessment-fix.md#multi-factor-authentication)) require extra permissions.
 
@@ -37,7 +37,7 @@ For each of the following checks, the online readiness tool will report one of f
 | Ready | No action is required before you complete enrollment. |
 | Advisory | Follow the steps in the tool for the best experience with enrollment and for users. <br><br> You *can* complete enrollment, but you must fix these issues before you deploy your first device. |
 | Not ready | **Enrollment will fail** if you don't fix these issues. <br><br> Follow the steps in the tool to resolve them. |
-| Error | The Azure Active Directory (AD) role you're using doesn't have sufficient permission to run this check. |
+| Error | The Microsoft Entra role you're using doesn't have sufficient permission to run this check. |
 
 ### Microsoft Intune settings
 
@@ -52,7 +52,7 @@ The following are the Microsoft Intune settings:
 | Device Configuration profiles | Confirms that configuration profiles aren't assigned to all users or all devices. <br><br> Configuration profiles should **not** be assigned to any Microsoft Managed Desktop devices. |
 | Device type restrictions | Checks that Windows 10 devices in your organization are allowed to enroll in Intune. |
 | Enrollment Status Page | Confirms that Enrollment Status Page isn't enabled. |
-| Intune enrollment | Verifies that Windows 10 devices in your Azure AD organization are automatically enrolled in Intune. |
+| Intune enrollment | Verifies that Windows 10 devices in your Microsoft Entra organization are automatically enrolled in Intune. |
 | Multi-factor authentication | Verifies that multi-factor authentication isn't applied to Microsoft Managed Desktop service accounts. |
 | PowerShell scripts | Checks that Windows PowerShell scripts are **not** assigned in a way that would target Microsoft Managed Desktop devices. |
 | Region | Checks that your region is supported by Microsoft Managed Desktop. |
@@ -61,9 +61,11 @@ The following are the Microsoft Intune settings:
 | Windows Hello for Business | Checks that Windows Hello for Business is enabled. |
 | Windows 10 update ring | Checks that Intune's "Windows 10 update ring" policy doesn't target all users or all devices. <br><br> The policy should **not** target any Microsoft Managed Desktop devices. |
 
-### Azure Active Directory settings
+<a name='azure-active-directory-settings'></a>
 
-The following are the Azure Active Directory settings:
+### Microsoft Entra settings
+
+The following are the Microsoft Entra settings:
 
 | Check | Description |
 | ----- | ----- |
@@ -73,7 +75,7 @@ The following are the Azure Active Directory settings:
 | Multi-factor authentication | Checks that multi-factor authentication isn't applied to all users. <br><br> Multi-factor authentication must **not** accidentally be applied to Microsoft Managed Desktop service accounts. |
 | Security account names | Checks that no user names conflict with ones that Microsoft Managed Desktop reserves for its own use. |
 | Security administrator roles | Confirms that users with Security Reader, Security Operator, or Global Reader roles have been assigned those roles in Microsoft Defender for Endpoint. |
-| Security defaults | Checks whether your Azure AD organization has security defaults enabled in Azure Active Directory. |
+| Security defaults | Checks whether your Microsoft Entra organization has security defaults enabled in Microsoft Entra ID. |
 | Self-service password reset | Confirms that self-service password reset is enabled. |
 | Standard user role | Verifies that users are standard users and don't have local administrator rights. |
 
@@ -87,4 +89,4 @@ The following are the Microsoft 365 Apps for Enterprise settings:
 
 ## After enrollment
 
-After you've completed enrollment in Microsoft Managed Desktop, remember to go back and adjust certain Intune and Azure AD settings. For more information, see [Adjust settings after enrollment](../prepare/adjust-management-settings.md).
+After you've completed enrollment in Microsoft Managed Desktop, remember to go back and adjust certain Intune and Microsoft Entra settings. For more information, see [Adjust settings after enrollment](../prepare/adjust-management-settings.md).
