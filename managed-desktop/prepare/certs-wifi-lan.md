@@ -25,7 +25,7 @@ Certificate-based authentication is a common requirement for customers using Mic
 - Connect to VPN solutions
 - Access internal resources in your organization
 
-Because Microsoft Managed Desktop devices are joined to Azure Active Directory (Azure AD) and are managed by Microsoft Intune, you must deploy such certificates by using the:
+Because Microsoft Managed Desktop devices are joined to Microsoft Entra ID and are managed by Microsoft Intune, you must deploy such certificates by using the:
 
 - Simple Certificate Enrollment Protocol (SCEP), or
 - Public Key Cryptography Standard (PKCS) certificate infrastructure that is integrated with Intune.
@@ -43,7 +43,7 @@ Before you deploy SCEP or PKCS certificates to Microsoft Managed Desktop, you sh
 
 To allow a device to be automatically provided with the required Wi-Fi configuration for your enterprise network, you might need a Wi-Fi configuration profile.
 
-You can configure Microsoft Managed Desktop to deploy these profiles to your devices. If your network security requires devices to be part of the local domain, you might need to evaluate your Wi-Fi network infrastructure to ensure it's compatible with Microsoft Managed Desktop devices. Microsoft Managed Desktop devices are Azure AD-joined only.
+You can configure Microsoft Managed Desktop to deploy these profiles to your devices. If your network security requires devices to be part of the local domain, you might need to evaluate your Wi-Fi network infrastructure to ensure it's compatible with Microsoft Managed Desktop devices. Microsoft Managed Desktop devices are Microsoft Entra joined only.
 
 Before you deploy a Wi-Fi configuration to Microsoft Managed Desktop devices, you'll be required to gather your organization's requirements for each Wi-Fi network. To make this activity easier, you can use this [WiFi profile template](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/WiFi-profile-template.xlsx).
 

@@ -16,7 +16,7 @@ ms.date: 08/19/2022
 
 # Autopilot into co-management
 
-Microsoft Managed Desktop allows you to configure devices using [Autopilot into co-management](/mem/configmgr/comanage/autopilot-enrollment), where the device is co-managed. The device can be registered as detailed in the [device registration overview article](device-registration-overview.md) and delivered to users. When the device goes through the  [first run experience](../deploy/esp-first-run.md), the device joins Azure Active Directory.
+Microsoft Managed Desktop allows you to configure devices using [Autopilot into co-management](/mem/configmgr/comanage/autopilot-enrollment), where the device is co-managed. The device can be registered as detailed in the [device registration overview article](device-registration-overview.md) and delivered to users. When the device goes through the  [first run experience](../deploy/esp-first-run.md), the device joins Microsoft Entra ID.
 
 The feature is optimal for organizations that already have [co-management for Windows devices](/mem/configmgr/comanage/overview) turned on and want to combine the benefits of Microsoft Intune for all workload management, except for client applications. Client applications can continue to be managed using Configuration Manager.
 
@@ -38,12 +38,12 @@ The following are common scenarios where you may want to use Autopilot into co-m
 
 Autopilot into co-management currently supports:
 
-- Azure Active Directory joined only
+- Microsoft Entra joined only
 - User-driven Autopilot scenarios only
 
 Currently, the following aren't supported:
 
-- Hybrid Azure AD-joined devices
+- Microsoft Entra hybrid joined devices
 - Autopilot self-deployment mode
 - Autopilot pre-provisioning
 - Co-management workloads set to **Pilot Intune**. This functionality is dependent upon collection evaluation, which doesn't happen until **after** the client is installed and registered. Since the client won't get the correct policy until later in the Autopilot process, it can cause indeterminate behaviors.

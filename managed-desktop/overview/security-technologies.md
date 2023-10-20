@@ -22,7 +22,7 @@ Microsoft Managed Desktop uses several Microsoft technologies to help secure man
 | Process | Description |
 | ------ | ------ |
 | [Device security](#device-security)| Security and protection on Microsoft Managed Desktop devices. |
-| [Identity and Access Management](#identity-and-access-management) | Managing secure use of devices through Azure Active Directory identity services. |
+| [Identity and Access Management](#identity-and-access-management) | Managing secure use of devices through Microsoft Entra identity services. |
 | [Network security](#network-security)| VPN information and Microsoft Managed Desktop recommended solution and settings. |
 | [Information security](#information-security)| Optional available services to further protect sensitive information. |
 
@@ -42,11 +42,11 @@ Microsoft Managed Desktop ensures managed devices are secured and protected, and
 
 ## Identity and access management
 
-Identity and access management protects corporate assets and business-critical data. Microsoft Managed Desktop configures devices to ensure secure use with Azure Active Directory (AD) managed identities. It's the customer's responsibility to maintain accurate information in their Azure AD tenant.
+Identity and access management protects corporate assets and business-critical data. Microsoft Managed Desktop configures devices to ensure secure use with Microsoft Entra managed identities. It's the customer's responsibility to maintain accurate information in their Microsoft Entra tenant.
 
 | Service | Description |
 | ----- | ----- |
-| Biometric Authentication | Microsoft Managed Desktop offers the configuration option to ensure secure authentication powered by [Windows Hello for Business](/windows-hardware/design/device-experiences/windows-hello). Windows Hello for Business offers biometric security which is stronger than username and password-based authentication. Customers are responsible for implementing the necessary prerequisites for their on-premises Azure Active Directory to use this service in a hybrid configuration. |
+| Biometric Authentication | Microsoft Managed Desktop offers the configuration option to ensure secure authentication powered by [Windows Hello for Business](/windows-hardware/design/device-experiences/windows-hello). Windows Hello for Business offers biometric security which is stronger than username and password-based authentication. Customers are responsible for implementing the necessary prerequisites for their on-premises Microsoft Entra ID to use this service in a hybrid configuration. |
 | Device profiles | To protect the system and make it more secure, the end user will be assigned one of the following [device profiles](../operate/device-profiles.md):<ul><li>Standard User</li><li>Power User</li><li>Sensitive Data User</li><li>[Kiosk](../operate/kiosk-device-profile.md)</li></ul><p>Device profiles are assigned as part of the Windows Autopilot out-of-box experience. |
 
 ## Network security
@@ -55,7 +55,7 @@ Customers are responsible for network security.
 
 | Service | Description |
 | ----- | ----- |
-| VPN | Customers own their VPN infrastructure to ensure limited corporate resources can be exposed outside the intranet.<p>Microsoft Managed Desktop requires:<ul><li>Windows 10 compatible and supported VPN solution</li><li>The device must support Windows 10 and be packaged and deployable through Intune</li></ul></p><p>Contact your software publisher for more information.</p><p>Recommendations:<br><ul><li> Microsoft recommends a modern VPN solution that could be easily deployed through Intune to push VPN profiles. This approach provides an always-on, seamless, reliable, and secure way to access corporate network. For more information, see [VPN settings in Intune](/intune/vpn-settings-configure).</li><li>Thick VPN clients, or older VPN clients, aren't recommended by Microsoft while using Microsoft Managed Desktop as it can affect the user environment.</li><li>Microsoft recommends that the outgoing web traffic goes directly to the Internet without going through the VPN to avoid any performance issues.</li><li>Ideally, Microsoft recommends the use of Azure Active Directory App Proxy instead of a VPN.</li></ul></p>|
+| VPN | Customers own their VPN infrastructure to ensure limited corporate resources can be exposed outside the intranet.<p>Microsoft Managed Desktop requires:<ul><li>Windows 10 compatible and supported VPN solution</li><li>The device must support Windows 10 and be packaged and deployable through Intune</li></ul></p><p>Contact your software publisher for more information.</p><p>Recommendations:<br><ul><li> Microsoft recommends a modern VPN solution that could be easily deployed through Intune to push VPN profiles. This approach provides an always-on, seamless, reliable, and secure way to access corporate network. For more information, see [VPN settings in Intune](/intune/vpn-settings-configure).</li><li>Thick VPN clients, or older VPN clients, aren't recommended by Microsoft while using Microsoft Managed Desktop as it can affect the user environment.</li><li>Microsoft recommends that the outgoing web traffic goes directly to the Internet without going through the VPN to avoid any performance issues.</li><li>Ideally, Microsoft recommends the use of Microsoft Entra application proxy instead of a VPN.</li></ul></p>|
 
 ## Information security
 

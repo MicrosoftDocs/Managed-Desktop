@@ -34,10 +34,10 @@ These accounts remain active while using the service. Microsoft Managed Desktop 
 
 ## Guest account access
 
-Microsoft Managed Desktop uses guest account access during two types of events in your Azure Active Directory (AD) organization:
+Microsoft Managed Desktop uses guest account access during two types of events in your Microsoft Entra organization:
 
 - During enrollment, the required groups are created by the service software.
-- When access to your Azure AD organization is required, a service engineer’s operational account is elevated from being a user in the Microsoft.com tenant to one of the role groups in your tenant.
+- When access to your Microsoft Entra organization is required, a service engineer’s operational account is elevated from being a user in the Microsoft.com tenant to one of the role groups in your tenant.
 
 Guest account access is temporary and requires Two-Key completion, whereby anyone on the [Microsoft Managed Desktop Service Engineering or SOC teams](../overview/support-teams.md) are allowed to approve the request.
 
