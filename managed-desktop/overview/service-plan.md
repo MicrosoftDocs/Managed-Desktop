@@ -43,7 +43,7 @@ Microsoft Managed Desktop provides the following services, features, and capabil
 - Security baseline to keep users and devices secure according to Microsoft’s best practices.
 - Modern device provisioning through Windows Autopilot to provide:
     - A seamless and curated user experience with minimal downtime  
-    - Integrated device configuration and management via Microsoft Endpoint Manager, Azure Active Directory, Autopilot, and Intune
+    - Integrated device configuration and management via Microsoft Endpoint Manager, Microsoft Entra ID, Autopilot, and Intune
     - Device naming
     - Device configuration
 - Service management and operational support by a dedicated team of [service engineers and delivery managers](../overview/support-teams.md#service-engineering-team)

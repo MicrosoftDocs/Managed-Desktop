@@ -115,7 +115,7 @@ There are many other policies which Microsoft Managed Desktop doesn't yet set as
     - Enter a name.
     - Provide an optional description.
     - Under **assignments**, choose whether this policy applies to all users of Microsoft 365 Apps for enterprise, or just to users who anonymously access documents using Office for the web.
-    - Select the **AAD-based security group** that is assigned to the policy configuration. Each policy configuration can only be assigned to one group. Each group can only be assigned one policy configuration.
+    - Select the **Microsoft Entra security group** that is assigned to the policy configuration. Each policy configuration can only be assigned to one group. Each group can only be assigned one policy configuration.
     - Configure the policy settings to be included in the policy configuration. You can search on the policy setting name to find the policy setting that you want to configure. You can also filter if the policy is a recommended security baseline, and if the policy has been configured. The platform column indicates whether the policy is applied to Microsoft 365 Apps for enterprise for Windows devices, Office for the web, or all.
 1. After you have made your selections, select **Create**.
 

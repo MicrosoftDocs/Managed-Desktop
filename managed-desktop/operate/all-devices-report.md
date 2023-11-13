@@ -38,7 +38,7 @@ The following information is available in the All devices report:
 | Column name | Description |
 | ----- | ----- |
 | Device name | The name of the device. |
-| Azure Active Directory (AD) device ID | The current Azure AD recorded device ID for the device. |
+| Microsoft Entra device ID | The current Microsoft Entra ID recorded device ID for the device. |
 | Serial number | The current Intune recorded serial number for the device. |
 | Deployment ring | The currently assigned Microsoft Managed Desktop deployment ring for the device. |
 | Update status | The current update status for the device (see [Windows quality update status](../operate/reports.md#windows-quality-update-statuses). |
@@ -53,7 +53,7 @@ The following options are available:
 
 | Option | Description |
 | ----- | ----- |
-| Search | Use to search by device name, Azure AD device ID or serial number |
+| Search | Use to search by device name, Microsoft Entra device ID or serial number |
 | Sort | Select the **column headings** to sort the report data in ascending and descending order. |
 | Export | Select **Export devices** at the top of the page to export data from this report into a CSV file. |
 | Filter | Select either the **Update status** or **Deployment rings** filters at the top of the report to filter the results. Then, select **Generate report**. |

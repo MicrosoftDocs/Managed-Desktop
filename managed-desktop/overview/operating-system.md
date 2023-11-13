@@ -65,6 +65,6 @@ The following features are included and managed as part of Microsoft Managed Des
 
 | Product | Information |
 | ----- | ----- |
-| Enterprise Mobility + Security E3<br><br>Azure Active Directory Premium P2 | You can use all features of Enterprise Mobility + Security E3 to manage MDM devices.<br><br>You can use Azure Active Directory Premium P2 as an optional feature with Microsoft Managed Desktop. |
+| Enterprise Mobility + Security E3<br><br>Microsoft Entra ID P2 | You can use all features of Enterprise Mobility + Security E3 to manage MDM devices.<br><br>You can use Microsoft Entra ID P2 as an optional feature with Microsoft Managed Desktop. |
 | Microsoft Defender for Cloud Apps | You can use this optional feature with Microsoft Managed Desktop.
 | Azure Information Protection P2  | You can use this optional feature with Microsoft Managed Desktop.

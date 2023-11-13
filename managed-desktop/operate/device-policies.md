@@ -27,7 +27,7 @@ The configuration includes a set of default policies that are set as part of the
 >[!NOTE]
 >To avoid conflicts, do not alter these policies.
 
-Devices will arrive with a signature image, and then join the Azure Active Directory domain when the first user signs in. The device will automatically install required policies and applications without any intervention from your IT personnel.
+Devices will arrive with a signature image, and then join the Microsoft Entra domain when the first user signs in. The device will automatically install required policies and applications without any intervention from your IT personnel.
 
 ## Default policies
 

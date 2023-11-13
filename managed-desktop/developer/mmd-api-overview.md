@@ -33,7 +33,7 @@ Using the API, you can:
 
 In general, you’ll need to take the following steps to use the APIs:
 
-1. Create and register [an AAD application](/graph/auth-register-app-v2).
+1. Create and register [a Microsoft Entra application](/graph/auth-register-app-v2).
 1. Configure permissions for Microsoft Managed Desktop on your app.
 1. Get administrator consent or user credential.
 1. Get an access token.

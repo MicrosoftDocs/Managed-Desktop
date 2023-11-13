@@ -38,7 +38,7 @@ Devices registered and managed by Microsoft Managed Desktop.
 | serialNumber | String | Serial number of the device. |
 | globalDeviceId | String | Unique identifier of the device. |
 | enrolledIntoIntuneDateTimeUtc | DateTimeOffset | Enrollment time of the device. |
-| tenantId  | Guid | The tenant’s Azure Active Directory Id. |
+| tenantId  | Guid | The tenant’s Microsoft Entra ID. |
 | assignedUser | String | User assigned to the device. |
 | userUpn | String | Username of the assigned user. |
 | userEmail | String | Email address of the assigned user. |
@@ -49,7 +49,7 @@ Devices registered and managed by Microsoft Managed Desktop.
 | ageInMonths | Single | Age of device since enrollment. |
 | planType | String |  |
 | persona  | String | Device profile. Possible values are: `Standard`, `SensitiveData`, `PowerUser`, `Kiosk`, `Starter`. |
-| aadDeviceId | Guid | The device’s Azure Active Directory Id. |
+| aadDeviceId | Guid | The device’s Microsoft Entra ID. |
 | managementAgent | String  | Management channel of the device. |
 | operatingSystemEdition | String | Operating system edition. |
 | profileAssignmentStatus | String | Status of profile assignment. |

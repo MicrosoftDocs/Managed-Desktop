@@ -29,7 +29,7 @@ Whether you or a partner are handling device registration, you can choose to use
 
 ### Trusted Platform Module
 
-Self-deploying mode uses a device's TPM 2.0 hardware to authenticate the device into an organization's Azure Active Directory tenant. Therefore, devices without TPM 2.0 can't use this mode. Devices must also support TPM device attestation. All new Windows devices should meet these requirements. The TPM attestation process also requires access to a set of HTTPS URLs that are unique for each TPM provider. For more information, see the entry for Autopilot self-deploying mode and Autopilot pre-provisioning in [Networking requirements](/mem/autopilot/self-deploying#requirements). For more information about Windows Autopilot software requirements, see [Windows Autopilot software requirements](/mem/autopilot/software-requirements).
+Self-deploying mode uses a device's TPM 2.0 hardware to authenticate the device into an organization's Microsoft Entra tenant. Therefore, devices without TPM 2.0 can't use this mode. Devices must also support TPM device attestation. All new Windows devices should meet these requirements. The TPM attestation process also requires access to a set of HTTPS URLs that are unique for each TPM provider. For more information, see the entry for Autopilot self-deploying mode and Autopilot pre-provisioning in [Networking requirements](/mem/autopilot/self-deploying#requirements). For more information about Windows Autopilot software requirements, see [Windows Autopilot software requirements](/mem/autopilot/software-requirements).
 
 > [!TIP]
 > If you attempt to deploy self-deploying mode on a device that doesn't have TPM 2.0 support or it's on a virtual machine, the process will fail when verifying the device with the following error: 0x800705B4 timeout error (Hyper-V virtual TPMs are not supported). Also note that Windows 10 version 1903 or later is required to use self-deploying mode due to issues with TPM device attestation in Windows 10 version 1809. Since Windows 10 Enterprise 2019 LTSC is based on Windows 10 version 1809, self-deploying mode is also not supported on Windows 10 Enterprise 2019 LTSC.
@@ -65,7 +65,7 @@ If you have a partner that enrolls devices, follow the steps in [Partner registr
 > You may have devices that were previously registered in Windows Autopilot that you want to register with Microsoft Managed Desktop that either don't have a group tag, or have a non-Microsoft Managed Desktop group tag. You can register these devices with Microsoft Managed Desktop by either adding one of the group tags shown in the previous table, or by replacing the existing group tag with a Microsoft Managed Desktop group tag. It's not recommended to replace an existing Microsoft Managed Desktop group tag with a different Microsoft Managed Desktop group tag.
 
 > [!WARNING]
-> When registering Shared devices, don't try to edit the group tab attribute by appending **-Shared** to devices previously imported to Windows Autopilot. Devices already imported into Windows Autopilot, using one of the Microsoft Managed Desktop group tags starting with **Microsoft365Managed_**, but without **-Shared** initially appended, are already part of a different Azure Active Directory group. This Azure Active Directory group doesn't have the Windows Autopilot self-deploying mode profile assigned to it. If you must re-purpose an existing device to be a shared device, you must delete and reregister the device into Windows Autopilot again.
+> When registering Shared devices, don't try to edit the group tab attribute by appending **-Shared** to devices previously imported to Windows Autopilot. Devices already imported into Windows Autopilot, using one of the Microsoft Managed Desktop group tags starting with **Microsoft365Managed_**, but without **-Shared** initially appended, are already part of a different Microsoft Entra group. This Microsoft Entra group doesn't have the Windows Autopilot self-deploying mode profile assigned to it. If you must re-purpose an existing device to be a shared device, you must delete and reregister the device into Windows Autopilot again.
 
 ## Register devices with Windows Autopilot service using PowerShell script
 
@@ -85,8 +85,8 @@ The following parameters can be used:
 | -GroupTag | An optional tag value that should be included in the .CSV file that is intended to be uploaded via Intune (not supported by the Partner Center). |
 | -AssignedUser | An optional value specifying the UPN of the user to be assigned to the device. This can only be specified for Intune (not supported by the Partner Center). |
 | -Online | Add computers to Windows Autopilot via the Intune Graph API. |
-| -AssignedComputerName | An optional value that specifies the computer name to be assigned to the device. This can only be specified with the **-Online** switch and only works with Azure AD join scenarios. |
-| -AddToGroup | Specifies the name of the Azure AD group that the new device should be added to. |
+| -AssignedComputerName | An optional value that specifies the computer name to be assigned to the device. This can only be specified with the **-Online** switch and only works with Microsoft Entra join scenarios. |
+| -AddToGroup | Specifies the name of the Microsoft Entra group that the new device should be added to. |
 | -Assign | Wait for the Autopilot profile assignment. This can take a while for dynamic groups. |
 | -Reboot | Restart the device after the Autopilot profile has been assigned. If specified, it's necessary to download the profile and apply the computer name. |
 
