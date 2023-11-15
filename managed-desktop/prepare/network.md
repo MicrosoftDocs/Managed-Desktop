@@ -62,7 +62,7 @@ There are URLs from several Microsoft products that must be in the allowed list 
 | Microsoft 365 | [Microsoft 365 URL and IP address ranges](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
 |Microsoft Entra ID | [Hybrid identity required ports and protocols](/azure/active-directory/hybrid/reference-connect-ports) <br><br> [Active Directory and Active Directory Domain Services Port Requirements](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd772723(v=ws.10)) |
 | Microsoft Intune | [Intune network configuration requirements](/intune/network-bandwidth-use)<br><br>[Network endpoints for Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
-| Microsoft 365 Defender for Endpoint | [Microsoft 365 Defender for Endpoint requirements](/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
+| Microsoft Defender XDR for Endpoint | [Microsoft Defender XDR for Endpoint requirements](/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
 Windows Autopilot | [Windows Autopilot Networking Requirements](/windows/deployment/windows-autopilot/windows-autopilot-requirements#networking-requirements) |
 
 | Microsoft service  | URLs required on allowlist | Documentation source
