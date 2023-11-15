@@ -34,7 +34,7 @@ When your tenant is enrolled into the service, Microsoft creates one group per r
 1. Alert notification is received by the Microsoft Managed Desktop Secure Operations Centers (SOC) team.
 2. A SOC engineer submits a one-time access request for the security admin role.
 3. Depending on the task requirement, the team might need to request one-time access with approval or auto-approval.  
-    1. Once the role-specific request has been completed, the SOC service engineer signs into the tenant’s [Microsoft 365 Defender portal](https://security.microsoft.com) and investigates the alert. Primary investigative actions during a typical alert investigation could include items such as:  
+    1. Once the role-specific request has been completed, the SOC service engineer signs into the tenant’s [Microsoft Defender portal](https://security.microsoft.com) and investigates the alert. Primary investigative actions during a typical alert investigation could include items such as:  
         1. Review of the alert specific details populated by Defender.
         2. Classify, set the state, or comment on the incident or alert.  
         3. Review of device timeline and incident page details.

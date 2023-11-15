@@ -35,7 +35,7 @@ Customers can contact the [Microsoft Managed Desktop Operations Team](../overvie
 | Support for | Includes |
 | ------ | ------ |
 | Microsoft Managed Desktop | <ul><li>A team of engineers dedicated to Microsoft Managed Desktop devices</li><li>Support options for users with Microsoft Managed Desktop devices</li><li>Grants limited administrative access to Microsoft Managed Desktop devices for engineers managing Microsoft Managed Desktop devices</li></ul> |
-| Products | <ul><li>Windows 10 and Windows 11 with Microsoft 365 Defender for Endpoint</li><li>The following Microsoft 365 Apps for Enterprise apps: Outlook, Word, PowerPoint, Excel, OneNote, Access, Publisher, and Microsoft Teams.</li><li>Non-Microsoft 365 Apps for enterprise: Project and Visio</li><li>OneDrive client</li></ul> |
+| Products | <ul><li>Windows 10 and Windows 11 with Microsoft Defender XDR for Endpoint</li><li>The following Microsoft 365 Apps for Enterprise apps: Outlook, Word, PowerPoint, Excel, OneNote, Access, Publisher, and Microsoft Teams.</li><li>Non-Microsoft 365 Apps for enterprise: Project and Visio</li><li>OneDrive client</li></ul> |
 | Geography | Currently, the United States, Canada (excluding Quebec), United Kingdom, Belgium, Luxembourg, the Netherlands, Australia, and New Zealand (24x7x365) are supported. |
 | Language | English is the only supported language for phone and chat conversations with customers. |
 | HelpDesk | We're partnering with, not replacing, your corporate HelpDesk. Line-of-Business (LOB) apps, network resources, etc. are still handled by your HelpDesk. |
