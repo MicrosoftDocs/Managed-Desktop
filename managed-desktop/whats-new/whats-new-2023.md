@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 10/19/2023
+ms.date: 11/16/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -27,6 +27,14 @@ ms.collection:
 This article lists new and updated feature releases, and service releases, with their corresponding Message center post numbers (if applicable).
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
+
+## November 2023
+
+### November service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC688927](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop Conditional Access Policy update – November 2023  |
 
 ## October 2023
 
