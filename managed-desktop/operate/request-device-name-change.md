@@ -18,7 +18,7 @@ ms.date: 11/18/2022
 
 # Device names
 
-Microsoft Managed Desktop uses Windows Autopilot, Azure Active Directory, and Microsoft Intune.
+Microsoft Managed Desktop uses Windows Autopilot, Microsoft Entra ID, and Microsoft Intune.
 
 For these services to work together seamlessly, devices need consistent, standardized names. Microsoft Managed Desktop applies the following standardized name formats when devices are enrolled:
 

@@ -20,7 +20,7 @@ ms.date: 12/06/2022
 
 Enterprise State Roaming is an optional feature for the Microsoft Managed Desktop service that you can configure for your users. It isn't included or managed as part of Microsoft Managed Desktop.
 
-To enable Enterprise State Roaming, follow the steps in [Enable Enterprise State Roaming in Azure Active Directory](/azure/active-directory/devices/enterprise-state-roaming-enable).
+To enable Enterprise State Roaming, follow the steps in [Enable Enterprise State Roaming in Microsoft Entra ID](/azure/active-directory/devices/enterprise-state-roaming-enable).
 
 >[!NOTE]
 >If you enable Enterprise State Roaming, your preferred language list will overwrite the language selected during device setup. Although users can fix this easily, it could cause an inconsistent localization experience initially. Determine if Enterprise State Roaming is right for your users before setting up devices.

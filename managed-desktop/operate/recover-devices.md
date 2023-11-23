@@ -37,7 +37,7 @@ The following table describes:
 | Kept after wipe | Not kept after wipe |
 | ----- | ----- |
 | User accounts associated with the device | User files |
-| Machine state (domain join, Azure AD-joined) | User-installed apps (store and Win32 apps) |
+| Machine state (domain join, Microsoft Entra joined) | User-installed apps (store and Win32 apps) |
 | Mobile device management (MDM) enrollment | Non-default device settings |
 | OEM pre-installed apps (store and Win32 apps) | |
 | User profile and some [user configured settings](/windows-hardware/manufacture/desktop/how-push-button-reset-features-work?view=windows-11#settings&preserve-view=true)  | |
@@ -74,7 +74,7 @@ The following table describes:
 | Kept after Autopilot Reset | Not kept after Autopilot Reset |
 | ----- | ----- |
 | User accounts associated with the device | User profiles |
-| Machine state (domain join, Azure AD-joined) | User-installed apps (store and Win32 apps) |
+| Machine state (domain join, Microsoft Entra joined) | User-installed apps (store and Win32 apps) |
 | Mobile device management (MDM) enrollment | Non-default device settings |
 | OEM pre-installed apps (store) | OEM pre-installed apps (Win32 apps) |
 

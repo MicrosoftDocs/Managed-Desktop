@@ -29,16 +29,16 @@ These accounts remain active while using the service. Microsoft Managed Desktop 
 ### Examples of how Microsoft Managed Desktop uses service accounts
 
 - The [Microsoft Managed Desktop Service Engineering team](../overview/support-teams.md#service-engineering-team) accesses the interactive account through the Microsoft Intune admin center and uses it to change the security policy setting.  
-- The [Microsoft Managed Desktop Secure Operations Centers (SOC) team](../overview/support-teams.md#security-operations-center-team) will use an interactive account to access the Microsoft 365 Defender security portal to perform auditing needs with read-only privilege.
+- The [Microsoft Managed Desktop Secure Operations Centers (SOC) team](../overview/support-teams.md#security-operations-center-team) will use an interactive account to access the Microsoft Defender XDR security portal to perform auditing needs with read-only privilege.
 - The Microsoft Managed Desktop service uses non-interactive accounts to make automated changes. One example would be when a service engineer needs to update a deployment or configuration or perform other changes through a partner API.
 
 ## Guest account access
 
-Microsoft Managed Desktop uses guest account access during two types of events in your Azure Active Directory (AD) organization:
+Microsoft Managed Desktop uses guest account access during two types of events in your Microsoft Entra organization:
 
 - During enrollment, the required groups are created by the service software.
-- When access to your Azure AD organization is required, a service engineer’s operational account is elevated from being a user in the Microsoft.com tenant to one of the role groups in your tenant.
+- When access to your Microsoft Entra organization is required, a service engineer’s operational account is elevated from being a user in the Microsoft.com tenant to one of the role groups in your tenant.
 
-Guest account access is temporary and requires Two-Key completion, whereby anyone on the [Microsoft Managed Desktop Service Engineering or SOC teams](../overview/support-teams.md) are allowed to approve the request.
+Guest account access is temporary and requires Two-Key completion, whereby anyone on the [Microsoft Managed Desktop Service Engineering or SOC teams](../overview/support-teams.md) is allowed to approve the request.
 
 We’ll send an email to the Microsoft Managed Desktop Service Engineering team alias to request a second person to approve the request. Once approved, an approval notification email is sent to the requester. For more information on guest account settings, see [Guest account prerequisites](../prepare/guest-accounts.md).

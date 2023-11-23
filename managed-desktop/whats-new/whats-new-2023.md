@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 10/04/2023
+ms.date: 11/16/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -28,6 +28,23 @@ This article lists new and updated feature releases, and service releases, with 
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
 
+## November 2023
+
+### November service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC688927](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop Conditional Access Policy update – November 2023  |
+
+## October 2023
+
+### October service release
+
+| Message center post number | Description |
+| ----- | ----- |
+| [MC681252](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop: Security Operations Center Service Improvement |
+| [MC680344](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Planned Maintenance: Service Improvements |
+
 ## September 2023
 
 ### September service release
@@ -40,7 +57,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 ## August 2023
 
-### August service releases
+### August service release
 
 | Message center post number | Description |
 | ----- | ----- |

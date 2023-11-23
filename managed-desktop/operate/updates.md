@@ -40,7 +40,7 @@ Updates released by Microsoft are cumulative and are categorized as quality or f
 
 ## Microsoft Managed Desktop deployment rings
 
-During the [tenant enrollment process](../prepare/enroll-your-tenant.md), Microsoft Managed Desktop creates four Azure AD assigned groups that are used to segment devices into its update groups:
+During the [tenant enrollment process](../prepare/enroll-your-tenant.md), Microsoft Managed Desktop creates four Microsoft Entra ID assigned groups that are used to segment devices into its update groups:
 
 | Ring | Description |
 | ----- | ----- |
@@ -111,7 +111,7 @@ When the assignment is complete, the **Ring assigned by** column changes to **Ad
 > You can only move devices to other deployment rings when they're in an active state in the **Ready** tab.<p>If you don't see the **Ring assigned by column** change to **Pending** in Step 5, check to see whether the device exists in Microsoft Intune or not by searching for it in its device blade. For more information, see [Device details in Intune](/mem/intune/remote-actions/device-inventory).
   
 > [!WARNING]
-> Moving devices between deployment rings through directly changing Azure AD group membership isn't supported and may cause unintended configuration conflicts within the Microsoft Managed Desktop service. To avoid service interruption to devices, use the **Assign device to ring** action described previously to move devices between deployment rings.
+> Moving devices between deployment rings through directly changing Microsoft Entra group membership isn't supported and may cause unintended configuration conflicts within the Microsoft Managed Desktop service. To avoid service interruption to devices, use the **Assign device to ring** action described previously to move devices between deployment rings.
   
 ## Automated deployment ring remediation functions
 

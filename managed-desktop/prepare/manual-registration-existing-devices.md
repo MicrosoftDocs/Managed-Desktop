@@ -92,7 +92,7 @@ In an Active Directory environment, you can use the `Get-WindowsAutoPilotInfo` P
     Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-WindowsAutoPilotInfo.ps1 -credential Domainname\<accountname> -Name Machine1,Machine2,Machine3
     ```
 
-1. Access any directories where there might be entries for the devices. Remove entries for each device from *all* directories, including Windows Server Active Directory Domain Services and Azure Active Directory. It could take a few hours to completely process.
+1. Access any directories where there might be entries for the devices. Remove entries for each device from *all* directories, including Windows Server Active Directory Domain Services and Microsoft Entra ID. It could take a few hours to completely process.
 1. Access management services where there might be entries for the devices. Remove entries for each device from *all* management services, including Microsoft Endpoint Configuration Manager, Microsoft Intune, and Windows Autopilot. It could take a few hours to completely process.
 
 Now you can proceed to [register devices](#register-devices-by-using-the-microsoft-intune-admin-center).
@@ -146,7 +146,7 @@ With the hash data merged into one CSV file, you can now proceed to [register th
 6. Select **Register devices**. The system will add the devices to your list of devices on the **Devices blade**. The devices are marked as **Registration Pending**. Registration typically takes less than 10 minutes, and when successful, the device will show as **Ready for user**. **Ready for user** means it's ready and waiting for a user to start using.
 
 > [!NOTE]
-> If you manually change the Azure Active Directory (AAD) group membership of a device, it will be automatically reassigned to the group for its device profile and removed from any conflicting groups.
+> If you manually change the Microsoft Entra group membership of a device, it will be automatically reassigned to the group for its device profile and removed from any conflicting groups.
 
 You can monitor the progress of device registration on the main page. Possible states reported include:
 

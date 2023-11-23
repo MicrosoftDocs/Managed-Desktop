@@ -53,8 +53,8 @@ The following table summarizes the settings and their default values for each se
 
 Each device profile also involves these items:
 
-- A dynamic membership Azure Active Directory device group.
-- A static membership Azure Active Directory device group.
+- A dynamic membership Microsoft Entra device group.
+- A static membership Microsoft Entra device group.
 - A Microsoft Intune configuration profile.
 
 > [!IMPORTANT]
@@ -67,7 +67,7 @@ Each device profile also involves these items:
 
 You can request exceptions to the device profiles and their details as you would with any other policy.
 
-You can only have one of each device profile in your Azure Active Directory organization ("tenant"). For example, you can't request that the Sensitive data device profile disables AppLocker for only some of your users. All devices with the sensitive data device profile must have the same configuration.
+You can only have one of each device profile in your Microsoft Entra organization ("tenant"). For example, you can't request that the Sensitive data device profile disables AppLocker for only some of your users. All devices with the sensitive data device profile must have the same configuration.
 
 Each device can only have one profile. If a given device is used by more than one user, all users on that device will have the same configuration.
 
@@ -86,5 +86,5 @@ The CSV includes:
 - Information retrieved from all devices that have been active in the last 28 days.
 - Data that's refreshed once a day at midnight. The content is refreshed every 24 hours.
 - The device profile names and can be filtered for Power user device profiles.
-- Members of the local administrators' group that include Azure Active Directory groups, the group will include a (G) suffix. Disabled accounts will include a (D) suffix.
+- Members of the local administrators' group that include Microsoft Entra groups, the group will include a (G) suffix. Disabled accounts will include a (D) suffix.
 - Some data that will appear as GUIDs. Data that appears as GUIDs is because we're unable to determine the usernames. We only gather the usernames as displayed on the local device.
