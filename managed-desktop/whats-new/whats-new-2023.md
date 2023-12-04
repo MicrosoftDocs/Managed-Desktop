@@ -13,7 +13,7 @@ f1.keywords:
 ms.author: tiaraquan
 ms.article: whats-new
 ms.localizationpriority: medium
-ms.date: 11/16/2023
+ms.date: 12/04/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
@@ -34,6 +34,7 @@ Minor corrections such as typos, style, or formatting issues aren't listed.
 
 | Message center post number | Description |
 | ----- | ----- |
+| [MC694010](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop – Feature Update: Windows 11 23H2 Test Group Enablement  |
 | [MC688927](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop Conditional Access Policy update – November 2023  |
 
 ## October 2023
