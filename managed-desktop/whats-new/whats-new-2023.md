@@ -28,20 +28,13 @@ This article lists new and updated feature releases, and service releases, with 
 
 Minor corrections such as typos, style, or formatting issues aren't listed.
 
-## December 2023
-
-### December service release
-
-| Message center post number | Description |
-| ----- | ----- |
-| [MC694010](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop – Feature Update: Windows 11 23H2 Test Group Enablement  |
-
 ## November 2023
 
 ### November service release
 
 | Message center post number | Description |
 | ----- | ----- |
+| [MC694010](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop – Feature Update: Windows 11 23H2 Test Group Enablement  |
 | [MC688927](https://admin.microsoft.com/adminportal/home#/MessageCenter) | Microsoft Managed Desktop Conditional Access Policy update – November 2023  |
 
 ## October 2023
