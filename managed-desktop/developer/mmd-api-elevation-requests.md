@@ -31,9 +31,9 @@ ms.collection:
 
 | Property | Type | Description |
 | --- | --- | --- |
-| id | Guid | Elevation request id. |
+| ID | Guid | Elevation request ID. |
 | requestingAgentUpn | String | Upn of user requesting elevation. |
-| partnerTicketId | String  | Ticket id of support ticket linked to elevation request. |
+| partnerTicketId | String  | Ticket ID of support ticket linked to elevation request. |
 | deviceName | String  | Device name.|
 | title | String | Title. |
 | category | String | Request category. |
