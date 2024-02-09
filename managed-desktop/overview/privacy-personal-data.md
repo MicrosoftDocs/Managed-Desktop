@@ -16,6 +16,7 @@ ms.date: 03/31/2023
 ms.collection: 
 - M365-modern-desktop
 - tier1
+- essentials-privacy
 ---
 
 # Privacy

@@ -8,6 +8,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
 - tier1
+- essentials-manage
 ms.author: tiaraquan
 manager: dougeby
 ms.topic: conceptual
