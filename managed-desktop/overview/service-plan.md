@@ -9,6 +9,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
 - tier1
+- essentials-overview
 ms.custom: intro-overview
 ms.author: tiaraquan
 manager: dougeby
@@ -87,7 +88,6 @@ For more information about the value of Microsoft Managed Desktop, including cus
 - [Microsoft Managed Desktop blog](https://techcommunity.microsoft.com/t5/microsoft-managed-desktop-blog/bg-p/MicrosoftManagedDesktop)
 - [Roadmap](https://aka.ms/AA6jiam)
 - [Forrester Total Economic Impact case study](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf)
-- Downloadable [one-page summary](https://aka.ms/AA6ob3h)
 
 | Information | Description |
 | ----- | ----- |
