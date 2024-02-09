@@ -12,6 +12,7 @@ ms.localizationpriority: medium
 ms.collection: 
 - M365-modern-desktop
 - tier1
+- essentials-get-started
 ms.date: 11/18/2022
 ---
 
