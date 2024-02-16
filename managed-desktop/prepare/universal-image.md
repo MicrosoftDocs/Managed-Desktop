@@ -145,7 +145,7 @@ The JSON file (`SKU_Folder.json`) is located on the Images partition in the `<US
 
 The following is an example of a JSON file filled out for several HP and Surface devices. The HP device is the same model, but for two different regions.
 
-In this example, we know the drivers are the same for the HP device (even though it's in two different regions). Therefore, we have one driver folder to be applied for two regions (America and UK – HP has SKU MODELS where region is after the #). Similar logic, using multiple SystemSku entries mapping to the same Folder name, can be used any time you want a folder to be applied to multiple models.
+In this example, we know the drivers are the same for the HP device (even though it's in two different regions). Therefore, we have one driver folder to be applied for two regions (America and UK – HP has SKU MODELS where region is after the #). Similar logic, using multiple SystemSku entries mapping to the same Folder name, can be used anytime you want a folder to be applied to multiple models.
 
 ```json
 [
