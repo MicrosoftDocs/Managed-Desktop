@@ -74,7 +74,7 @@ Prerequisites to deploy multi-model driver support are as follows:
 
 #### System SKU
 
-The System SKU is a variable stored in the System Management BIOS (SMBIOS) in the EUFI layer of manufactured devices. You can view a device's System SKU by referencing the system information file (also referred to as `msinfo`). To view the contents of the system information file, run the `msinfo32.exe` on the device you're planning to deploy to. For more information about `msinfo32.exe`, see [Description of the Microsoft System Information (Ms32info.exe) tool](https://support.microsoft.com/topic/description-of-microsoft-system-information-msinfo32-exe-tool-10d335d8-5834-90b4-8452-42c58e61f9fc).
+The System SKU is a variable stored in the System Management BIOS (SMBIOS) in the UEFI layer of manufactured devices. You can view a device's System SKU by referencing the system information file (also referred to as `msinfo`). To view the contents of the system information file, run the `msinfo32.exe` on the device you're planning to deploy to. For more information about `msinfo32.exe`, see [Description of the Microsoft System Information (Ms32info.exe) tool](https://support.microsoft.com/topic/description-of-microsoft-system-information-msinfo32-exe-tool-10d335d8-5834-90b4-8452-42c58e61f9fc).
 
 The `msinfo32` file provides the following information, including the System SKU:
 
